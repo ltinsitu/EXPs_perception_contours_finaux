@@ -1,0 +1,32 @@
+#To interpolate all pitch and save them
+#Path to this script: /home/lucas/Documents/CloudStation/SDL/PhD/Prosodie/Expés_Prosodie/EXP_perception_contours_finaux/Create_PitchTier_nostylnoint.PraatScript
+
+folder$ = "/home/lucas/Documents/CloudStation/SDL/PhD/Prosodie/Expés_Prosodie/EXP_perception_contours_finaux/REAL_EXPE_Ibex/ForMBROLA_pitchorig/"
+# ~ folderout$ = "/home/lucas/Documents/CloudStation/SDL/PhD/Prosodie/Expés_Prosodie/EXP_perception_contours_finaux/REAL_EXPE_Ibex/ForMBROLA_pitchorig"
+
+#List of Pitch in the folderin
+pitchlist$ = Create Strings as file list: "pitchlist", "'folder$'*.Pitch"
+
+selectObject: "Strings pitchlist"
+
+numpitch = Get number of strings
+
+#Start looping on all pitch
+for n to numpitch
+	selectObject: "Strings pitchlist"
+	pitchfile$ = Get string: 'n'
+	Read from file: "'folder$''pitchfile$'"
+	pitchname$ = replace$ ("'pitchfile$'", ".Pitch", "", 0)
+	Down to PitchTier
+	selectObject: "PitchTier 'pitchname$'"
+	# ~ Stylize: 0.5, "Semitones"
+	Save as text file: "'folder$''pitchname$'.PitchTier"
+	# ~ To Pitch: 0.02, 50, 700
+	# ~ Save as text file: "'folderout$''pitchname$'.Pitch"
+	##WHY THERE IS NO INTERPOLATION AFTER CREATION OF PITCH?? Maybe I need to uncomment the following line
+	#Interpolate
+endfor
+
+selectObject: "Strings pitchlist"
+Remove
+

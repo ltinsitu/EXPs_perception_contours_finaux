@@ -1,0 +1,180 @@
+﻿File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0.0000000000000000
+xmax = 0.9281993930000000
+tiers? <exists>
+size = 6
+item []:
+	item [1]:
+		class = "IntervalTier"
+		name = "phones"
+		xmin = 0.0000000000000000
+		xmax = 0.9281993930000000
+		intervals: size = 15
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.0600000000000000
+			text = "k"
+		intervals [2]:
+			xmin = 0.0600000000000000
+			xmax = 0.1200000000000000
+			text = "i"
+		intervals [3]:
+			xmin = 0.1200000000000000
+			xmax = 0.1800000000000000
+			text = "v"
+		intervals [4]:
+			xmin = 0.1800000000000000
+			xmax = 0.2194797050000000
+			text = "k"
+		intervals [5]:
+			xmin = 0.2194797050000000
+			xmax = 0.2800000000000000
+			text = "@"
+		intervals [6]:
+			xmin = 0.2800000000000000
+			xmax = 0.3272460980000000
+			text = "b"
+		intervals [7]:
+			xmin = 0.3272460980000000
+			xmax = 0.3800000000000000
+			text = "y"
+		intervals [8]:
+			xmin = 0.3800000000000000
+			xmax = 0.4200000000000000
+			text = "z"
+		intervals [9]:
+			xmin = 0.4200000000000000
+			xmax = 0.5000000000000000
+			text = "o"
+		intervals [10]:
+			xmin = 0.5000000000000000
+			xmax = 0.5300000000000000
+			text = "d"
+		intervals [11]:
+			xmin = 0.5300000000000000
+			xmax = 0.6008121320000001
+			text = "o~"
+		intervals [12]:
+			xmin = 0.6008121320000001
+			xmax = 0.6576785110000000
+			text = "l"
+		intervals [13]:
+			xmin = 0.6576785110000000
+			xmax = 0.7449391140000000
+			text = "2"
+		intervals [14]:
+			xmin = 0.7449391140000000
+			xmax = 0.8256340550000000
+			text = "s"
+		intervals [15]:
+			xmin = 0.8256340550000000
+			xmax = 0.9281993930000000
+			text = "i"
+	item [2]:
+		class = "IntervalTier"
+		name = "syll"
+		xmin = 0.0000000000000000
+		xmax = 0.9281993930000000
+		intervals: size = 7
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.1800000000000000
+			text = "kes"
+		intervals [2]:
+			xmin = 0.1800000000000000
+			xmax = 0.2800000000000000
+			text = "k@"
+		intervals [3]:
+			xmin = 0.2800000000000000
+			xmax = 0.3800000000000000
+			text = "ty"
+		intervals [4]:
+			xmin = 0.3800000000000000
+			xmax = 0.5000000000000000
+			text = "fE"
+		intervals [5]:
+			xmin = 0.5000000000000000
+			xmax = 0.6008121320000001
+			text = "da~"
+		intervals [6]:
+			xmin = 0.6008121320000001
+			xmax = 0.7449391140000000
+			text = "la"
+		intervals [7]:
+			xmin = 0.7449391140000000
+			xmax = 0.9281993930000000
+			text = "vi"
+	item [3]:
+		class = "IntervalTier"
+		name = "words"
+		xmin = 0.0000000000000000
+		xmax = 0.9281993930000000
+		intervals: size = 9
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.0600000000000000
+			text = "qu'"
+		intervals [2]:
+			xmin = 0.0600000000000000
+			xmax = 0.1200000000000000
+			text = "est"
+		intervals [3]:
+			xmin = 0.1200000000000000
+			xmax = 0.1800000000000000
+			text = "ce"
+		intervals [4]:
+			xmin = 0.1800000000000000
+			xmax = 0.2800000000000000
+			text = "que"
+		intervals [5]:
+			xmin = 0.2800000000000000
+			xmax = 0.3800000000000000
+			text = "tu"
+		intervals [6]:
+			xmin = 0.3800000000000000
+			xmax = 0.5000000000000000
+			text = "fais"
+		intervals [7]:
+			xmin = 0.5000000000000000
+			xmax = 0.6008121320000001
+			text = "dans"
+		intervals [8]:
+			xmin = 0.6008121320000001
+			xmax = 0.7449391140000000
+			text = "la"
+		intervals [9]:
+			xmin = 0.7449391140000000
+			xmax = 0.9281993930000000
+			text = "vie"
+	item [4]:
+		class = "IntervalTier"
+		name = "textexpe"
+		xmin = 0.0000000000000000
+		xmax = 0.9281993930000000
+		intervals: size = 1
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.9281993930000000
+			text = "qu'est-ce que tu fais dans la vie ?"
+	item [5]:
+		class = "IntervalTier"
+		name = "phono"
+		xmin = 0.0000000000000000
+		xmax = 0.9281993930000000
+		intervals: size = 1
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.9281993930000000
+			text = "2 k e s k@ ty fE da~ la vi"
+	item [6]:
+		class = "IntervalTier"
+		name = "ortho"
+		xmin = 0.0000000000000000
+		xmax = 0.9281993930000000
+		intervals: size = 1
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.9281993930000000
+			text = "euh qu'est-ce que tu fais dans la vie"

@@ -1,0 +1,176 @@
+﻿File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0.0000000000000000
+xmax = 1.2031015130000000
+tiers? <exists>
+size = 6
+item []:
+	item [1]:
+		class = "IntervalTier"
+		name = "phones"
+		xmin = 0.0000000000000000
+		xmax = 1.2031015130000000
+		intervals: size = 17
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.0411559200000000
+			text = "k"
+		intervals [2]:
+			xmin = 0.0411559200000000
+			xmax = 0.0765671780000000
+			text = "i"
+		intervals [3]:
+			xmin = 0.0765671780000000
+			xmax = 0.1659575630000000
+			text = "f"
+		intervals [4]:
+			xmin = 0.1659575630000000
+			xmax = 0.2159575630000000
+			text = "d"
+		intervals [5]:
+			xmin = 0.2159575630000000
+			xmax = 0.2459575630000000
+			text = "@"
+		intervals [6]:
+			xmin = 0.2459575630000000
+			xmax = 0.2935941850000000
+			text = "f"
+		intervals [7]:
+			xmin = 0.2935941850000000
+			xmax = 0.4059575630000000
+			text = "a"
+		intervals [8]:
+			xmin = 0.4059575630000000
+			xmax = 0.4359575630000000
+			text = "t"
+		intervals [9]:
+			xmin = 0.4359575630000000
+			xmax = 0.5078630490000000
+			text = "l"
+		intervals [10]:
+			xmin = 0.5078630490000000
+			xmax = 0.5906709160000000
+			text = "9"
+		intervals [11]:
+			xmin = 0.5906709160000000
+			xmax = 0.6659575630000000
+			text = "s"
+		intervals [12]:
+			xmin = 0.6659575630000000
+			xmax = 0.7207606009999999
+			text = "o"
+		intervals [13]:
+			xmin = 0.7207606009999999
+			xmax = 0.7659575630000000
+			text = "R"
+		intervals [14]:
+			xmin = 0.7659575630000000
+			xmax = 0.9359575630000000
+			text = "y"
+		intervals [15]:
+			xmin = 0.9359575630000000
+			xmax = 0.9959575630000000
+			text = "v"
+		intervals [16]:
+			xmin = 0.9959575630000000
+			xmax = 1.1159575630000000
+			text = "o"
+		intervals [17]:
+			xmin = 1.1159575630000000
+			xmax = 1.2031015130000000
+			text = "R"
+	item [2]:
+		class = "IntervalTier"
+		name = "syll"
+		xmin = 0.0000000000000000
+		xmax = 1.2031015130000000
+		intervals: size = 7
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.1659575630000000
+			text = "kes"
+		intervals [2]:
+			xmin = 0.1659575630000000
+			xmax = 0.2459575630000000
+			text = "k@"
+		intervals [3]:
+			xmin = 0.2459575630000000
+			xmax = 0.4059575630000000
+			text = "vu"
+		intervals [4]:
+			xmin = 0.4059575630000000
+			xmax = 0.5906709160000000
+			text = "pRe"
+		intervals [5]:
+			xmin = 0.5906709160000000
+			xmax = 0.7207606009999999
+			text = "fe"
+		intervals [6]:
+			xmin = 0.7207606009999999
+			xmax = 0.9359575630000000
+			text = "Re"
+		intervals [7]:
+			xmin = 0.9359575630000000
+			xmax = 1.2031015130000000
+			text = "fER"
+	item [3]:
+		class = "IntervalTier"
+		name = "words"
+		xmin = 0.0000000000000000
+		xmax = 1.2031015130000000
+		intervals: size = 6
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.0765671780000000
+			text = "qu'est"
+		intervals [2]:
+			xmin = 0.0765671780000000
+			xmax = 0.1659575630000000
+			text = "ce"
+		intervals [3]:
+			xmin = 0.1659575630000000
+			xmax = 0.2459575630000000
+			text = "que"
+		intervals [4]:
+			xmin = 0.2459575630000000
+			xmax = 0.4059575630000000
+			text = "vous"
+		intervals [5]:
+			xmin = 0.4059575630000000
+			xmax = 0.9359575630000000
+			text = "préférez"
+		intervals [6]:
+			xmin = 0.9359575630000000
+			xmax = 1.2031015130000000
+			text = "faire"
+	item [4]:
+		class = "IntervalTier"
+		name = "textexpe"
+		xmin = 0.0000000000000000
+		xmax = 1.2031015130000000
+		intervals: size = 1
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 1.2031015130000000
+			text = "qu'est-ce que vous préférez faire ?"
+	item [5]:
+		class = "IntervalTier"
+		name = "phono"
+		xmin = 0.0000000000000000
+		xmax = 1.2031015130000000
+		intervals: size = 1
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 1.2031015130000000
+			text = "alOR ke s k@ vu pRefeRe fER"
+	item [6]:
+		class = "IntervalTier"
+		name = "ortho"
+		xmin = 0.0000000000000000
+		xmax = 1.2031015130000000
+		intervals: size = 1
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 1.2031015130000000
+			text = "alors qu'est-ce que vous préférez faire"

@@ -1,0 +1,176 @@
+﻿File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0.0000000000000000
+xmax = 1.3700000000000001
+tiers? <exists>
+size = 6
+item []:
+	item [1]:
+		class = "IntervalTier"
+		name = "phones"
+		xmin = 0.0000000000000000
+		xmax = 1.3700000000000001
+		intervals: size = 17
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.0900000000000000
+			text = "s"
+		intervals [2]:
+			xmin = 0.0900000000000000
+			xmax = 0.1574364930000000
+			text = "o"
+		intervals [3]:
+			xmin = 0.1574364930000000
+			xmax = 0.2100000000000000
+			text = "d"
+		intervals [4]:
+			xmin = 0.2100000000000000
+			xmax = 0.2600000000000000
+			text = "n"
+		intervals [5]:
+			xmin = 0.2600000000000000
+			xmax = 0.3500000000000000
+			text = "i"
+		intervals [6]:
+			xmin = 0.3500000000000000
+			xmax = 0.4100000000000000
+			text = "v"
+		intervals [7]:
+			xmin = 0.4100000000000000
+			xmax = 0.5000000000000000
+			text = "a~"
+		intervals [8]:
+			xmin = 0.5000000000000000
+			xmax = 0.6400000000000000
+			text = "o"
+		intervals [9]:
+			xmin = 0.6400000000000000
+			xmax = 0.6800000000000000
+			text = "k"
+		intervals [10]:
+			xmin = 0.6800000000000000
+			xmax = 0.7429710420000000
+			text = "o"
+		intervals [11]:
+			xmin = 0.7429710420000000
+			xmax = 0.8100000000000001
+			text = "l"
+		intervals [12]:
+			xmin = 0.8100000000000001
+			xmax = 0.8375442550000000
+			text = "n"
+		intervals [13]:
+			xmin = 0.8375442550000000
+			xmax = 0.9700000000000000
+			text = "o~"
+		intervals [14]:
+			xmin = 0.9700000000000000
+			xmax = 1.0014211730000000
+			text = "b"
+		intervals [15]:
+			xmin = 1.0014211730000000
+			xmax = 1.1750380050000000
+			text = "i"
+		intervals [16]:
+			xmin = 1.1750380050000000
+			xmax = 1.2719761610000000
+			text = "R"
+		intervals [17]:
+			xmin = 1.2719761610000000
+			xmax = 1.3700000000000001
+			text = "@"
+	item [2]:
+		class = "IntervalTier"
+		name = "syll"
+		xmin = 0.0000000000000000
+		xmax = 1.3700000000000001
+		intervals: size = 8
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.2100000000000000
+			text = "set"
+		intervals [2]:
+			xmin = 0.2100000000000000
+			xmax = 0.3500000000000000
+			text = "mE"
+		intervals [3]:
+			xmin = 0.3500000000000000
+			xmax = 0.5000000000000000
+			text = "zo~"
+		intervals [4]:
+			xmin = 0.5000000000000000
+			xmax = 0.6400000000000000
+			text = "E"
+		intervals [5]:
+			xmin = 0.6400000000000000
+			xmax = 0.8100000000000001
+			text = "tEl"
+		intervals [6]:
+			xmin = 0.8100000000000001
+			xmax = 0.9700000000000000
+			text = "ma~"
+		intervals [7]:
+			xmin = 0.9700000000000000
+			xmax = 1.1750380050000000
+			text = "bE"
+		intervals [8]:
+			xmin = 1.1750380050000000
+			xmax = 1.3700000000000001
+			text = "l@"
+	item [3]:
+		class = "IntervalTier"
+		name = "words"
+		xmin = 0.0000000000000000
+		xmax = 1.3700000000000001
+		intervals: size = 5
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.2100000000000000
+			text = "cette"
+		intervals [2]:
+			xmin = 0.2100000000000000
+			xmax = 0.5000000000000000
+			text = "maison"
+		intervals [3]:
+			xmin = 0.5000000000000000
+			xmax = 0.6400000000000000
+			text = "est"
+		intervals [4]:
+			xmin = 0.6400000000000000
+			xmax = 0.9700000000000000
+			text = "tellement"
+		intervals [5]:
+			xmin = 0.9700000000000000
+			xmax = 1.3700000000000001
+			text = "belle"
+	item [4]:
+		class = "IntervalTier"
+		name = "textexpe"
+		xmin = 0.0000000000000000
+		xmax = 1.3700000000000001
+		intervals: size = 1
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 1.3700000000000001
+			text = "cette maison est tellement belle"
+	item [5]:
+		class = "IntervalTier"
+		name = "phono"
+		xmin = 0.0000000000000000
+		xmax = 1.3700000000000001
+		intervals: size = 1
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 1.3700000000000001
+			text = "set mEzo~ E tElma~ bEl@"
+	item [6]:
+		class = "IntervalTier"
+		name = "ortho"
+		xmin = 0.0000000000000000
+		xmax = 1.3700000000000001
+		intervals: size = 1
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 1.3700000000000001
+			text = "cette maison est tellement belle"

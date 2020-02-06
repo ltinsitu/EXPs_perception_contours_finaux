@@ -1,0 +1,148 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 0.879999999999999 
+tiers? <exists> 
+size = 6 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "phones" 
+        xmin = 0 
+        xmax = 0.879999999999999 
+        intervals: size = 13 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.08065307239517186 
+            text = "n" 
+        intervals [2]:
+            xmin = 0.08065307239517186 
+            xmax = 0.16999999999999993 
+            text = "@" 
+        intervals [3]:
+            xmin = 0.16999999999999993 
+            xmax = 0.20000000000000107 
+            text = "p" 
+        intervals [4]:
+            xmin = 0.20000000000000107 
+            xmax = 0.2521443234025243 
+            text = "a" 
+        intervals [5]:
+            xmin = 0.2521443234025243 
+            xmax = 0.3500000000000014 
+            text = "R" 
+        intervals [6]:
+            xmin = 0.3500000000000014 
+            xmax = 0.38363251437852497 
+            text = "p" 
+        intervals [7]:
+            xmin = 0.38363251437852497 
+            xmax = 0.43883053578531583 
+            text = "a" 
+        intervals [8]:
+            xmin = 0.43883053578531583 
+            xmax = 0.48645270805499924 
+            text = "t" 
+        intervals [9]:
+            xmin = 0.48645270805499924 
+            xmax = 0.565084666918895 
+            text = "R" 
+        intervals [10]:
+            xmin = 0.565084666918895 
+            xmax = 0.620000000000001 
+            text = "o" 
+        intervals [11]:
+            xmin = 0.620000000000001 
+            xmax = 0.6900000000000013 
+            text = "l" 
+        intervals [12]:
+            xmin = 0.6900000000000013 
+            xmax = 0.7661221562538852 
+            text = "w" 
+        intervals [13]:
+            xmin = 0.7661221562538852 
+            xmax = 0.879999999999999 
+            text = "e~" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "syll" 
+        xmin = 0 
+        xmax = 0.879999999999999 
+        intervals: size = 5 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.16999999999999993 
+            text = "n@" 
+        intervals [2]:
+            xmin = 0.16999999999999993 
+            xmax = 0.3500000000000014 
+            text = "paR" 
+        intervals [3]:
+            xmin = 0.3500000000000014 
+            xmax = 0.43883053578531583 
+            text = "pa" 
+        intervals [4]:
+            xmin = 0.43883053578531583 
+            xmax = 0.620000000000001 
+            text = "tRo" 
+        intervals [5]:
+            xmin = 0.620000000000001 
+            xmax = 0.879999999999999 
+            text = "lwe~" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "words" 
+        xmin = 0 
+        xmax = 0.879999999999999 
+        intervals: size = 5 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.16999999999999993 
+            text = "ne" 
+        intervals [2]:
+            xmin = 0.16999999999999993 
+            xmax = 0.3500000000000014 
+            text = "pars" 
+        intervals [3]:
+            xmin = 0.3500000000000014 
+            xmax = 0.43883053578531583 
+            text = "pas" 
+        intervals [4]:
+            xmin = 0.43883053578531583 
+            xmax = 0.620000000000001 
+            text = "trop" 
+        intervals [5]:
+            xmin = 0.620000000000001 
+            xmax = 0.879999999999999 
+            text = "loin" 
+    item [4]:
+        class = "IntervalTier" 
+        name = "textexpe" 
+        xmin = 0 
+        xmax = 0.879999999999999 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.879999999999999 
+            text = "ne pars pas trop loin" 
+    item [5]:
+        class = "IntervalTier" 
+        name = "phono" 
+        xmin = 0 
+        xmax = 0.879999999999999 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.879999999999999 
+            text = "n@ paR pa tRo lwe~" 
+    item [6]:
+        class = "IntervalTier" 
+        name = "ortho" 
+        xmin = 0 
+        xmax = 0.879999999999999 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.879999999999999 
+            text = "ne pars pas trop loin" 

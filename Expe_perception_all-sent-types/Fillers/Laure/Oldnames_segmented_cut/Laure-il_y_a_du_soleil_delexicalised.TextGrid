@@ -1,0 +1,152 @@
+﻿File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0.0000000000000000
+xmax = 0.9662362040000000
+tiers? <exists>
+size = 6
+item []:
+	item [1]:
+		class = "IntervalTier"
+		name = "phones"
+		xmin = 0.0000000000000000
+		xmax = 0.9662362040000000
+		intervals: size = 12
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.0603847870000000
+			text = "i"
+		intervals [2]:
+			xmin = 0.0603847870000000
+			xmax = 0.0904223930000000
+			text = "R"
+		intervals [3]:
+			xmin = 0.0904223930000000
+			xmax = 0.1725383780000000
+			text = "e"
+		intervals [4]:
+			xmin = 0.1725383780000000
+			xmax = 0.2722468960000000
+			text = "O"
+		intervals [5]:
+			xmin = 0.2722468960000000
+			xmax = 0.2986325360000000
+			text = "p"
+		intervals [6]:
+			xmin = 0.2986325360000000
+			xmax = 0.3900514420000000
+			text = "9"
+		intervals [7]:
+			xmin = 0.3900514420000000
+			xmax = 0.4717867430000000
+			text = "f"
+		intervals [8]:
+			xmin = 0.4717867430000000
+			xmax = 0.5495933940000000
+			text = "a"
+		intervals [9]:
+			xmin = 0.5495933940000000
+			xmax = 0.6018071940000000
+			text = "R"
+		intervals [10]:
+			xmin = 0.6018071940000000
+			xmax = 0.7691666250000000
+			text = "9"
+		intervals [11]:
+			xmin = 0.7691666250000000
+			xmax = 0.8404253490000000
+			text = "j"
+		intervals [12]:
+			xmin = 0.8404253490000000
+			xmax = 0.9662362040000000
+			text = "@"
+	item [2]:
+		class = "IntervalTier"
+		name = "syll"
+		xmin = 0.0000000000000000
+		xmax = 0.9662362040000000
+		intervals: size = 7
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.0603847870000000
+			text = "i"
+		intervals [2]:
+			xmin = 0.0603847870000000
+			xmax = 0.1725383780000000
+			text = "li"
+		intervals [3]:
+			xmin = 0.1725383780000000
+			xmax = 0.2722468960000000
+			text = "a"
+		intervals [4]:
+			xmin = 0.2722468960000000
+			xmax = 0.3900514420000000
+			text = "dy"
+		intervals [5]:
+			xmin = 0.3900514420000000
+			xmax = 0.5495933940000000
+			text = "sO"
+		intervals [6]:
+			xmin = 0.5495933940000000
+			xmax = 0.7691666250000000
+			text = "lE"
+		intervals [7]:
+			xmin = 0.7691666250000000
+			xmax = 0.9662362040000000
+			text = "j@"
+	item [3]:
+		class = "IntervalTier"
+		name = "words"
+		xmin = 0.0000000000000000
+		xmax = 0.9662362040000000
+		intervals: size = 5
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.0904223930000000
+			text = "il"
+		intervals [2]:
+			xmin = 0.0904223930000000
+			xmax = 0.1725383780000000
+			text = "y"
+		intervals [3]:
+			xmin = 0.1725383780000000
+			xmax = 0.2722468960000000
+			text = "a"
+		intervals [4]:
+			xmin = 0.2722468960000000
+			xmax = 0.3900514420000000
+			text = "du"
+		intervals [5]:
+			xmin = 0.3900514420000000
+			xmax = 0.9662362040000000
+			text = "soleil"
+	item [4]:
+		class = "IntervalTier"
+		name = "textexpe"
+		xmin = 0.0000000000000000
+		xmax = 0.9662362040000000
+		intervals: size = 1
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.9662362040000000
+			text = "il y a du soleil"
+	item [5]:
+		class = "IntervalTier"
+		name = "phono"
+		xmin = 0.0000000000000000
+		xmax = 0.9662362040000000
+		intervals: size = 1
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.9662362040000000
+			text = "i li a dy sOlEj@"
+	item [6]:
+		class = "IntervalTier"
+		name = "ortho"
+		xmin = 0.0000000000000000
+		xmax = 0.9662362040000000
+		intervals: size = 1
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.9662362040000000
+			text = "il y a du soleil"

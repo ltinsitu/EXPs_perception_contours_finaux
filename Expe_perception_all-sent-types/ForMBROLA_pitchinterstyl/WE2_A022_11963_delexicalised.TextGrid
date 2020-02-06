@@ -1,0 +1,124 @@
+﻿File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0.0000000000000000
+xmax = 0.6600000000000000
+tiers? <exists>
+size = 6
+item []:
+	item [1]:
+		class = "IntervalTier"
+		name = "phones"
+		xmin = 0.0000000000000000
+		xmax = 0.6600000000000000
+		intervals: size = 10
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.0500000000000000
+			text = "k"
+		intervals [2]:
+			xmin = 0.0500000000000000
+			xmax = 0.1000000000000000
+			text = "e"
+		intervals [3]:
+			xmin = 0.1000000000000000
+			xmax = 0.1700000000000000
+			text = "m"
+		intervals [4]:
+			xmin = 0.1700000000000000
+			xmax = 0.2286803430000000
+			text = "9~"
+		intervals [5]:
+			xmin = 0.2286803430000000
+			xmax = 0.2985176780000000
+			text = "E"
+		intervals [6]:
+			xmin = 0.2985176780000000
+			xmax = 0.3800000000000000
+			text = "l"
+		intervals [7]:
+			xmin = 0.3800000000000000
+			xmax = 0.4200000000000000
+			text = "b"
+		intervals [8]:
+			xmin = 0.4200000000000000
+			xmax = 0.5247873280000001
+			text = "O"
+		intervals [9]:
+			xmin = 0.5247873280000001
+			xmax = 0.5735395070000000
+			text = "R"
+		intervals [10]:
+			xmin = 0.5735395070000000
+			xmax = 0.6600000000000000
+			text = "l"
+	item [2]:
+		class = "IntervalTier"
+		name = "syll"
+		xmin = 0.0000000000000000
+		xmax = 0.6600000000000000
+		intervals: size = 4
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.1000000000000000
+			text = "kO"
+		intervals [2]:
+			xmin = 0.1000000000000000
+			xmax = 0.2286803430000000
+			text = "ma~"
+		intervals [3]:
+			xmin = 0.2286803430000000
+			xmax = 0.3800000000000000
+			text = "il"
+		intervals [4]:
+			xmin = 0.3800000000000000
+			xmax = 0.6600000000000000
+			text = "paRl"
+	item [3]:
+		class = "IntervalTier"
+		name = "words"
+		xmin = 0.0000000000000000
+		xmax = 0.6600000000000000
+		intervals: size = 3
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.2286803430000000
+			text = "comment"
+		intervals [2]:
+			xmin = 0.2286803430000000
+			xmax = 0.3800000000000000
+			text = "ils"
+		intervals [3]:
+			xmin = 0.3800000000000000
+			xmax = 0.6600000000000000
+			text = "parlent"
+	item [4]:
+		class = "IntervalTier"
+		name = "textexpe"
+		xmin = 0.0000000000000000
+		xmax = 0.6600000000000000
+		intervals: size = 1
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.6600000000000000
+			text = "comment ils parlent ? "
+	item [5]:
+		class = "IntervalTier"
+		name = "phono"
+		xmin = 0.0000000000000000
+		xmax = 0.6600000000000000
+		intervals: size = 1
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.6600000000000000
+			text = "e lE Z9n kOma~ il paRl"
+	item [6]:
+		class = "IntervalTier"
+		name = "ortho"
+		xmin = 0.0000000000000000
+		xmax = 0.6600000000000000
+		intervals: size = 1
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.6600000000000000
+			text = "et les jeunes comment ils parlent"

@@ -1,0 +1,152 @@
+﻿File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0.0000000000000000
+xmax = 1.0371421439999999
+tiers? <exists>
+size = 6
+item []:
+	item [1]:
+		class = "IntervalTier"
+		name = "phones"
+		xmin = 0.0000000000000000
+		xmax = 1.0371421439999999
+		intervals: size = 13
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.0432160890000000
+			text = "t"
+		intervals [2]:
+			xmin = 0.0432160890000000
+			xmax = 0.1071421440000000
+			text = "E"
+		intervals [3]:
+			xmin = 0.1071421440000000
+			xmax = 0.1471421440000000
+			text = "v"
+		intervals [4]:
+			xmin = 0.1471421440000000
+			xmax = 0.1871421440000000
+			text = "j"
+		intervals [5]:
+			xmin = 0.1871421440000000
+			xmax = 0.2970497890000000
+			text = "o~"
+		intervals [6]:
+			xmin = 0.2970497890000000
+			xmax = 0.3669767790000000
+			text = "p"
+		intervals [7]:
+			xmin = 0.3669767790000000
+			xmax = 0.5635131650000000
+			text = "@"
+		intervals [8]:
+			xmin = 0.5635131650000000
+			xmax = 0.6271421440000000
+			text = "k"
+		intervals [9]:
+			xmin = 0.6271421440000000
+			xmax = 0.6815400670000000
+			text = "O"
+		intervals [10]:
+			xmin = 0.6815400670000000
+			xmax = 0.7571421440000000
+			text = "R"
+		intervals [11]:
+			xmin = 0.7571421440000000
+			xmax = 0.7926187330000000
+			text = "d"
+		intervals [12]:
+			xmin = 0.7926187330000000
+			xmax = 0.8568655640000000
+			text = "u"
+		intervals [13]:
+			xmin = 0.8568655640000000
+			xmax = 1.0371421439999999
+			text = "i"
+	item [2]:
+		class = "IntervalTier"
+		name = "syll"
+		xmin = 0.0000000000000000
+		xmax = 1.0371421439999999
+		intervals: size = 6
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.1071421440000000
+			text = "ty"
+		intervals [2]:
+			xmin = 0.1071421440000000
+			xmax = 0.2970497890000000
+			text = "vje~"
+		intervals [3]:
+			xmin = 0.2970497890000000
+			xmax = 0.5635131650000000
+			text = "d@"
+		intervals [4]:
+			xmin = 0.5635131650000000
+			xmax = 0.7571421440000000
+			text = "kEl"
+		intervals [5]:
+			xmin = 0.7571421440000000
+			xmax = 0.8568655640000000
+			text = "pe"
+		intervals [6]:
+			xmin = 0.8568655640000000
+			xmax = 1.0371421439999999
+			text = "i"
+	item [3]:
+		class = "IntervalTier"
+		name = "words"
+		xmin = 0.0000000000000000
+		xmax = 1.0371421439999999
+		intervals: size = 5
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.1071421440000000
+			text = "tu"
+		intervals [2]:
+			xmin = 0.1071421440000000
+			xmax = 0.2970497890000000
+			text = "viens"
+		intervals [3]:
+			xmin = 0.2970497890000000
+			xmax = 0.5635131650000000
+			text = "de"
+		intervals [4]:
+			xmin = 0.5635131650000000
+			xmax = 0.7571421440000000
+			text = "quel"
+		intervals [5]:
+			xmin = 0.7571421440000000
+			xmax = 1.0371421439999999
+			text = "pays"
+	item [4]:
+		class = "IntervalTier"
+		name = "textexpe"
+		xmin = 0.0000000000000000
+		xmax = 1.0371421439999999
+		intervals: size = 1
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 1.0371421439999999
+			text = "tu viens de quel pays ?"
+	item [5]:
+		class = "IntervalTier"
+		name = "phono"
+		xmin = 0.0000000000000000
+		xmax = 1.0371421439999999
+		intervals: size = 1
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 1.0371421439999999
+			text = "ty vje~ d@ kEl pei"
+	item [6]:
+		class = "IntervalTier"
+		name = "ortho"
+		xmin = 0.0000000000000000
+		xmax = 1.0371421439999999
+		intervals: size = 1
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 1.0371421439999999
+			text = "tu viens de quel pays"

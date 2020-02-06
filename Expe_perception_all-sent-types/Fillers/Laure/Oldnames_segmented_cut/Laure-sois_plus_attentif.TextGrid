@@ -1,0 +1,140 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 0.9499999999999993 
+tiers? <exists> 
+size = 6 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "phones" 
+        xmin = 0 
+        xmax = 0.9499999999999993 
+        intervals: size = 13 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.13999999999999702 
+            text = "s" 
+        intervals [2]:
+            xmin = 0.13999999999999702 
+            xmax = 0.19271496497250853 
+            text = "w" 
+        intervals [3]:
+            xmin = 0.19271496497250853 
+            xmax = 0.30419384484649203 
+            text = "a" 
+        intervals [4]:
+            xmin = 0.30419384484649203 
+            xmax = 0.33503696927834165 
+            text = "p" 
+        intervals [5]:
+            xmin = 0.33503696927834165 
+            xmax = 0.3546767202158893 
+            text = "l" 
+        intervals [6]:
+            xmin = 0.3546767202158893 
+            xmax = 0.39678567773452955 
+            text = "y" 
+        intervals [7]:
+            xmin = 0.39678567773452955 
+            xmax = 0.4422341634099153 
+            text = "z" 
+        intervals [8]:
+            xmin = 0.4422341634099153 
+            xmax = 0.5495728073571321 
+            text = "a" 
+        intervals [9]:
+            xmin = 0.5495728073571321 
+            xmax = 0.5896845020685642 
+            text = "t" 
+        intervals [10]:
+            xmin = 0.5896845020685642 
+            xmax = 0.7078472661073378 
+            text = "a~" 
+        intervals [11]:
+            xmin = 0.7078472661073378 
+            xmax = 0.7799999999999976 
+            text = "t" 
+        intervals [12]:
+            xmin = 0.7799999999999976 
+            xmax = 0.8703334245815747 
+            text = "i" 
+        intervals [13]:
+            xmin = 0.8703334245815747 
+            xmax = 0.9499999999999993 
+            text = "f" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "syll" 
+        xmin = 0 
+        xmax = 0.9499999999999993 
+        intervals: size = 5 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.30419384484649203 
+            text = "swa" 
+        intervals [2]:
+            xmin = 0.30419384484649203 
+            xmax = 0.39678567773452955 
+            text = "ply" 
+        intervals [3]:
+            xmin = 0.39678567773452955 
+            xmax = 0.5495728073571321 
+            text = "za" 
+        intervals [4]:
+            xmin = 0.5495728073571321 
+            xmax = 0.7078472661073378 
+            text = "ta~" 
+        intervals [5]:
+            xmin = 0.7078472661073378 
+            xmax = 0.9499999999999993 
+            text = "tif" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "words" 
+        xmin = 0 
+        xmax = 0.9499999999999993 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.30419384484649203 
+            text = "sois" 
+        intervals [2]:
+            xmin = 0.30419384484649203 
+            xmax = 0.39678567773452955 
+            text = "plus" 
+        intervals [3]:
+            xmin = 0.39678567773452955 
+            xmax = 0.9499999999999993 
+            text = "attentif" 
+    item [4]:
+        class = "IntervalTier" 
+        name = "textexpe" 
+        xmin = 0 
+        xmax = 0.9499999999999993 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.9499999999999993 
+            text = "sois plus attentif" 
+    item [5]:
+        class = "IntervalTier" 
+        name = "phono" 
+        xmin = 0 
+        xmax = 0.9499999999999993 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.9499999999999993 
+            text = "swa ply zata~tif" 
+    item [6]:
+        class = "IntervalTier" 
+        name = "ortho" 
+        xmin = 0 
+        xmax = 0.9499999999999993 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.9499999999999993 
+            text = "sois plus attentif" 

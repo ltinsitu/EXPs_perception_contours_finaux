@@ -1,0 +1,184 @@
+﻿File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0.0000000000000000
+xmax = 1.2900000000000000
+tiers? <exists>
+size = 6
+item []:
+	item [1]:
+		class = "IntervalTier"
+		name = "phones"
+		xmin = 0.0000000000000000
+		xmax = 1.2900000000000000
+		intervals: size = 19
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.0503256860000000
+			text = "t"
+		intervals [2]:
+			xmin = 0.0503256860000000
+			xmax = 0.1871335680000000
+			text = "e~"
+		intervals [3]:
+			xmin = 0.1871335680000000
+			xmax = 0.2277524180000000
+			text = "t"
+		intervals [4]:
+			xmin = 0.2277524180000000
+			xmax = 0.3301343300000000
+			text = "a"
+		intervals [5]:
+			xmin = 0.3301343300000000
+			xmax = 0.3624470490000000
+			text = "b"
+		intervals [6]:
+			xmin = 0.3624470490000000
+			xmax = 0.4200000000000000
+			text = "@"
+		intervals [7]:
+			xmin = 0.4200000000000000
+			xmax = 0.5000000000000000
+			text = "m"
+		intervals [8]:
+			xmin = 0.5000000000000000
+			xmax = 0.5282409940000000
+			text = "t"
+		intervals [9]:
+			xmin = 0.5282409940000000
+			xmax = 0.6100000000000000
+			text = "i"
+		intervals [10]:
+			xmin = 0.6100000000000000
+			xmax = 0.6500000000000000
+			text = "p"
+		intervals [11]:
+			xmin = 0.6500000000000000
+			xmax = 0.6851140320000000
+			text = "H"
+		intervals [12]:
+			xmin = 0.6851140320000000
+			xmax = 0.7569462490000000
+			text = "E"
+		intervals [13]:
+			xmin = 0.7569462490000000
+			xmax = 0.8000000000000000
+			text = "l"
+		intervals [14]:
+			xmin = 0.8000000000000000
+			xmax = 0.8325163170000000
+			text = "k"
+		intervals [15]:
+			xmin = 0.8325163170000000
+			xmax = 0.9233468970000001
+			text = "9"
+		intervals [16]:
+			xmin = 0.9233468970000001
+			xmax = 1.0101221819999999
+			text = "l"
+		intervals [17]:
+			xmin = 1.0101221819999999
+			xmax = 1.0813640320000000
+			text = "b"
+		intervals [18]:
+			xmin = 1.0813640320000000
+			xmax = 1.1899999999999999
+			text = "a"
+		intervals [19]:
+			xmin = 1.1899999999999999
+			xmax = 1.2900000000000000
+			text = "l"
+	item [2]:
+		class = "IntervalTier"
+		name = "syll"
+		xmin = 0.0000000000000000
+		xmax = 1.2900000000000000
+		intervals: size = 7
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.1871335680000000
+			text = "ta~"
+		intervals [2]:
+			xmin = 0.1871335680000000
+			xmax = 0.3301343300000000
+			text = "te"
+		intervals [3]:
+			xmin = 0.3301343300000000
+			xmax = 0.5000000000000000
+			text = "d@n"
+		intervals [4]:
+			xmin = 0.5000000000000000
+			xmax = 0.6100000000000000
+			text = "pa"
+		intervals [5]:
+			xmin = 0.6100000000000000
+			xmax = 0.8000000000000000
+			text = "bwaR"
+		intervals [6]:
+			xmin = 0.8000000000000000
+			xmax = 1.0101221819999999
+			text = "dal"
+		intervals [7]:
+			xmin = 1.0101221819999999
+			xmax = 1.2900000000000000
+			text = "kOl"
+	item [3]:
+		class = "IntervalTier"
+		name = "words"
+		xmin = 0.0000000000000000
+		xmax = 1.2900000000000000
+		intervals: size = 6
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.3301343300000000
+			text = "tentez"
+		intervals [2]:
+			xmin = 0.3301343300000000
+			xmax = 0.4200000000000000
+			text = "de"
+		intervals [3]:
+			xmin = 0.4200000000000000
+			xmax = 0.5000000000000000
+			text = "ne"
+		intervals [4]:
+			xmin = 0.5000000000000000
+			xmax = 0.6100000000000000
+			text = "pas"
+		intervals [5]:
+			xmin = 0.6100000000000000
+			xmax = 0.8000000000000000
+			text = "boire"
+		intervals [6]:
+			xmin = 0.8000000000000000
+			xmax = 1.2900000000000000
+			text = "d'alcool"
+	item [4]:
+		class = "IntervalTier"
+		name = "textexpe"
+		xmin = 0.0000000000000000
+		xmax = 1.2900000000000000
+		intervals: size = 1
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 1.2900000000000000
+			text = "tentez de ne pas boire d'alcool"
+	item [5]:
+		class = "IntervalTier"
+		name = "phono"
+		xmin = 0.0000000000000000
+		xmax = 1.2900000000000000
+		intervals: size = 1
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 1.2900000000000000
+			text = "ta~te d@ n pa bwaR dalkOl"
+	item [6]:
+		class = "IntervalTier"
+		name = "ortho"
+		xmin = 0.0000000000000000
+		xmax = 1.2900000000000000
+		intervals: size = 1
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 1.2900000000000000
+			text = "tentez de ne pas boire d'alcool"

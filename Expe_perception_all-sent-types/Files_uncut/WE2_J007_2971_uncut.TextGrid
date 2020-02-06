@@ -1,0 +1,168 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 1.1750113378684808 
+tiers? <exists> 
+size = 6 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "phones" 
+        xmin = 0 
+        xmax = 1.1750113378684808 
+        intervals: size = 11 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.075 
+            text = "_" 
+        intervals [2]:
+            xmin = 0.075 
+            xmax = 0.21500000000000002 
+            text = "e" 
+        intervals [3]:
+            xmin = 0.21500000000000002 
+            xmax = 0.255 
+            text = "t" 
+        intervals [4]:
+            xmin = 0.255 
+            xmax = 0.3255762237988409 
+            text = "a~" 
+        intervals [5]:
+            xmin = 0.3255762237988409 
+            xmax = 0.3550358760579306 
+            text = "n" 
+        intervals [6]:
+            xmin = 0.3550358760579306 
+            xmax = 0.435 
+            text = "a" 
+        intervals [7]:
+            xmin = 0.435 
+            xmax = 0.465 
+            text = "d" 
+        intervals [8]:
+            xmin = 0.465 
+            xmax = 0.5499156481799413 
+            text = "o" 
+        intervals [9]:
+            xmin = 0.5499156481799413 
+            xmax = 0.6066970385380789 
+            text = "t" 
+        intervals [10]:
+            xmin = 0.6066970385380789 
+            xmax = 0.665 
+            text = "R" 
+        intervals [11]:
+            xmin = 0.665 
+            xmax = 1.1750113378684808 
+            text = "_" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "syll" 
+        xmin = 0 
+        xmax = 1.1750113378684808 
+        intervals: size = 6 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.075 
+            text = "_" 
+        intervals [2]:
+            xmin = 0.075 
+            xmax = 0.21500000000000002 
+            text = "e" 
+        intervals [3]:
+            xmin = 0.21500000000000002 
+            xmax = 0.3255762237988409 
+            text = "ta~" 
+        intervals [4]:
+            xmin = 0.3255762237988409 
+            xmax = 0.435 
+            text = "na" 
+        intervals [5]:
+            xmin = 0.435 
+            xmax = 0.665 
+            text = "dotR" 
+        intervals [6]:
+            xmin = 0.665 
+            xmax = 1.1750113378684808 
+            text = "_" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "words" 
+        xmin = 0 
+        xmax = 1.1750113378684808 
+        intervals: size = 7 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.075 
+            text = "_" 
+        intervals [2]:
+            xmin = 0.075 
+            xmax = 0.21500000000000002 
+            text = "et" 
+        intervals [3]:
+            xmin = 0.21500000000000002 
+            xmax = 0.255 
+            text = "tu" 
+        intervals [4]:
+            xmin = 0.255 
+            xmax = 0.3255762237988409 
+            text = "en" 
+        intervals [5]:
+            xmin = 0.3255762237988409 
+            xmax = 0.435 
+            text = "as" 
+        intervals [6]:
+            xmin = 0.435 
+            xmax = 0.665 
+            text = "d'autres" 
+        intervals [7]:
+            xmin = 0.665 
+            xmax = 1.1750113378684808 
+            text = "_" 
+    item [4]:
+        class = "IntervalTier" 
+        name = "textexpe" 
+        xmin = 0 
+        xmax = 1.1750113378684808 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.21500000000000002 
+            text = "_" 
+        intervals [2]:
+            xmin = 0.21500000000000002 
+            xmax = 0.665 
+            text = "tu en as d'autres ?" 
+        intervals [3]:
+            xmin = 0.665 
+            xmax = 1.1750113378684808 
+            text = "_" 
+    item [5]:
+        class = "IntervalTier" 
+        name = "phono" 
+        xmin = 0 
+        xmax = 1.1750113378684808 
+        intervals: size = 2 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.075 
+            text = "_" 
+        intervals [2]:
+            xmin = 0.075 
+            xmax = 1.1750113378684808 
+            text = "e t a~ n*a dotR" 
+    item [6]:
+        class = "IntervalTier" 
+        name = "ortho" 
+        xmin = 0 
+        xmax = 1.1750113378684808 
+        intervals: size = 2 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.075 
+            text = "_" 
+        intervals [2]:
+            xmin = 0.075 
+            xmax = 1.1750113378684808 
+            text = "et tu en as d'autres" 

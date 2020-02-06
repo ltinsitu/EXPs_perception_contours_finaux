@@ -1,0 +1,196 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 1.1730223586789226 
+tiers? <exists> 
+size = 6 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "phones" 
+        xmin = 0 
+        xmax = 1.1730223586789226 
+        intervals: size = 20 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.0438712596289893 
+            text = "Z" 
+        intervals [2]:
+            xmin = 0.0438712596289893 
+            xmax = 0.0630223586789227 
+            text = "v" 
+        intervals [3]:
+            xmin = 0.0630223586789227 
+            xmax = 0.09302235867892272 
+            text = "j" 
+        intervals [4]:
+            xmin = 0.09302235867892272 
+            xmax = 0.15302235867892267 
+            text = "e~" 
+        intervals [5]:
+            xmin = 0.15302235867892267 
+            xmax = 0.1930223586789227 
+            text = "d" 
+        intervals [6]:
+            xmin = 0.1930223586789227 
+            xmax = 0.25302235867892264 
+            text = "a" 
+        intervals [7]:
+            xmin = 0.25302235867892264 
+            xmax = 0.37272548532065797 
+            text = "S" 
+        intervals [8]:
+            xmin = 0.37272548532065797 
+            xmax = 0.3955449683511213 
+            text = "t" 
+        intervals [9]:
+            xmin = 0.3955449683511213 
+            xmax = 0.42484313570336607 
+            text = "e" 
+        intervals [10]:
+            xmin = 0.42484313570336607 
+            xmax = 0.4730223586789225 
+            text = "y" 
+        intervals [11]:
+            xmin = 0.4730223586789225 
+            xmax = 0.5430223586789226 
+            text = "n" 
+        intervals [12]:
+            xmin = 0.5430223586789226 
+            xmax = 0.5730223586789226 
+            text = "p" 
+        intervals [13]:
+            xmin = 0.5730223586789226 
+            xmax = 0.6330223586789227 
+            text = "@" 
+        intervals [14]:
+            xmin = 0.6330223586789227 
+            xmax = 0.7030223586789225 
+            text = "t" 
+        intervals [15]:
+            xmin = 0.7030223586789225 
+            xmax = 0.7630223586789225 
+            text = "i" 
+        intervals [16]:
+            xmin = 0.7630223586789225 
+            xmax = 0.7930223586789226 
+            text = "t" 
+        intervals [17]:
+            xmin = 0.7930223586789226 
+            xmax = 0.8930223586789227 
+            text = "m" 
+        intervals [18]:
+            xmin = 0.8930223586789227 
+            xmax = 0.9630223586789225 
+            text = "E" 
+        intervals [19]:
+            xmin = 0.9630223586789225 
+            xmax = 1.05043746713516 
+            text = "z" 
+        intervals [20]:
+            xmin = 1.05043746713516 
+            xmax = 1.1730223586789226 
+            text = "o~" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "syll" 
+        xmin = 0 
+        xmax = 1.1730223586789226 
+        intervals: size = 9 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.0438712596289893 
+            text = "k@Z" 
+        intervals [2]:
+            xmin = 0.0438712596289893 
+            xmax = 0.15302235867892267 
+            text = "vje~" 
+        intervals [3]:
+            xmin = 0.15302235867892267 
+            xmax = 0.3130223586789226 
+            text = "daS" 
+        intervals [4]:
+            xmin = 0.3130223586789226 
+            xmax = 0.42484313570336607 
+            text = "te" 
+        intervals [5]:
+            xmin = 0.42484313570336607 
+            xmax = 0.5430223586789226 
+            text = "yn" 
+        intervals [6]:
+            xmin = 0.5430223586789226 
+            xmax = 0.6330223586789227 
+            text = "p@" 
+        intervals [7]:
+            xmin = 0.6330223586789227 
+            xmax = 0.7930223586789226 
+            text = "tit" 
+        intervals [8]:
+            xmin = 0.7930223586789226 
+            xmax = 0.9630223586789225 
+            text = "mE" 
+        intervals [9]:
+            xmin = 0.9630223586789225 
+            xmax = 1.1730223586789226 
+            text = "zo~" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "words" 
+        xmin = 0 
+        xmax = 1.1730223586789226 
+        intervals: size = 6 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.0438712596289893 
+            text = "je" 
+        intervals [2]:
+            xmin = 0.0438712596289893 
+            xmax = 0.15302235867892267 
+            text = "viens" 
+        intervals [3]:
+            xmin = 0.15302235867892267 
+            xmax = 0.42484313570336607 
+            text = "d'acheter" 
+        intervals [4]:
+            xmin = 0.42484313570336607 
+            xmax = 0.5430223586789226 
+            text = "une" 
+        intervals [5]:
+            xmin = 0.5430223586789226 
+            xmax = 0.7930223586789226 
+            text = "petite" 
+        intervals [6]:
+            xmin = 0.7930223586789226 
+            xmax = 1.1730223586789226 
+            text = "maison" 
+    item [4]:
+        class = "IntervalTier" 
+        name = "textexpe" 
+        xmin = 0 
+        xmax = 1.1730223586789226 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 1.1730223586789226 
+            text = "je viens d'acheter une petite maison" 
+    item [5]:
+        class = "IntervalTier" 
+        name = "phono" 
+        xmin = 0 
+        xmax = 1.1730223586789226 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 1.1730223586789226 
+            text = "no~ paR sk@ Z vje~ daSte yn p@tit mEzo~" 
+    item [6]:
+        class = "IntervalTier" 
+        name = "ortho" 
+        xmin = 0 
+        xmax = 1.1730223586789226 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 1.1730223586789226 
+            text = "non parce que je viens d'acheter une petite maison" 

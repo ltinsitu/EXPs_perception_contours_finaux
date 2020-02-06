@@ -1,0 +1,138 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 0.8169160997732426 
+tiers? <exists> 
+size = 5 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "phones" 
+        xmin = 0 
+        xmax = 0.8169160997732426 
+        intervals: size = 9 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.065 
+            text = "_" 
+        intervals [2]:
+            xmin = 0.065 
+            xmax = 0.14500000000000002 
+            text = "n" 
+        intervals [3]:
+            xmin = 0.14500000000000002 
+            xmax = 0.21500000000000002 
+            text = "@" 
+        intervals [4]:
+            xmin = 0.21500000000000002 
+            xmax = 0.275 
+            text = "d" 
+        intervals [5]:
+            xmin = 0.275 
+            xmax = 0.35500000000000004 
+            text = "O" 
+        intervals [6]:
+            xmin = 0.35500000000000004 
+            xmax = 0.4339148737736124 
+            text = "R" 
+        intervals [7]:
+            xmin = 0.4339148737736124 
+            xmax = 0.505 
+            text = "p" 
+        intervals [8]:
+            xmin = 0.505 
+            xmax = 0.6828260406686356 
+            text = "a" 
+        intervals [9]:
+            xmin = 0.6828260406686356 
+            xmax = 0.8169160997732426 
+            text = "_" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "syll" 
+        xmin = 0 
+        xmax = 0.8169160997732426 
+        intervals: size = 5 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.065 
+            text = "_" 
+        intervals [2]:
+            xmin = 0.065 
+            xmax = 0.21500000000000002 
+            text = "n@" 
+        intervals [3]:
+            xmin = 0.21500000000000002 
+            xmax = 0.4339148737736124 
+            text = "dOR" 
+        intervals [4]:
+            xmin = 0.4339148737736124 
+            xmax = 0.6828260406686356 
+            text = "pa" 
+        intervals [5]:
+            xmin = 0.6828260406686356 
+            xmax = 0.8169160997732426 
+            text = "_" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "words" 
+        xmin = 0 
+        xmax = 0.8169160997732426 
+        intervals: size = 5 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.065 
+            text = "_" 
+        intervals [2]:
+            xmin = 0.065 
+            xmax = 0.21500000000000002 
+            text = "ne" 
+        intervals [3]:
+            xmin = 0.21500000000000002 
+            xmax = 0.4339148737736124 
+            text = "dors" 
+        intervals [4]:
+            xmin = 0.4339148737736124 
+            xmax = 0.6828260406686356 
+            text = "pas" 
+        intervals [5]:
+            xmin = 0.6828260406686356 
+            xmax = 0.8169160997732426 
+            text = "_" 
+    item [4]:
+        class = "IntervalTier" 
+        name = "phono" 
+        xmin = 0 
+        xmax = 0.8169160997732426 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.065 
+            text = "_" 
+        intervals [2]:
+            xmin = 0.065 
+            xmax = 0.6828260406686356 
+            text = "n@ dOR pa" 
+        intervals [3]:
+            xmin = 0.6828260406686356 
+            xmax = 0.8169160997732426 
+            text = "" 
+    item [5]:
+        class = "IntervalTier" 
+        name = "ortho" 
+        xmin = 0 
+        xmax = 0.8169160997732426 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.065 
+            text = "_" 
+        intervals [2]:
+            xmin = 0.065 
+            xmax = 0.6828260406686356 
+            text = "ne dors pas" 
+        intervals [3]:
+            xmin = 0.6828260406686356 
+            xmax = 0.8169160997732426 
+            text = "" 

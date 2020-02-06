@@ -1,0 +1,204 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 2.1480045351473924 
+tiers? <exists> 
+size = 6 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "phones" 
+        xmin = 0 
+        xmax = 2.1480045351473924 
+        intervals: size = 17 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.20500000000000002 
+            text = "_" 
+        intervals [2]:
+            xmin = 0.20500000000000002 
+            xmax = 0.255 
+            text = "k" 
+        intervals [3]:
+            xmin = 0.255 
+            xmax = 0.29500000000000004 
+            text = "O" 
+        intervals [4]:
+            xmin = 0.29500000000000004 
+            xmax = 0.34500000000000003 
+            text = "m" 
+        intervals [5]:
+            xmin = 0.34500000000000003 
+            xmax = 0.425 
+            text = "a~" 
+        intervals [6]:
+            xmin = 0.425 
+            xmax = 0.47500000000000003 
+            text = "t" 
+        intervals [7]:
+            xmin = 0.47500000000000003 
+            xmax = 0.525 
+            text = "y" 
+        intervals [8]:
+            xmin = 0.525 
+            xmax = 0.605 
+            text = "f" 
+        intervals [9]:
+            xmin = 0.605 
+            xmax = 0.6530418329339672 
+            text = "E" 
+        intervals [10]:
+            xmin = 0.6530418329339672 
+            xmax = 0.7040183725617617 
+            text = "y" 
+        intervals [11]:
+            xmin = 0.7040183725617617 
+            xmax = 0.7225405234778857 
+            text = "n" 
+        intervals [12]:
+            xmin = 0.7225405234778857 
+            xmax = 0.7558994042159106 
+            text = "O" 
+        intervals [13]:
+            xmin = 0.7558994042159106 
+            xmax = 0.7975776448657291 
+            text = "m" 
+        intervals [14]:
+            xmin = 0.7975776448657291 
+            xmax = 0.839378382087396 
+            text = "l" 
+        intervals [15]:
+            xmin = 0.839378382087396 
+            xmax = 0.890733573531158 
+            text = "E" 
+        intervals [16]:
+            xmin = 0.890733573531158 
+            xmax = 1.132677557753741 
+            text = "t" 
+        intervals [17]:
+            xmin = 1.132677557753741 
+            xmax = 2.1480045351473924 
+            text = "_" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "syll" 
+        xmin = 0 
+        xmax = 2.1480045351473924 
+        intervals: size = 9 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.20500000000000002 
+            text = "_" 
+        intervals [2]:
+            xmin = 0.20500000000000002 
+            xmax = 0.29500000000000004 
+            text = "kO" 
+        intervals [3]:
+            xmin = 0.29500000000000004 
+            xmax = 0.425 
+            text = "ma~" 
+        intervals [4]:
+            xmin = 0.425 
+            xmax = 0.525 
+            text = "ty" 
+        intervals [5]:
+            xmin = 0.525 
+            xmax = 0.6530418329339672 
+            text = "fE" 
+        intervals [6]:
+            xmin = 0.6530418329339672 
+            xmax = 0.7040183725617617 
+            text = "y" 
+        intervals [7]:
+            xmin = 0.7040183725617617 
+            xmax = 0.7975776448657291 
+            text = "nOm" 
+        intervals [8]:
+            xmin = 0.7975776448657291 
+            xmax = 1.132677557753741 
+            text = "lEt" 
+        intervals [9]:
+            xmin = 1.132677557753741 
+            xmax = 2.1480045351473924 
+            text = "_" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "words" 
+        xmin = 0 
+        xmax = 2.1480045351473924 
+        intervals: size = 7 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.20500000000000002 
+            text = "_" 
+        intervals [2]:
+            xmin = 0.20500000000000002 
+            xmax = 0.425 
+            text = "comment" 
+        intervals [3]:
+            xmin = 0.425 
+            xmax = 0.525 
+            text = "tu" 
+        intervals [4]:
+            xmin = 0.525 
+            xmax = 0.6530418329339672 
+            text = "fais" 
+        intervals [5]:
+            xmin = 0.6530418329339672 
+            xmax = 0.7225405234778857 
+            text = "une" 
+        intervals [6]:
+            xmin = 0.7225405234778857 
+            xmax = 1.132677557753741 
+            text = "omelette" 
+        intervals [7]:
+            xmin = 1.132677557753741 
+            xmax = 2.1480045351473924 
+            text = "_" 
+    item [4]:
+        class = "IntervalTier" 
+        name = "textexpe" 
+        xmin = 0 
+        xmax = 2.1480045351473924 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.20500000000000002 
+            text = "_" 
+        intervals [2]:
+            xmin = 0.20500000000000002 
+            xmax = 1.132677557753741 
+            text = "comment tu fais une omelette ?" 
+        intervals [3]:
+            xmin = 1.132677557753741 
+            xmax = 2.1480045351473924 
+            text = "_" 
+    item [5]:
+        class = "IntervalTier" 
+        name = "phono" 
+        xmin = 0 
+        xmax = 2.1480045351473924 
+        intervals: size = 2 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.20500000000000002 
+            text = "_" 
+        intervals [2]:
+            xmin = 0.20500000000000002 
+            xmax = 2.1480045351473924 
+            text = "kOma~ ty fE y nOmlEt" 
+    item [6]:
+        class = "IntervalTier" 
+        name = "ortho" 
+        xmin = 0 
+        xmax = 2.1480045351473924 
+        intervals: size = 2 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.20500000000000002 
+            text = "_" 
+        intervals [2]:
+            xmin = 0.20500000000000002 
+            xmax = 2.1480045351473924 
+            text = "comment tu fais une omelette" 

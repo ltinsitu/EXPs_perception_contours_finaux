@@ -1,0 +1,126 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 1.0899999999999999 
+tiers? <exists> 
+size = 5 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "phones" 
+        xmin = 0 
+        xmax = 1.0899999999999999 
+        intervals: size = 13 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.07000000000000028 
+            text = "k" 
+        intervals [2]:
+            xmin = 0.07000000000000028 
+            xmax = 0.13960565076812936 
+            text = "E" 
+        intervals [3]:
+            xmin = 0.13960565076812936 
+            xmax = 0.23000000000000043 
+            text = "l" 
+        intervals [4]:
+            xmin = 0.23000000000000043 
+            xmax = 0.2819732160686669 
+            text = "b" 
+        intervals [5]:
+            xmin = 0.2819732160686669 
+            xmax = 0.358895386580119 
+            text = "O" 
+        intervals [6]:
+            xmin = 0.358895386580119 
+            xmax = 0.4299999999999997 
+            text = "n" 
+        intervals [7]:
+            xmin = 0.4299999999999997 
+            xmax = 0.5235232632512529 
+            text = "s" 
+        intervals [8]:
+            xmin = 0.5235232632512529 
+            xmax = 0.5636037626230095 
+            text = "y" 
+        intervals [9]:
+            xmin = 0.5636037626230095 
+            xmax = 0.6595439670895415 
+            text = "R" 
+        intervals [10]:
+            xmin = 0.6595439670895415 
+            xmax = 0.715803617580228 
+            text = "p" 
+        intervals [11]:
+            xmin = 0.715803617580228 
+            xmax = 0.7684345763512216 
+            text = "R" 
+        intervals [12]:
+            xmin = 0.7684345763512216 
+            xmax = 0.928842664358081 
+            text = "i" 
+        intervals [13]:
+            xmin = 0.928842664358081 
+            xmax = 1.0899999999999999 
+            text = "z" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "syll" 
+        xmin = 0 
+        xmax = 1.0899999999999999 
+        intervals: size = 4 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.23000000000000043 
+            text = "kEl" 
+        intervals [2]:
+            xmin = 0.23000000000000043 
+            xmax = 0.4299999999999997 
+            text = "bOn" 
+        intervals [3]:
+            xmin = 0.4299999999999997 
+            xmax = 0.6595439670895415 
+            text = "syR" 
+        intervals [4]:
+            xmin = 0.6595439670895415 
+            xmax = 1.0899999999999999 
+            text = "pRiz" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "words" 
+        xmin = 0 
+        xmax = 1.0899999999999999 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.23000000000000043 
+            text = "quelle" 
+        intervals [2]:
+            xmin = 0.23000000000000043 
+            xmax = 0.4299999999999997 
+            text = "bonne" 
+        intervals [3]:
+            xmin = 0.4299999999999997 
+            xmax = 1.0899999999999999 
+            text = "surprise" 
+    item [4]:
+        class = "IntervalTier" 
+        name = "phono" 
+        xmin = 0 
+        xmax = 1.0899999999999999 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 1.0899999999999999 
+            text = "kEl bOn syRpRiz" 
+    item [5]:
+        class = "IntervalTier" 
+        name = "ortho" 
+        xmin = 0 
+        xmax = 1.0899999999999999 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 1.0899999999999999 
+            text = "quelle bonne surprise" 

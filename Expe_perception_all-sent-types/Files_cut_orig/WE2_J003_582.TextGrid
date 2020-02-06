@@ -1,0 +1,164 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 1.24 
+tiers? <exists> 
+size = 6 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "phones" 
+        xmin = 0 
+        xmax = 1.24 
+        intervals: size = 16 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.06030415125520022 
+            text = "i" 
+        intervals [2]:
+            xmin = 0.06030415125520022 
+            xmax = 0.12966551735355436 
+            text = "R" 
+        intervals [3]:
+            xmin = 0.12966551735355436 
+            xmax = 0.25 
+            text = "S" 
+        intervals [4]:
+            xmin = 0.25 
+            xmax = 0.3424768504521726 
+            text = "E" 
+        intervals [5]:
+            xmin = 0.3424768504521726 
+            xmax = 0.3854367924504573 
+            text = "R" 
+        intervals [6]:
+            xmin = 0.3854367924504573 
+            xmax = 0.44 
+            text = "S" 
+        intervals [7]:
+            xmin = 0.44 
+            xmax = 0.4852594717998259 
+            text = "d" 
+        intervals [8]:
+            xmin = 0.4852594717998259 
+            xmax = 0.6300000000000001 
+            text = "a~	" 
+        intervals [9]:
+            xmin = 0.6300000000000001 
+            xmax = 0.69 
+            text = "k" 
+        intervals [10]:
+            xmin = 0.69 
+            xmax = 0.7615214866003797 
+            text = "E" 
+        intervals [11]:
+            xmin = 0.7615214866003797 
+            xmax = 0.8500000000000001 
+            text = "l" 
+        intervals [12]:
+            xmin = 0.8500000000000001 
+            xmax = 0.8999999999999999 
+            text = "d" 
+        intervals [13]:
+            xmin = 0.8999999999999999 
+            xmax = 0.97 
+            text = "O" 
+        intervals [14]:
+            xmin = 0.97 
+            xmax = 1.04 
+            text = "m" 
+        intervals [15]:
+            xmin = 1.04 
+            xmax = 1.15 
+            text = "E" 
+        intervals [16]:
+            xmin = 1.15 
+            xmax = 1.24 
+            text = "n" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "syll" 
+        xmin = 0 
+        xmax = 1.24 
+        intervals: size = 6 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.12966551735355436 
+            text = "iR" 
+        intervals [2]:
+            xmin = 0.12966551735355436 
+            xmax = 0.44 
+            text = "SERS" 
+        intervals [3]:
+            xmin = 0.44 
+            xmax = 0.6300000000000001 
+            text = "da~" 
+        intervals [4]:
+            xmin = 0.6300000000000001 
+            xmax = 0.8500000000000001 
+            text = "kEl" 
+        intervals [5]:
+            xmin = 0.8500000000000001 
+            xmax = 0.97 
+            text = "dO" 
+        intervals [6]:
+            xmin = 0.97 
+            xmax = 1.24 
+            text = "mEn" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "words" 
+        xmin = 0 
+        xmax = 1.24 
+        intervals: size = 5 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.06030415125520022 
+            text = "il" 
+        intervals [2]:
+            xmin = 0.06030415125520022 
+            xmax = 0.44 
+            text = "recherche" 
+        intervals [3]:
+            xmin = 0.44 
+            xmax = 0.6300000000000001 
+            text = "dans" 
+        intervals [4]:
+            xmin = 0.6300000000000001 
+            xmax = 0.8500000000000001 
+            text = "quel" 
+        intervals [5]:
+            xmin = 0.8500000000000001 
+            xmax = 1.24 
+            text = "domaine" 
+    item [4]:
+        class = "IntervalTier" 
+        name = "textexpe" 
+        xmin = 0 
+        xmax = 1.24 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 1.24 
+            text = "il recherche dans quel domaine ?" 
+    item [5]:
+        class = "IntervalTier" 
+        name = "phono" 
+        xmin = 0 
+        xmax = 1.24 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 1.24 
+            text = "e i RSERS da~ kEl dOmEn" 
+    item [6]:
+        class = "IntervalTier" 
+        name = "ortho" 
+        xmin = 0 
+        xmax = 1.24 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 1.24 
+            text = "et il recherche dans quel domaine" 

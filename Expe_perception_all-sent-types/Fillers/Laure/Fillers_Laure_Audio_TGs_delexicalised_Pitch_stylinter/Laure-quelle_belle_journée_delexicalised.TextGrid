@@ -1,0 +1,128 @@
+﻿File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0.0000000000000000
+xmax = 0.9700000000000000
+tiers? <exists>
+size = 6
+item []:
+	item [1]:
+		class = "IntervalTier"
+		name = "phones"
+		xmin = 0.0000000000000000
+		xmax = 0.9700000000000000
+		intervals: size = 11
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.0592328950000000
+			text = "k"
+		intervals [2]:
+			xmin = 0.0592328950000000
+			xmax = 0.1167173750000000
+			text = "2"
+		intervals [3]:
+			xmin = 0.1167173750000000
+			xmax = 0.2275092280000000
+			text = "R"
+		intervals [4]:
+			xmin = 0.2275092280000000
+			xmax = 0.2700000000000000
+			text = "t"
+		intervals [5]:
+			xmin = 0.2700000000000000
+			xmax = 0.3600000000000000
+			text = "y"
+		intervals [6]:
+			xmin = 0.3600000000000000
+			xmax = 0.4200000000000000
+			text = "R"
+		intervals [7]:
+			xmin = 0.4200000000000000
+			xmax = 0.4952844390000000
+			text = "Z"
+		intervals [8]:
+			xmin = 0.4952844390000000
+			xmax = 0.5794799190000000
+			text = "a"
+		intervals [9]:
+			xmin = 0.5794799190000000
+			xmax = 0.6300000000000000
+			text = "l"
+		intervals [10]:
+			xmin = 0.6300000000000000
+			xmax = 0.7061727430000000
+			text = "m"
+		intervals [11]:
+			xmin = 0.7061727430000000
+			xmax = 0.9700000000000000
+			text = "e"
+	item [2]:
+		class = "IntervalTier"
+		name = "syll"
+		xmin = 0.0000000000000000
+		xmax = 0.9700000000000000
+		intervals: size = 4
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.2275092280000000
+			text = "kEl"
+		intervals [2]:
+			xmin = 0.2275092280000000
+			xmax = 0.4200000000000000
+			text = "bEl"
+		intervals [3]:
+			xmin = 0.4200000000000000
+			xmax = 0.6300000000000000
+			text = "ZuR"
+		intervals [4]:
+			xmin = 0.6300000000000000
+			xmax = 0.9700000000000000
+			text = "ne"
+	item [3]:
+		class = "IntervalTier"
+		name = "words"
+		xmin = 0.0000000000000000
+		xmax = 0.9700000000000000
+		intervals: size = 3
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.2275092280000000
+			text = "quelle"
+		intervals [2]:
+			xmin = 0.2275092280000000
+			xmax = 0.4200000000000000
+			text = "belle"
+		intervals [3]:
+			xmin = 0.4200000000000000
+			xmax = 0.9700000000000000
+			text = "journée"
+	item [4]:
+		class = "IntervalTier"
+		name = "textexpe"
+		xmin = 0.0000000000000000
+		xmax = 0.9700000000000000
+		intervals: size = 1
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.9700000000000000
+			text = "quelle belle journée"
+	item [5]:
+		class = "IntervalTier"
+		name = "phono"
+		xmin = 0.0000000000000000
+		xmax = 0.9700000000000000
+		intervals: size = 1
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.9700000000000000
+			text = "kEl bEl ZuRne"
+	item [6]:
+		class = "IntervalTier"
+		name = "ortho"
+		xmin = 0.0000000000000000
+		xmax = 0.9700000000000000
+		intervals: size = 1
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.9700000000000000
+			text = "quelle belle journée"

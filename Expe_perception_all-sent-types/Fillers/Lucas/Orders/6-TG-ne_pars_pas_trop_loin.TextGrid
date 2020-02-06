@@ -1,0 +1,138 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 0.8906036605735915 
+tiers? <exists> 
+size = 5 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "phones" 
+        xmin = 0 
+        xmax = 0.8906036605735915 
+        intervals: size = 13 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.08000000000000007 
+            text = "n" 
+        intervals [2]:
+            xmin = 0.08000000000000007 
+            xmax = 0.15000000000000036 
+            text = "@" 
+        intervals [3]:
+            xmin = 0.15000000000000036 
+            xmax = 0.2065905226431235 
+            text = "p" 
+        intervals [4]:
+            xmin = 0.2065905226431235 
+            xmax = 0.2599999999999998 
+            text = "a" 
+        intervals [5]:
+            xmin = 0.2599999999999998 
+            xmax = 0.338131733583748 
+            text = "R" 
+        intervals [6]:
+            xmin = 0.338131733583748 
+            xmax = 0.3889584538015553 
+            text = "p" 
+        intervals [7]:
+            xmin = 0.3889584538015553 
+            xmax = 0.4599999999999991 
+            text = "a" 
+        intervals [8]:
+            xmin = 0.4599999999999991 
+            xmax = 0.5199999999999996 
+            text = "t" 
+        intervals [9]:
+            xmin = 0.5199999999999996 
+            xmax = 0.5800000000000001 
+            text = "R" 
+        intervals [10]:
+            xmin = 0.5800000000000001 
+            xmax = 0.6409586061604513 
+            text = "o" 
+        intervals [11]:
+            xmin = 0.6409586061604513 
+            xmax = 0.6999999999999993 
+            text = "l" 
+        intervals [12]:
+            xmin = 0.6999999999999993 
+            xmax = 0.75 
+            text = "w" 
+        intervals [13]:
+            xmin = 0.75 
+            xmax = 0.8906036605735915 
+            text = "e~" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "syll" 
+        xmin = 0 
+        xmax = 0.8906036605735915 
+        intervals: size = 5 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.15000000000000036 
+            text = "n@" 
+        intervals [2]:
+            xmin = 0.15000000000000036 
+            xmax = 0.338131733583748 
+            text = "paR" 
+        intervals [3]:
+            xmin = 0.338131733583748 
+            xmax = 0.4599999999999991 
+            text = "pa" 
+        intervals [4]:
+            xmin = 0.4599999999999991 
+            xmax = 0.6409586061604513 
+            text = "tRo" 
+        intervals [5]:
+            xmin = 0.6409586061604513 
+            xmax = 0.8906036605735915 
+            text = "lwe~" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "words" 
+        xmin = 0 
+        xmax = 0.8906036605735915 
+        intervals: size = 5 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.15000000000000036 
+            text = "ne" 
+        intervals [2]:
+            xmin = 0.15000000000000036 
+            xmax = 0.338131733583748 
+            text = "pars" 
+        intervals [3]:
+            xmin = 0.338131733583748 
+            xmax = 0.4599999999999991 
+            text = "pas" 
+        intervals [4]:
+            xmin = 0.4599999999999991 
+            xmax = 0.6409586061604513 
+            text = "trop" 
+        intervals [5]:
+            xmin = 0.6409586061604513 
+            xmax = 0.8906036605735915 
+            text = "loin" 
+    item [4]:
+        class = "IntervalTier" 
+        name = "phono" 
+        xmin = 0 
+        xmax = 0.8906036605735915 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.8906036605735915 
+            text = "n@ paR pa tRo lwe~" 
+    item [5]:
+        class = "IntervalTier" 
+        name = "ortho" 
+        xmin = 0 
+        xmax = 0.8906036605735915 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.8906036605735915 
+            text = "ne pars pas trop loin" 

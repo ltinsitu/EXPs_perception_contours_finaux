@@ -1,0 +1,136 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 0.8536912902208167 
+tiers? <exists> 
+size = 6 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "phones" 
+        xmin = 0 
+        xmax = 0.8536912902208167 
+        intervals: size = 11 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.09000000000000002 
+            text = "t" 
+        intervals [2]:
+            xmin = 0.09000000000000002 
+            xmax = 0.13912858300887188 
+            text = "y" 
+        intervals [3]:
+            xmin = 0.13912858300887188 
+            xmax = 0.1813720769547939 
+            text = "l" 
+        intervals [4]:
+            xmin = 0.1813720769547939 
+            xmax = 0.25487486549349 
+            text = "i" 
+        intervals [5]:
+            xmin = 0.25487486549349 
+            xmax = 0.3218715788158802 
+            text = "l" 
+        intervals [6]:
+            xmin = 0.3218715788158802 
+            xmax = 0.43 
+            text = "e" 
+        intervals [7]:
+            xmin = 0.43 
+            xmax = 0.5 
+            text = "Z" 
+        intervals [8]:
+            xmin = 0.5 
+            xmax = 0.5907195018005003 
+            text = "u" 
+        intervals [9]:
+            xmin = 0.5907195018005003 
+            xmax = 0.6599999999999999 
+            text = "R" 
+        intervals [10]:
+            xmin = 0.6599999999999999 
+            xmax = 0.74 
+            text = "n" 
+        intervals [11]:
+            xmin = 0.74 
+            xmax = 0.8536912902208167 
+            text = "o" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "syll" 
+        xmin = 0 
+        xmax = 0.8536912902208167 
+        intervals: size = 5 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.13912858300887188 
+            text = "ty" 
+        intervals [2]:
+            xmin = 0.13912858300887188 
+            xmax = 0.25487486549349 
+            text = "li" 
+        intervals [3]:
+            xmin = 0.25487486549349 
+            xmax = 0.43 
+            text = "le" 
+        intervals [4]:
+            xmin = 0.43 
+            xmax = 0.6599999999999999 
+            text = "ZuR" 
+        intervals [5]:
+            xmin = 0.6599999999999999 
+            xmax = 0.8536912902208167 
+            text = "no" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "words" 
+        xmin = 0 
+        xmax = 0.8536912902208167 
+        intervals: size = 4 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.13912858300887188 
+            text = "tu" 
+        intervals [2]:
+            xmin = 0.13912858300887188 
+            xmax = 0.25487486549349 
+            text = "lis" 
+        intervals [3]:
+            xmin = 0.25487486549349 
+            xmax = 0.43 
+            text = "les" 
+        intervals [4]:
+            xmin = 0.43 
+            xmax = 0.8536912902208167 
+            text = "journaux" 
+    item [4]:
+        class = "IntervalTier" 
+        name = "textexpe" 
+        xmin = 0 
+        xmax = 0.8536912902208167 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.8536912902208167 
+            text = "tu lis les journaux ?" 
+    item [5]:
+        class = "IntervalTier" 
+        name = "phono" 
+        xmin = 0 
+        xmax = 0.8536912902208167 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.8536912902208167 
+            text = "sino~ ty li le ZuRno" 
+    item [6]:
+        class = "IntervalTier" 
+        name = "ortho" 
+        xmin = 0 
+        xmax = 0.8536912902208167 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.8536912902208167 
+            text = "sinon tu lis les journaux" 

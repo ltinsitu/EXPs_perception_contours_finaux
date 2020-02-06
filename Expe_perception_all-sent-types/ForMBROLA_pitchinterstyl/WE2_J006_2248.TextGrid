@@ -1,0 +1,112 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 0.5700000000000001 
+tiers? <exists> 
+size = 6 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "phones" 
+        xmin = 0 
+        xmax = 0.5700000000000001 
+        intervals: size = 7 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.05000000000000002 
+            text = "t" 
+        intervals [2]:
+            xmin = 0.05000000000000002 
+            xmax = 0.1292869125752102 
+            text = "a" 
+        intervals [3]:
+            xmin = 0.1292869125752102 
+            xmax = 0.20243743712950998 
+            text = "v" 
+        intervals [4]:
+            xmin = 0.20243743712950998 
+            xmax = 0.30940467738388955 
+            text = "y	" 
+        intervals [5]:
+            xmin = 0.30940467738388955 
+            xmax = 0.41000000000000003 
+            text = "k" 
+        intervals [6]:
+            xmin = 0.41000000000000003 
+            xmax = 0.4578088285127426 
+            text = "w" 
+        intervals [7]:
+            xmin = 0.4578088285127426 
+            xmax = 0.5700000000000001 
+            text = "a" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "syll" 
+        xmin = 0 
+        xmax = 0.5700000000000001 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.1292869125752102 
+            text = "ta" 
+        intervals [2]:
+            xmin = 0.1292869125752102 
+            xmax = 0.30940467738388955 
+            text = "vy" 
+        intervals [3]:
+            xmin = 0.30940467738388955 
+            xmax = 0.5700000000000001 
+            text = "kwa" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "words" 
+        xmin = 0 
+        xmax = 0.5700000000000001 
+        intervals: size = 4 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.05000000000000002 
+            text = "tu" 
+        intervals [2]:
+            xmin = 0.05000000000000002 
+            xmax = 0.1292869125752102 
+            text = "as" 
+        intervals [3]:
+            xmin = 0.1292869125752102 
+            xmax = 0.30940467738388955 
+            text = "vu" 
+        intervals [4]:
+            xmin = 0.30940467738388955 
+            xmax = 0.5700000000000001 
+            text = "quoi" 
+    item [4]:
+        class = "IntervalTier" 
+        name = "textexpe" 
+        xmin = 0 
+        xmax = 0.5700000000000001 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.5700000000000001 
+            text = "tu as vu quoi ?" 
+    item [5]:
+        class = "IntervalTier" 
+        name = "phono" 
+        xmin = 0 
+        xmax = 0.5700000000000001 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.5700000000000001 
+            text = "t a vy kwa" 
+    item [6]:
+        class = "IntervalTier" 
+        name = "ortho" 
+        xmin = 0 
+        xmax = 0.5700000000000001 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.5700000000000001 
+            text = "tu as vu quoi" 

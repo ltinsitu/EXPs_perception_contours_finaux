@@ -1,0 +1,156 @@
+﻿File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0.0000000000000000
+xmax = 1.0700000000000001
+tiers? <exists>
+size = 6
+item []:
+	item [1]:
+		class = "IntervalTier"
+		name = "phones"
+		xmin = 0.0000000000000000
+		xmax = 1.0700000000000001
+		intervals: size = 14
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.0300000000000000
+			text = "v"
+		intervals [2]:
+			xmin = 0.0300000000000000
+			xmax = 0.0600000000000000
+			text = "e"
+		intervals [3]:
+			xmin = 0.0600000000000000
+			xmax = 0.1396145510000000
+			text = "s"
+		intervals [4]:
+			xmin = 0.1396145510000000
+			xmax = 0.2314722890000000
+			text = "o~"
+		intervals [5]:
+			xmin = 0.2314722890000000
+			xmax = 0.3200000000000000
+			text = "f"
+		intervals [6]:
+			xmin = 0.3200000000000000
+			xmax = 0.4300000000000000
+			text = "i"
+		intervals [7]:
+			xmin = 0.4300000000000000
+			xmax = 0.4600000000000000
+			text = "p"
+		intervals [8]:
+			xmin = 0.4600000000000000
+			xmax = 0.5000000000000000
+			text = "d"
+		intervals [9]:
+			xmin = 0.5000000000000000
+			xmax = 0.5529446139999999
+			text = "O"
+		intervals [10]:
+			xmin = 0.5529446139999999
+			xmax = 0.5994512050000000
+			text = "l"
+		intervals [11]:
+			xmin = 0.5994512050000000
+			xmax = 0.6901535000000000
+			text = "a"
+		intervals [12]:
+			xmin = 0.6901535000000000
+			xmax = 0.7872245990000000
+			text = "s"
+		intervals [13]:
+			xmin = 0.7872245990000000
+			xmax = 0.9045020890000000
+			text = "e"
+		intervals [14]:
+			xmin = 0.9045020890000000
+			xmax = 1.0700000000000001
+			text = "Z"
+	item [2]:
+		class = "IntervalTier"
+		name = "syll"
+		xmin = 0.0000000000000000
+		xmax = 1.0700000000000001
+		intervals: size = 6
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.0600000000000000
+			text = "vu"
+		intervals [2]:
+			xmin = 0.0600000000000000
+			xmax = 0.2314722890000000
+			text = "za~"
+		intervals [3]:
+			xmin = 0.2314722890000000
+			xmax = 0.4600000000000000
+			text = "fEt"
+		intervals [4]:
+			xmin = 0.4600000000000000
+			xmax = 0.5529446139999999
+			text = "kE"
+		intervals [5]:
+			xmin = 0.5529446139999999
+			xmax = 0.6901535000000000
+			text = "ly"
+		intervals [6]:
+			xmin = 0.6901535000000000
+			xmax = 1.0700000000000001
+			text = "zaZ"
+	item [3]:
+		class = "IntervalTier"
+		name = "words"
+		xmin = 0.0000000000000000
+		xmax = 1.0700000000000001
+		intervals: size = 5
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.0600000000000000
+			text = "vous"
+		intervals [2]:
+			xmin = 0.0600000000000000
+			xmax = 0.2314722890000000
+			text = "en"
+		intervals [3]:
+			xmin = 0.2314722890000000
+			xmax = 0.4600000000000000
+			text = "faites"
+		intervals [4]:
+			xmin = 0.4600000000000000
+			xmax = 0.5994512050000000
+			text = "quel"
+		intervals [5]:
+			xmin = 0.5994512050000000
+			xmax = 1.0700000000000001
+			text = "usage"
+	item [4]:
+		class = "IntervalTier"
+		name = "textexpe"
+		xmin = 0.0000000000000000
+		xmax = 1.0700000000000001
+		intervals: size = 1
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 1.0700000000000001
+			text = "vous en faites quel usage ?"
+	item [5]:
+		class = "IntervalTier"
+		name = "phono"
+		xmin = 0.0000000000000000
+		xmax = 1.0700000000000001
+		intervals: size = 1
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 1.0700000000000001
+			text = "e vu za~ fEt kE lyzaZ"
+	item [6]:
+		class = "IntervalTier"
+		name = "ortho"
+		xmin = 0.0000000000000000
+		xmax = 1.0700000000000001
+		intervals: size = 1
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 1.0700000000000001
+			text = "et vous en faites quel usage"

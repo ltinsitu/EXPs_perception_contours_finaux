@@ -1,0 +1,130 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 0.8699999999999974 
+tiers? <exists> 
+size = 5 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "phones" 
+        xmin = 0 
+        xmax = 0.8699999999999974 
+        intervals: size = 11 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.07666609983305804 
+            text = "n" 
+        intervals [2]:
+            xmin = 0.07666609983305804 
+            xmax = 0.1631102997099591 
+            text = "@" 
+        intervals [3]:
+            xmin = 0.1631102997099591 
+            xmax = 0.1999999999999993 
+            text = "d" 
+        intervals [4]:
+            xmin = 0.1999999999999993 
+            xmax = 0.29337278249830817 
+            text = "i" 
+        intervals [5]:
+            xmin = 0.29337278249830817 
+            xmax = 0.36999999999999744 
+            text = "t" 
+        intervals [6]:
+            xmin = 0.36999999999999744 
+            xmax = 0.3999999999999986 
+            text = "p" 
+        intervals [7]:
+            xmin = 0.3999999999999986 
+            xmax = 0.4399999999999977 
+            text = "l" 
+        intervals [8]:
+            xmin = 0.4399999999999977 
+            xmax = 0.49999999999999645 
+            text = "y" 
+        intervals [9]:
+            xmin = 0.49999999999999645 
+            xmax = 0.639999999999997 
+            text = "9~" 
+        intervals [10]:
+            xmin = 0.639999999999997 
+            xmax = 0.7390667736270683 
+            text = "m" 
+        intervals [11]:
+            xmin = 0.7390667736270683 
+            xmax = 0.8699999999999974 
+            text = "o" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "syll" 
+        xmin = 0 
+        xmax = 0.8699999999999974 
+        intervals: size = 5 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.1631102997099591 
+            text = "n@" 
+        intervals [2]:
+            xmin = 0.1631102997099591 
+            xmax = 0.36999999999999744 
+            text = "dit" 
+        intervals [3]:
+            xmin = 0.36999999999999744 
+            xmax = 0.49999999999999645 
+            text = "ply" 
+        intervals [4]:
+            xmin = 0.49999999999999645 
+            xmax = 0.639999999999997 
+            text = "9~" 
+        intervals [5]:
+            xmin = 0.639999999999997 
+            xmax = 0.8699999999999974 
+            text = "mo" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "words" 
+        xmin = 0 
+        xmax = 0.8699999999999974 
+        intervals: size = 5 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.1631102997099591 
+            text = "ne" 
+        intervals [2]:
+            xmin = 0.1631102997099591 
+            xmax = 0.36999999999999744 
+            text = "dites" 
+        intervals [3]:
+            xmin = 0.36999999999999744 
+            xmax = 0.49999999999999645 
+            text = "plus" 
+        intervals [4]:
+            xmin = 0.49999999999999645 
+            xmax = 0.639999999999997 
+            text = "un" 
+        intervals [5]:
+            xmin = 0.639999999999997 
+            xmax = 0.8699999999999974 
+            text = "mot" 
+    item [4]:
+        class = "IntervalTier" 
+        name = "phono" 
+        xmin = 0 
+        xmax = 0.8699999999999974 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.8699999999999974 
+            text = "n@ dit ply 9~ mo" 
+    item [5]:
+        class = "IntervalTier" 
+        name = "ortho" 
+        xmin = 0 
+        xmax = 0.8699999999999974 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.8699999999999974 
+            text = "ne dites plus un mot" 

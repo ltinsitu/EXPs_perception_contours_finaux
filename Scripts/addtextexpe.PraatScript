@@ -1,0 +1,33 @@
+#Add labels in ortho to tier textexpe
+
+path$ = "/media/data/Documents/CloudStation/SDL/PhD/Prosodie/Expés_Prosodie/EXP_perception_contours_finaux/REAL_EXPE_Ibex/Phrases_a_traiter/New_TG_atraiter/"
+pathout$ = "/media/data/Documents/CloudStation/SDL/PhD/Prosodie/Expés_Prosodie/EXP_perception_contours_finaux/REAL_EXPE_Ibex/Phrases_a_traiter/TEMPsampa2ipa/"
+
+Create Strings as file list: "fileList", "'path$'*.TextGrid"
+
+selectObject: "Strings fileList"
+
+totsfile = Get number of strings
+
+for n from 1 to 'totsfile'
+	selectObject: "Strings fileList"
+
+	filename$ = Get string: 'n'
+	filename$ = replace$ ("'filename$'", ".TextGrid", "", 0) 
+
+	Read from file: "'path$''filename$'.TextGrid"
+
+	selectObject: "TextGrid 'filename$'"
+	#filename$ = replace_regex$ ("'filename$'", "_", "\_", 100)
+	
+	#We copy text from ortho to textexpe
+	Duplicate tier: 6, 4, "textexpe"
+	Remove tier: 5
+	
+	Save as text file: "'pathout$''filename$'.TextGrid"
+#for n from 1 to 'totsfile'
+endfor
+
+
+selectObject: "Strings fileList"
+Remove

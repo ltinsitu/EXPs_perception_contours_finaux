@@ -1,0 +1,140 @@
+﻿File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0.0000000000000000
+xmax = 0.6622528519999999
+tiers? <exists>
+size = 6
+item []:
+	item [1]:
+		class = "IntervalTier"
+		name = "phones"
+		xmin = 0.0000000000000000
+		xmax = 0.6622528519999999
+		intervals: size = 12
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.0622528520000000
+			text = "s"
+		intervals [2]:
+			xmin = 0.0622528520000000
+			xmax = 0.1122528520000000
+			text = "a"
+		intervals [3]:
+			xmin = 0.1122528520000000
+			xmax = 0.1522528520000000
+			text = "d"
+		intervals [4]:
+			xmin = 0.1522528520000000
+			xmax = 0.2322528520000000
+			text = "a~"
+		intervals [5]:
+			xmin = 0.2322528520000000
+			xmax = 0.3322528520000000
+			text = "s"
+		intervals [6]:
+			xmin = 0.3322528520000000
+			xmax = 0.3622528520000000
+			text = "o"
+		intervals [7]:
+			xmin = 0.3622528520000000
+			xmax = 0.3922528520000000
+			text = "s"
+		intervals [8]:
+			xmin = 0.3922528520000000
+			xmax = 0.4422528520000000
+			text = "t"
+		intervals [9]:
+			xmin = 0.4422528520000000
+			xmax = 0.5322528520000001
+			text = "9~"
+		intervals [10]:
+			xmin = 0.5322528520000001
+			xmax = 0.5722528520000000
+			text = "k"
+		intervals [11]:
+			xmin = 0.5722528520000000
+			xmax = 0.6122528520000000
+			text = "H"
+		intervals [12]:
+			xmin = 0.6122528520000000
+			xmax = 0.6622528519999999
+			text = "a"
+	item [2]:
+		class = "IntervalTier"
+		name = "syll"
+		xmin = 0.0000000000000000
+		xmax = 0.6622528519999999
+		intervals: size = 5
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.1122528520000000
+			text = "sa"
+		intervals [2]:
+			xmin = 0.1122528520000000
+			xmax = 0.2322528520000000
+			text = "ko~"
+		intervals [3]:
+			xmin = 0.2322528520000000
+			xmax = 0.3922528520000000
+			text = "sis"
+		intervals [4]:
+			xmin = 0.3922528520000000
+			xmax = 0.5322528520000001
+			text = "ta~"
+		intervals [5]:
+			xmin = 0.5322528520000001
+			xmax = 0.6622528519999999
+			text = "kwa"
+	item [3]:
+		class = "IntervalTier"
+		name = "words"
+		xmin = 0.0000000000000000
+		xmax = 0.6622528519999999
+		intervals: size = 4
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.1122528520000000
+			text = "ça"
+		intervals [2]:
+			xmin = 0.1122528520000000
+			xmax = 0.4422528520000000
+			text = "consiste"
+		intervals [3]:
+			xmin = 0.4422528520000000
+			xmax = 0.5322528520000001
+			text = "en"
+		intervals [4]:
+			xmin = 0.5322528520000001
+			xmax = 0.6622528519999999
+			text = "quoi"
+	item [4]:
+		class = "IntervalTier"
+		name = "textexpe"
+		xmin = 0.0000000000000000
+		xmax = 0.6622528519999999
+		intervals: size = 1
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.6622528519999999
+			text = "ça consiste en quoi ?"
+	item [5]:
+		class = "IntervalTier"
+		name = "phono"
+		xmin = 0.0000000000000000
+		xmax = 0.6622528519999999
+		intervals: size = 1
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.6622528519999999
+			text = "okE e do~ ka~ fE to~ tRavaj sa ko~sist a~ kwa"
+	item [6]:
+		class = "IntervalTier"
+		name = "ortho"
+		xmin = 0.0000000000000000
+		xmax = 0.6622528519999999
+		intervals: size = 1
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.6622528519999999
+			text = "ok et donc en fait ton travail ça consiste en quoi"

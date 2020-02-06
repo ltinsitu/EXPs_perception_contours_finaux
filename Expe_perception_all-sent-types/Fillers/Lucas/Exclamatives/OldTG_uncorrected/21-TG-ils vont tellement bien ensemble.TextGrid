@@ -1,0 +1,162 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 1.4699999999999989 
+tiers? <exists> 
+size = 5 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "phones" 
+        xmin = 0 
+        xmax = 1.4699999999999989 
+        intervals: size = 17 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.10999999999999943 
+            text = "i" 
+        intervals [2]:
+            xmin = 0.10999999999999943 
+            xmax = 0.1700000000000017 
+            text = "l" 
+        intervals [3]:
+            xmin = 0.1700000000000017 
+            xmax = 0.22999999999999687 
+            text = "v" 
+        intervals [4]:
+            xmin = 0.22999999999999687 
+            xmax = 0.38000000000000256 
+            text = "o~" 
+        intervals [5]:
+            xmin = 0.38000000000000256 
+            xmax = 0.4399999999999977 
+            text = "t" 
+        intervals [6]:
+            xmin = 0.4399999999999977 
+            xmax = 0.5300000000000011 
+            text = "E" 
+        intervals [7]:
+            xmin = 0.5300000000000011 
+            xmax = 0.5700000000000003 
+            text = "l" 
+        intervals [8]:
+            xmin = 0.5700000000000003 
+            xmax = 0.6400000000000006 
+            text = "m" 
+        intervals [9]:
+            xmin = 0.6400000000000006 
+            xmax = 0.7199999999999989 
+            text = "a~" 
+        intervals [10]:
+            xmin = 0.7199999999999989 
+            xmax = 0.75 
+            text = "b" 
+        intervals [11]:
+            xmin = 0.75 
+            xmax = 0.8400000000000034 
+            text = "j" 
+        intervals [12]:
+            xmin = 0.8400000000000034 
+            xmax = 0.8800000000000026 
+            text = "e~" 
+        intervals [13]:
+            xmin = 0.8800000000000026 
+            xmax = 0.990000000000002 
+            text = "a~" 
+        intervals [14]:
+            xmin = 0.990000000000002 
+            xmax = 1.1300000000000026 
+            text = "s" 
+        intervals [15]:
+            xmin = 1.1300000000000026 
+            xmax = 1.2999999999999972 
+            text = "a~" 
+        intervals [16]:
+            xmin = 1.2999999999999972 
+            xmax = 1.3299999999999983 
+            text = "b" 
+        intervals [17]:
+            xmin = 1.3299999999999983 
+            xmax = 1.4699999999999989 
+            text = "l" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "syll" 
+        xmin = 0 
+        xmax = 1.4699999999999989 
+        intervals: size = 7 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.1700000000000017 
+            text = "il" 
+        intervals [2]:
+            xmin = 0.1700000000000017 
+            xmax = 0.38000000000000256 
+            text = "vo~" 
+        intervals [3]:
+            xmin = 0.38000000000000256 
+            xmax = 0.5700000000000003 
+            text = "tEl" 
+        intervals [4]:
+            xmin = 0.5700000000000003 
+            xmax = 0.7199999999999989 
+            text = "ma~" 
+        intervals [5]:
+            xmin = 0.7199999999999989 
+            xmax = 0.8800000000000026 
+            text = "bje~" 
+        intervals [6]:
+            xmin = 0.8800000000000026 
+            xmax = 0.990000000000002 
+            text = "a~" 
+        intervals [7]:
+            xmin = 0.990000000000002 
+            xmax = 1.4699999999999989 
+            text = "sa~bl" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "words" 
+        xmin = 0 
+        xmax = 1.4699999999999989 
+        intervals: size = 5 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.1700000000000017 
+            text = "ils" 
+        intervals [2]:
+            xmin = 0.1700000000000017 
+            xmax = 0.38000000000000256 
+            text = "vont" 
+        intervals [3]:
+            xmin = 0.38000000000000256 
+            xmax = 0.7199999999999989 
+            text = "tellement" 
+        intervals [4]:
+            xmin = 0.7199999999999989 
+            xmax = 0.8800000000000026 
+            text = "bien" 
+        intervals [5]:
+            xmin = 0.8800000000000026 
+            xmax = 1.4699999999999989 
+            text = "ensemble" 
+    item [4]:
+        class = "IntervalTier" 
+        name = "phono" 
+        xmin = 0 
+        xmax = 1.4699999999999989 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 1.4699999999999989 
+            text = "il vo~ tElma~ bje~ a~sa~bl" 
+    item [5]:
+        class = "IntervalTier" 
+        name = "ortho" 
+        xmin = 0 
+        xmax = 1.4699999999999989 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 1.4699999999999989 
+            text = "ils vont tellement bien ensemble" 

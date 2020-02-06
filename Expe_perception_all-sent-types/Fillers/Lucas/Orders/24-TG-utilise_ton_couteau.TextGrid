@@ -1,0 +1,130 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 0.9852675517407252 
+tiers? <exists> 
+size = 5 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "phones" 
+        xmin = 0 
+        xmax = 0.9852675517407252 
+        intervals: size = 12 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.1600000000000037 
+            text = "y" 
+        intervals [2]:
+            xmin = 0.1600000000000037 
+            xmax = 0.23000000000000398 
+            text = "t" 
+        intervals [3]:
+            xmin = 0.23000000000000398 
+            xmax = 0.28000000000000114 
+            text = "i" 
+        intervals [4]:
+            xmin = 0.28000000000000114 
+            xmax = 0.3100000000000023 
+            text = "l" 
+        intervals [5]:
+            xmin = 0.3100000000000023 
+            xmax = 0.39000000000000057 
+            text = "i" 
+        intervals [6]:
+            xmin = 0.39000000000000057 
+            xmax = 0.480000000000004 
+            text = "z" 
+        intervals [7]:
+            xmin = 0.480000000000004 
+            xmax = 0.5200000000000031 
+            text = "t" 
+        intervals [8]:
+            xmin = 0.5200000000000031 
+            xmax = 0.6099999999999994 
+            text = "o~" 
+        intervals [9]:
+            xmin = 0.6099999999999994 
+            xmax = 0.7000000000000028 
+            text = "k" 
+        intervals [10]:
+            xmin = 0.7000000000000028 
+            xmax = 0.7689611525982711 
+            text = "u" 
+        intervals [11]:
+            xmin = 0.7689611525982711 
+            xmax = 0.8500000000000014 
+            text = "t" 
+        intervals [12]:
+            xmin = 0.8500000000000014 
+            xmax = 0.9852675517407252 
+            text = "o" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "syll" 
+        xmin = 0 
+        xmax = 0.9852675517407252 
+        intervals: size = 6 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.1600000000000037 
+            text = "y" 
+        intervals [2]:
+            xmin = 0.1600000000000037 
+            xmax = 0.28000000000000114 
+            text = "ti" 
+        intervals [3]:
+            xmin = 0.28000000000000114 
+            xmax = 0.480000000000004 
+            text = "liz" 
+        intervals [4]:
+            xmin = 0.480000000000004 
+            xmax = 0.6099999999999994 
+            text = "to~" 
+        intervals [5]:
+            xmin = 0.6099999999999994 
+            xmax = 0.7689611525982711 
+            text = "ku" 
+        intervals [6]:
+            xmin = 0.7689611525982711 
+            xmax = 0.9852675517407252 
+            text = "to" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "words" 
+        xmin = 0 
+        xmax = 0.9852675517407252 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.480000000000004 
+            text = "utilise" 
+        intervals [2]:
+            xmin = 0.480000000000004 
+            xmax = 0.6099999999999994 
+            text = "ton" 
+        intervals [3]:
+            xmin = 0.6099999999999994 
+            xmax = 0.9852675517407252 
+            text = "couteau" 
+    item [4]:
+        class = "IntervalTier" 
+        name = "phono" 
+        xmin = 0 
+        xmax = 0.9852675517407252 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.9852675517407252 
+            text = "ytiliz to~ kuto" 
+    item [5]:
+        class = "IntervalTier" 
+        name = "ortho" 
+        xmin = 0 
+        xmax = 0.9852675517407252 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.9852675517407252 
+            text = "utilise ton couteau" 

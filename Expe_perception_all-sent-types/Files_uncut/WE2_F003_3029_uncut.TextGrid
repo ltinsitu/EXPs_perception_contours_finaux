@@ -1,0 +1,348 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 3.0239909297052154 
+tiers? <exists> 
+size = 6 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "phones" 
+        xmin = 0 
+        xmax = 3.0239909297052154 
+        intervals: size = 37 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.125 
+            text = "_" 
+        intervals [2]:
+            xmin = 0.125 
+            xmax = 0.15500000000000003 
+            text = "a" 
+        intervals [3]:
+            xmin = 0.15500000000000003 
+            xmax = 0.185 
+            text = "l" 
+        intervals [4]:
+            xmin = 0.185 
+            xmax = 0.265 
+            text = "O" 
+        intervals [5]:
+            xmin = 0.265 
+            xmax = 0.35500000000000004 
+            text = "R" 
+        intervals [6]:
+            xmin = 0.35500000000000004 
+            xmax = 0.455 
+            text = "Z" 
+        intervals [7]:
+            xmin = 0.455 
+            xmax = 0.515 
+            text = "i" 
+        intervals [8]:
+            xmin = 0.515 
+            xmax = 0.585 
+            text = "_" 
+        intervals [9]:
+            xmin = 0.585 
+            xmax = 0.715 
+            text = "s" 
+        intervals [10]:
+            xmin = 0.715 
+            xmax = 0.775 
+            text = "i" 
+        intervals [11]:
+            xmin = 0.775 
+            xmax = 0.8250000000000001 
+            text = "Z" 
+        intervals [12]:
+            xmin = 0.8250000000000001 
+            xmax = 0.925 
+            text = "e" 
+        intervals [13]:
+            xmin = 0.925 
+            xmax = 0.955 
+            text = "b" 
+        intervals [14]:
+            xmin = 0.955 
+            xmax = 1.015 
+            text = "j" 
+        intervals [15]:
+            xmin = 1.015 
+            xmax = 1.095 
+            text = "e~" 
+        intervals [16]:
+            xmin = 1.095 
+            xmax = 1.135 
+            text = "k" 
+        intervals [17]:
+            xmin = 1.135 
+            xmax = 1.275 
+            text = "o~" 
+        intervals [18]:
+            xmin = 1.275 
+            xmax = 1.305 
+            text = "p" 
+        intervals [19]:
+            xmin = 1.305 
+            xmax = 1.365 
+            text = "R" 
+        intervals [20]:
+            xmin = 1.365 
+            xmax = 1.505 
+            text = "i" 
+        intervals [21]:
+            xmin = 1.505 
+            xmax = 1.555 
+            text = "v" 
+        intervals [22]:
+            xmin = 1.555 
+            xmax = 1.8492904102214027 
+            text = "u" 
+        intervals [23]:
+            xmin = 1.8492904102214027 
+            xmax = 1.9129627412614718 
+            text = "v" 
+        intervals [24]:
+            xmin = 1.9129627412614718 
+            xmax = 1.9649999999999999 
+            text = "u" 
+        intervals [25]:
+            xmin = 1.9649999999999999 
+            xmax = 2.075 
+            text = "R" 
+        intervals [26]:
+            xmin = 2.075 
+            xmax = 2.1350000000000002 
+            text = "t" 
+        intervals [27]:
+            xmin = 2.1350000000000002 
+            xmax = 2.2021474706368145 
+            text = "a" 
+        intervals [28]:
+            xmin = 2.2021474706368145 
+            xmax = 2.265 
+            text = "p" 
+        intervals [29]:
+            xmin = 2.265 
+            xmax = 2.365 
+            text = "e" 
+        intervals [30]:
+            xmin = 2.365 
+            xmax = 2.395 
+            text = "v" 
+        intervals [31]:
+            xmin = 2.395 
+            xmax = 2.4450000000000003 
+            text = "O" 
+        intervals [32]:
+            xmin = 2.4450000000000003 
+            xmax = 2.575 
+            text = "t" 
+        intervals [33]:
+            xmin = 2.575 
+            xmax = 2.615 
+            text = "m" 
+        intervals [34]:
+            xmin = 2.615 
+            xmax = 2.665 
+            text = "E" 
+        intervals [35]:
+            xmin = 2.665 
+            xmax = 2.769345706282672 
+            text = "z" 
+        intervals [36]:
+            xmin = 2.769345706282672 
+            xmax = 2.9245683007301246 
+            text = "o~" 
+        intervals [37]:
+            xmin = 2.9245683007301246 
+            xmax = 3.0239909297052154 
+            text = "_" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "syll" 
+        xmin = 0 
+        xmax = 3.0239909297052154 
+        intervals: size = 18 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.125 
+            text = "_" 
+        intervals [2]:
+            xmin = 0.125 
+            xmax = 0.15500000000000003 
+            text = "a" 
+        intervals [3]:
+            xmin = 0.15500000000000003 
+            xmax = 0.35500000000000004 
+            text = "lOR" 
+        intervals [4]:
+            xmin = 0.35500000000000004 
+            xmax = 0.515 
+            text = "Zi" 
+        intervals [5]:
+            xmin = 0.515 
+            xmax = 0.585 
+            text = "_" 
+        intervals [6]:
+            xmin = 0.585 
+            xmax = 0.775 
+            text = "si" 
+        intervals [7]:
+            xmin = 0.775 
+            xmax = 0.925 
+            text = "Ze" 
+        intervals [8]:
+            xmin = 0.925 
+            xmax = 1.095 
+            text = "bje~" 
+        intervals [9]:
+            xmin = 1.095 
+            xmax = 1.275 
+            text = "ko~" 
+        intervals [10]:
+            xmin = 1.275 
+            xmax = 1.505 
+            text = "pRi" 
+        intervals [11]:
+            xmin = 1.505 
+            xmax = 1.8492904102214027 
+            text = "vu" 
+        intervals [12]:
+            xmin = 1.8492904102214027 
+            xmax = 2.075 
+            text = "vuR" 
+        intervals [13]:
+            xmin = 2.075 
+            xmax = 2.2021474706368145 
+            text = "ta" 
+        intervals [14]:
+            xmin = 2.2021474706368145 
+            xmax = 2.365 
+            text = "pe" 
+        intervals [15]:
+            xmin = 2.365 
+            xmax = 2.575 
+            text = "vOt" 
+        intervals [16]:
+            xmin = 2.575 
+            xmax = 2.665 
+            text = "mE" 
+        intervals [17]:
+            xmin = 2.665 
+            xmax = 2.9245683007301246 
+            text = "zo~" 
+        intervals [18]:
+            xmin = 2.9245683007301246 
+            xmax = 3.0239909297052154 
+            text = "_" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "words" 
+        xmin = 0 
+        xmax = 3.0239909297052154 
+        intervals: size = 14 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.125 
+            text = "_" 
+        intervals [2]:
+            xmin = 0.125 
+            xmax = 0.35500000000000004 
+            text = "alors" 
+        intervals [3]:
+            xmin = 0.35500000000000004 
+            xmax = 0.515 
+            text = "j-" 
+        intervals [4]:
+            xmin = 0.515 
+            xmax = 0.585 
+            text = "_" 
+        intervals [5]:
+            xmin = 0.585 
+            xmax = 0.775 
+            text = "si" 
+        intervals [6]:
+            xmin = 0.775 
+            xmax = 0.925 
+            text = "j'ai" 
+        intervals [7]:
+            xmin = 0.925 
+            xmax = 1.095 
+            text = "bien" 
+        intervals [8]:
+            xmin = 1.095 
+            xmax = 1.505 
+            text = "compris" 
+        intervals [9]:
+            xmin = 1.505 
+            xmax = 1.8492904102214027 
+            text = "vous" 
+        intervals [10]:
+            xmin = 1.8492904102214027 
+            xmax = 1.9649999999999999 
+            text = "vous" 
+        intervals [11]:
+            xmin = 1.9649999999999999 
+            xmax = 2.365 
+            text = "retapez" 
+        intervals [12]:
+            xmin = 2.365 
+            xmax = 2.575 
+            text = "votre" 
+        intervals [13]:
+            xmin = 2.575 
+            xmax = 2.9245683007301246 
+            text = "maison" 
+        intervals [14]:
+            xmin = 2.9245683007301246 
+            xmax = 3.0239909297052154 
+            text = "_" 
+    item [4]:
+        class = "IntervalTier" 
+        name = "textexpe" 
+        xmin = 0 
+        xmax = 3.0239909297052154 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 1.8492904102214027 
+            text = "_" 
+        intervals [2]:
+            xmin = 1.8492904102214027 
+            xmax = 2.9245683007301246 
+            text = "vous retapez votre maison ?" 
+        intervals [3]:
+            xmin = 2.9245683007301246 
+            xmax = 3.0239909297052154 
+            text = "_" 
+    item [5]:
+        class = "IntervalTier" 
+        name = "phono" 
+        xmin = 0 
+        xmax = 3.0239909297052154 
+        intervals: size = 2 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.125 
+            text = "_" 
+        intervals [2]:
+            xmin = 0.125 
+            xmax = 3.0239909297052154 
+            text = "alOR Zi si Ze bje~ ko~pRi vu vu Rtape vOt mEzo~" 
+    item [6]:
+        class = "IntervalTier" 
+        name = "ortho" 
+        xmin = 0 
+        xmax = 3.0239909297052154 
+        intervals: size = 2 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.125 
+            text = "_" 
+        intervals [2]:
+            xmin = 0.125 
+            xmax = 3.0239909297052154 
+            text = "alors j- si j'ai bien compris vous vous retapez votre maison" 

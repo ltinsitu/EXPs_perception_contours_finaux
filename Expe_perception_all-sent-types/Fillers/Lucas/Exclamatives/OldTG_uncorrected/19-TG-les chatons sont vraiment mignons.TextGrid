@@ -1,0 +1,170 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 1.519999999999996 
+tiers? <exists> 
+size = 5 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "phones" 
+        xmin = 0 
+        xmax = 1.519999999999996 
+        intervals: size = 18 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.17999999999999972 
+            text = "l" 
+        intervals [2]:
+            xmin = 0.17999999999999972 
+            xmax = 0.25 
+            text = "e" 
+        intervals [3]:
+            xmin = 0.25 
+            xmax = 0.3499999999999943 
+            text = "S" 
+        intervals [4]:
+            xmin = 0.3499999999999943 
+            xmax = 0.4399999999999977 
+            text = "a" 
+        intervals [5]:
+            xmin = 0.4399999999999977 
+            xmax = 0.5 
+            text = "t" 
+        intervals [6]:
+            xmin = 0.5 
+            xmax = 0.5799999999999983 
+            text = "o~" 
+        intervals [7]:
+            xmin = 0.5799999999999983 
+            xmax = 0.6899999999999977 
+            text = "s" 
+        intervals [8]:
+            xmin = 0.6899999999999977 
+            xmax = 0.7899999999999991 
+            text = "o~" 
+        intervals [9]:
+            xmin = 0.7899999999999991 
+            xmax = 0.8399999999999963 
+            text = "v" 
+        intervals [10]:
+            xmin = 0.8399999999999963 
+            xmax = 0.8999999999999986 
+            text = "R" 
+        intervals [11]:
+            xmin = 0.8999999999999986 
+            xmax = 0.9699999999999989 
+            text = "E" 
+        intervals [12]:
+            xmin = 0.9699999999999989 
+            xmax = 1.0399999999999991 
+            text = "m" 
+        intervals [13]:
+            xmin = 1.0399999999999991 
+            xmax = 1.0999999999999943 
+            text = "a~" 
+        intervals [14]:
+            xmin = 1.0999999999999943 
+            xmax = 1.1699999999999946 
+            text = "m" 
+        intervals [15]:
+            xmin = 1.1699999999999946 
+            xmax = 1.2199999999999989 
+            text = "i" 
+        intervals [16]:
+            xmin = 1.2199999999999989 
+            xmax = 1.2899999999999991 
+            text = "n" 
+        intervals [17]:
+            xmin = 1.2899999999999991 
+            xmax = 1.3399999999999963 
+            text = "j" 
+        intervals [18]:
+            xmin = 1.3399999999999963 
+            xmax = 1.519999999999996 
+            text = "o~" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "syll" 
+        xmin = 0 
+        xmax = 1.519999999999996 
+        intervals: size = 8 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.25 
+            text = "le" 
+        intervals [2]:
+            xmin = 0.25 
+            xmax = 0.4399999999999977 
+            text = "Sa" 
+        intervals [3]:
+            xmin = 0.4399999999999977 
+            xmax = 0.5799999999999983 
+            text = "to~" 
+        intervals [4]:
+            xmin = 0.5799999999999983 
+            xmax = 0.7899999999999991 
+            text = "so~" 
+        intervals [5]:
+            xmin = 0.7899999999999991 
+            xmax = 0.9699999999999989 
+            text = "vRE" 
+        intervals [6]:
+            xmin = 0.9699999999999989 
+            xmax = 1.0999999999999943 
+            text = "ma~" 
+        intervals [7]:
+            xmin = 1.0999999999999943 
+            xmax = 1.2199999999999989 
+            text = "mi" 
+        intervals [8]:
+            xmin = 1.2199999999999989 
+            xmax = 1.519999999999996 
+            text = "njo~" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "words" 
+        xmin = 0 
+        xmax = 1.519999999999996 
+        intervals: size = 5 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.25 
+            text = "les" 
+        intervals [2]:
+            xmin = 0.25 
+            xmax = 0.5799999999999983 
+            text = "chatons" 
+        intervals [3]:
+            xmin = 0.5799999999999983 
+            xmax = 0.7899999999999991 
+            text = "sont" 
+        intervals [4]:
+            xmin = 0.7899999999999991 
+            xmax = 1.0999999999999943 
+            text = "vraiment" 
+        intervals [5]:
+            xmin = 1.0999999999999943 
+            xmax = 1.519999999999996 
+            text = "mignons" 
+    item [4]:
+        class = "IntervalTier" 
+        name = "phono" 
+        xmin = 0 
+        xmax = 1.519999999999996 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 1.519999999999996 
+            text = "le Sato~ so~ vREma~ minjo~" 
+    item [5]:
+        class = "IntervalTier" 
+        name = "ortho" 
+        xmin = 0 
+        xmax = 1.519999999999996 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 1.519999999999996 
+            text = "les chatons sont vraiment mignons" 

@@ -1,0 +1,182 @@
+﻿File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0.0000000000000000
+xmax = 1.0018594100000000
+tiers? <exists>
+size = 5
+item []:
+	item [1]:
+		class = "IntervalTier"
+		name = "phones"
+		xmin = 0.0000000000000000
+		xmax = 1.0018594100000000
+		intervals: size = 15
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.0350000000000000
+			text = "_"
+		intervals [2]:
+			xmin = 0.0350000000000000
+			xmax = 0.1050000000000000
+			text = "m"
+		intervals [3]:
+			xmin = 0.1050000000000000
+			xmax = 0.1450000000000000
+			text = "@"
+		intervals [4]:
+			xmin = 0.1450000000000000
+			xmax = 0.2150000000000000
+			text = "m"
+		intervals [5]:
+			xmin = 0.2150000000000000
+			xmax = 0.2750000000000000
+			text = "o~"
+		intervals [6]:
+			xmin = 0.2750000000000000
+			xmax = 0.3550000000000000
+			text = "Z"
+		intervals [7]:
+			xmin = 0.3550000000000000
+			xmax = 0.4050000000000000
+			text = "d"
+		intervals [8]:
+			xmin = 0.4050000000000000
+			xmax = 0.4850000000000000
+			text = "i"
+		intervals [9]:
+			xmin = 0.4850000000000000
+			xmax = 0.5150000000000000
+			text = "R"
+		intervals [10]:
+			xmin = 0.5150000000000000
+			xmax = 0.5750000000000000
+			text = "@"
+		intervals [11]:
+			xmin = 0.5750000000000000
+			xmax = 0.6550000000000000
+			text = "n"
+		intervals [12]:
+			xmin = 0.6550000000000000
+			xmax = 0.7050000000000000
+			text = "@"
+		intervals [13]:
+			xmin = 0.7050000000000000
+			xmax = 0.7547194760000000
+			text = "l"
+		intervals [14]:
+			xmin = 0.7547194760000000
+			xmax = 0.9750000000000000
+			text = "e~"
+		intervals [15]:
+			xmin = 0.9750000000000000
+			xmax = 1.0018594100000000
+			text = "_"
+	item [2]:
+		class = "IntervalTier"
+		name = "syll"
+		xmin = 0.0000000000000000
+		xmax = 1.0018594100000000
+		intervals: size = 8
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.0350000000000000
+			text = "_"
+		intervals [2]:
+			xmin = 0.0350000000000000
+			xmax = 0.1450000000000000
+			text = "n@"
+		intervals [3]:
+			xmin = 0.1450000000000000
+			xmax = 0.3550000000000000
+			text = "ma~Z"
+		intervals [4]:
+			xmin = 0.3550000000000000
+			xmax = 0.4850000000000000
+			text = "pa"
+		intervals [5]:
+			xmin = 0.4850000000000000
+			xmax = 0.5750000000000000
+			text = "l@"
+		intervals [6]:
+			xmin = 0.5750000000000000
+			xmax = 0.7050000000000000
+			text = "m@"
+		intervals [7]:
+			xmin = 0.7050000000000000
+			xmax = 0.9750000000000000
+			text = "lo~"
+		intervals [8]:
+			xmin = 0.9750000000000000
+			xmax = 1.0018594100000000
+			text = "_"
+	item [3]:
+		class = "IntervalTier"
+		name = "words"
+		xmin = 0.0000000000000000
+		xmax = 1.0018594100000000
+		intervals: size = 7
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.0350000000000000
+			text = "_"
+		intervals [2]:
+			xmin = 0.0350000000000000
+			xmax = 0.1450000000000000
+			text = "ne"
+		intervals [3]:
+			xmin = 0.1450000000000000
+			xmax = 0.3550000000000000
+			text = "mange"
+		intervals [4]:
+			xmin = 0.3550000000000000
+			xmax = 0.4850000000000000
+			text = "pas"
+		intervals [5]:
+			xmin = 0.4850000000000000
+			xmax = 0.5750000000000000
+			text = "le"
+		intervals [6]:
+			xmin = 0.5750000000000000
+			xmax = 0.9750000000000000
+			text = "melon"
+		intervals [7]:
+			xmin = 0.9750000000000000
+			xmax = 1.0018594100000000
+			text = "_"
+	item [4]:
+		class = "IntervalTier"
+		name = "phono"
+		xmin = 0.0000000000000000
+		xmax = 1.0018594100000000
+		intervals: size = 3
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.0350000000000000
+			text = "_"
+		intervals [2]:
+			xmin = 0.0350000000000000
+			xmax = 0.9750000000000000
+			text = "n@ ma~Z pa l@ m@lo~"
+		intervals [3]:
+			xmin = 0.9750000000000000
+			xmax = 1.0018594100000000
+			text = ""
+	item [5]:
+		class = "IntervalTier"
+		name = "ortho"
+		xmin = 0.0000000000000000
+		xmax = 1.0018594100000000
+		intervals: size = 3
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.0350000000000000
+			text = "_"
+		intervals [2]:
+			xmin = 0.0350000000000000
+			xmax = 0.9750000000000000
+			text = "ne mange pas le melon"
+		intervals [3]:
+			xmin = 0.9750000000000000
+			xmax = 1.0018594100000000
+			text = ""

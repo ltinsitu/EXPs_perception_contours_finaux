@@ -1,0 +1,188 @@
+﻿File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0.0000000000000000
+xmax = 1.1799999999999999
+tiers? <exists>
+size = 6
+item []:
+	item [1]:
+		class = "IntervalTier"
+		name = "phones"
+		xmin = 0.0000000000000000
+		xmax = 1.1799999999999999
+		intervals: size = 19
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.0353989580000000
+			text = "p"
+		intervals [2]:
+			xmin = 0.0353989580000000
+			xmax = 0.1273990020000000
+			text = "E"
+		intervals [3]:
+			xmin = 0.1273990020000000
+			xmax = 0.1993208600000000
+			text = "R"
+		intervals [4]:
+			xmin = 0.1993208600000000
+			xmax = 0.2403762530000000
+			text = "l"
+		intervals [5]:
+			xmin = 0.2403762530000000
+			xmax = 0.3200000000000000
+			text = "2"
+		intervals [6]:
+			xmin = 0.3200000000000000
+			xmax = 0.3516940450000000
+			text = "b"
+		intervals [7]:
+			xmin = 0.3516940450000000
+			xmax = 0.4050621480000000
+			text = "u"
+		intervals [8]:
+			xmin = 0.4050621480000000
+			xmax = 0.4500000000000000
+			text = "R"
+		intervals [9]:
+			xmin = 0.4500000000000000
+			xmax = 0.5293214730000000
+			text = "i"
+		intervals [10]:
+			xmin = 0.5293214730000000
+			xmax = 0.6000000000000000
+			text = "d"
+		intervals [11]:
+			xmin = 0.6000000000000000
+			xmax = 0.6300000000000000
+			text = "p"
+		intervals [12]:
+			xmin = 0.6300000000000000
+			xmax = 0.7166194660000000
+			text = "O"
+		intervals [13]:
+			xmin = 0.7166194660000000
+			xmax = 0.7592861530000000
+			text = "l"
+		intervals [14]:
+			xmin = 0.7592861530000000
+			xmax = 0.8636787310000000
+			text = "e"
+		intervals [15]:
+			xmin = 0.8636787310000000
+			xmax = 0.9100000000000000
+			text = "g"
+		intervals [16]:
+			xmin = 0.9100000000000000
+			xmax = 0.9505792320000001
+			text = "l"
+		intervals [17]:
+			xmin = 0.9505792320000001
+			xmax = 1.0440047649999999
+			text = "y"
+		intervals [18]:
+			xmin = 1.0440047649999999
+			xmax = 1.0711057540000000
+			text = "s"
+		intervals [19]:
+			xmin = 1.0711057540000000
+			xmax = 1.1799999999999999
+			text = "i"
+	item [2]:
+		class = "IntervalTier"
+		name = "syll"
+		xmin = 0.0000000000000000
+		xmax = 1.1799999999999999
+		intervals: size = 8
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.1993208600000000
+			text = "paR"
+		intervals [2]:
+			xmin = 0.1993208600000000
+			xmax = 0.3200000000000000
+			text = "lo"
+		intervals [3]:
+			xmin = 0.3200000000000000
+			xmax = 0.4050621480000000
+			text = "di"
+		intervals [4]:
+			xmin = 0.4050621480000000
+			xmax = 0.6000000000000000
+			text = "REk"
+		intervals [5]:
+			xmin = 0.6000000000000000
+			xmax = 0.7166194660000000
+			text = "t9"
+		intervals [6]:
+			xmin = 0.7166194660000000
+			xmax = 0.8636787310000000
+			text = "Ro"
+		intervals [7]:
+			xmin = 0.8636787310000000
+			xmax = 1.0440047649999999
+			text = "ply"
+		intervals [8]:
+			xmin = 1.0440047649999999
+			xmax = 1.1799999999999999
+			text = "vi"
+	item [3]:
+		class = "IntervalTier"
+		name = "words"
+		xmin = 0.0000000000000000
+		xmax = 1.1799999999999999
+		intervals: size = 6
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.2403762530000000
+			text = "parle"
+		intervals [2]:
+			xmin = 0.2403762530000000
+			xmax = 0.3200000000000000
+			text = "au"
+		intervals [3]:
+			xmin = 0.3200000000000000
+			xmax = 0.7166194660000000
+			text = "directeur"
+		intervals [4]:
+			xmin = 0.7166194660000000
+			xmax = 0.8636787310000000
+			text = "au"
+		intervals [5]:
+			xmin = 0.8636787310000000
+			xmax = 1.0440047649999999
+			text = "plus"
+		intervals [6]:
+			xmin = 1.0440047649999999
+			xmax = 1.1799999999999999
+			text = "vite"
+	item [4]:
+		class = "IntervalTier"
+		name = "textexpe"
+		xmin = 0.0000000000000000
+		xmax = 1.1799999999999999
+		intervals: size = 1
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 1.1799999999999999
+			text = "parle au directeur au plus vite"
+	item [5]:
+		class = "IntervalTier"
+		name = "phono"
+		xmin = 0.0000000000000000
+		xmax = 1.1799999999999999
+		intervals: size = 1
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 1.1799999999999999
+			text = "paRl o diREkt9 Ro ply vi"
+	item [6]:
+		class = "IntervalTier"
+		name = "ortho"
+		xmin = 0.0000000000000000
+		xmax = 1.1799999999999999
+		intervals: size = 1
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 1.1799999999999999
+			text = "parle au directeur au plus vite"

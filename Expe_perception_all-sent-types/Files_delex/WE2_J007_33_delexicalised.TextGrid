@@ -1,0 +1,132 @@
+﻿File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0.0000000000000000
+xmax = 0.8100000000000001
+tiers? <exists>
+size = 6
+item []:
+	item [1]:
+		class = "IntervalTier"
+		name = "phones"
+		xmin = 0.0000000000000000
+		xmax = 0.8100000000000001
+		intervals: size = 11
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.0500000000000000
+			text = "k"
+		intervals [2]:
+			xmin = 0.0500000000000000
+			xmax = 0.1000000000000000
+			text = "u"
+		intervals [3]:
+			xmin = 0.1000000000000000
+			xmax = 0.1300000000000000
+			text = "n"
+		intervals [4]:
+			xmin = 0.1300000000000000
+			xmax = 0.2000000000000000
+			text = "e~"
+		intervals [5]:
+			xmin = 0.2000000000000000
+			xmax = 0.2400000000000000
+			text = "p"
+		intervals [6]:
+			xmin = 0.2400000000000000
+			xmax = 0.3400000000000000
+			text = "y"
+		intervals [7]:
+			xmin = 0.3400000000000000
+			xmax = 0.3800000000000000
+			text = "d"
+		intervals [8]:
+			xmin = 0.3800000000000000
+			xmax = 0.5100000000000000
+			text = "y"
+		intervals [9]:
+			xmin = 0.5100000000000000
+			xmax = 0.5400000000000000
+			text = "k"
+		intervals [10]:
+			xmin = 0.5400000000000000
+			xmax = 0.6252388620000000
+			text = "O"
+		intervals [11]:
+			xmin = 0.6252388620000000
+			xmax = 0.8100000000000001
+			text = "l"
+	item [2]:
+		class = "IntervalTier"
+		name = "syll"
+		xmin = 0.0000000000000000
+		xmax = 0.8100000000000001
+		intervals: size = 5
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.1000000000000000
+			text = "kO"
+		intervals [2]:
+			xmin = 0.1000000000000000
+			xmax = 0.2000000000000000
+			text = "ma~"
+		intervals [3]:
+			xmin = 0.2000000000000000
+			xmax = 0.3400000000000000
+			text = "ty"
+		intervals [4]:
+			xmin = 0.3400000000000000
+			xmax = 0.5100000000000000
+			text = "ta"
+		intervals [5]:
+			xmin = 0.5100000000000000
+			xmax = 0.8100000000000001
+			text = "pEl"
+	item [3]:
+		class = "IntervalTier"
+		name = "words"
+		xmin = 0.0000000000000000
+		xmax = 0.8100000000000001
+		intervals: size = 3
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.2000000000000000
+			text = "comment"
+		intervals [2]:
+			xmin = 0.2000000000000000
+			xmax = 0.3400000000000000
+			text = "tu"
+		intervals [3]:
+			xmin = 0.3400000000000000
+			xmax = 0.8100000000000001
+			text = "t'appelles"
+	item [4]:
+		class = "IntervalTier"
+		name = "textexpe"
+		xmin = 0.0000000000000000
+		xmax = 0.8100000000000001
+		intervals: size = 1
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.8100000000000001
+			text = "comment tu t'appelles ?"
+	item [5]:
+		class = "IntervalTier"
+		name = "phono"
+		xmin = 0.0000000000000000
+		xmax = 0.8100000000000001
+		intervals: size = 1
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.8100000000000001
+			text = "do~k 2 deZa kOma~ ty tapEl"
+	item [6]:
+		class = "IntervalTier"
+		name = "ortho"
+		xmin = 0.0000000000000000
+		xmax = 0.8100000000000001
+		intervals: size = 1
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.8100000000000001
+			text = "donc euh déjà comment tu t'appelles"

@@ -1,0 +1,134 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 1.162267744335125 
+tiers? <exists> 
+size = 5 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "phones" 
+        xmin = 0 
+        xmax = 1.162267744335125 
+        intervals: size = 13 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.12165391903959376 
+            text = "R" 
+        intervals [2]:
+            xmin = 0.12165391903959376 
+            xmax = 0.21000000000000796 
+            text = "E" 
+        intervals [3]:
+            xmin = 0.21000000000000796 
+            xmax = 0.28000000000000114 
+            text = "s" 
+        intervals [4]:
+            xmin = 0.28000000000000114 
+            xmax = 0.3400000000000034 
+            text = "t" 
+        intervals [5]:
+            xmin = 0.3400000000000034 
+            xmax = 0.4000000000000057 
+            text = "@" 
+        intervals [6]:
+            xmin = 0.4000000000000057 
+            xmax = 0.4399999999999977 
+            text = "d" 
+        intervals [7]:
+            xmin = 0.4399999999999977 
+            xmax = 0.5400000000000063 
+            text = "a~" 
+        intervals [8]:
+            xmin = 0.5400000000000063 
+            xmax = 0.5799999999999983 
+            text = "t" 
+        intervals [9]:
+            xmin = 0.5799999999999983 
+            xmax = 0.6400000000000006 
+            text = "a" 
+        intervals [10]:
+            xmin = 0.6400000000000006 
+            xmax = 0.7800000000000011 
+            text = "S" 
+        intervals [11]:
+            xmin = 0.7800000000000011 
+            xmax = 0.9319686432062115 
+            text = "a~" 
+        intervals [12]:
+            xmin = 0.9319686432062115 
+            xmax = 0.9854445136899167 
+            text = "b" 
+        intervals [13]:
+            xmin = 0.9854445136899167 
+            xmax = 1.162267744335125 
+            text = "R" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "syll" 
+        xmin = 0 
+        xmax = 1.162267744335125 
+        intervals: size = 5 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.28000000000000114 
+            text = "REs" 
+        intervals [2]:
+            xmin = 0.28000000000000114 
+            xmax = 0.4000000000000057 
+            text = "t@" 
+        intervals [3]:
+            xmin = 0.4000000000000057 
+            xmax = 0.5400000000000063 
+            text = "da~" 
+        intervals [4]:
+            xmin = 0.5400000000000063 
+            xmax = 0.6400000000000006 
+            text = "ta" 
+        intervals [5]:
+            xmin = 0.6400000000000006 
+            xmax = 1.162267744335125 
+            text = "Sa~bR" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "words" 
+        xmin = 0 
+        xmax = 1.162267744335125 
+        intervals: size = 4 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.4000000000000057 
+            text = "reste" 
+        intervals [2]:
+            xmin = 0.4000000000000057 
+            xmax = 0.5400000000000063 
+            text = "dans" 
+        intervals [3]:
+            xmin = 0.5400000000000063 
+            xmax = 0.6400000000000006 
+            text = "ta" 
+        intervals [4]:
+            xmin = 0.6400000000000006 
+            xmax = 1.162267744335125 
+            text = "chambre" 
+    item [4]:
+        class = "IntervalTier" 
+        name = "phono" 
+        xmin = 0 
+        xmax = 1.162267744335125 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 1.162267744335125 
+            text = "REst@ da~ ta Sa~bR" 
+    item [5]:
+        class = "IntervalTier" 
+        name = "ortho" 
+        xmin = 0 
+        xmax = 1.162267744335125 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 1.162267744335125 
+            text = "reste dans ta chambre" 

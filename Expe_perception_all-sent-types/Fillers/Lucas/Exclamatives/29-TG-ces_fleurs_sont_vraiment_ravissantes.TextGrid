@@ -1,0 +1,178 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 1.730000000000004 
+tiers? <exists> 
+size = 5 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "phones" 
+        xmin = 0 
+        xmax = 1.730000000000004 
+        intervals: size = 20 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.12000000000000455 
+            text = "s" 
+        intervals [2]:
+            xmin = 0.12000000000000455 
+            xmax = 0.19135050910740964 
+            text = "e" 
+        intervals [3]:
+            xmin = 0.19135050910740964 
+            xmax = 0.28999999999999204 
+            text = "f" 
+        intervals [4]:
+            xmin = 0.28999999999999204 
+            xmax = 0.3499999999999943 
+            text = "l" 
+        intervals [5]:
+            xmin = 0.3499999999999943 
+            xmax = 0.4399999999999977 
+            text = "9" 
+        intervals [6]:
+            xmin = 0.4399999999999977 
+            xmax = 0.49550481006973957 
+            text = "R" 
+        intervals [7]:
+            xmin = 0.49550481006973957 
+            xmax = 0.5799999999999983 
+            text = "s" 
+        intervals [8]:
+            xmin = 0.5799999999999983 
+            xmax = 0.6599999999999966 
+            text = "o~" 
+        intervals [9]:
+            xmin = 0.6599999999999966 
+            xmax = 0.7099999999999937 
+            text = "v" 
+        intervals [10]:
+            xmin = 0.7099999999999937 
+            xmax = 0.7509780415435544 
+            text = "R" 
+        intervals [11]:
+            xmin = 0.7509780415435544 
+            xmax = 0.8039690776824293 
+            text = "E" 
+        intervals [12]:
+            xmin = 0.8039690776824293 
+            xmax = 0.8631569033906118 
+            text = "m" 
+        intervals [13]:
+            xmin = 0.8631569033906118 
+            xmax = 0.9627665045353883 
+            text = "a~" 
+        intervals [14]:
+            xmin = 0.9627665045353883 
+            xmax = 1.0300000000000011 
+            text = "R" 
+        intervals [15]:
+            xmin = 1.0300000000000011 
+            xmax = 1.110736577075632 
+            text = "a" 
+        intervals [16]:
+            xmin = 1.110736577075632 
+            xmax = 1.2000000000000028 
+            text = "v" 
+        intervals [17]:
+            xmin = 1.2000000000000028 
+            xmax = 1.25 
+            text = "i" 
+        intervals [18]:
+            xmin = 1.25 
+            xmax = 1.3654858049631946 
+            text = "s" 
+        intervals [19]:
+            xmin = 1.3654858049631946 
+            xmax = 1.553171410954824 
+            text = "a~" 
+        intervals [20]:
+            xmin = 1.553171410954824 
+            xmax = 1.730000000000004 
+            text = "t" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "syll" 
+        xmin = 0 
+        xmax = 1.730000000000004 
+        intervals: size = 8 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.19135050910740964 
+            text = "se" 
+        intervals [2]:
+            xmin = 0.19135050910740964 
+            xmax = 0.49550481006973957 
+            text = "fl9R" 
+        intervals [3]:
+            xmin = 0.49550481006973957 
+            xmax = 0.6599999999999966 
+            text = "so~" 
+        intervals [4]:
+            xmin = 0.6599999999999966 
+            xmax = 0.8039690776824293 
+            text = "vRE" 
+        intervals [5]:
+            xmin = 0.8039690776824293 
+            xmax = 0.9627665045353883 
+            text = "ma~" 
+        intervals [6]:
+            xmin = 0.9627665045353883 
+            xmax = 1.110736577075632 
+            text = "Ra" 
+        intervals [7]:
+            xmin = 1.110736577075632 
+            xmax = 1.25 
+            text = "vi" 
+        intervals [8]:
+            xmin = 1.25 
+            xmax = 1.730000000000004 
+            text = "sa~t" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "words" 
+        xmin = 0 
+        xmax = 1.730000000000004 
+        intervals: size = 5 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.19135050910740964 
+            text = "ces" 
+        intervals [2]:
+            xmin = 0.19135050910740964 
+            xmax = 0.49550481006973957 
+            text = "fleurs" 
+        intervals [3]:
+            xmin = 0.49550481006973957 
+            xmax = 0.6599999999999966 
+            text = "sont" 
+        intervals [4]:
+            xmin = 0.6599999999999966 
+            xmax = 0.9627665045353883 
+            text = "vraiment" 
+        intervals [5]:
+            xmin = 0.9627665045353883 
+            xmax = 1.730000000000004 
+            text = "ravissantes" 
+    item [4]:
+        class = "IntervalTier" 
+        name = "phono" 
+        xmin = 0 
+        xmax = 1.730000000000004 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 1.730000000000004 
+            text = "se fl9R so~ vREma~ Ravisa~t" 
+    item [5]:
+        class = "IntervalTier" 
+        name = "ortho" 
+        xmin = 0 
+        xmax = 1.730000000000004 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 1.730000000000004 
+            text = "ces fleurs sont vraiment ravissantes" 

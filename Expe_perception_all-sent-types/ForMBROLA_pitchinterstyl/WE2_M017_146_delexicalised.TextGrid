@@ -1,0 +1,176 @@
+﻿File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0.0000000000000000
+xmax = 1.6299999999999999
+tiers? <exists>
+size = 6
+item []:
+	item [1]:
+		class = "IntervalTier"
+		name = "phones"
+		xmin = 0.0000000000000000
+		xmax = 1.6299999999999999
+		intervals: size = 18
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.0700000000000000
+			text = "k"
+		intervals [2]:
+			xmin = 0.0700000000000000
+			xmax = 0.1500000000000000
+			text = "a"
+		intervals [3]:
+			xmin = 0.1500000000000000
+			xmax = 0.2600000000000000
+			text = "n"
+		intervals [4]:
+			xmin = 0.2600000000000000
+			xmax = 0.4200000000000000
+			text = "o~"
+		intervals [5]:
+			xmin = 0.4200000000000000
+			xmax = 0.4800000000000000
+			text = "v"
+		intervals [6]:
+			xmin = 0.4800000000000000
+			xmax = 0.5300000000000000
+			text = "9"
+		intervals [7]:
+			xmin = 0.5300000000000000
+			xmax = 0.5800000000000000
+			text = "R"
+		intervals [8]:
+			xmin = 0.5800000000000000
+			xmax = 0.6600000000000000
+			text = "E"
+		intervals [9]:
+			xmin = 0.6600000000000000
+			xmax = 0.8900000000000000
+			text = "d"
+		intervals [10]:
+			xmin = 0.8900000000000000
+			xmax = 0.9600000000000000
+			text = "i"
+		intervals [11]:
+			xmin = 0.9600000000000000
+			xmax = 1.0100000000000000
+			text = "g"
+		intervals [12]:
+			xmin = 1.0100000000000000
+			xmax = 1.0800000000000001
+			text = "R"
+		intervals [13]:
+			xmin = 1.0800000000000001
+			xmax = 1.1899999999999999
+			text = "2"
+		intervals [14]:
+			xmin = 1.1899999999999999
+			xmax = 1.2751594930000001
+			text = "R"
+		intervals [15]:
+			xmin = 1.2751594930000001
+			xmax = 1.3577278420000001
+			text = "@"
+		intervals [16]:
+			xmin = 1.3577278420000001
+			xmax = 1.4412806610000000
+			text = "R"
+		intervals [17]:
+			xmin = 1.4412806610000000
+			xmax = 1.5000000000000000
+			text = "j"
+		intervals [18]:
+			xmin = 1.5000000000000000
+			xmax = 1.6299999999999999
+			text = "e"
+	item [2]:
+		class = "IntervalTier"
+		name = "syll"
+		xmin = 0.0000000000000000
+		xmax = 1.6299999999999999
+		intervals: size = 8
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.1500000000000000
+			text = "kO"
+		intervals [2]:
+			xmin = 0.1500000000000000
+			xmax = 0.4200000000000000
+			text = "ma~"
+		intervals [3]:
+			xmin = 0.4200000000000000
+			xmax = 0.5300000000000000
+			text = "vu"
+		intervals [4]:
+			xmin = 0.5300000000000000
+			xmax = 0.6600000000000000
+			text = "la"
+		intervals [5]:
+			xmin = 0.6600000000000000
+			xmax = 0.9600000000000000
+			text = "de"
+		intervals [6]:
+			xmin = 0.9600000000000000
+			xmax = 1.1899999999999999
+			text = "kRi"
+		intervals [7]:
+			xmin = 1.1899999999999999
+			xmax = 1.3577278420000001
+			text = "R@"
+		intervals [8]:
+			xmin = 1.3577278420000001
+			xmax = 1.6299999999999999
+			text = "Rje"
+	item [3]:
+		class = "IntervalTier"
+		name = "words"
+		xmin = 0.0000000000000000
+		xmax = 1.6299999999999999
+		intervals: size = 4
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.4200000000000000
+			text = "comment"
+		intervals [2]:
+			xmin = 0.4200000000000000
+			xmax = 0.5300000000000000
+			text = "vous"
+		intervals [3]:
+			xmin = 0.5300000000000000
+			xmax = 0.6600000000000000
+			text = "la"
+		intervals [4]:
+			xmin = 0.6600000000000000
+			xmax = 1.6299999999999999
+			text = "décrireriez"
+	item [4]:
+		class = "IntervalTier"
+		name = "textexpe"
+		xmin = 0.0000000000000000
+		xmax = 1.6299999999999999
+		intervals: size = 1
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 1.6299999999999999
+			text = "comment vous la décririez ?"
+	item [5]:
+		class = "IntervalTier"
+		name = "phono"
+		xmin = 0.0000000000000000
+		xmax = 1.6299999999999999
+		intervals: size = 1
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 1.6299999999999999
+			text = "tRE bje~ bo~ se pa gRav si vu vulje paRle dORlea~ a de z*ami ki n@ kOnEs pa la vil kOma~ vu la dekRiR@Rje"
+	item [6]:
+		class = "IntervalTier"
+		name = "ortho"
+		xmin = 0.0000000000000000
+		xmax = 1.6299999999999999
+		intervals: size = 1
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 1.6299999999999999
+			text = "très bien bon c'est pas grave si vous vouliez parler d'orléans à des amis qui ne connaissent pas la ville comment vous la décrireriez"

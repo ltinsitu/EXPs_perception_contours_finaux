@@ -1,0 +1,220 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 1.471 
+tiers? <exists> 
+size = 6 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "phones" 
+        xmin = 0 
+        xmax = 1.471 
+        intervals: size = 19 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.14005381038437356 
+            text = "_" 
+        intervals [2]:
+            xmin = 0.14005381038437356 
+            xmax = 0.28500000000000003 
+            text = "s" 
+        intervals [3]:
+            xmin = 0.28500000000000003 
+            xmax = 0.385 
+            text = "e" 
+        intervals [4]:
+            xmin = 0.385 
+            xmax = 0.418863360987354 
+            text = "p" 
+        intervals [5]:
+            xmin = 0.418863360987354 
+            xmax = 0.505 
+            text = "a" 
+        intervals [6]:
+            xmin = 0.505 
+            xmax = 0.5750000000000001 
+            text = "k" 
+        intervals [7]:
+            xmin = 0.5750000000000001 
+            xmax = 0.605 
+            text = "l" 
+        intervals [8]:
+            xmin = 0.605 
+            xmax = 0.685 
+            text = "a" 
+        intervals [9]:
+            xmin = 0.685 
+            xmax = 0.715 
+            text = "l" 
+        intervals [10]:
+            xmin = 0.715 
+            xmax = 0.7706149277211412 
+            text = "a~" 
+        intervals [11]:
+            xmin = 0.7706149277211412 
+            xmax = 0.8597598859558937 
+            text = "g" 
+        intervals [12]:
+            xmin = 0.8597598859558937 
+            xmax = 0.8938138254339856 
+            text = "d" 
+        intervals [13]:
+            xmin = 0.8938138254339856 
+            xmax = 0.955 
+            text = "@" 
+        intervals [14]:
+            xmin = 0.955 
+            xmax = 0.985 
+            text = "b" 
+        intervals [15]:
+            xmin = 0.985 
+            xmax = 1.095 
+            text = "a~" 
+        intervals [16]:
+            xmin = 1.095 
+            xmax = 1.1449999999999998 
+            text = "l" 
+        intervals [17]:
+            xmin = 1.1449999999999998 
+            xmax = 1.2449999999999999 
+            text = "j" 
+        intervals [18]:
+            xmin = 1.2449999999999999 
+            xmax = 1.305 
+            text = "2" 
+        intervals [19]:
+            xmin = 1.305 
+            xmax = 1.471 
+            text = "_" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "syll" 
+        xmin = 0 
+        xmax = 1.471 
+        intervals: size = 9 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.14005381038437356 
+            text = "_" 
+        intervals [2]:
+            xmin = 0.14005381038437356 
+            xmax = 0.385 
+            text = "se" 
+        intervals [3]:
+            xmin = 0.385 
+            xmax = 0.505 
+            text = "pa" 
+        intervals [4]:
+            xmin = 0.505 
+            xmax = 0.685 
+            text = "kla" 
+        intervals [5]:
+            xmin = 0.685 
+            xmax = 0.8597598859558937 
+            text = "la~g" 
+        intervals [6]:
+            xmin = 0.8597598859558937 
+            xmax = 0.955 
+            text = "d@" 
+        intervals [7]:
+            xmin = 0.955 
+            xmax = 1.095 
+            text = "ba~" 
+        intervals [8]:
+            xmin = 1.095 
+            xmax = 1.305 
+            text = "lj2" 
+        intervals [9]:
+            xmin = 1.305 
+            xmax = 1.471 
+            text = "_" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "words" 
+        xmin = 0 
+        xmax = 1.471 
+        intervals: size = 9 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.14005381038437356 
+            text = "_" 
+        intervals [2]:
+            xmin = 0.14005381038437356 
+            xmax = 0.385 
+            text = "c'est" 
+        intervals [3]:
+            xmin = 0.385 
+            xmax = 0.505 
+            text = "pas" 
+        intervals [4]:
+            xmin = 0.505 
+            xmax = 0.5750000000000001 
+            text = "que" 
+        intervals [5]:
+            xmin = 0.5750000000000001 
+            xmax = 0.685 
+            text = "la" 
+        intervals [6]:
+            xmin = 0.685 
+            xmax = 0.8597598859558937 
+            text = "langue" 
+        intervals [7]:
+            xmin = 0.8597598859558937 
+            xmax = 0.955 
+            text = "de" 
+        intervals [8]:
+            xmin = 0.955 
+            xmax = 1.305 
+            text = "banlieue" 
+        intervals [9]:
+            xmin = 1.305 
+            xmax = 1.471 
+            text = "_" 
+    item [4]:
+        class = "IntervalTier" 
+        name = "textexpe" 
+        xmin = 0 
+        xmax = 1.471 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.14005381038437356 
+            text = "" 
+        intervals [2]:
+            xmin = 0.14005381038437356 
+            xmax = 1.305 
+            text = "c'est pas que la langue de banlieue" 
+        intervals [3]:
+            xmin = 1.305 
+            xmax = 1.471 
+            text = "" 
+    item [5]:
+        class = "IntervalTier" 
+        name = "phono" 
+        xmin = 0 
+        xmax = 1.471 
+        intervals: size = 2 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.14005381038437356 
+            text = "_" 
+        intervals [2]:
+            xmin = 0.14005381038437356 
+            xmax = 1.471 
+            text = "se pa k la la~g d@ ba~lj2" 
+    item [6]:
+        class = "IntervalTier" 
+        name = "ortho" 
+        xmin = 0 
+        xmax = 1.471 
+        intervals: size = 2 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.14005381038437356 
+            text = "_" 
+        intervals [2]:
+            xmin = 0.14005381038437356 
+            xmax = 1.471 
+            text = "c'est pas que la langue de banlieue" 

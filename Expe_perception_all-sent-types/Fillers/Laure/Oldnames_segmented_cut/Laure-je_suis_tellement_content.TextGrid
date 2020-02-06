@@ -1,0 +1,152 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 1.3000000000000007 
+tiers? <exists> 
+size = 6 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "phones" 
+        xmin = 0 
+        xmax = 1.3000000000000007 
+        intervals: size = 14 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.10613680128729334 
+            text = "Z" 
+        intervals [2]:
+            xmin = 0.10613680128729334 
+            xmax = 0.16000000000000014 
+            text = "@" 
+        intervals [3]:
+            xmin = 0.16000000000000014 
+            xmax = 0.25 
+            text = "s" 
+        intervals [4]:
+            xmin = 0.25 
+            xmax = 0.28000000000000114 
+            text = "H" 
+        intervals [5]:
+            xmin = 0.28000000000000114 
+            xmax = 0.41102997552770076 
+            text = "i" 
+        intervals [6]:
+            xmin = 0.41102997552770076 
+            xmax = 0.47586388228938203 
+            text = "t" 
+        intervals [7]:
+            xmin = 0.47586388228938203 
+            xmax = 0.5878197056370632 
+            text = "E" 
+        intervals [8]:
+            xmin = 0.5878197056370632 
+            xmax = 0.645148722870061 
+            text = "l" 
+        intervals [9]:
+            xmin = 0.645148722870061 
+            xmax = 0.7000000000000028 
+            text = "m" 
+        intervals [10]:
+            xmin = 0.7000000000000028 
+            xmax = 0.8399999999999999 
+            text = "a~" 
+        intervals [11]:
+            xmin = 0.8399999999999999 
+            xmax = 0.870000000000001 
+            text = "k" 
+        intervals [12]:
+            xmin = 0.870000000000001 
+            xmax = 1 
+            text = "o~" 
+        intervals [13]:
+            xmin = 1 
+            xmax = 1.0398424540242217 
+            text = "t" 
+        intervals [14]:
+            xmin = 1.0398424540242217 
+            xmax = 1.3000000000000007 
+            text = "a~" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "syll" 
+        xmin = 0 
+        xmax = 1.3000000000000007 
+        intervals: size = 6 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.16000000000000014 
+            text = "Z@" 
+        intervals [2]:
+            xmin = 0.16000000000000014 
+            xmax = 0.41102997552770076 
+            text = "sHi" 
+        intervals [3]:
+            xmin = 0.41102997552770076 
+            xmax = 0.645148722870061 
+            text = "tEl" 
+        intervals [4]:
+            xmin = 0.645148722870061 
+            xmax = 0.8399999999999999 
+            text = "ma~" 
+        intervals [5]:
+            xmin = 0.8399999999999999 
+            xmax = 1 
+            text = "ko~" 
+        intervals [6]:
+            xmin = 1 
+            xmax = 1.3000000000000007 
+            text = "ta~" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "words" 
+        xmin = 0 
+        xmax = 1.3000000000000007 
+        intervals: size = 4 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.16000000000000014 
+            text = "je" 
+        intervals [2]:
+            xmin = 0.16000000000000014 
+            xmax = 0.41102997552770076 
+            text = "suis" 
+        intervals [3]:
+            xmin = 0.41102997552770076 
+            xmax = 0.8399999999999999 
+            text = "tellement" 
+        intervals [4]:
+            xmin = 0.8399999999999999 
+            xmax = 1.3000000000000007 
+            text = "content" 
+    item [4]:
+        class = "IntervalTier" 
+        name = "textexpe" 
+        xmin = 0 
+        xmax = 1.3000000000000007 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 1.3000000000000007 
+            text = "je suis tellement content" 
+    item [5]:
+        class = "IntervalTier" 
+        name = "phono" 
+        xmin = 0 
+        xmax = 1.3000000000000007 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 1.3000000000000007 
+            text = "Z@ sHi tElma~ ko~ta~" 
+    item [6]:
+        class = "IntervalTier" 
+        name = "ortho" 
+        xmin = 0 
+        xmax = 1.3000000000000007 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 1.3000000000000007 
+            text = "je suis tellement content" 

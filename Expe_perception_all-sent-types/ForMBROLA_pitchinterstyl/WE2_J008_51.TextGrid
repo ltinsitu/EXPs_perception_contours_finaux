@@ -1,0 +1,180 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 1.0507687136312913 
+tiers? <exists> 
+size = 6 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "phones" 
+        xmin = 0 
+        xmax = 1.0507687136312913 
+        intervals: size = 15 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.06076871363129133 
+            text = "k" 
+        intervals [2]:
+            xmin = 0.06076871363129133 
+            xmax = 0.13076871363129117 
+            text = "e" 
+        intervals [3]:
+            xmin = 0.13076871363129117 
+            xmax = 0.22076871363129125 
+            text = "s" 
+        intervals [4]:
+            xmin = 0.22076871363129125 
+            xmax = 0.2707687136312913 
+            text = "k" 
+        intervals [5]:
+            xmin = 0.2707687136312913 
+            xmax = 0.35076871363129114 
+            text = "@" 
+        intervals [6]:
+            xmin = 0.35076871363129114 
+            xmax = 0.45076871363129123 
+            text = "t" 
+        intervals [7]:
+            xmin = 0.45076871363129123 
+            xmax = 0.5007687136312913 
+            text = "y" 
+        intervals [8]:
+            xmin = 0.5007687136312913 
+            xmax = 0.5707687136312911 
+            text = "f" 
+        intervals [9]:
+            xmin = 0.5707687136312911 
+            xmax = 0.6107687136312912 
+            text = "E" 
+        intervals [10]:
+            xmin = 0.6107687136312912 
+            xmax = 0.6407687136312912 
+            text = "d" 
+        intervals [11]:
+            xmin = 0.6407687136312912 
+            xmax = 0.7452897652072743 
+            text = "a~" 
+        intervals [12]:
+            xmin = 0.7452897652072743 
+            xmax = 0.7963591055489105 
+            text = "l" 
+        intervals [13]:
+            xmin = 0.7963591055489105 
+            xmax = 0.8248662633689086 
+            text = "a" 
+        intervals [14]:
+            xmin = 0.8248662633689086 
+            xmax = 0.8777023312934247 
+            text = "v" 
+        intervals [15]:
+            xmin = 0.8777023312934247 
+            xmax = 1.0507687136312913 
+            text = "i" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "syll" 
+        xmin = 0 
+        xmax = 1.0507687136312913 
+        intervals: size = 7 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.22076871363129125 
+            text = "kes" 
+        intervals [2]:
+            xmin = 0.22076871363129125 
+            xmax = 0.35076871363129114 
+            text = "k@" 
+        intervals [3]:
+            xmin = 0.35076871363129114 
+            xmax = 0.5007687136312913 
+            text = "ty" 
+        intervals [4]:
+            xmin = 0.5007687136312913 
+            xmax = 0.6107687136312912 
+            text = "fE" 
+        intervals [5]:
+            xmin = 0.6107687136312912 
+            xmax = 0.7452897652072743 
+            text = "da~" 
+        intervals [6]:
+            xmin = 0.7452897652072743 
+            xmax = 0.8248662633689086 
+            text = "la" 
+        intervals [7]:
+            xmin = 0.8248662633689086 
+            xmax = 1.0507687136312913 
+            text = "vi" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "words" 
+        xmin = 0 
+        xmax = 1.0507687136312913 
+        intervals: size = 9 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.06076871363129133 
+            text = "qu'" 
+        intervals [2]:
+            xmin = 0.06076871363129133 
+            xmax = 0.13076871363129117 
+            text = "est" 
+        intervals [3]:
+            xmin = 0.13076871363129117 
+            xmax = 0.22076871363129125 
+            text = "ce" 
+        intervals [4]:
+            xmin = 0.22076871363129125 
+            xmax = 0.35076871363129114 
+            text = "que" 
+        intervals [5]:
+            xmin = 0.35076871363129114 
+            xmax = 0.5007687136312913 
+            text = "tu" 
+        intervals [6]:
+            xmin = 0.5007687136312913 
+            xmax = 0.6107687136312912 
+            text = "fais" 
+        intervals [7]:
+            xmin = 0.6107687136312912 
+            xmax = 0.7452897652072743 
+            text = "dans" 
+        intervals [8]:
+            xmin = 0.7452897652072743 
+            xmax = 0.8248662633689086 
+            text = "la" 
+        intervals [9]:
+            xmin = 0.8248662633689086 
+            xmax = 1.0507687136312913 
+            text = "vie" 
+    item [4]:
+        class = "IntervalTier" 
+        name = "textexpe" 
+        xmin = 0 
+        xmax = 1.0507687136312913 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 1.0507687136312913 
+            text = "qu'est-ce que tu fais dans la vie ?" 
+    item [5]:
+        class = "IntervalTier" 
+        name = "phono" 
+        xmin = 0 
+        xmax = 1.0507687136312913 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 1.0507687136312913 
+            text = "okE e 2 k e s k@ ty fE da~ la vi" 
+    item [6]:
+        class = "IntervalTier" 
+        name = "ortho" 
+        xmin = 0 
+        xmax = 1.0507687136312913 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 1.0507687136312913 
+            text = "ok et euh qu'est-ce que tu fais dans la vie" 

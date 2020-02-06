@@ -1,0 +1,116 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 0.6000000000000014 
+tiers? <exists> 
+size = 6 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "phones" 
+        xmin = 0 
+        xmax = 0.6000000000000014 
+        intervals: size = 9 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.0400000000000027 
+            text = "f" 
+        intervals [2]:
+            xmin = 0.0400000000000027 
+            xmax = 0.15000000000000213 
+            text = "E" 
+        intervals [3]:
+            xmin = 0.15000000000000213 
+            xmax = 0.17999999999999972 
+            text = "t" 
+        intervals [4]:
+            xmin = 0.17999999999999972 
+            xmax = 0.2699999999999996 
+            text = "e" 
+        intervals [5]:
+            xmin = 0.2699999999999996 
+            xmax = 0.3000000000000007 
+            text = "d" 
+        intervals [6]:
+            xmin = 0.3000000000000007 
+            xmax = 0.35999999999999943 
+            text = "v" 
+        intervals [7]:
+            xmin = 0.35999999999999943 
+            xmax = 0.4161791583604339 
+            text = "w" 
+        intervals [8]:
+            xmin = 0.4161791583604339 
+            xmax = 0.5500000000000007 
+            text = "a" 
+        intervals [9]:
+            xmin = 0.5500000000000007 
+            xmax = 0.6000000000000014 
+            text = "R" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "syll" 
+        xmin = 0 
+        xmax = 0.6000000000000014 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.15000000000000213 
+            text = "fE" 
+        intervals [2]:
+            xmin = 0.15000000000000213 
+            xmax = 0.3000000000000007 
+            text = "ted" 
+        intervals [3]:
+            xmin = 0.3000000000000007 
+            xmax = 0.6000000000000014 
+            text = "vwaR" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "words" 
+        xmin = 0 
+        xmax = 0.6000000000000014 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.15000000000000213 
+            text = "fais" 
+        intervals [2]:
+            xmin = 0.15000000000000213 
+            xmax = 0.2699999999999996 
+            text = "tes" 
+        intervals [3]:
+            xmin = 0.2699999999999996 
+            xmax = 0.6000000000000014 
+            text = "devoirs" 
+    item [4]:
+        class = "IntervalTier" 
+        name = "textexpe" 
+        xmin = 0 
+        xmax = 0.6000000000000014 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.6000000000000014 
+            text = "fais tes devoirs" 
+    item [5]:
+        class = "IntervalTier" 
+        name = "phono" 
+        xmin = 0 
+        xmax = 0.6000000000000014 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.6000000000000014 
+            text = "fE te dvwaR" 
+    item [6]:
+        class = "IntervalTier" 
+        name = "ortho" 
+        xmin = 0 
+        xmax = 0.6000000000000014 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.6000000000000014 
+            text = "fais tes devoirs" 

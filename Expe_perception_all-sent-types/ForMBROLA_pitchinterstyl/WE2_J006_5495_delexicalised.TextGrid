@@ -1,0 +1,124 @@
+﻿File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0.0000000000000000
+xmax = 0.6500000000000000
+tiers? <exists>
+size = 6
+item []:
+	item [1]:
+		class = "IntervalTier"
+		name = "phones"
+		xmin = 0.0000000000000000
+		xmax = 0.6500000000000000
+		intervals: size = 9
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.0400000000000000
+			text = "t"
+		intervals [2]:
+			xmin = 0.0400000000000000
+			xmax = 0.1015016930000000
+			text = "y"
+		intervals [3]:
+			xmin = 0.1015016930000000
+			xmax = 0.1812363240000000
+			text = "a~"
+		intervals [4]:
+			xmin = 0.1812363240000000
+			xmax = 0.2600000000000000
+			text = "s"
+		intervals [5]:
+			xmin = 0.2600000000000000
+			xmax = 0.3400000000000000
+			text = "y"
+		intervals [6]:
+			xmin = 0.3400000000000000
+			xmax = 0.3900000000000000
+			text = "s"
+		intervals [7]:
+			xmin = 0.3900000000000000
+			xmax = 0.4310743200000000
+			text = "k"
+		intervals [8]:
+			xmin = 0.4310743200000000
+			xmax = 0.5366577809999999
+			text = "2"
+		intervals [9]:
+			xmin = 0.5366577809999999
+			xmax = 0.6500000000000000
+			text = "k"
+	item [2]:
+		class = "IntervalTier"
+		name = "syll"
+		xmin = 0.0000000000000000
+		xmax = 0.6500000000000000
+		intervals: size = 4
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.1015016930000000
+			text = "ta"
+		intervals [2]:
+			xmin = 0.1015016930000000
+			xmax = 0.1812363240000000
+			text = "9~"
+		intervals [3]:
+			xmin = 0.1812363240000000
+			xmax = 0.3900000000000000
+			text = "fEs"
+		intervals [4]:
+			xmin = 0.3900000000000000
+			xmax = 0.6500000000000000
+			text = "buk"
+	item [3]:
+		class = "IntervalTier"
+		name = "words"
+		xmin = 0.0000000000000000
+		xmax = 0.6500000000000000
+		intervals: size = 4
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.0400000000000000
+			text = "tu"
+		intervals [2]:
+			xmin = 0.0400000000000000
+			xmax = 0.1015016930000000
+			text = "as"
+		intervals [3]:
+			xmin = 0.1015016930000000
+			xmax = 0.1812363240000000
+			text = "un"
+		intervals [4]:
+			xmin = 0.1812363240000000
+			xmax = 0.6500000000000000
+			text = "facebook"
+	item [4]:
+		class = "IntervalTier"
+		name = "textexpe"
+		xmin = 0.0000000000000000
+		xmax = 0.6500000000000000
+		intervals: size = 1
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.6500000000000000
+			text = "tu as un Facebook ?"
+	item [5]:
+		class = "IntervalTier"
+		name = "phono"
+		xmin = 0.0000000000000000
+		xmax = 0.6500000000000000
+		intervals: size = 1
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.6500000000000000
+			text = "t a f t a 9~ fEsbuk"
+	item [6]:
+		class = "IntervalTier"
+		name = "ortho"
+		xmin = 0.0000000000000000
+		xmax = 0.6500000000000000
+		intervals: size = 1
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.6500000000000000
+			text = "tu as f- tu as un facebook"

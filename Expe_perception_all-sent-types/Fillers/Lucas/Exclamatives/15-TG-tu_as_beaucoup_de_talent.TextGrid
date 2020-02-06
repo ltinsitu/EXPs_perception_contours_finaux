@@ -1,0 +1,146 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 0.9841936348397056 
+tiers? <exists> 
+size = 5 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "phones" 
+        xmin = 0 
+        xmax = 0.9841936348397056 
+        intervals: size = 13 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.113809789904971 
+            text = "t" 
+        intervals [2]:
+            xmin = 0.113809789904971 
+            xmax = 0.1700000000000017 
+            text = "y" 
+        intervals [3]:
+            xmin = 0.1700000000000017 
+            xmax = 0.25 
+            text = "a" 
+        intervals [4]:
+            xmin = 0.25 
+            xmax = 0.3299999999999983 
+            text = "b" 
+        intervals [5]:
+            xmin = 0.3299999999999983 
+            xmax = 0.4510914382165112 
+            text = "o" 
+        intervals [6]:
+            xmin = 0.4510914382165112 
+            xmax = 0.5063275638365718 
+            text = "k" 
+        intervals [7]:
+            xmin = 0.5063275638365718 
+            xmax = 0.5499999999999972 
+            text = "u" 
+        intervals [8]:
+            xmin = 0.5499999999999972 
+            xmax = 0.5899999999999963 
+            text = "d" 
+        intervals [9]:
+            xmin = 0.5899999999999963 
+            xmax = 0.6499999999999986 
+            text = "@" 
+        intervals [10]:
+            xmin = 0.6499999999999986 
+            xmax = 0.7199999999999989 
+            text = "t" 
+        intervals [11]:
+            xmin = 0.7199999999999989 
+            xmax = 0.777216343858828 
+            text = "a" 
+        intervals [12]:
+            xmin = 0.777216343858828 
+            xmax = 0.828754274273782 
+            text = "l" 
+        intervals [13]:
+            xmin = 0.828754274273782 
+            xmax = 0.9841936348397056 
+            text = "a~" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "syll" 
+        xmin = 0 
+        xmax = 0.9841936348397056 
+        intervals: size = 7 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.1700000000000017 
+            text = "ty" 
+        intervals [2]:
+            xmin = 0.1700000000000017 
+            xmax = 0.25 
+            text = "a" 
+        intervals [3]:
+            xmin = 0.25 
+            xmax = 0.4510914382165112 
+            text = "bo" 
+        intervals [4]:
+            xmin = 0.4510914382165112 
+            xmax = 0.5499999999999972 
+            text = "ku" 
+        intervals [5]:
+            xmin = 0.5499999999999972 
+            xmax = 0.6499999999999986 
+            text = "d@" 
+        intervals [6]:
+            xmin = 0.6499999999999986 
+            xmax = 0.777216343858828 
+            text = "ta" 
+        intervals [7]:
+            xmin = 0.777216343858828 
+            xmax = 0.9841936348397056 
+            text = "la~" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "words" 
+        xmin = 0 
+        xmax = 0.9841936348397056 
+        intervals: size = 5 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.1700000000000017 
+            text = "tu" 
+        intervals [2]:
+            xmin = 0.1700000000000017 
+            xmax = 0.25 
+            text = "as" 
+        intervals [3]:
+            xmin = 0.25 
+            xmax = 0.5499999999999972 
+            text = "beaucoup" 
+        intervals [4]:
+            xmin = 0.5499999999999972 
+            xmax = 0.6499999999999986 
+            text = "de" 
+        intervals [5]:
+            xmin = 0.6499999999999986 
+            xmax = 0.9841936348397056 
+            text = "talent" 
+    item [4]:
+        class = "IntervalTier" 
+        name = "phono" 
+        xmin = 0 
+        xmax = 0.9841936348397056 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.9841936348397056 
+            text = "ty a boku d@ tala~" 
+    item [5]:
+        class = "IntervalTier" 
+        name = "ortho" 
+        xmin = 0 
+        xmax = 0.9841936348397056 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.9841936348397056 
+            text = "tu as beaucoup de talent" 

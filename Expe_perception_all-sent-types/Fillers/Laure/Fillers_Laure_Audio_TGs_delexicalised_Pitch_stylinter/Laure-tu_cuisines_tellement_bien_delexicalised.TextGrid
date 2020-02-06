@@ -1,0 +1,160 @@
+﻿File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0.0000000000000000
+xmax = 1.1799999999999999
+tiers? <exists>
+size = 6
+item []:
+	item [1]:
+		class = "IntervalTier"
+		name = "phones"
+		xmin = 0.0000000000000000
+		xmax = 1.1799999999999999
+		intervals: size = 16
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.0770895670000000
+			text = "t"
+		intervals [2]:
+			xmin = 0.0770895670000000
+			xmax = 0.1300000000000000
+			text = "u"
+		intervals [3]:
+			xmin = 0.1300000000000000
+			xmax = 0.1700000000000000
+			text = "b"
+		intervals [4]:
+			xmin = 0.1700000000000000
+			xmax = 0.2300742510000000
+			text = "w"
+		intervals [5]:
+			xmin = 0.2300742510000000
+			xmax = 0.2677869730000000
+			text = "u"
+		intervals [6]:
+			xmin = 0.2677869730000000
+			xmax = 0.3400000000000000
+			text = "f"
+		intervals [7]:
+			xmin = 0.3400000000000000
+			xmax = 0.4237938030000000
+			text = "O"
+		intervals [8]:
+			xmin = 0.4237938030000000
+			xmax = 0.5400000000000000
+			text = "m"
+		intervals [9]:
+			xmin = 0.5400000000000000
+			xmax = 0.5771673310000000
+			text = "p"
+		intervals [10]:
+			xmin = 0.5771673310000000
+			xmax = 0.6707963440000000
+			text = "e"
+		intervals [11]:
+			xmin = 0.6707963440000000
+			xmax = 0.7700000000000000
+			text = "R"
+		intervals [12]:
+			xmin = 0.7700000000000000
+			xmax = 0.8083756870000000
+			text = "m"
+		intervals [13]:
+			xmin = 0.8083756870000000
+			xmax = 0.9100000000000000
+			text = "o~"
+		intervals [14]:
+			xmin = 0.9100000000000000
+			xmax = 0.9399999999999999
+			text = "b"
+		intervals [15]:
+			xmin = 0.9399999999999999
+			xmax = 1.0017286540000001
+			text = "j"
+		intervals [16]:
+			xmin = 1.0017286540000001
+			xmax = 1.1799999999999999
+			text = "e~"
+	item [2]:
+		class = "IntervalTier"
+		name = "syll"
+		xmin = 0.0000000000000000
+		xmax = 1.1799999999999999
+		intervals: size = 6
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.1300000000000000
+			text = "ty"
+		intervals [2]:
+			xmin = 0.1300000000000000
+			xmax = 0.2677869730000000
+			text = "kHi"
+		intervals [3]:
+			xmin = 0.2677869730000000
+			xmax = 0.5400000000000000
+			text = "zin"
+		intervals [4]:
+			xmin = 0.5400000000000000
+			xmax = 0.7700000000000000
+			text = "tEl"
+		intervals [5]:
+			xmin = 0.7700000000000000
+			xmax = 0.9100000000000000
+			text = "ma~"
+		intervals [6]:
+			xmin = 0.9100000000000000
+			xmax = 1.1799999999999999
+			text = "bje~"
+	item [3]:
+		class = "IntervalTier"
+		name = "words"
+		xmin = 0.0000000000000000
+		xmax = 1.1799999999999999
+		intervals: size = 4
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.1300000000000000
+			text = "tu"
+		intervals [2]:
+			xmin = 0.1300000000000000
+			xmax = 0.5400000000000000
+			text = "cuisines"
+		intervals [3]:
+			xmin = 0.5400000000000000
+			xmax = 0.9100000000000000
+			text = "tellement"
+		intervals [4]:
+			xmin = 0.9100000000000000
+			xmax = 1.1799999999999999
+			text = "bien"
+	item [4]:
+		class = "IntervalTier"
+		name = "textexpe"
+		xmin = 0.0000000000000000
+		xmax = 1.1799999999999999
+		intervals: size = 1
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 1.1799999999999999
+			text = "tu cuisines tellement bien"
+	item [5]:
+		class = "IntervalTier"
+		name = "phono"
+		xmin = 0.0000000000000000
+		xmax = 1.1799999999999999
+		intervals: size = 1
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 1.1799999999999999
+			text = "ty kHizin tElma~ bje~"
+	item [6]:
+		class = "IntervalTier"
+		name = "ortho"
+		xmin = 0.0000000000000000
+		xmax = 1.1799999999999999
+		intervals: size = 1
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 1.1799999999999999
+			text = "tu cuisines tellement bien"

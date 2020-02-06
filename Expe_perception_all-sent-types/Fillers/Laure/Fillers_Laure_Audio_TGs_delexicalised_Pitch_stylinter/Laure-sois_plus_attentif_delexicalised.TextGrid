@@ -1,0 +1,140 @@
+﻿File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0.0000000000000000
+xmax = 0.9500000000000000
+tiers? <exists>
+size = 6
+item []:
+	item [1]:
+		class = "IntervalTier"
+		name = "phones"
+		xmin = 0.0000000000000000
+		xmax = 0.9500000000000000
+		intervals: size = 13
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.1400000000000000
+			text = "s"
+		intervals [2]:
+			xmin = 0.1400000000000000
+			xmax = 0.1927149650000000
+			text = "w"
+		intervals [3]:
+			xmin = 0.1927149650000000
+			xmax = 0.3041938450000000
+			text = "E"
+		intervals [4]:
+			xmin = 0.3041938450000000
+			xmax = 0.3350369690000000
+			text = "g"
+		intervals [5]:
+			xmin = 0.3350369690000000
+			xmax = 0.3546767200000000
+			text = "l"
+		intervals [6]:
+			xmin = 0.3546767200000000
+			xmax = 0.3967856780000000
+			text = "O"
+		intervals [7]:
+			xmin = 0.3967856780000000
+			xmax = 0.4422341630000000
+			text = "s"
+		intervals [8]:
+			xmin = 0.4422341630000000
+			xmax = 0.5495728070000000
+			text = "a"
+		intervals [9]:
+			xmin = 0.5495728070000000
+			xmax = 0.5896845020000000
+			text = "k"
+		intervals [10]:
+			xmin = 0.5896845020000000
+			xmax = 0.7078472660000000
+			text = "e~"
+		intervals [11]:
+			xmin = 0.7078472660000000
+			xmax = 0.7800000000000000
+			text = "g"
+		intervals [12]:
+			xmin = 0.7800000000000000
+			xmax = 0.8703334250000000
+			text = "u"
+		intervals [13]:
+			xmin = 0.8703334250000000
+			xmax = 0.9500000000000000
+			text = "f"
+	item [2]:
+		class = "IntervalTier"
+		name = "syll"
+		xmin = 0.0000000000000000
+		xmax = 0.9500000000000000
+		intervals: size = 5
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.3041938450000000
+			text = "swa"
+		intervals [2]:
+			xmin = 0.3041938450000000
+			xmax = 0.3967856780000000
+			text = "ply"
+		intervals [3]:
+			xmin = 0.3967856780000000
+			xmax = 0.5495728070000000
+			text = "za"
+		intervals [4]:
+			xmin = 0.5495728070000000
+			xmax = 0.7078472660000000
+			text = "ta~"
+		intervals [5]:
+			xmin = 0.7078472660000000
+			xmax = 0.9500000000000000
+			text = "tif"
+	item [3]:
+		class = "IntervalTier"
+		name = "words"
+		xmin = 0.0000000000000000
+		xmax = 0.9500000000000000
+		intervals: size = 3
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.3041938450000000
+			text = "sois"
+		intervals [2]:
+			xmin = 0.3041938450000000
+			xmax = 0.3967856780000000
+			text = "plus"
+		intervals [3]:
+			xmin = 0.3967856780000000
+			xmax = 0.9500000000000000
+			text = "attentif"
+	item [4]:
+		class = "IntervalTier"
+		name = "textexpe"
+		xmin = 0.0000000000000000
+		xmax = 0.9500000000000000
+		intervals: size = 1
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.9500000000000000
+			text = "sois plus attentif"
+	item [5]:
+		class = "IntervalTier"
+		name = "phono"
+		xmin = 0.0000000000000000
+		xmax = 0.9500000000000000
+		intervals: size = 1
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.9500000000000000
+			text = "swa ply zata~tif"
+	item [6]:
+		class = "IntervalTier"
+		name = "ortho"
+		xmin = 0.0000000000000000
+		xmax = 0.9500000000000000
+		intervals: size = 1
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.9500000000000000
+			text = "sois plus attentif"

@@ -1,0 +1,148 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 0.9467648605425415 
+tiers? <exists> 
+size = 6 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "phones" 
+        xmin = 0 
+        xmax = 0.9467648605425415 
+        intervals: size = 14 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.05740285193815786 
+            text = "t" 
+        intervals [2]:
+            xmin = 0.05740285193815786 
+            xmax = 0.15676486054254157 
+            text = "y" 
+        intervals [3]:
+            xmin = 0.15676486054254157 
+            xmax = 0.19104821380304926 
+            text = "p" 
+        intervals [4]:
+            xmin = 0.19104821380304926 
+            xmax = 0.25723979510982864 
+            text = "a" 
+        intervals [5]:
+            xmin = 0.25723979510982864 
+            xmax = 0.28961835197094815 
+            text = "R" 
+        intervals [6]:
+            xmin = 0.28961835197094815 
+            xmax = 0.3467648605425416 
+            text = "l" 
+        intervals [7]:
+            xmin = 0.3467648605425416 
+            xmax = 0.3835489335954092 
+            text = "d" 
+        intervals [8]:
+            xmin = 0.3835489335954092 
+            xmax = 0.4551688936088638 
+            text = "o" 
+        intervals [9]:
+            xmin = 0.4551688936088638 
+            xmax = 0.4993374684574562 
+            text = "t" 
+        intervals [10]:
+            xmin = 0.4993374684574562 
+            xmax = 0.6059816310309191 
+            text = "R" 
+        intervals [11]:
+            xmin = 0.6059816310309191 
+            xmax = 0.6767648605425416 
+            text = "@" 
+        intervals [12]:
+            xmin = 0.6767648605425416 
+            xmax = 0.711665639731082 
+            text = "l" 
+        intervals [13]:
+            xmin = 0.711665639731082 
+            xmax = 0.8714709056152966 
+            text = "a~" 
+        intervals [14]:
+            xmin = 0.8714709056152966 
+            xmax = 0.9467648605425415 
+            text = "g" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "syll" 
+        xmin = 0 
+        xmax = 0.9467648605425415 
+        intervals: size = 5 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.15676486054254157 
+            text = "ty" 
+        intervals [2]:
+            xmin = 0.15676486054254157 
+            xmax = 0.3467648605425416 
+            text = "paRl" 
+        intervals [3]:
+            xmin = 0.3467648605425416 
+            xmax = 0.4551688936088638 
+            text = "do" 
+        intervals [4]:
+            xmin = 0.4551688936088638 
+            xmax = 0.6767648605425416 
+            text = "tR@" 
+        intervals [5]:
+            xmin = 0.6767648605425416 
+            xmax = 0.9467648605425415 
+            text = "la~g" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "words" 
+        xmin = 0 
+        xmax = 0.9467648605425415 
+        intervals: size = 4 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.15676486054254157 
+            text = "tu" 
+        intervals [2]:
+            xmin = 0.15676486054254157 
+            xmax = 0.3467648605425416 
+            text = "parles" 
+        intervals [3]:
+            xmin = 0.3467648605425416 
+            xmax = 0.6767648605425416 
+            text = "d'autres" 
+        intervals [4]:
+            xmin = 0.6767648605425416 
+            xmax = 0.9467648605425415 
+            text = "langues" 
+    item [4]:
+        class = "IntervalTier" 
+        name = "textexpe" 
+        xmin = 0 
+        xmax = 0.9467648605425415 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.9467648605425415 
+            text = "tu parles d'autres langues ?" 
+    item [5]:
+        class = "IntervalTier" 
+        name = "phono" 
+        xmin = 0 
+        xmax = 0.9467648605425415 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.9467648605425415 
+            text = "twa ty paRl dotR@* la~g" 
+    item [6]:
+        class = "IntervalTier" 
+        name = "ortho" 
+        xmin = 0 
+        xmax = 0.9467648605425415 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.9467648605425415 
+            text = "toi tu parles d'autres langues" 

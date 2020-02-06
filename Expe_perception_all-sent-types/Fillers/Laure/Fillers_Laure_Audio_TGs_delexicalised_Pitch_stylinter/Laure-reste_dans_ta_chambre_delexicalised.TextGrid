@@ -1,0 +1,132 @@
+﻿File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0.0000000000000000
+xmax = 0.9200000000000000
+tiers? <exists>
+size = 6
+item []:
+	item [1]:
+		class = "IntervalTier"
+		name = "phones"
+		xmin = 0.0000000000000000
+		xmax = 0.9200000000000000
+		intervals: size = 11
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.0966878740000000
+			text = "R"
+		intervals [2]:
+			xmin = 0.0966878740000000
+			xmax = 0.1781602620000000
+			text = "E"
+		intervals [3]:
+			xmin = 0.1781602620000000
+			xmax = 0.2500000000000000
+			text = "z"
+		intervals [4]:
+			xmin = 0.2500000000000000
+			xmax = 0.2881337780000000
+			text = "p"
+		intervals [5]:
+			xmin = 0.2881337780000000
+			xmax = 0.3959999970000000
+			text = "9~"
+		intervals [6]:
+			xmin = 0.3959999970000000
+			xmax = 0.4288522360000000
+			text = "d"
+		intervals [7]:
+			xmin = 0.4288522360000000
+			xmax = 0.5174953490000000
+			text = "y"
+		intervals [8]:
+			xmin = 0.5174953490000000
+			xmax = 0.6400000000000000
+			text = "S"
+		intervals [9]:
+			xmin = 0.6400000000000000
+			xmax = 0.8222674400000000
+			text = "o~"
+		intervals [10]:
+			xmin = 0.8222674400000000
+			xmax = 0.8591661670000000
+			text = "t"
+		intervals [11]:
+			xmin = 0.8591661670000000
+			xmax = 0.9200000000000000
+			text = "R"
+	item [2]:
+		class = "IntervalTier"
+		name = "syll"
+		xmin = 0.0000000000000000
+		xmax = 0.9200000000000000
+		intervals: size = 4
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.2500000000000000
+			text = "REs"
+		intervals [2]:
+			xmin = 0.2500000000000000
+			xmax = 0.3959999970000000
+			text = "da~"
+		intervals [3]:
+			xmin = 0.3959999970000000
+			xmax = 0.5174953490000000
+			text = "ta"
+		intervals [4]:
+			xmin = 0.5174953490000000
+			xmax = 0.9200000000000000
+			text = "Sa~bR"
+	item [3]:
+		class = "IntervalTier"
+		name = "words"
+		xmin = 0.0000000000000000
+		xmax = 0.9200000000000000
+		intervals: size = 4
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.2500000000000000
+			text = "reste"
+		intervals [2]:
+			xmin = 0.2500000000000000
+			xmax = 0.3959999970000000
+			text = "dans"
+		intervals [3]:
+			xmin = 0.3959999970000000
+			xmax = 0.5174953490000000
+			text = "ta"
+		intervals [4]:
+			xmin = 0.5174953490000000
+			xmax = 0.9200000000000000
+			text = "chambre"
+	item [4]:
+		class = "IntervalTier"
+		name = "textexpe"
+		xmin = 0.0000000000000000
+		xmax = 0.9200000000000000
+		intervals: size = 1
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.9200000000000000
+			text = "reste dans ta chambre"
+	item [5]:
+		class = "IntervalTier"
+		name = "phono"
+		xmin = 0.0000000000000000
+		xmax = 0.9200000000000000
+		intervals: size = 1
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.9200000000000000
+			text = "REs da~ ta Sa~bR"
+	item [6]:
+		class = "IntervalTier"
+		name = "ortho"
+		xmin = 0.0000000000000000
+		xmax = 0.9200000000000000
+		intervals: size = 1
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.9200000000000000
+			text = "reste dans ta chambre"

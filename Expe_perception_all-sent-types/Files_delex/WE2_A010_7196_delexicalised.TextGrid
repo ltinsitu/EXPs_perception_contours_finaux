@@ -1,0 +1,112 @@
+﻿File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0.0000000000000000
+xmax = 0.5249291699999999
+tiers? <exists>
+size = 6
+item []:
+	item [1]:
+		class = "IntervalTier"
+		name = "phones"
+		xmin = 0.0000000000000000
+		xmax = 0.5249291699999999
+		intervals: size = 7
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.0495891560000000
+			text = "t"
+		intervals [2]:
+			xmin = 0.0495891560000000
+			xmax = 0.1280666980000000
+			text = "e"
+		intervals [3]:
+			xmin = 0.1280666980000000
+			xmax = 0.1616815860000000
+			text = "m"
+		intervals [4]:
+			xmin = 0.1616815860000000
+			xmax = 0.2484519390000000
+			text = "E"
+		intervals [5]:
+			xmin = 0.2484519390000000
+			xmax = 0.3473148960000000
+			text = "g"
+		intervals [6]:
+			xmin = 0.3473148960000000
+			xmax = 0.3941098100000000
+			text = "w"
+		intervals [7]:
+			xmin = 0.3941098100000000
+			xmax = 0.5249291699999999
+			text = "a"
+	item [2]:
+		class = "IntervalTier"
+		name = "syll"
+		xmin = 0.0000000000000000
+		xmax = 0.5249291699999999
+		intervals: size = 3
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.1280666980000000
+			text = "ti"
+		intervals [2]:
+			xmin = 0.1280666980000000
+			xmax = 0.2484519390000000
+			text = "mE"
+		intervals [3]:
+			xmin = 0.2484519390000000
+			xmax = 0.5249291699999999
+			text = "kwa"
+	item [3]:
+		class = "IntervalTier"
+		name = "words"
+		xmin = 0.0000000000000000
+		xmax = 0.5249291699999999
+		intervals: size = 4
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.0495891560000000
+			text = "t'"
+		intervals [2]:
+			xmin = 0.0495891560000000
+			xmax = 0.1280666980000000
+			text = "y"
+		intervals [3]:
+			xmin = 0.1280666980000000
+			xmax = 0.2484519390000000
+			text = "mets"
+		intervals [4]:
+			xmin = 0.2484519390000000
+			xmax = 0.5249291699999999
+			text = "quoi"
+	item [4]:
+		class = "IntervalTier"
+		name = "textexpe"
+		xmin = 0.0000000000000000
+		xmax = 0.5249291699999999
+		intervals: size = 1
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.5249291699999999
+			text = "t’y mets quoi ?"
+	item [5]:
+		class = "IntervalTier"
+		name = "phono"
+		xmin = 0.0000000000000000
+		xmax = 0.5249291699999999
+		intervals: size = 1
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.5249291699999999
+			text = "ti mE kwa"
+	item [6]:
+		class = "IntervalTier"
+		name = "ortho"
+		xmin = 0.0000000000000000
+		xmax = 0.5249291699999999
+		intervals: size = 1
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.5249291699999999
+			text = "t'y mets quoi "

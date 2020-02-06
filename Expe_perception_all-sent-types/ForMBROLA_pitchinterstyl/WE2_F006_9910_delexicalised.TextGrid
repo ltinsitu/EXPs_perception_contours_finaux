@@ -1,0 +1,132 @@
+﻿File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0.0000000000000000
+xmax = 0.8012395800000000
+tiers? <exists>
+size = 6
+item []:
+	item [1]:
+		class = "IntervalTier"
+		name = "phones"
+		xmin = 0.0000000000000000
+		xmax = 0.8012395800000000
+		intervals: size = 11
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.0164056870000000
+			text = "v"
+		intervals [2]:
+			xmin = 0.0164056870000000
+			xmax = 0.0560968660000000
+			text = "u"
+		intervals [3]:
+			xmin = 0.0560968660000000
+			xmax = 0.1131773360000000
+			text = "z"
+		intervals [4]:
+			xmin = 0.1131773360000000
+			xmax = 0.2035735760000000
+			text = "O"
+		intervals [5]:
+			xmin = 0.2035735760000000
+			xmax = 0.2842379090000000
+			text = "k"
+		intervals [6]:
+			xmin = 0.2842379090000000
+			xmax = 0.3363081470000000
+			text = "R"
+		intervals [7]:
+			xmin = 0.3363081470000000
+			xmax = 0.4144850950000000
+			text = "9"
+		intervals [8]:
+			xmin = 0.4144850950000000
+			xmax = 0.4661661290000000
+			text = "v"
+		intervals [9]:
+			xmin = 0.4661661290000000
+			xmax = 0.5865709000000000
+			text = "u"
+		intervals [10]:
+			xmin = 0.5865709000000000
+			xmax = 0.7030130280000000
+			text = "t"
+		intervals [11]:
+			xmin = 0.7030130280000000
+			xmax = 0.8012395800000000
+			text = "a~"
+	item [2]:
+		class = "IntervalTier"
+		name = "syll"
+		xmin = 0.0000000000000000
+		xmax = 0.8012395800000000
+		intervals: size = 5
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.0560968660000000
+			text = "vu"
+		intervals [2]:
+			xmin = 0.0560968660000000
+			xmax = 0.2035735760000000
+			text = "ze"
+		intervals [3]:
+			xmin = 0.2035735760000000
+			xmax = 0.4144850950000000
+			text = "kRi"
+		intervals [4]:
+			xmin = 0.4144850950000000
+			xmax = 0.5865709000000000
+			text = "ve"
+		intervals [5]:
+			xmin = 0.5865709000000000
+			xmax = 0.8012395800000000
+			text = "ka~"
+	item [3]:
+		class = "IntervalTier"
+		name = "words"
+		xmin = 0.0000000000000000
+		xmax = 0.8012395800000000
+		intervals: size = 3
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.1054231190000000
+			text = "vous"
+		intervals [2]:
+			xmin = 0.1054231190000000
+			xmax = 0.5865709000000000
+			text = "écrivez"
+		intervals [3]:
+			xmin = 0.5865709000000000
+			xmax = 0.8012395800000000
+			text = "quand"
+	item [4]:
+		class = "IntervalTier"
+		name = "textexpe"
+		xmin = 0.0000000000000000
+		xmax = 0.8012395800000000
+		intervals: size = 1
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.8012395800000000
+			text = "vous écrivez quand ?"
+	item [5]:
+		class = "IntervalTier"
+		name = "phono"
+		xmin = 0.0000000000000000
+		xmax = 0.8012395800000000
+		intervals: size = 1
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.8012395800000000
+			text = "e~ paR sk@ swa t*o~ a ZamE mEm nu vu vu zekRive ka~"
+	item [6]:
+		class = "IntervalTier"
+		name = "ortho"
+		xmin = 0.0000000000000000
+		xmax = 0.8012395800000000
+		intervals: size = 1
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.8012395800000000
+			text = "hein parce que soit on ah jamais même nous vous vous écrivez quand"

@@ -1,0 +1,154 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 1.1750691355886702 
+tiers? <exists> 
+size = 5 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "phones" 
+        xmin = 0 
+        xmax = 1.1750691355886702 
+        intervals: size = 17 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.14000000000000057 
+            text = "s" 
+        intervals [2]:
+            xmin = 0.14000000000000057 
+            xmax = 0.16346012493389206 
+            text = "w" 
+        intervals [3]:
+            xmin = 0.16346012493389206 
+            xmax = 0.21098519205194663 
+            text = "a" 
+        intervals [4]:
+            xmin = 0.21098519205194663 
+            xmax = 0.27356614584039307 
+            text = "j" 
+        intervals [5]:
+            xmin = 0.27356614584039307 
+            xmax = 0.40000000000000213 
+            text = "e" 
+        intervals [6]:
+            xmin = 0.40000000000000213 
+            xmax = 0.4499999999999993 
+            text = "p" 
+        intervals [7]:
+            xmin = 0.4499999999999993 
+            xmax = 0.5 
+            text = "l" 
+        intervals [8]:
+            xmin = 0.5 
+            xmax = 0.5395866100012285 
+            text = "y" 
+        intervals [9]:
+            xmin = 0.5395866100012285 
+            xmax = 0.5800000000000018 
+            text = "R" 
+        intervals [10]:
+            xmin = 0.5800000000000018 
+            xmax = 0.6500000000000021 
+            text = "E" 
+        intervals [11]:
+            xmin = 0.6500000000000021 
+            xmax = 0.75 
+            text = "s" 
+        intervals [12]:
+            xmin = 0.75 
+            xmax = 0.7899999999999991 
+            text = "p" 
+        intervals [13]:
+            xmin = 0.7899999999999991 
+            xmax = 0.8399999999999999 
+            text = "E" 
+        intervals [14]:
+            xmin = 0.8399999999999999 
+            xmax = 0.8900000000000006 
+            text = "k" 
+        intervals [15]:
+            xmin = 0.8900000000000006 
+            xmax = 0.9600000000000009 
+            text = "t" 
+        intervals [16]:
+            xmin = 0.9600000000000009 
+            xmax = 1.0199999999999996 
+            text = "y" 
+        intervals [17]:
+            xmin = 1.0199999999999996 
+            xmax = 1.1750691355886702 
+            text = "2" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "syll" 
+        xmin = 0 
+        xmax = 1.1750691355886702 
+        intervals: size = 7 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.21098519205194663 
+            text = "swa" 
+        intervals [2]:
+            xmin = 0.21098519205194663 
+            xmax = 0.40000000000000213 
+            text = "je" 
+        intervals [3]:
+            xmin = 0.40000000000000213 
+            xmax = 0.5395866100012285 
+            text = "ply" 
+        intervals [4]:
+            xmin = 0.5395866100012285 
+            xmax = 0.75 
+            text = "REs" 
+        intervals [5]:
+            xmin = 0.75 
+            xmax = 0.8900000000000006 
+            text = "pEk" 
+        intervals [6]:
+            xmin = 0.8900000000000006 
+            xmax = 1.0199999999999996 
+            text = "ty" 
+        intervals [7]:
+            xmin = 1.0199999999999996 
+            xmax = 1.1750691355886702 
+            text = "2" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "words" 
+        xmin = 0 
+        xmax = 1.1750691355886702 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.40000000000000213 
+            text = "soyez" 
+        intervals [2]:
+            xmin = 0.40000000000000213 
+            xmax = 0.5395866100012285 
+            text = "plus" 
+        intervals [3]:
+            xmin = 0.5395866100012285 
+            xmax = 1.1750691355886702 
+            text = "respectueux" 
+    item [4]:
+        class = "IntervalTier" 
+        name = "phono" 
+        xmin = 0 
+        xmax = 1.1750691355886702 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 1.1750691355886702 
+            text = "swaje ply REspEkty2" 
+    item [5]:
+        class = "IntervalTier" 
+        name = "ortho" 
+        xmin = 0 
+        xmax = 1.1750691355886702 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 1.1750691355886702 
+            text = "soyez plus respectueux" 

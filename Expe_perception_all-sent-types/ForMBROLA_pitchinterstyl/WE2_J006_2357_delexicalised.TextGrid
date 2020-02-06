@@ -1,0 +1,116 @@
+﻿File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0.0000000000000000
+xmax = 0.6071369710000000
+tiers? <exists>
+size = 6
+item []:
+	item [1]:
+		class = "IntervalTier"
+		name = "phones"
+		xmin = 0.0000000000000000
+		xmax = 0.6071369710000000
+		intervals: size = 8
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.0301399330000000
+			text = "v"
+		intervals [2]:
+			xmin = 0.0301399330000000
+			xmax = 0.0758005320000000
+			text = "2"
+		intervals [3]:
+			xmin = 0.0758005320000000
+			xmax = 0.1213834050000000
+			text = "s"
+		intervals [4]:
+			xmin = 0.1213834050000000
+			xmax = 0.2017812380000000
+			text = "O"
+		intervals [5]:
+			xmin = 0.2017812380000000
+			xmax = 0.2868497090000000
+			text = "d"
+		intervals [6]:
+			xmin = 0.2868497090000000
+			xmax = 0.3644965600000000
+			text = "j"
+		intervals [7]:
+			xmin = 0.3644965600000000
+			xmax = 0.4571546210000000
+			text = "E"
+		intervals [8]:
+			xmin = 0.4571546210000000
+			xmax = 0.6071369710000000
+			text = "u"
+	item [2]:
+		class = "IntervalTier"
+		name = "syll"
+		xmin = 0.0000000000000000
+		xmax = 0.6071369710000000
+		intervals: size = 4
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.0758005320000000
+			text = "vu"
+		intervals [2]:
+			xmin = 0.0758005320000000
+			xmax = 0.2017812380000000
+			text = "ze"
+		intervals [3]:
+			xmin = 0.2017812380000000
+			xmax = 0.4571546210000000
+			text = "tje"
+		intervals [4]:
+			xmin = 0.4571546210000000
+			xmax = 0.6071369710000000
+			text = "u"
+	item [3]:
+		class = "IntervalTier"
+		name = "words"
+		xmin = 0.0000000000000000
+		xmax = 0.6071369710000000
+		intervals: size = 3
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.1213834050000000
+			text = "vous"
+		intervals [2]:
+			xmin = 0.1213834050000000
+			xmax = 0.4571546210000000
+			text = "étiez"
+		intervals [3]:
+			xmin = 0.4571546210000000
+			xmax = 0.6071369710000000
+			text = "où"
+	item [4]:
+		class = "IntervalTier"
+		name = "textexpe"
+		xmin = 0.0000000000000000
+		xmax = 0.6071369710000000
+		intervals: size = 1
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.6071369710000000
+			text = "vous étiez où ?"
+	item [5]:
+		class = "IntervalTier"
+		name = "phono"
+		xmin = 0.0000000000000000
+		xmax = 0.6071369710000000
+		intervals: size = 1
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.6071369710000000
+			text = "sE vRE vu z*etje u"
+	item [6]:
+		class = "IntervalTier"
+		name = "ortho"
+		xmin = 0.0000000000000000
+		xmax = 0.6071369710000000
+		intervals: size = 1
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.6071369710000000
+			text = "c'est vrai vous étiez où"

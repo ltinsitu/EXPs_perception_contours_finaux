@@ -1,0 +1,244 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 1.354298956685441 
+tiers? <exists> 
+size = 6 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "phones" 
+        xmin = 0 
+        xmax = 1.354298956685441 
+        intervals: size = 26 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.03911218397354155 
+            text = "k" 
+        intervals [2]:
+            xmin = 0.03911218397354155 
+            xmax = 0.08470195551371518 
+            text = "e" 
+        intervals [3]:
+            xmin = 0.08470195551371518 
+            xmax = 0.15000000000000036 
+            text = "s" 
+        intervals [4]:
+            xmin = 0.15000000000000036 
+            xmax = 0.1900000000000004 
+            text = "k" 
+        intervals [5]:
+            xmin = 0.1900000000000004 
+            xmax = 0.2400000000000002 
+            text = "@" 
+        intervals [6]:
+            xmin = 0.2400000000000002 
+            xmax = 0.27000000000000046 
+            text = "t" 
+        intervals [7]:
+            xmin = 0.27000000000000046 
+            xmax = 0.3600000000000003 
+            text = "y" 
+        intervals [8]:
+            xmin = 0.3600000000000003 
+            xmax = 0.3899999999999997 
+            text = "p" 
+        intervals [9]:
+            xmin = 0.3899999999999997 
+            xmax = 0.47999999999999954 
+            text = "a~" 
+        intervals [10]:
+            xmin = 0.47999999999999954 
+            xmax = 0.5099999999999998 
+            text = "s" 
+        intervals [11]:
+            xmin = 0.5099999999999998 
+            xmax = 0.5200701971642676 
+            text = "d" 
+        intervals [12]:
+            xmin = 0.5200701971642676 
+            xmax = 0.5387205582488841 
+            text = "@" 
+        intervals [13]:
+            xmin = 0.5387205582488841 
+            xmax = 0.5637751229097994 
+            text = "l" 
+        intervals [14]:
+            xmin = 0.5637751229097994 
+            xmax = 0.6499999999999995 
+            text = "a" 
+        intervals [15]:
+            xmin = 0.6499999999999995 
+            xmax = 0.7000000000000002 
+            text = "p" 
+        intervals [16]:
+            xmin = 0.7000000000000002 
+            xmax = 0.7385318145981525 
+            text = "O" 
+        intervals [17]:
+            xmin = 0.7385318145981525 
+            xmax = 0.7460569652855664 
+            text = "l" 
+        intervals [18]:
+            xmin = 0.7460569652855664 
+            xmax = 0.8300000000000001 
+            text = "i" 
+        intervals [19]:
+            xmin = 0.8300000000000001 
+            xmax = 0.8899999999999997 
+            text = "t" 
+        intervals [20]:
+            xmin = 0.8899999999999997 
+            xmax = 0.9199999999999999 
+            text = "i" 
+        intervals [21]:
+            xmin = 0.9199999999999999 
+            xmax = 0.9699999999999998 
+            text = "k" 
+        intervals [22]:
+            xmin = 0.9699999999999998 
+            xmax = 1.030228653259317 
+            text = "l" 
+        intervals [23]:
+            xmin = 1.030228653259317 
+            xmax = 1.0899999999999999 
+            text = "O" 
+        intervals [24]:
+            xmin = 1.0899999999999999 
+            xmax = 1.1882660271744294 
+            text = "k" 
+        intervals [25]:
+            xmin = 1.1882660271744294 
+            xmax = 1.2653165087934477 
+            text = "a" 
+        intervals [26]:
+            xmin = 1.2653165087934477 
+            xmax = 1.354298956685441 
+            text = "l" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "syll" 
+        xmin = 0 
+        xmax = 1.354298956685441 
+        intervals: size = 11 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.15000000000000036 
+            text = "kes" 
+        intervals [2]:
+            xmin = 0.15000000000000036 
+            xmax = 0.2400000000000002 
+            text = "k@" 
+        intervals [3]:
+            xmin = 0.2400000000000002 
+            xmax = 0.3600000000000003 
+            text = "ty" 
+        intervals [4]:
+            xmin = 0.3600000000000003 
+            xmax = 0.5099999999999998 
+            text = "pa~s" 
+        intervals [5]:
+            xmin = 0.5099999999999998 
+            xmax = 0.5387205582488841 
+            text = "d@" 
+        intervals [6]:
+            xmin = 0.5387205582488841 
+            xmax = 0.6499999999999995 
+            text = "la" 
+        intervals [7]:
+            xmin = 0.6499999999999995 
+            xmax = 0.7385318145981525 
+            text = "pO" 
+        intervals [8]:
+            xmin = 0.7385318145981525 
+            xmax = 0.8300000000000001 
+            text = "li" 
+        intervals [9]:
+            xmin = 0.8300000000000001 
+            xmax = 0.9699999999999998 
+            text = "tik" 
+        intervals [10]:
+            xmin = 0.9699999999999998 
+            xmax = 1.0899999999999999 
+            text = "lO" 
+        intervals [11]:
+            xmin = 1.0899999999999999 
+            xmax = 1.354298956685441 
+            text = "kal" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "words" 
+        xmin = 0 
+        xmax = 1.354298956685441 
+        intervals: size = 10 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.03000000000000025 
+            text = "qu'" 
+        intervals [2]:
+            xmin = 0.03000000000000025 
+            xmax = 0.08999999999999986 
+            text = "est" 
+        intervals [3]:
+            xmin = 0.08999999999999986 
+            xmax = 0.15000000000000036 
+            text = "ce" 
+        intervals [4]:
+            xmin = 0.15000000000000036 
+            xmax = 0.2400000000000002 
+            text = "que" 
+        intervals [5]:
+            xmin = 0.2400000000000002 
+            xmax = 0.3600000000000003 
+            text = "tu" 
+        intervals [6]:
+            xmin = 0.3600000000000003 
+            xmax = 0.5099999999999998 
+            text = "penses" 
+        intervals [7]:
+            xmin = 0.5099999999999998 
+            xmax = 0.5387205582488841 
+            text = "de" 
+        intervals [8]:
+            xmin = 0.5387205582488841 
+            xmax = 0.6499999999999995 
+            text = "la" 
+        intervals [9]:
+            xmin = 0.6499999999999995 
+            xmax = 0.9699999999999998 
+            text = "politique" 
+        intervals [10]:
+            xmin = 0.9699999999999998 
+            xmax = 1.354298956685441 
+            text = "locale" 
+    item [4]:
+        class = "IntervalTier" 
+        name = "textexpe" 
+        xmin = 0 
+        xmax = 1.354298956685441 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 1.354298956685441 
+            text = "qu'est-ce que tu penses de la politique locale" 
+    item [5]:
+        class = "IntervalTier" 
+        name = "phono" 
+        xmin = 0 
+        xmax = 1.354298956685441 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 1.354298956685441 
+            text = "k e s k@ ty pa~s d@ la pOlitik lOkal" 
+    item [6]:
+        class = "IntervalTier" 
+        name = "ortho" 
+        xmin = 0 
+        xmax = 1.354298956685441 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 1.354298956685441 
+            text = "qu'est-ce que tu penses de la politique locale" 

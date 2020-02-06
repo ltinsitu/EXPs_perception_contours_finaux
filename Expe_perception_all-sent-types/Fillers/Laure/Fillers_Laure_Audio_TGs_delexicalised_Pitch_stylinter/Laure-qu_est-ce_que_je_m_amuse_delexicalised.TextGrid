@@ -1,0 +1,144 @@
+﻿File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0.0000000000000000
+xmax = 0.9724460610000000
+tiers? <exists>
+size = 6
+item []:
+	item [1]:
+		class = "IntervalTier"
+		name = "phones"
+		xmin = 0.0000000000000000
+		xmax = 0.9724460610000000
+		intervals: size = 11
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.0322511380000000
+			text = "k"
+		intervals [2]:
+			xmin = 0.0322511380000000
+			xmax = 0.1246899710000000
+			text = "o"
+		intervals [3]:
+			xmin = 0.1246899710000000
+			xmax = 0.2290156770000000
+			text = "S"
+		intervals [4]:
+			xmin = 0.2290156770000000
+			xmax = 0.2574670070000000
+			text = "p"
+		intervals [5]:
+			xmin = 0.2574670070000000
+			xmax = 0.3257619080000000
+			text = "@"
+		intervals [6]:
+			xmin = 0.3257619080000000
+			xmax = 0.3795525990000000
+			text = "Z"
+		intervals [7]:
+			xmin = 0.3795525990000000
+			xmax = 0.4270850480000000
+			text = "m"
+		intervals [8]:
+			xmin = 0.4270850480000000
+			xmax = 0.4987104320000000
+			text = "y"
+		intervals [9]:
+			xmin = 0.4987104320000000
+			xmax = 0.5864600250000001
+			text = "n"
+		intervals [10]:
+			xmin = 0.5864600250000001
+			xmax = 0.8098888480000001
+			text = "E"
+		intervals [11]:
+			xmin = 0.8098888480000001
+			xmax = 0.9724460610000000
+			text = "z"
+	item [2]:
+		class = "IntervalTier"
+		name = "syll"
+		xmin = 0.0000000000000000
+		xmax = 0.9724460610000000
+		intervals: size = 4
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.2290156770000000
+			text = "kes"
+		intervals [2]:
+			xmin = 0.2290156770000000
+			xmax = 0.3795525990000000
+			text = "k@Z"
+		intervals [3]:
+			xmin = 0.3795525990000000
+			xmax = 0.4987104320000000
+			text = "ma"
+		intervals [4]:
+			xmin = 0.4987104320000000
+			xmax = 0.9724460610000000
+			text = "myz"
+	item [3]:
+		class = "IntervalTier"
+		name = "words"
+		xmin = 0.0000000000000000
+		xmax = 0.9724460610000000
+		intervals: size = 7
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.0322511380000000
+			text = "qu'"
+		intervals [2]:
+			xmin = 0.0322511380000000
+			xmax = 0.1246899710000000
+			text = "est"
+		intervals [3]:
+			xmin = 0.1246899710000000
+			xmax = 0.2290156770000000
+			text = "ce"
+		intervals [4]:
+			xmin = 0.2290156770000000
+			xmax = 0.3257619080000000
+			text = "que"
+		intervals [5]:
+			xmin = 0.3257619080000000
+			xmax = 0.3795525990000000
+			text = "je"
+		intervals [6]:
+			xmin = 0.3795525990000000
+			xmax = 0.4270850480000000
+			text = "m'"
+		intervals [7]:
+			xmin = 0.4270850480000000
+			xmax = 0.9724460610000000
+			text = "amuse"
+	item [4]:
+		class = "IntervalTier"
+		name = "textexpe"
+		xmin = 0.0000000000000000
+		xmax = 0.9724460610000000
+		intervals: size = 1
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.9724460610000000
+			text = "qu'est-ce que je m'amuse"
+	item [5]:
+		class = "IntervalTier"
+		name = "phono"
+		xmin = 0.0000000000000000
+		xmax = 0.9724460610000000
+		intervals: size = 1
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.9724460610000000
+			text = "k e s k@ Z mamyz"
+	item [6]:
+		class = "IntervalTier"
+		name = "ortho"
+		xmin = 0.0000000000000000
+		xmax = 0.9724460610000000
+		intervals: size = 1
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.9724460610000000
+			text = "qu'est-ce que je m'amuse"

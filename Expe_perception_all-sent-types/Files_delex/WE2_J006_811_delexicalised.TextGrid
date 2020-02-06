@@ -1,0 +1,112 @@
+﻿File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0.0000000000000000
+xmax = 0.4845405310000000
+tiers? <exists>
+size = 6
+item []:
+	item [1]:
+		class = "IntervalTier"
+		name = "phones"
+		xmin = 0.0000000000000000
+		xmax = 0.4845405310000000
+		intervals: size = 7
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.0500000000000000
+			text = "t"
+		intervals [2]:
+			xmin = 0.0500000000000000
+			xmax = 0.1161848800000000
+			text = "y"
+		intervals [3]:
+			xmin = 0.1161848800000000
+			xmax = 0.1684846370000000
+			text = "p"
+		intervals [4]:
+			xmin = 0.1684846370000000
+			xmax = 0.2600000000000000
+			text = "E"
+		intervals [5]:
+			xmin = 0.2600000000000000
+			xmax = 0.3200000000000000
+			text = "b"
+		intervals [6]:
+			xmin = 0.3200000000000000
+			xmax = 0.3802971310000000
+			text = "o"
+		intervals [7]:
+			xmin = 0.3802971310000000
+			xmax = 0.4845405310000000
+			text = "u"
+	item [2]:
+		class = "IntervalTier"
+		name = "syll"
+		xmin = 0.0000000000000000
+		xmax = 0.4845405310000000
+		intervals: size = 4
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.1161848800000000
+			text = "ta"
+		intervals [2]:
+			xmin = 0.1161848800000000
+			xmax = 0.2600000000000000
+			text = "bi"
+		intervals [3]:
+			xmin = 0.2600000000000000
+			xmax = 0.3802971310000000
+			text = "tE"
+		intervals [4]:
+			xmin = 0.3802971310000000
+			xmax = 0.4845405310000000
+			text = "u"
+	item [3]:
+		class = "IntervalTier"
+		name = "words"
+		xmin = 0.0000000000000000
+		xmax = 0.4845405310000000
+		intervals: size = 3
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.0500000000000000
+			text = "tu"
+		intervals [2]:
+			xmin = 0.0500000000000000
+			xmax = 0.3802971310000000
+			text = "habitais"
+		intervals [3]:
+			xmin = 0.3802971310000000
+			xmax = 0.4845405310000000
+			text = "où"
+	item [4]:
+		class = "IntervalTier"
+		name = "textexpe"
+		xmin = 0.0000000000000000
+		xmax = 0.4845405310000000
+		intervals: size = 1
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.4845405310000000
+			text = "tu habitais où ?"
+	item [5]:
+		class = "IntervalTier"
+		name = "phono"
+		xmin = 0.0000000000000000
+		xmax = 0.4845405310000000
+		intervals: size = 1
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.4845405310000000
+			text = "dakOR e do~ kava~ 2 t abitE u"
+	item [6]:
+		class = "IntervalTier"
+		name = "ortho"
+		xmin = 0.0000000000000000
+		xmax = 0.4845405310000000
+		intervals: size = 1
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.4845405310000000
+			text = "d'accord et donc avant euh tu habitais où"

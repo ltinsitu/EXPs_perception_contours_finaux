@@ -1,0 +1,160 @@
+﻿File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0.0000000000000000
+xmax = 1.1215973130000001
+tiers? <exists>
+size = 6
+item []:
+	item [1]:
+		class = "IntervalTier"
+		name = "phones"
+		xmin = 0.0000000000000000
+		xmax = 1.1215973130000001
+		intervals: size = 15
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.0300000000000000
+			text = "l"
+		intervals [2]:
+			xmin = 0.0300000000000000
+			xmax = 0.1400000000000000
+			text = "@"
+		intervals [3]:
+			xmin = 0.1400000000000000
+			xmax = 0.1800000000000000
+			text = "d"
+		intervals [4]:
+			xmin = 0.1800000000000000
+			xmax = 0.2300000000000000
+			text = "i"
+		intervals [5]:
+			xmin = 0.2300000000000000
+			xmax = 0.3300000000000000
+			text = "R"
+		intervals [6]:
+			xmin = 0.3300000000000000
+			xmax = 0.4400000000000000
+			text = "k"
+		intervals [7]:
+			xmin = 0.4400000000000000
+			xmax = 0.4753178890000000
+			text = "j"
+		intervals [8]:
+			xmin = 0.4753178890000000
+			xmax = 0.4968391270000000
+			text = "e"
+		intervals [9]:
+			xmin = 0.4968391270000000
+			xmax = 0.5601484810000000
+			text = "y"
+		intervals [10]:
+			xmin = 0.5601484810000000
+			xmax = 0.6659933730000001
+			text = "d"
+		intervals [11]:
+			xmin = 0.6659933730000001
+			xmax = 0.7800000000000000
+			text = "e"
+		intervals [12]:
+			xmin = 0.7800000000000000
+			xmax = 0.8300000000000000
+			text = "d"
+		intervals [13]:
+			xmin = 0.8300000000000000
+			xmax = 0.8800000000000000
+			text = "o"
+		intervals [14]:
+			xmin = 0.8800000000000000
+			xmax = 0.9600000000000000
+			text = "m"
+		intervals [15]:
+			xmin = 0.9600000000000000
+			xmax = 1.1215973130000001
+			text = "a~"
+	item [2]:
+		class = "IntervalTier"
+		name = "syll"
+		xmin = 0.0000000000000000
+		xmax = 1.1215973130000001
+		intervals: size = 7
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.1400000000000000
+			text = "l@"
+		intervals [2]:
+			xmin = 0.1400000000000000
+			xmax = 0.3300000000000000
+			text = "kaR"
+		intervals [3]:
+			xmin = 0.3300000000000000
+			xmax = 0.4968391270000000
+			text = "tje"
+		intervals [4]:
+			xmin = 0.4968391270000000
+			xmax = 0.5601484810000000
+			text = "e"
+		intervals [5]:
+			xmin = 0.5601484810000000
+			xmax = 0.7800000000000000
+			text = "tE"
+		intervals [6]:
+			xmin = 0.7800000000000000
+			xmax = 0.8800000000000000
+			text = "kO"
+		intervals [7]:
+			xmin = 0.8800000000000000
+			xmax = 1.1215973130000001
+			text = "ma~"
+	item [3]:
+		class = "IntervalTier"
+		name = "words"
+		xmin = 0.0000000000000000
+		xmax = 1.1215973130000001
+		intervals: size = 4
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.1400000000000000
+			text = "le"
+		intervals [2]:
+			xmin = 0.1400000000000000
+			xmax = 0.4968391270000000
+			text = "quartier"
+		intervals [3]:
+			xmin = 0.4968391270000000
+			xmax = 0.7800000000000000
+			text = "était"
+		intervals [4]:
+			xmin = 0.7800000000000000
+			xmax = 1.1215973130000001
+			text = "comment"
+	item [4]:
+		class = "IntervalTier"
+		name = "textexpe"
+		xmin = 0.0000000000000000
+		xmax = 1.1215973130000001
+		intervals: size = 1
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 1.1215973130000001
+			text = "le quartier était comment ? "
+	item [5]:
+		class = "IntervalTier"
+		name = "phono"
+		xmin = 0.0000000000000000
+		xmax = 1.1215973130000001
+		intervals: size = 1
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 1.1215973130000001
+			text = "i le l@ ka~ vu z*Et aRive l@ kaRtje etE kOma~"
+	item [6]:
+		class = "IntervalTier"
+		name = "ortho"
+		xmin = 0.0000000000000000
+		xmax = 1.1215973130000001
+		intervals: size = 1
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 1.1215973130000001
+			text = "il est le quand vous êtes arrivés le quartier était comment"

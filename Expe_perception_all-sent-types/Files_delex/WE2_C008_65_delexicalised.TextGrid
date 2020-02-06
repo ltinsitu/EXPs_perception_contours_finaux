@@ -1,0 +1,212 @@
+﻿File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0.0000000000000000
+xmax = 1.3899999999999999
+tiers? <exists>
+size = 6
+item []:
+	item [1]:
+		class = "IntervalTier"
+		name = "phones"
+		xmin = 0.0000000000000000
+		xmax = 1.3899999999999999
+		intervals: size = 22
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.0800000000000000
+			text = "k"
+		intervals [2]:
+			xmin = 0.0800000000000000
+			xmax = 0.1500000000000000
+			text = "2"
+		intervals [3]:
+			xmin = 0.1500000000000000
+			xmax = 0.2100000000000000
+			text = "R"
+		intervals [4]:
+			xmin = 0.2100000000000000
+			xmax = 0.3200000000000000
+			text = "f"
+		intervals [5]:
+			xmin = 0.3200000000000000
+			xmax = 0.3900000000000000
+			text = "e"
+		intervals [6]:
+			xmin = 0.3900000000000000
+			xmax = 0.4200000000000000
+			text = "l"
+		intervals [7]:
+			xmin = 0.4200000000000000
+			xmax = 0.4700000000000000
+			text = "n"
+		intervals [8]:
+			xmin = 0.4700000000000000
+			xmax = 0.5300000000000000
+			text = "2"
+		intervals [9]:
+			xmin = 0.5300000000000000
+			xmax = 0.6200000000000000
+			text = "z"
+		intervals [10]:
+			xmin = 0.6200000000000000
+			xmax = 0.6600000000000000
+			text = "b"
+		intervals [11]:
+			xmin = 0.6600000000000000
+			xmax = 0.7000000000000000
+			text = "@"
+		intervals [12]:
+			xmin = 0.7000000000000000
+			xmax = 0.7400000000000000
+			text = "v"
+		intervals [13]:
+			xmin = 0.7400000000000000
+			xmax = 0.8252909389999999
+			text = "i"
+		intervals [14]:
+			xmin = 0.8252909389999999
+			xmax = 0.8752894710000000
+			text = "s"
+		intervals [15]:
+			xmin = 0.8752894710000000
+			xmax = 0.9200000000000000
+			text = "@"
+		intervals [16]:
+			xmin = 0.9200000000000000
+			xmax = 0.9500000000000000
+			text = "n"
+		intervals [17]:
+			xmin = 0.9500000000000000
+			xmax = 1.0200000000000000
+			text = "i"
+		intervals [18]:
+			xmin = 1.0200000000000000
+			xmax = 1.0500000000000000
+			text = "t"
+		intervals [19]:
+			xmin = 1.0500000000000000
+			xmax = 1.1299999999999999
+			text = "z"
+		intervals [20]:
+			xmin = 1.1299999999999999
+			xmax = 1.1699999999999999
+			text = "w"
+		intervals [21]:
+			xmin = 1.1699999999999999
+			xmax = 1.2700000000000000
+			text = "u"
+		intervals [22]:
+			xmin = 1.2700000000000000
+			xmax = 1.3899999999999999
+			text = "R"
+	item [2]:
+		class = "IntervalTier"
+		name = "syll"
+		xmin = 0.0000000000000000
+		xmax = 1.3899999999999999
+		intervals: size = 8
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.2100000000000000
+			text = "kEl"
+		intervals [2]:
+			xmin = 0.2100000000000000
+			xmax = 0.4200000000000000
+			text = "fil"
+		intervals [3]:
+			xmin = 0.4200000000000000
+			xmax = 0.6200000000000000
+			text = "mes"
+		intervals [4]:
+			xmin = 0.6200000000000000
+			xmax = 0.7000000000000000
+			text = "k@"
+		intervals [5]:
+			xmin = 0.7000000000000000
+			xmax = 0.8252909389999999
+			text = "vu"
+		intervals [6]:
+			xmin = 0.8252909389999999
+			xmax = 0.9200000000000000
+			text = "v@"
+		intervals [7]:
+			xmin = 0.9200000000000000
+			xmax = 1.0500000000000000
+			text = "ned"
+		intervals [8]:
+			xmin = 1.0500000000000000
+			xmax = 1.3899999999999999
+			text = "vwaR"
+	item [3]:
+		class = "IntervalTier"
+		name = "words"
+		xmin = 0.0000000000000000
+		xmax = 1.3899999999999999
+		intervals: size = 9
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.2100000000000000
+			text = "quel"
+		intervals [2]:
+			xmin = 0.2100000000000000
+			xmax = 0.4700000000000000
+			text = "film"
+		intervals [3]:
+			xmin = 0.4700000000000000
+			xmax = 0.5300000000000000
+			text = "est"
+		intervals [4]:
+			xmin = 0.5300000000000000
+			xmax = 0.6200000000000000
+			text = "ce"
+		intervals [5]:
+			xmin = 0.6200000000000000
+			xmax = 0.7000000000000000
+			text = "que"
+		intervals [6]:
+			xmin = 0.7000000000000000
+			xmax = 0.8252909389999999
+			text = "vous"
+		intervals [7]:
+			xmin = 0.8252909389999999
+			xmax = 1.0200000000000000
+			text = "venez"
+		intervals [8]:
+			xmin = 1.0200000000000000
+			xmax = 1.0500000000000000
+			text = "de"
+		intervals [9]:
+			xmin = 1.0500000000000000
+			xmax = 1.3899999999999999
+			text = "voir"
+	item [4]:
+		class = "IntervalTier"
+		name = "textexpe"
+		xmin = 0.0000000000000000
+		xmax = 1.3899999999999999
+		intervals: size = 1
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 1.3899999999999999
+			text = "quel film est-ce que vous venez de voir ?"
+	item [5]:
+		class = "IntervalTier"
+		name = "phono"
+		xmin = 0.0000000000000000
+		xmax = 1.3899999999999999
+		intervals: size = 1
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 1.3899999999999999
+			text = "alOR tu dabOR kEl film e s k@ vu v@ne d vwaR"
+	item [6]:
+		class = "IntervalTier"
+		name = "ortho"
+		xmin = 0.0000000000000000
+		xmax = 1.3899999999999999
+		intervals: size = 1
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 1.3899999999999999
+			text = "alors tout d'abord quel film est-ce que vous venez de voir"

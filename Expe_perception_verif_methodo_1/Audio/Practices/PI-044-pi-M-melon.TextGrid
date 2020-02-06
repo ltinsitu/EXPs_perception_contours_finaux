@@ -1,0 +1,182 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 1.001859410430839 
+tiers? <exists> 
+size = 5 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "phones" 
+        xmin = 0 
+        xmax = 1.001859410430839 
+        intervals: size = 15 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.035 
+            text = "_" 
+        intervals [2]:
+            xmin = 0.035 
+            xmax = 0.105 
+            text = "n" 
+        intervals [3]:
+            xmin = 0.105 
+            xmax = 0.14500000000000002 
+            text = "@" 
+        intervals [4]:
+            xmin = 0.14500000000000002 
+            xmax = 0.21500000000000002 
+            text = "m" 
+        intervals [5]:
+            xmin = 0.21500000000000002 
+            xmax = 0.275 
+            text = "a~" 
+        intervals [6]:
+            xmin = 0.275 
+            xmax = 0.35500000000000004 
+            text = "Z" 
+        intervals [7]:
+            xmin = 0.35500000000000004 
+            xmax = 0.405 
+            text = "p" 
+        intervals [8]:
+            xmin = 0.405 
+            xmax = 0.485 
+            text = "a" 
+        intervals [9]:
+            xmin = 0.485 
+            xmax = 0.515 
+            text = "l" 
+        intervals [10]:
+            xmin = 0.515 
+            xmax = 0.5750000000000001 
+            text = "@" 
+        intervals [11]:
+            xmin = 0.5750000000000001 
+            xmax = 0.655 
+            text = "m" 
+        intervals [12]:
+            xmin = 0.655 
+            xmax = 0.705 
+            text = "@" 
+        intervals [13]:
+            xmin = 0.705 
+            xmax = 0.7547194764566197 
+            text = "l" 
+        intervals [14]:
+            xmin = 0.7547194764566197 
+            xmax = 0.975 
+            text = "o~" 
+        intervals [15]:
+            xmin = 0.975 
+            xmax = 1.001859410430839 
+            text = "_" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "syll" 
+        xmin = 0 
+        xmax = 1.001859410430839 
+        intervals: size = 8 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.035 
+            text = "_" 
+        intervals [2]:
+            xmin = 0.035 
+            xmax = 0.14500000000000002 
+            text = "n@" 
+        intervals [3]:
+            xmin = 0.14500000000000002 
+            xmax = 0.35500000000000004 
+            text = "ma~Z" 
+        intervals [4]:
+            xmin = 0.35500000000000004 
+            xmax = 0.485 
+            text = "pa" 
+        intervals [5]:
+            xmin = 0.485 
+            xmax = 0.5750000000000001 
+            text = "l@" 
+        intervals [6]:
+            xmin = 0.5750000000000001 
+            xmax = 0.705 
+            text = "m@" 
+        intervals [7]:
+            xmin = 0.705 
+            xmax = 0.975 
+            text = "lo~" 
+        intervals [8]:
+            xmin = 0.975 
+            xmax = 1.001859410430839 
+            text = "_" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "words" 
+        xmin = 0 
+        xmax = 1.001859410430839 
+        intervals: size = 7 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.035 
+            text = "_" 
+        intervals [2]:
+            xmin = 0.035 
+            xmax = 0.14500000000000002 
+            text = "ne" 
+        intervals [3]:
+            xmin = 0.14500000000000002 
+            xmax = 0.35500000000000004 
+            text = "mange" 
+        intervals [4]:
+            xmin = 0.35500000000000004 
+            xmax = 0.485 
+            text = "pas" 
+        intervals [5]:
+            xmin = 0.485 
+            xmax = 0.5750000000000001 
+            text = "le" 
+        intervals [6]:
+            xmin = 0.5750000000000001 
+            xmax = 0.975 
+            text = "melon" 
+        intervals [7]:
+            xmin = 0.975 
+            xmax = 1.001859410430839 
+            text = "_" 
+    item [4]:
+        class = "IntervalTier" 
+        name = "phono" 
+        xmin = 0 
+        xmax = 1.001859410430839 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.035 
+            text = "_" 
+        intervals [2]:
+            xmin = 0.035 
+            xmax = 0.975 
+            text = "n@ ma~Z pa l@ m@lo~" 
+        intervals [3]:
+            xmin = 0.975 
+            xmax = 1.001859410430839 
+            text = "" 
+    item [5]:
+        class = "IntervalTier" 
+        name = "ortho" 
+        xmin = 0 
+        xmax = 1.001859410430839 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.035 
+            text = "_" 
+        intervals [2]:
+            xmin = 0.035 
+            xmax = 0.975 
+            text = "ne mange pas le melon" 
+        intervals [3]:
+            xmin = 0.975 
+            xmax = 1.001859410430839 
+            text = "" 

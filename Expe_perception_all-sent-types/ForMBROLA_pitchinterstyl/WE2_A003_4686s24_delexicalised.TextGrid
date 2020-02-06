@@ -1,0 +1,196 @@
+﻿File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0.0000000000000000
+xmax = 1.4552484050000001
+tiers? <exists>
+size = 6
+item []:
+	item [1]:
+		class = "IntervalTier"
+		name = "phones"
+		xmin = 0.0000000000000000
+		xmax = 1.4552484050000001
+		intervals: size = 20
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.0896697210000000
+			text = "Z"
+		intervals [2]:
+			xmin = 0.0896697210000000
+			xmax = 0.1153266640000000
+			text = "u"
+		intervals [3]:
+			xmin = 0.1153266640000000
+			xmax = 0.1750054070000000
+			text = "o~"
+		intervals [4]:
+			xmin = 0.1750054070000000
+			xmax = 0.2015906490000000
+			text = "g"
+		intervals [5]:
+			xmin = 0.2015906490000000
+			xmax = 0.2263420140000000
+			text = "a~"
+		intervals [6]:
+			xmin = 0.2263420140000000
+			xmax = 0.2647144380000000
+			text = "t"
+		intervals [7]:
+			xmin = 0.2647144380000000
+			xmax = 0.3263420140000000
+			text = "y"
+		intervals [8]:
+			xmin = 0.3263420140000000
+			xmax = 0.3663420140000000
+			text = "i"
+		intervals [9]:
+			xmin = 0.3663420140000000
+			xmax = 0.4063420140000000
+			text = "n"
+		intervals [10]:
+			xmin = 0.4063420140000000
+			xmax = 0.4963420140000000
+			text = "i"
+		intervals [11]:
+			xmin = 0.4963420140000000
+			xmax = 0.5763420140000000
+			text = "v"
+		intervals [12]:
+			xmin = 0.5763420140000000
+			xmax = 0.6239847760000000
+			text = "k"
+		intervals [13]:
+			xmin = 0.6239847760000000
+			xmax = 0.7063420140000000
+			text = "o"
+		intervals [14]:
+			xmin = 0.7063420140000000
+			xmax = 0.7763420140000000
+			text = "m"
+		intervals [15]:
+			xmin = 0.7763420140000000
+			xmax = 0.8363420140000000
+			text = "j"
+		intervals [16]:
+			xmin = 0.8363420140000000
+			xmax = 0.9163420140000000
+			text = "u"
+		intervals [17]:
+			xmin = 0.9163420140000000
+			xmax = 0.9463420140000000
+			text = "R"
+		intervals [18]:
+			xmin = 0.9463420140000000
+			xmax = 1.0263420139999999
+			text = "i"
+		intervals [19]:
+			xmin = 1.0263420139999999
+			xmax = 1.1963420140000001
+			text = "z"
+		intervals [20]:
+			xmin = 1.1963420140000001
+			xmax = 1.4552484050000001
+			text = "i"
+	item [2]:
+		class = "IntervalTier"
+		name = "syll"
+		xmin = 0.0000000000000000
+		xmax = 1.4552484050000001
+		intervals: size = 10
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.1153266640000000
+			text = "Ze"
+		intervals [2]:
+			xmin = 0.1153266640000000
+			xmax = 0.1750054070000000
+			text = "a~"
+		intervals [3]:
+			xmin = 0.1750054070000000
+			xmax = 0.2263420140000000
+			text = "ta~"
+		intervals [4]:
+			xmin = 0.2263420140000000
+			xmax = 0.3263420140000000
+			text = "dy"
+		intervals [5]:
+			xmin = 0.3263420140000000
+			xmax = 0.3663420140000000
+			text = "y"
+		intervals [6]:
+			xmin = 0.3663420140000000
+			xmax = 0.5763420140000000
+			text = "nEs"
+		intervals [7]:
+			xmin = 0.5763420140000000
+			xmax = 0.7063420140000000
+			text = "pa"
+		intervals [8]:
+			xmin = 0.7063420140000000
+			xmax = 0.9163420140000000
+			text = "njO"
+		intervals [9]:
+			xmin = 0.9163420140000000
+			xmax = 1.0263420139999999
+			text = "lo"
+		intervals [10]:
+			xmin = 1.0263420139999999
+			xmax = 1.4552484050000001
+			text = "si"
+	item [3]:
+		class = "IntervalTier"
+		name = "words"
+		xmin = 0.0000000000000000
+		xmax = 1.4552484050000001
+		intervals: size = 5
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.1153266640000000
+			text = "j'ai"
+		intervals [2]:
+			xmin = 0.1153266640000000
+			xmax = 0.3263420140000000
+			text = "entendu"
+		intervals [3]:
+			xmin = 0.3263420140000000
+			xmax = 0.3663420140000000
+			text = "une"
+		intervals [4]:
+			xmin = 0.3663420140000000
+			xmax = 0.9463420140000000
+			text = "espagnole"
+		intervals [5]:
+			xmin = 0.9463420140000000
+			xmax = 1.4552484050000001
+			text = "aussi"
+	item [4]:
+		class = "IntervalTier"
+		name = "textexpe"
+		xmin = 0.0000000000000000
+		xmax = 1.4552484050000001
+		intervals: size = 1
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 1.4552484050000001
+			text = "j'ai entendu une espagnole aussi"
+	item [5]:
+		class = "IntervalTier"
+		name = "phono"
+		xmin = 0.0000000000000000
+		xmax = 1.4552484050000001
+		intervals: size = 1
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 1.4552484050000001
+			text = "wE Ze a~ta~dy y nEspanjO losi"
+	item [6]:
+		class = "IntervalTier"
+		name = "ortho"
+		xmin = 0.0000000000000000
+		xmax = 1.4552484050000001
+		intervals: size = 1
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 1.4552484050000001
+			text = "ouais j'ai entendu une espagnole aussi"

@@ -1,0 +1,124 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 0.7399999999999984 
+tiers? <exists> 
+size = 6 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "phones" 
+        xmin = 0 
+        xmax = 0.7399999999999984 
+        intervals: size = 10 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.11999999999999744 
+            text = "d" 
+        intervals [2]:
+            xmin = 0.11999999999999744 
+            xmax = 0.21294435215479857 
+            text = "a~" 
+        intervals [3]:
+            xmin = 0.21294435215479857 
+            xmax = 0.28999999999999915 
+            text = "s" 
+        intervals [4]:
+            xmin = 0.28999999999999915 
+            xmax = 0.35999999999999943 
+            text = "a" 
+        intervals [5]:
+            xmin = 0.35999999999999943 
+            xmax = 0.389999999999997 
+            text = "v" 
+        intervals [6]:
+            xmin = 0.389999999999997 
+            xmax = 0.4799999999999969 
+            text = "E" 
+        intervals [7]:
+            xmin = 0.4799999999999969 
+            xmax = 0.5199999999999996 
+            text = "k" 
+        intervals [8]:
+            xmin = 0.5199999999999996 
+            xmax = 0.6046845950568698 
+            text = "m" 
+        intervals [9]:
+            xmin = 0.6046845950568698 
+            xmax = 0.6433816816891431 
+            text = "w" 
+        intervals [10]:
+            xmin = 0.6433816816891431 
+            xmax = 0.7399999999999984 
+            text = "a" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "syll" 
+        xmin = 0 
+        xmax = 0.7399999999999984 
+        intervals: size = 4 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.21294435215479857 
+            text = "da~" 
+        intervals [2]:
+            xmin = 0.21294435215479857 
+            xmax = 0.35999999999999943 
+            text = "sa" 
+        intervals [3]:
+            xmin = 0.35999999999999943 
+            xmax = 0.5199999999999996 
+            text = "vEk" 
+        intervals [4]:
+            xmin = 0.5199999999999996 
+            xmax = 0.7399999999999984 
+            text = "mwa" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "words" 
+        xmin = 0 
+        xmax = 0.7399999999999984 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.21294435215479857 
+            text = "danse" 
+        intervals [2]:
+            xmin = 0.21294435215479857 
+            xmax = 0.5199999999999996 
+            text = "avec" 
+        intervals [3]:
+            xmin = 0.5199999999999996 
+            xmax = 0.7399999999999984 
+            text = "moi" 
+    item [4]:
+        class = "IntervalTier" 
+        name = "textexpe" 
+        xmin = 0 
+        xmax = 0.7399999999999984 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.7399999999999984 
+            text = "danse avec moi" 
+    item [5]:
+        class = "IntervalTier" 
+        name = "phono" 
+        xmin = 0 
+        xmax = 0.7399999999999984 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.7399999999999984 
+            text = "da~ savEk mwa" 
+    item [6]:
+        class = "IntervalTier" 
+        name = "ortho" 
+        xmin = 0 
+        xmax = 0.7399999999999984 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.7399999999999984 
+            text = "danse avec moi" 

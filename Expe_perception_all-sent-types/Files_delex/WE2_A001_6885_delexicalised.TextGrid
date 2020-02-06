@@ -1,0 +1,148 @@
+﻿File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0.0000000000000000
+xmax = 0.8000000000000000
+tiers? <exists>
+size = 6
+item []:
+	item [1]:
+		class = "IntervalTier"
+		name = "phones"
+		xmin = 0.0000000000000000
+		xmax = 0.8000000000000000
+		intervals: size = 11
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.0544062160000000
+			text = "s"
+		intervals [2]:
+			xmin = 0.0544062160000000
+			xmax = 0.1020107130000000
+			text = "e"
+		intervals [3]:
+			xmin = 0.1020107130000000
+			xmax = 0.1500000000000000
+			text = "y"
+		intervals [4]:
+			xmin = 0.1500000000000000
+			xmax = 0.2378252020000000
+			text = "f"
+		intervals [5]:
+			xmin = 0.2378252020000000
+			xmax = 0.3200000000000000
+			text = "u"
+		intervals [6]:
+			xmin = 0.3200000000000000
+			xmax = 0.4166863290000000
+			text = "e"
+		intervals [7]:
+			xmin = 0.4166863290000000
+			xmax = 0.4867378440000000
+			text = "m"
+		intervals [8]:
+			xmin = 0.4867378440000000
+			xmax = 0.5877313040000000
+			text = "y"
+		intervals [9]:
+			xmin = 0.5877313040000000
+			xmax = 0.6545015490000000
+			text = "R"
+		intervals [10]:
+			xmin = 0.6545015490000000
+			xmax = 0.7100000000000000
+			text = "l"
+		intervals [11]:
+			xmin = 0.7100000000000000
+			xmax = 0.8000000000000000
+			text = "a"
+	item [2]:
+		class = "IntervalTier"
+		name = "syll"
+		xmin = 0.0000000000000000
+		xmax = 0.8000000000000000
+		intervals: size = 6
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.1020107130000000
+			text = "sa"
+		intervals [2]:
+			xmin = 0.1020107130000000
+			xmax = 0.1500000000000000
+			text = "a"
+		intervals [3]:
+			xmin = 0.1500000000000000
+			xmax = 0.3200000000000000
+			text = "fE"
+		intervals [4]:
+			xmin = 0.3200000000000000
+			xmax = 0.4166863290000000
+			text = "y"
+		intervals [5]:
+			xmin = 0.4166863290000000
+			xmax = 0.6545015490000000
+			text = "n9R"
+		intervals [6]:
+			xmin = 0.6545015490000000
+			xmax = 0.8000000000000000
+			text = "la"
+	item [3]:
+		class = "IntervalTier"
+		name = "words"
+		xmin = 0.0000000000000000
+		xmax = 0.8000000000000000
+		intervals: size = 6
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.1020107130000000
+			text = "ça"
+		intervals [2]:
+			xmin = 0.1020107130000000
+			xmax = 0.1500000000000000
+			text = "a"
+		intervals [3]:
+			xmin = 0.1500000000000000
+			xmax = 0.3200000000000000
+			text = "fait"
+		intervals [4]:
+			xmin = 0.3200000000000000
+			xmax = 0.4166863290000000
+			text = "une"
+		intervals [5]:
+			xmin = 0.4166863290000000
+			xmax = 0.6545015490000000
+			text = "heure"
+		intervals [6]:
+			xmin = 0.6545015490000000
+			xmax = 0.8000000000000000
+			text = "là"
+	item [4]:
+		class = "IntervalTier"
+		name = "textexpe"
+		xmin = 0.0000000000000000
+		xmax = 0.8000000000000000
+		intervals: size = 1
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.8000000000000000
+			text = "ça a fait une heure là"
+	item [5]:
+		class = "IntervalTier"
+		name = "phono"
+		xmin = 0.0000000000000000
+		xmax = 0.8000000000000000
+		intervals: size = 1
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.8000000000000000
+			text = "sa a fE y n9R la"
+	item [6]:
+		class = "IntervalTier"
+		name = "ortho"
+		xmin = 0.0000000000000000
+		xmax = 0.8000000000000000
+		intervals: size = 1
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.8000000000000000
+			text = "ça a fait une heure là"

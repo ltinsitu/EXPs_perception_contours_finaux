@@ -1,0 +1,174 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 1.4100000000000001 
+tiers? <exists> 
+size = 5 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "phones" 
+        xmin = 0 
+        xmax = 1.4100000000000001 
+        intervals: size = 18 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.040000000000000924 
+            text = "l" 
+        intervals [2]:
+            xmin = 0.040000000000000924 
+            xmax = 0.09999999999999964 
+            text = "@" 
+        intervals [3]:
+            xmin = 0.09999999999999964 
+            xmax = 0.16000000000000014 
+            text = "n" 
+        intervals [4]:
+            xmin = 0.16000000000000014 
+            xmax = 0.22000000000000064 
+            text = "u" 
+        intervals [5]:
+            xmin = 0.22000000000000064 
+            xmax = 0.2599999999999998 
+            text = "v" 
+        intervals [6]:
+            xmin = 0.2599999999999998 
+            xmax = 0.3877028821601167 
+            text = "o" 
+        intervals [7]:
+            xmin = 0.3877028821601167 
+            xmax = 0.4308771017530499 
+            text = "p" 
+        intervals [8]:
+            xmin = 0.4308771017530499 
+            xmax = 0.4970660580129653 
+            text = "R" 
+        intervals [9]:
+            xmin = 0.4970660580129653 
+            xmax = 0.5828801338130178 
+            text = "O" 
+        intervals [10]:
+            xmin = 0.5828801338130178 
+            xmax = 0.6799999999999997 
+            text = "f" 
+        intervals [11]:
+            xmin = 0.6799999999999997 
+            xmax = 0.7599999999999998 
+            text = "E" 
+        intervals [12]:
+            xmin = 0.7599999999999998 
+            xmax = 0.8100000000000005 
+            text = "t" 
+        intervals [13]:
+            xmin = 0.8100000000000005 
+            xmax = 0.8973419744564199 
+            text = "R" 
+        intervals [14]:
+            xmin = 0.8973419744564199 
+            xmax = 0.9499999999999993 
+            text = "o" 
+        intervals [15]:
+            xmin = 0.9499999999999993 
+            xmax = 1.0322142472371352 
+            text = "s" 
+        intervals [16]:
+            xmin = 1.0322142472371352 
+            xmax = 1.1799999999999997 
+            text = "e~" 
+        intervals [17]:
+            xmin = 1.1799999999999997 
+            xmax = 1.2100000000000009 
+            text = "p" 
+        intervals [18]:
+            xmin = 1.2100000000000009 
+            xmax = 1.4100000000000001 
+            text = "a" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "syll" 
+        xmin = 0 
+        xmax = 1.4100000000000001 
+        intervals: size = 8 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.09999999999999964 
+            text = "l@" 
+        intervals [2]:
+            xmin = 0.09999999999999964 
+            xmax = 0.22000000000000064 
+            text = "nu" 
+        intervals [3]:
+            xmin = 0.22000000000000064 
+            xmax = 0.3877028821601167 
+            text = "vo" 
+        intervals [4]:
+            xmin = 0.3877028821601167 
+            xmax = 0.5828801338130178 
+            text = "pRO" 
+        intervals [5]:
+            xmin = 0.5828801338130178 
+            xmax = 0.7599999999999998 
+            text = "fE" 
+        intervals [6]:
+            xmin = 0.7599999999999998 
+            xmax = 0.9499999999999993 
+            text = "tRo" 
+        intervals [7]:
+            xmin = 0.9499999999999993 
+            xmax = 1.1799999999999997 
+            text = "se~" 
+        intervals [8]:
+            xmin = 1.1799999999999997 
+            xmax = 1.4100000000000001 
+            text = "pa" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "words" 
+        xmin = 0 
+        xmax = 1.4100000000000001 
+        intervals: size = 6 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.09999999999999964 
+            text = "le" 
+        intervals [2]:
+            xmin = 0.09999999999999964 
+            xmax = 0.3877028821601167 
+            text = "nouveau" 
+        intervals [3]:
+            xmin = 0.3877028821601167 
+            xmax = 0.6799999999999997 
+            text = "prof" 
+        intervals [4]:
+            xmin = 0.6799999999999997 
+            xmax = 0.7599999999999998 
+            text = "est" 
+        intervals [5]:
+            xmin = 0.7599999999999998 
+            xmax = 0.9499999999999993 
+            text = "trop" 
+        intervals [6]:
+            xmin = 0.9499999999999993 
+            xmax = 1.4100000000000001 
+            text = "sympa" 
+    item [4]:
+        class = "IntervalTier" 
+        name = "phono" 
+        xmin = 0 
+        xmax = 1.4100000000000001 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 1.4100000000000001 
+            text = "l@ nuvo pROf E tRo se~pa" 
+    item [5]:
+        class = "IntervalTier" 
+        name = "ortho" 
+        xmin = 0 
+        xmax = 1.4100000000000001 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 1.4100000000000001 
+            text = "le nouveau prof est trop sympa" 

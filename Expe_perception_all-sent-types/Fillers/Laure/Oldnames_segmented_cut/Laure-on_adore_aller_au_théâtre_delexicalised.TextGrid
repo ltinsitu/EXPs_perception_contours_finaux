@@ -1,0 +1,164 @@
+﻿File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0.0000000000000000
+xmax = 1.3500000000000001
+tiers? <exists>
+size = 6
+item []:
+	item [1]:
+		class = "IntervalTier"
+		name = "phones"
+		xmin = 0.0000000000000000
+		xmax = 1.3500000000000001
+		intervals: size = 14
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.1000000000000000
+			text = "o~"
+		intervals [2]:
+			xmin = 0.1000000000000000
+			xmax = 0.1400000000000000
+			text = "n"
+		intervals [3]:
+			xmin = 0.1400000000000000
+			xmax = 0.3225023520000000
+			text = "u"
+		intervals [4]:
+			xmin = 0.3225023520000000
+			xmax = 0.4000000000000000
+			text = "b"
+		intervals [5]:
+			xmin = 0.4000000000000000
+			xmax = 0.5641856159999999
+			text = "i"
+		intervals [6]:
+			xmin = 0.5641856159999999
+			xmax = 0.6408864590000000
+			text = "R"
+		intervals [7]:
+			xmin = 0.6408864590000000
+			xmax = 0.7100000000000000
+			text = "O"
+		intervals [8]:
+			xmin = 0.7100000000000000
+			xmax = 0.7500000000000000
+			text = "R"
+		intervals [9]:
+			xmin = 0.7500000000000000
+			xmax = 0.8245114710000000
+			text = "2"
+		intervals [10]:
+			xmin = 0.8245114710000000
+			xmax = 0.9500000000000000
+			text = "i"
+		intervals [11]:
+			xmin = 0.9500000000000000
+			xmax = 0.9800000000000000
+			text = "t"
+		intervals [12]:
+			xmin = 0.9800000000000000
+			xmax = 1.0680897180000000
+			text = "e"
+		intervals [13]:
+			xmin = 1.0680897180000000
+			xmax = 1.2800000000000000
+			text = "E"
+		intervals [14]:
+			xmin = 1.2800000000000000
+			xmax = 1.3500000000000001
+			text = "t"
+	item [2]:
+		class = "IntervalTier"
+		name = "syll"
+		xmin = 0.0000000000000000
+		xmax = 1.3500000000000001
+		intervals: size = 8
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.1000000000000000
+			text = "o~"
+		intervals [2]:
+			xmin = 0.1000000000000000
+			xmax = 0.3225023520000000
+			text = "na"
+		intervals [3]:
+			xmin = 0.3225023520000000
+			xmax = 0.5641856159999999
+			text = "dO"
+		intervals [4]:
+			xmin = 0.5641856159999999
+			xmax = 0.7100000000000000
+			text = "Ra"
+		intervals [5]:
+			xmin = 0.7100000000000000
+			xmax = 0.8245114710000000
+			text = "le"
+		intervals [6]:
+			xmin = 0.8245114710000000
+			xmax = 0.9500000000000000
+			text = "o"
+		intervals [7]:
+			xmin = 0.9500000000000000
+			xmax = 1.0680897180000000
+			text = "te"
+		intervals [8]:
+			xmin = 1.0680897180000000
+			xmax = 1.3500000000000001
+			text = "at"
+	item [3]:
+		class = "IntervalTier"
+		name = "words"
+		xmin = 0.0000000000000000
+		xmax = 1.3500000000000001
+		intervals: size = 5
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.1000000000000000
+			text = "on"
+		intervals [2]:
+			xmin = 0.1000000000000000
+			xmax = 0.6408864590000000
+			text = "adore"
+		intervals [3]:
+			xmin = 0.6408864590000000
+			xmax = 0.8245114710000000
+			text = "aller"
+		intervals [4]:
+			xmin = 0.8245114710000000
+			xmax = 0.9500000000000000
+			text = "au"
+		intervals [5]:
+			xmin = 0.9500000000000000
+			xmax = 1.3500000000000001
+			text = "théâtre"
+	item [4]:
+		class = "IntervalTier"
+		name = "textexpe"
+		xmin = 0.0000000000000000
+		xmax = 1.3500000000000001
+		intervals: size = 1
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 1.3500000000000001
+			text = "on adore aller au théâtre"
+	item [5]:
+		class = "IntervalTier"
+		name = "phono"
+		xmin = 0.0000000000000000
+		xmax = 1.3500000000000001
+		intervals: size = 1
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 1.3500000000000001
+			text = "o~ nadO Rale o teat"
+	item [6]:
+		class = "IntervalTier"
+		name = "ortho"
+		xmin = 0.0000000000000000
+		xmax = 1.3500000000000001
+		intervals: size = 1
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 1.3500000000000001
+			text = "on adore aller au théâtre"

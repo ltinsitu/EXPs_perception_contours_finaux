@@ -1,0 +1,160 @@
+﻿File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0.0000000000000000
+xmax = 1.3443222390000000
+tiers? <exists>
+size = 6
+item []:
+	item [1]:
+		class = "IntervalTier"
+		name = "phones"
+		xmin = 0.0000000000000000
+		xmax = 1.3443222390000000
+		intervals: size = 14
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.1112239720000000
+			text = "v"
+		intervals [2]:
+			xmin = 0.1112239720000000
+			xmax = 0.3368368240000000
+			text = "E"
+		intervals [3]:
+			xmin = 0.3368368240000000
+			xmax = 0.3862584220000000
+			text = "s"
+		intervals [4]:
+			xmin = 0.3862584220000000
+			xmax = 0.4343222390000000
+			text = "e"
+		intervals [5]:
+			xmin = 0.4343222390000000
+			xmax = 0.5256923700000000
+			text = "s"
+		intervals [6]:
+			xmin = 0.5256923700000000
+			xmax = 0.5743222390000000
+			text = "9"
+		intervals [7]:
+			xmin = 0.5743222390000000
+			xmax = 0.6143222390000000
+			text = "R"
+		intervals [8]:
+			xmin = 0.6143222390000000
+			xmax = 0.7515282580000000
+			text = "e~"
+		intervals [9]:
+			xmin = 0.7515282580000000
+			xmax = 0.8061635490000000
+			text = "d"
+		intervals [10]:
+			xmin = 0.8061635490000000
+			xmax = 0.9143222390000000
+			text = "2"
+		intervals [11]:
+			xmin = 0.9143222390000000
+			xmax = 0.9743222390000000
+			text = "k"
+		intervals [12]:
+			xmin = 0.9743222390000000
+			xmax = 1.0543222390000000
+			text = "O"
+		intervals [13]:
+			xmin = 1.0543222390000000
+			xmax = 1.1243222390000001
+			text = "n"
+		intervals [14]:
+			xmin = 1.1243222390000001
+			xmax = 1.3443222390000000
+			text = "a~"
+	item [2]:
+		class = "IntervalTier"
+		name = "syll"
+		xmin = 0.0000000000000000
+		xmax = 1.3443222390000000
+		intervals: size = 7
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.3368368240000000
+			text = "vu"
+		intervals [2]:
+			xmin = 0.3368368240000000
+			xmax = 0.4343222390000000
+			text = "vu"
+		intervals [3]:
+			xmin = 0.4343222390000000
+			xmax = 0.5743222390000000
+			text = "zi"
+		intervals [4]:
+			xmin = 0.5743222390000000
+			xmax = 0.7515282580000000
+			text = "Ra~"
+		intervals [5]:
+			xmin = 0.7515282580000000
+			xmax = 0.9143222390000000
+			text = "de"
+		intervals [6]:
+			xmin = 0.9143222390000000
+			xmax = 1.0543222390000000
+			text = "kO"
+		intervals [7]:
+			xmin = 1.0543222390000000
+			xmax = 1.3443222390000000
+			text = "ma~"
+	item [3]:
+		class = "IntervalTier"
+		name = "words"
+		xmin = 0.0000000000000000
+		xmax = 1.3443222390000000
+		intervals: size = 5
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.3368368240000000
+			text = "vous"
+		intervals [2]:
+			xmin = 0.3368368240000000
+			xmax = 0.4343222390000000
+			text = "vous"
+		intervals [3]:
+			xmin = 0.4343222390000000
+			xmax = 0.5743222390000000
+			text = "y"
+		intervals [4]:
+			xmin = 0.5743222390000000
+			xmax = 0.9143222390000000
+			text = "rendez"
+		intervals [5]:
+			xmin = 0.9143222390000000
+			xmax = 1.3443222390000000
+			text = "comment"
+	item [4]:
+		class = "IntervalTier"
+		name = "textexpe"
+		xmin = 0.0000000000000000
+		xmax = 1.3443222390000000
+		intervals: size = 1
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 1.3443222390000000
+			text = "vous vous y rendez comment ? "
+	item [5]:
+		class = "IntervalTier"
+		name = "phono"
+		xmin = 0.0000000000000000
+		xmax = 1.3443222390000000
+		intervals: size = 1
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 1.3443222390000000
+			text = "m e 2 vu vu zi Ra~de kOma~"
+	item [6]:
+		class = "IntervalTier"
+		name = "ortho"
+		xmin = 0.0000000000000000
+		xmax = 1.3443222390000000
+		intervals: size = 1
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 1.3443222390000000
+			text = "hm et euh vous vous y rendez comment"

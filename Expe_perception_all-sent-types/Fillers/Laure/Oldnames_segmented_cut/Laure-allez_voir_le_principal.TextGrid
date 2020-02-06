@@ -1,0 +1,168 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 1.17 
+tiers? <exists> 
+size = 6 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "phones" 
+        xmin = 0 
+        xmax = 1.17 
+        intervals: size = 17 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.1200000000000001 
+            text = "a" 
+        intervals [2]:
+            xmin = 0.1200000000000001 
+            xmax = 0.15000000000000036 
+            text = "l" 
+        intervals [3]:
+            xmin = 0.15000000000000036 
+            xmax = 0.2400000000000002 
+            text = "e" 
+        intervals [4]:
+            xmin = 0.2400000000000002 
+            xmax = 0.2699999999999996 
+            text = "v" 
+        intervals [5]:
+            xmin = 0.2699999999999996 
+            xmax = 0.31245929161186764 
+            text = "w" 
+        intervals [6]:
+            xmin = 0.31245929161186764 
+            xmax = 0.3889560920335258 
+            text = "a" 
+        intervals [7]:
+            xmin = 0.3889560920335258 
+            xmax = 0.42080099155889883 
+            text = "R" 
+        intervals [8]:
+            xmin = 0.42080099155889883 
+            xmax = 0.4526674782111456 
+            text = "l" 
+        intervals [9]:
+            xmin = 0.4526674782111456 
+            xmax = 0.5347914872353854 
+            text = "@" 
+        intervals [10]:
+            xmin = 0.5347914872353854 
+            xmax = 0.5773854334641232 
+            text = "p" 
+        intervals [11]:
+            xmin = 0.5773854334641232 
+            xmax = 0.6351875239108002 
+            text = "R" 
+        intervals [12]:
+            xmin = 0.6351875239108002 
+            xmax = 0.6971152953660817 
+            text = "e~" 
+        intervals [13]:
+            xmin = 0.6971152953660817 
+            xmax = 0.8000000000000007 
+            text = "s" 
+        intervals [14]:
+            xmin = 0.8000000000000007 
+            xmax = 0.8716655305713019 
+            text = "i" 
+        intervals [15]:
+            xmin = 0.8716655305713019 
+            xmax = 0.9247118537187168 
+            text = "p" 
+        intervals [16]:
+            xmin = 0.9247118537187168 
+            xmax = 1.0625360589915718 
+            text = "a" 
+        intervals [17]:
+            xmin = 1.0625360589915718 
+            xmax = 1.17 
+            text = "l" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "syll" 
+        xmin = 0 
+        xmax = 1.17 
+        intervals: size = 7 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.1200000000000001 
+            text = "a" 
+        intervals [2]:
+            xmin = 0.1200000000000001 
+            xmax = 0.2400000000000002 
+            text = "le" 
+        intervals [3]:
+            xmin = 0.2400000000000002 
+            xmax = 0.42080099155889883 
+            text = "vwaR" 
+        intervals [4]:
+            xmin = 0.42080099155889883 
+            xmax = 0.5347914872353854 
+            text = "l@" 
+        intervals [5]:
+            xmin = 0.5347914872353854 
+            xmax = 0.6971152953660817 
+            text = "pRe~" 
+        intervals [6]:
+            xmin = 0.6971152953660817 
+            xmax = 0.8716655305713019 
+            text = "si" 
+        intervals [7]:
+            xmin = 0.8716655305713019 
+            xmax = 1.17 
+            text = "pal" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "words" 
+        xmin = 0 
+        xmax = 1.17 
+        intervals: size = 4 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.2400000000000002 
+            text = "allez" 
+        intervals [2]:
+            xmin = 0.2400000000000002 
+            xmax = 0.42080099155889883 
+            text = "voir" 
+        intervals [3]:
+            xmin = 0.42080099155889883 
+            xmax = 0.5347914872353854 
+            text = "le" 
+        intervals [4]:
+            xmin = 0.5347914872353854 
+            xmax = 1.17 
+            text = "principal" 
+    item [4]:
+        class = "IntervalTier" 
+        name = "textexpe" 
+        xmin = 0 
+        xmax = 1.17 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 1.17 
+            text = "allez voir le principal" 
+    item [5]:
+        class = "IntervalTier" 
+        name = "phono" 
+        xmin = 0 
+        xmax = 1.17 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 1.17 
+            text = "ale vwaR l@ pRe~sipal" 
+    item [6]:
+        class = "IntervalTier" 
+        name = "ortho" 
+        xmin = 0 
+        xmax = 1.17 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 1.17 
+            text = "allez voir le principal" 

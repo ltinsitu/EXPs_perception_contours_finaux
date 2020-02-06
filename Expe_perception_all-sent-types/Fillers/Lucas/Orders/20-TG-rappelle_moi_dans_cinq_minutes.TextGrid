@@ -1,0 +1,162 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 1.2999999999999972 
+tiers? <exists> 
+size = 5 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "phones" 
+        xmin = 0 
+        xmax = 1.2999999999999972 
+        intervals: size = 17 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.14999999999999858 
+            text = "R" 
+        intervals [2]:
+            xmin = 0.14999999999999858 
+            xmax = 0.22852338520525625 
+            text = "a" 
+        intervals [3]:
+            xmin = 0.22852338520525625 
+            xmax = 0.28999999999999915 
+            text = "p" 
+        intervals [4]:
+            xmin = 0.28999999999999915 
+            xmax = 0.3499999999999943 
+            text = "E" 
+        intervals [5]:
+            xmin = 0.3499999999999943 
+            xmax = 0.3999999999999986 
+            text = "l" 
+        intervals [6]:
+            xmin = 0.3999999999999986 
+            xmax = 0.4799999999999969 
+            text = "m" 
+        intervals [7]:
+            xmin = 0.4799999999999969 
+            xmax = 0.5155219235790387 
+            text = "w" 
+        intervals [8]:
+            xmin = 0.5155219235790387 
+            xmax = 0.5700000000000003 
+            text = "a" 
+        intervals [9]:
+            xmin = 0.5700000000000003 
+            xmax = 0.5999999999999943 
+            text = "d" 
+        intervals [10]:
+            xmin = 0.5999999999999943 
+            xmax = 0.6599999999999966 
+            text = "a~" 
+        intervals [11]:
+            xmin = 0.6599999999999966 
+            xmax = 0.7752766409357823 
+            text = "s" 
+        intervals [12]:
+            xmin = 0.7752766409357823 
+            xmax = 0.8299999999999983 
+            text = "e~" 
+        intervals [13]:
+            xmin = 0.8299999999999983 
+            xmax = 0.8899999999999935 
+            text = "m" 
+        intervals [14]:
+            xmin = 0.8899999999999935 
+            xmax = 0.9394046976422028 
+            text = "i" 
+        intervals [15]:
+            xmin = 0.9394046976422028 
+            xmax = 1.009999999999998 
+            text = "n" 
+        intervals [16]:
+            xmin = 1.009999999999998 
+            xmax = 1.1399999999999935 
+            text = "y" 
+        intervals [17]:
+            xmin = 1.1399999999999935 
+            xmax = 1.2999999999999972 
+            text = "t" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "syll" 
+        xmin = 0 
+        xmax = 1.2999999999999972 
+        intervals: size = 7 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.22852338520525625 
+            text = "Ra" 
+        intervals [2]:
+            xmin = 0.22852338520525625 
+            xmax = 0.3999999999999986 
+            text = "pEl" 
+        intervals [3]:
+            xmin = 0.3999999999999986 
+            xmax = 0.5700000000000003 
+            text = "mwa" 
+        intervals [4]:
+            xmin = 0.5700000000000003 
+            xmax = 0.6599999999999966 
+            text = "da~" 
+        intervals [5]:
+            xmin = 0.6599999999999966 
+            xmax = 0.8299999999999983 
+            text = "se~" 
+        intervals [6]:
+            xmin = 0.8299999999999983 
+            xmax = 0.9394046976422028 
+            text = "mi" 
+        intervals [7]:
+            xmin = 0.9394046976422028 
+            xmax = 1.2999999999999972 
+            text = "nyt" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "words" 
+        xmin = 0 
+        xmax = 1.2999999999999972 
+        intervals: size = 5 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.3999999999999986 
+            text = "rappelle" 
+        intervals [2]:
+            xmin = 0.3999999999999986 
+            xmax = 0.5700000000000003 
+            text = "moi" 
+        intervals [3]:
+            xmin = 0.5700000000000003 
+            xmax = 0.6599999999999966 
+            text = "dans" 
+        intervals [4]:
+            xmin = 0.6599999999999966 
+            xmax = 0.8299999999999983 
+            text = "cinq" 
+        intervals [5]:
+            xmin = 0.8299999999999983 
+            xmax = 1.2999999999999972 
+            text = "minutes" 
+    item [4]:
+        class = "IntervalTier" 
+        name = "phono" 
+        xmin = 0 
+        xmax = 1.2999999999999972 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 1.2999999999999972 
+            text = "RapEl mwa da~ se~ minyt" 
+    item [5]:
+        class = "IntervalTier" 
+        name = "ortho" 
+        xmin = 0 
+        xmax = 1.2999999999999972 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 1.2999999999999972 
+            text = "rappelle moi dans cinq minutes" 

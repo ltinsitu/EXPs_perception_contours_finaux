@@ -1,0 +1,156 @@
+﻿File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0.0000000000000000
+xmax = 0.8401466920000000
+tiers? <exists>
+size = 6
+item []:
+	item [1]:
+		class = "IntervalTier"
+		name = "phones"
+		xmin = 0.0000000000000000
+		xmax = 0.8401466920000000
+		intervals: size = 14
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.0301466920000000
+			text = "v"
+		intervals [2]:
+			xmin = 0.0301466920000000
+			xmax = 0.0601466920000000
+			text = "y"
+		intervals [3]:
+			xmin = 0.0601466920000000
+			xmax = 0.1101466920000000
+			text = "z"
+		intervals [4]:
+			xmin = 0.1101466920000000
+			xmax = 0.1501466920000000
+			text = "E"
+		intervals [5]:
+			xmin = 0.1501466920000000
+			xmax = 0.2237723520000000
+			text = "z"
+		intervals [6]:
+			xmin = 0.2237723520000000
+			xmax = 0.2901466920000000
+			text = "y"
+		intervals [7]:
+			xmin = 0.2901466920000000
+			xmax = 0.3501466920000000
+			text = "t"
+		intervals [8]:
+			xmin = 0.3501466920000000
+			xmax = 0.4401466920000000
+			text = "R"
+		intervals [9]:
+			xmin = 0.4401466920000000
+			xmax = 0.4701466920000000
+			text = "O"
+		intervals [10]:
+			xmin = 0.4701466920000000
+			xmax = 0.5201466920000000
+			text = "s"
+		intervals [11]:
+			xmin = 0.5201466920000000
+			xmax = 0.6101466920000000
+			text = "2"
+		intervals [12]:
+			xmin = 0.6101466920000000
+			xmax = 0.6401466920000000
+			text = "t"
+		intervals [13]:
+			xmin = 0.6401466920000000
+			xmax = 0.7101466920000000
+			text = "j"
+		intervals [14]:
+			xmin = 0.7101466920000000
+			xmax = 0.8401466920000000
+			text = "e~"
+	item [2]:
+		class = "IntervalTier"
+		name = "syll"
+		xmin = 0.0000000000000000
+		xmax = 0.8401466920000000
+		intervals: size = 6
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.0601466920000000
+			text = "vu"
+		intervals [2]:
+			xmin = 0.0601466920000000
+			xmax = 0.1501466920000000
+			text = "vu"
+		intervals [3]:
+			xmin = 0.1501466920000000
+			xmax = 0.2901466920000000
+			text = "zi"
+		intervals [4]:
+			xmin = 0.2901466920000000
+			xmax = 0.4701466920000000
+			text = "tRu"
+		intervals [5]:
+			xmin = 0.4701466920000000
+			xmax = 0.6101466920000000
+			text = "ve"
+		intervals [6]:
+			xmin = 0.6101466920000000
+			xmax = 0.8401466920000000
+			text = "bje~"
+	item [3]:
+		class = "IntervalTier"
+		name = "words"
+		xmin = 0.0000000000000000
+		xmax = 0.8401466920000000
+		intervals: size = 5
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.0601466920000000
+			text = "vous"
+		intervals [2]:
+			xmin = 0.0601466920000000
+			xmax = 0.1501466920000000
+			text = "vous"
+		intervals [3]:
+			xmin = 0.1501466920000000
+			xmax = 0.2901466920000000
+			text = "y"
+		intervals [4]:
+			xmin = 0.2901466920000000
+			xmax = 0.6101466920000000
+			text = "trouvez"
+		intervals [5]:
+			xmin = 0.6101466920000000
+			xmax = 0.8401466920000000
+			text = "bien"
+	item [4]:
+		class = "IntervalTier"
+		name = "textexpe"
+		xmin = 0.0000000000000000
+		xmax = 0.8401466920000000
+		intervals: size = 1
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.8401466920000000
+			text = "vous vous y trouvez bien"
+	item [5]:
+		class = "IntervalTier"
+		name = "phono"
+		xmin = 0.0000000000000000
+		xmax = 0.8401466920000000
+		intervals: size = 1
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.8401466920000000
+			text = "vu vu zi tRuve bje~"
+	item [6]:
+		class = "IntervalTier"
+		name = "ortho"
+		xmin = 0.0000000000000000
+		xmax = 0.8401466920000000
+		intervals: size = 1
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.8401466920000000
+			text = "vous vous y trouvez bien"

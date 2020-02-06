@@ -1,0 +1,158 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 1.2399999999999949 
+tiers? <exists> 
+size = 5 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "phones" 
+        xmin = 0 
+        xmax = 1.2399999999999949 
+        intervals: size = 16 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.05999999999999517 
+            text = "f" 
+        intervals [2]:
+            xmin = 0.05999999999999517 
+            xmax = 0.13647331852614147 
+            text = "E" 
+        intervals [3]:
+            xmin = 0.13647331852614147 
+            xmax = 0.17999999999999972 
+            text = "l" 
+        intervals [4]:
+            xmin = 0.17999999999999972 
+            xmax = 0.25 
+            text = "a" 
+        intervals [5]:
+            xmin = 0.25 
+            xmax = 0.28283105095147626 
+            text = "v" 
+        intervals [6]:
+            xmin = 0.28283105095147626 
+            xmax = 0.3499999999999943 
+            text = "E" 
+        intervals [7]:
+            xmin = 0.3499999999999943 
+            xmax = 0.46999999999999886 
+            text = "s" 
+        intervals [8]:
+            xmin = 0.46999999999999886 
+            xmax = 0.5499999999999972 
+            text = "E" 
+        intervals [9]:
+            xmin = 0.5499999999999972 
+            xmax = 0.6499999999999986 
+            text = "l" 
+        intervals [10]:
+            xmin = 0.6499999999999986 
+            xmax = 0.6999999999999957 
+            text = "t" 
+        intervals [11]:
+            xmin = 0.6999999999999957 
+            xmax = 0.759999999999998 
+            text = "u" 
+        intervals [12]:
+            xmin = 0.759999999999998 
+            xmax = 0.8099999999999952 
+            text = "d" 
+        intervals [13]:
+            xmin = 0.8099999999999952 
+            xmax = 0.9099999999999966 
+            text = "s" 
+        intervals [14]:
+            xmin = 0.9099999999999966 
+            xmax = 0.9584942727232449 
+            text = "H" 
+        intervals [15]:
+            xmin = 0.9584942727232449 
+            xmax = 1.0626488720370768 
+            text = "i" 
+        intervals [16]:
+            xmin = 1.0626488720370768 
+            xmax = 1.2399999999999949 
+            text = "t" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "syll" 
+        xmin = 0 
+        xmax = 1.2399999999999949 
+        intervals: size = 6 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.13647331852614147 
+            text = "fE" 
+        intervals [2]:
+            xmin = 0.13647331852614147 
+            xmax = 0.25 
+            text = "la" 
+        intervals [3]:
+            xmin = 0.25 
+            xmax = 0.3499999999999943 
+            text = "vE" 
+        intervals [4]:
+            xmin = 0.3499999999999943 
+            xmax = 0.6499999999999986 
+            text = "sEl" 
+        intervals [5]:
+            xmin = 0.6499999999999986 
+            xmax = 0.8099999999999952 
+            text = "tud" 
+        intervals [6]:
+            xmin = 0.8099999999999952 
+            xmax = 1.2399999999999949 
+            text = "sHit" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "words" 
+        xmin = 0 
+        xmax = 1.2399999999999949 
+        intervals: size = 6 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.13647331852614147 
+            text = "fais" 
+        intervals [2]:
+            xmin = 0.13647331852614147 
+            xmax = 0.25 
+            text = "la" 
+        intervals [3]:
+            xmin = 0.25 
+            xmax = 0.6499999999999986 
+            text = "vaisselle" 
+        intervals [4]:
+            xmin = 0.6499999999999986 
+            xmax = 0.759999999999998 
+            text = "tout" 
+        intervals [5]:
+            xmin = 0.759999999999998 
+            xmax = 0.8099999999999952 
+            text = "de" 
+        intervals [6]:
+            xmin = 0.8099999999999952 
+            xmax = 1.2399999999999949 
+            text = "suite" 
+    item [4]:
+        class = "IntervalTier" 
+        name = "phono" 
+        xmin = 0 
+        xmax = 1.2399999999999949 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 1.2399999999999949 
+            text = "fE la vEsEl tu d sHit" 
+    item [5]:
+        class = "IntervalTier" 
+        name = "ortho" 
+        xmin = 0 
+        xmax = 1.2399999999999949 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 1.2399999999999949 
+            text = "fais la vaisselle tout de suite" 

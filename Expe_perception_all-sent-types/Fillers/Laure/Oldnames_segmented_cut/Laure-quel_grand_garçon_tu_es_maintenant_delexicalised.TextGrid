@@ -1,0 +1,188 @@
+﻿File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0.0000000000000000
+xmax = 1.5000000000000000
+tiers? <exists>
+size = 6
+item []:
+	item [1]:
+		class = "IntervalTier"
+		name = "phones"
+		xmin = 0.0000000000000000
+		xmax = 1.5000000000000000
+		intervals: size = 19
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.0600000000000000
+			text = "k"
+		intervals [2]:
+			xmin = 0.0600000000000000
+			xmax = 0.1286150860000000
+			text = "O"
+		intervals [3]:
+			xmin = 0.1286150860000000
+			xmax = 0.1696420140000000
+			text = "R"
+		intervals [4]:
+			xmin = 0.1696420140000000
+			xmax = 0.2115318310000000
+			text = "k"
+		intervals [5]:
+			xmin = 0.2115318310000000
+			xmax = 0.2900000000000000
+			text = "l"
+		intervals [6]:
+			xmin = 0.2900000000000000
+			xmax = 0.3800000000000000
+			text = "o~"
+		intervals [7]:
+			xmin = 0.3800000000000000
+			xmax = 0.4111546580000000
+			text = "g"
+		intervals [8]:
+			xmin = 0.4111546580000000
+			xmax = 0.4800000000000000
+			text = "9"
+		intervals [9]:
+			xmin = 0.4800000000000000
+			xmax = 0.5100000000000000
+			text = "R"
+		intervals [10]:
+			xmin = 0.5100000000000000
+			xmax = 0.6100000000000000
+			text = "v"
+		intervals [11]:
+			xmin = 0.6100000000000000
+			xmax = 0.7089576350000000
+			text = "9~"
+		intervals [12]:
+			xmin = 0.7089576350000000
+			xmax = 0.7791383470000000
+			text = "g"
+		intervals [13]:
+			xmin = 0.7791383470000000
+			xmax = 0.8847021650000000
+			text = "y"
+		intervals [14]:
+			xmin = 0.8847021650000000
+			xmax = 1.0233762490000000
+			text = "a"
+		intervals [15]:
+			xmin = 1.0233762490000000
+			xmax = 1.0900000000000001
+			text = "m"
+		intervals [16]:
+			xmin = 1.0900000000000001
+			xmax = 1.2243928620000000
+			text = "o~"
+		intervals [17]:
+			xmin = 1.2243928620000000
+			xmax = 1.2804446160000000
+			text = "g"
+		intervals [18]:
+			xmin = 1.2804446160000000
+			xmax = 1.3220863290000000
+			text = "m"
+		intervals [19]:
+			xmin = 1.3220863290000000
+			xmax = 1.5000000000000000
+			text = "a~"
+	item [2]:
+		class = "IntervalTier"
+		name = "syll"
+		xmin = 0.0000000000000000
+		xmax = 1.5000000000000000
+		intervals: size = 8
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.1696420140000000
+			text = "kEl"
+		intervals [2]:
+			xmin = 0.1696420140000000
+			xmax = 0.3800000000000000
+			text = "gRa~"
+		intervals [3]:
+			xmin = 0.3800000000000000
+			xmax = 0.5100000000000000
+			text = "gaR"
+		intervals [4]:
+			xmin = 0.5100000000000000
+			xmax = 0.7089576350000000
+			text = "so~"
+		intervals [5]:
+			xmin = 0.7089576350000000
+			xmax = 0.8847021650000000
+			text = "ty"
+		intervals [6]:
+			xmin = 0.8847021650000000
+			xmax = 1.0233762490000000
+			text = "E"
+		intervals [7]:
+			xmin = 1.0233762490000000
+			xmax = 1.2804446160000000
+			text = "me~t"
+		intervals [8]:
+			xmin = 1.2804446160000000
+			xmax = 1.5000000000000000
+			text = "na~"
+	item [3]:
+		class = "IntervalTier"
+		name = "words"
+		xmin = 0.0000000000000000
+		xmax = 1.5000000000000000
+		intervals: size = 6
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.1696420140000000
+			text = "quel"
+		intervals [2]:
+			xmin = 0.1696420140000000
+			xmax = 0.3800000000000000
+			text = "grand"
+		intervals [3]:
+			xmin = 0.3800000000000000
+			xmax = 0.7089576350000000
+			text = "garçon"
+		intervals [4]:
+			xmin = 0.7089576350000000
+			xmax = 0.8847021650000000
+			text = "tu"
+		intervals [5]:
+			xmin = 0.8847021650000000
+			xmax = 1.0233762490000000
+			text = "es"
+		intervals [6]:
+			xmin = 1.0233762490000000
+			xmax = 1.5000000000000000
+			text = "maintenant"
+	item [4]:
+		class = "IntervalTier"
+		name = "textexpe"
+		xmin = 0.0000000000000000
+		xmax = 1.5000000000000000
+		intervals: size = 1
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 1.5000000000000000
+			text = "quel grand garçon tu es maintenant"
+	item [5]:
+		class = "IntervalTier"
+		name = "phono"
+		xmin = 0.0000000000000000
+		xmax = 1.5000000000000000
+		intervals: size = 1
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 1.5000000000000000
+			text = "kEl gRa~ gaRso~ ty E me~tna~"
+	item [6]:
+		class = "IntervalTier"
+		name = "ortho"
+		xmin = 0.0000000000000000
+		xmax = 1.5000000000000000
+		intervals: size = 1
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 1.5000000000000000
+			text = "quel grand garçon tu es maintenant"

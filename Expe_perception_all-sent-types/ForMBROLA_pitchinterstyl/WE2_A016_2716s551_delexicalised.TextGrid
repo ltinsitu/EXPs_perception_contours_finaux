@@ -1,0 +1,160 @@
+﻿File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0.0000000000000000
+xmax = 0.7122265730000000
+tiers? <exists>
+size = 6
+item []:
+	item [1]:
+		class = "IntervalTier"
+		name = "phones"
+		xmin = 0.0000000000000000
+		xmax = 0.7122265730000000
+		intervals: size = 14
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.0463613510000000
+			text = "o~"
+		intervals [2]:
+			xmin = 0.0463613510000000
+			xmax = 0.0758485340000000
+			text = "n"
+		intervals [3]:
+			xmin = 0.0758485340000000
+			xmax = 0.1222265730000000
+			text = "a"
+		intervals [4]:
+			xmin = 0.1222265730000000
+			xmax = 0.1779831170000000
+			text = "k"
+		intervals [5]:
+			xmin = 0.1779831170000000
+			xmax = 0.2219582220000000
+			text = "e"
+		intervals [6]:
+			xmin = 0.2219582220000000
+			xmax = 0.2622265730000000
+			text = "2"
+		intervals [7]:
+			xmin = 0.2622265730000000
+			xmax = 0.3722782710000000
+			text = "v"
+		intervals [8]:
+			xmin = 0.3722782710000000
+			xmax = 0.4006003360000000
+			text = "a~"
+		intervals [9]:
+			xmin = 0.4006003360000000
+			xmax = 0.4422265730000000
+			text = "m"
+		intervals [10]:
+			xmin = 0.4422265730000000
+			xmax = 0.5022265730000000
+			text = "d"
+		intervals [11]:
+			xmin = 0.5022265730000000
+			xmax = 0.5322265730000000
+			text = "o"
+		intervals [12]:
+			xmin = 0.5322265730000000
+			xmax = 0.5922265730000000
+			text = "u"
+		intervals [13]:
+			xmin = 0.5922265730000000
+			xmax = 0.6322265730000000
+			text = "g"
+		intervals [14]:
+			xmin = 0.6322265730000000
+			xmax = 0.7122265730000000
+			text = "O"
+	item [2]:
+		class = "IntervalTier"
+		name = "syll"
+		xmin = 0.0000000000000000
+		xmax = 0.7122265730000000
+		intervals: size = 8
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.0463613510000000
+			text = "o~"
+		intervals [2]:
+			xmin = 0.0463613510000000
+			xmax = 0.1222265730000000
+			text = "ne"
+		intervals [3]:
+			xmin = 0.1222265730000000
+			xmax = 0.2219582220000000
+			text = "tE"
+		intervals [4]:
+			xmin = 0.2219582220000000
+			xmax = 0.2622265730000000
+			text = "a"
+		intervals [5]:
+			xmin = 0.2622265730000000
+			xmax = 0.4422265730000000
+			text = "sa~n"
+		intervals [6]:
+			xmin = 0.4422265730000000
+			xmax = 0.5322265730000000
+			text = "ti"
+		intervals [7]:
+			xmin = 0.5322265730000000
+			xmax = 0.5922265730000000
+			text = "a"
+		intervals [8]:
+			xmin = 0.5922265730000000
+			xmax = 0.7122265730000000
+			text = "gO"
+	item [3]:
+		class = "IntervalTier"
+		name = "words"
+		xmin = 0.0000000000000000
+		xmax = 0.7122265730000000
+		intervals: size = 4
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.0758485340000000
+			text = "on"
+		intervals [2]:
+			xmin = 0.0758485340000000
+			xmax = 0.2219582220000000
+			text = "était"
+		intervals [3]:
+			xmin = 0.2219582220000000
+			xmax = 0.2622265730000000
+			text = "à"
+		intervals [4]:
+			xmin = 0.2622265730000000
+			xmax = 0.7122265730000000
+			text = "santiago"
+	item [4]:
+		class = "IntervalTier"
+		name = "textexpe"
+		xmin = 0.0000000000000000
+		xmax = 0.7122265730000000
+		intervals: size = 1
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.7122265730000000
+			text = "on était à santiago"
+	item [5]:
+		class = "IntervalTier"
+		name = "phono"
+		xmin = 0.0000000000000000
+		xmax = 0.7122265730000000
+		intervals: size = 1
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.7122265730000000
+			text = "o~ n*etE a sa~ntiagO"
+	item [6]:
+		class = "IntervalTier"
+		name = "ortho"
+		xmin = 0.0000000000000000
+		xmax = 0.7122265730000000
+		intervals: size = 1
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.7122265730000000
+			text = "on était à santiago"

@@ -1,0 +1,136 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 0.690122337946188 
+tiers? <exists> 
+size = 6 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "phones" 
+        xmin = 0 
+        xmax = 0.690122337946188 
+        intervals: size = 12 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.034769522014536314 
+            text = "t" 
+        intervals [2]:
+            xmin = 0.034769522014536314 
+            xmax = 0.07369387514147263 
+            text = "y" 
+        intervals [3]:
+            xmin = 0.07369387514147263 
+            xmax = 0.14975335855150806 
+            text = "s" 
+        intervals [4]:
+            xmin = 0.14975335855150806 
+            xmax = 0.19141826451560728 
+            text = "i" 
+        intervals [5]:
+            xmin = 0.19141826451560728 
+            xmax = 0.290865294388297 
+            text = "R" 
+        intervals [6]:
+            xmin = 0.290865294388297 
+            xmax = 0.3468089728043031 
+            text = "k" 
+        intervals [7]:
+            xmin = 0.3468089728043031 
+            xmax = 0.4023526536098476 
+            text = "y" 
+        intervals [8]:
+            xmin = 0.4023526536098476 
+            xmax = 0.45920201717024955 
+            text = "l" 
+        intervals [9]:
+            xmin = 0.45920201717024955 
+            xmax = 0.495563323776258 
+            text = "k" 
+        intervals [10]:
+            xmin = 0.495563323776258 
+            xmax = 0.55531797267402 
+            text = "O" 
+        intervals [11]:
+            xmin = 0.55531797267402 
+            xmax = 0.5967953545396023 
+            text = "m" 
+        intervals [12]:
+            xmin = 0.5967953545396023 
+            xmax = 0.690122337946188 
+            text = "a~" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "syll" 
+        xmin = 0 
+        xmax = 0.690122337946188 
+        intervals: size = 5 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.07369387514147263 
+            text = "ty" 
+        intervals [2]:
+            xmin = 0.07369387514147263 
+            xmax = 0.290865294388297 
+            text = "siR" 
+        intervals [3]:
+            xmin = 0.290865294388297 
+            xmax = 0.45920201717024955 
+            text = "kyl" 
+        intervals [4]:
+            xmin = 0.45920201717024955 
+            xmax = 0.55531797267402 
+            text = "kO" 
+        intervals [5]:
+            xmin = 0.55531797267402 
+            xmax = 0.690122337946188 
+            text = "ma~" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "words" 
+        xmin = 0 
+        xmax = 0.690122337946188 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.07369387514147263 
+            text = "tu" 
+        intervals [2]:
+            xmin = 0.07369387514147263 
+            xmax = 0.45920201717024955 
+            text = "circules" 
+        intervals [3]:
+            xmin = 0.45920201717024955 
+            xmax = 0.690122337946188 
+            text = "comment" 
+    item [4]:
+        class = "IntervalTier" 
+        name = "textexpe" 
+        xmin = 0 
+        xmax = 0.690122337946188 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.690122337946188 
+            text = "tu circules comment ?" 
+    item [5]:
+        class = "IntervalTier" 
+        name = "phono" 
+        xmin = 0 
+        xmax = 0.690122337946188 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.690122337946188 
+            text = "ty siRkyl kOma~" 
+    item [6]:
+        class = "IntervalTier" 
+        name = "ortho" 
+        xmin = 0 
+        xmax = 0.690122337946188 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.690122337946188 
+            text = "tu circules comment" 

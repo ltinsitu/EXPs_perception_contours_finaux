@@ -1,0 +1,172 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 1.21 
+tiers? <exists> 
+size = 6 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "phones" 
+        xmin = 0 
+        xmax = 1.21 
+        intervals: size = 17 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.12000000000000002 
+            text = "Z" 
+        intervals [2]:
+            xmin = 0.12000000000000002 
+            xmax = 0.22 
+            text = "E" 
+        intervals [3]:
+            xmin = 0.22 
+            xmax = 0.25 
+            text = "m" 
+        intervals [4]:
+            xmin = 0.25 
+            xmax = 0.28 
+            text = "b" 
+        intervals [5]:
+            xmin = 0.28 
+            xmax = 0.33999999999999997 
+            text = "j" 
+        intervals [6]:
+            xmin = 0.33999999999999997 
+            xmax = 0.4 
+            text = "e~" 
+        intervals [7]:
+            xmin = 0.4 
+            xmax = 0.43000000000000005 
+            text = "l" 
+        intervals [8]:
+            xmin = 0.43000000000000005 
+            xmax = 0.57 
+            text = "e" 
+        intervals [9]:
+            xmin = 0.57 
+            xmax = 0.61 
+            text = "b" 
+        intervals [10]:
+            xmin = 0.61 
+            xmax = 0.74 
+            text = "O" 
+        intervals [11]:
+            xmin = 0.74 
+            xmax = 0.77 
+            text = "R" 
+        intervals [12]:
+            xmin = 0.77 
+            xmax = 0.83 
+            text = "d" 
+        intervals [13]:
+            xmin = 0.83 
+            xmax = 0.88 
+            text = "@" 
+        intervals [14]:
+            xmin = 0.88 
+            xmax = 0.96 
+            text = "l" 
+        intervals [15]:
+            xmin = 0.96 
+            xmax = 0.9899999999999999 
+            text = "w" 
+        intervals [16]:
+            xmin = 0.9899999999999999 
+            xmax = 1.16 
+            text = "a" 
+        intervals [17]:
+            xmin = 1.16 
+            xmax = 1.21 
+            text = "R" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "syll" 
+        xmin = 0 
+        xmax = 1.21 
+        intervals: size = 6 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.25 
+            text = "ZEm" 
+        intervals [2]:
+            xmin = 0.25 
+            xmax = 0.4 
+            text = "bje~" 
+        intervals [3]:
+            xmin = 0.4 
+            xmax = 0.57 
+            text = "le" 
+        intervals [4]:
+            xmin = 0.57 
+            xmax = 0.77 
+            text = "bOR" 
+        intervals [5]:
+            xmin = 0.77 
+            xmax = 0.88 
+            text = "d@" 
+        intervals [6]:
+            xmin = 0.88 
+            xmax = 1.21 
+            text = "lwaR" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "words" 
+        xmin = 0 
+        xmax = 1.21 
+        intervals: size = 6 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.25 
+            text = "j'aime" 
+        intervals [2]:
+            xmin = 0.25 
+            xmax = 0.4 
+            text = "bien" 
+        intervals [3]:
+            xmin = 0.4 
+            xmax = 0.57 
+            text = "les" 
+        intervals [4]:
+            xmin = 0.57 
+            xmax = 0.77 
+            text = "bords" 
+        intervals [5]:
+            xmin = 0.77 
+            xmax = 0.88 
+            text = "de" 
+        intervals [6]:
+            xmin = 0.88 
+            xmax = 1.21 
+            text = "loire" 
+    item [4]:
+        class = "IntervalTier" 
+        name = "textexpe" 
+        xmin = 0 
+        xmax = 1.21 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 1.21 
+            text = "j'aime bien les bords de loire" 
+    item [5]:
+        class = "IntervalTier" 
+        name = "phono" 
+        xmin = 0 
+        xmax = 1.21 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 1.21 
+            text = "ZEm bje~ le bOR d@ lwaR" 
+    item [6]:
+        class = "IntervalTier" 
+        name = "ortho" 
+        xmin = 0 
+        xmax = 1.21 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 1.21 
+            text = "j'aime bien les bords de loire" 

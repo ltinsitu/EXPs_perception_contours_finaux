@@ -1,0 +1,152 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 0.9662362042792016 
+tiers? <exists> 
+size = 6 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "phones" 
+        xmin = 0 
+        xmax = 0.9662362042792016 
+        intervals: size = 12 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.06038478706688045 
+            text = "i" 
+        intervals [2]:
+            xmin = 0.06038478706688045 
+            xmax = 0.09042239286625331 
+            text = "l" 
+        intervals [3]:
+            xmin = 0.09042239286625331 
+            xmax = 0.17253837770066557 
+            text = "i" 
+        intervals [4]:
+            xmin = 0.17253837770066557 
+            xmax = 0.27224689612054104 
+            text = "a" 
+        intervals [5]:
+            xmin = 0.27224689612054104 
+            xmax = 0.2986325357243701 
+            text = "d" 
+        intervals [6]:
+            xmin = 0.2986325357243701 
+            xmax = 0.39005144189234403 
+            text = "y" 
+        intervals [7]:
+            xmin = 0.39005144189234403 
+            xmax = 0.4717867433569338 
+            text = "s" 
+        intervals [8]:
+            xmin = 0.4717867433569338 
+            xmax = 0.5495933944490888 
+            text = "O" 
+        intervals [9]:
+            xmin = 0.5495933944490888 
+            xmax = 0.6018071938370921 
+            text = "l" 
+        intervals [10]:
+            xmin = 0.6018071938370921 
+            xmax = 0.7691666254449511 
+            text = "E" 
+        intervals [11]:
+            xmin = 0.7691666254449511 
+            xmax = 0.8404253485874396 
+            text = "j" 
+        intervals [12]:
+            xmin = 0.8404253485874396 
+            xmax = 0.9662362042792016 
+            text = "@" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "syll" 
+        xmin = 0 
+        xmax = 0.9662362042792016 
+        intervals: size = 7 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.06038478706688045 
+            text = "i" 
+        intervals [2]:
+            xmin = 0.06038478706688045 
+            xmax = 0.17253837770066557 
+            text = "li" 
+        intervals [3]:
+            xmin = 0.17253837770066557 
+            xmax = 0.27224689612054104 
+            text = "a" 
+        intervals [4]:
+            xmin = 0.27224689612054104 
+            xmax = 0.39005144189234403 
+            text = "dy" 
+        intervals [5]:
+            xmin = 0.39005144189234403 
+            xmax = 0.5495933944490888 
+            text = "sO" 
+        intervals [6]:
+            xmin = 0.5495933944490888 
+            xmax = 0.7691666254449511 
+            text = "lE" 
+        intervals [7]:
+            xmin = 0.7691666254449511 
+            xmax = 0.9662362042792016 
+            text = "j@" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "words" 
+        xmin = 0 
+        xmax = 0.9662362042792016 
+        intervals: size = 5 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.09042239286625331 
+            text = "il" 
+        intervals [2]:
+            xmin = 0.09042239286625331 
+            xmax = 0.17253837770066557 
+            text = "y" 
+        intervals [3]:
+            xmin = 0.17253837770066557 
+            xmax = 0.27224689612054104 
+            text = "a" 
+        intervals [4]:
+            xmin = 0.27224689612054104 
+            xmax = 0.39005144189234403 
+            text = "du" 
+        intervals [5]:
+            xmin = 0.39005144189234403 
+            xmax = 0.9662362042792016 
+            text = "soleil" 
+    item [4]:
+        class = "IntervalTier" 
+        name = "textexpe" 
+        xmin = 0 
+        xmax = 0.9662362042792016 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.9662362042792016 
+            text = "il y a du soleil" 
+    item [5]:
+        class = "IntervalTier" 
+        name = "phono" 
+        xmin = 0 
+        xmax = 0.9662362042792016 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.9662362042792016 
+            text = "i li a dy sOlEj@" 
+    item [6]:
+        class = "IntervalTier" 
+        name = "ortho" 
+        xmin = 0 
+        xmax = 0.9662362042792016 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.9662362042792016 
+            text = "il y a du soleil" 

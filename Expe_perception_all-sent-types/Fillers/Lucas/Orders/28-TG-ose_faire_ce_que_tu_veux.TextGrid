@@ -1,0 +1,146 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 1.190052678243626 
+tiers? <exists> 
+size = 5 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "phones" 
+        xmin = 0 
+        xmax = 1.190052678243626 
+        intervals: size = 13 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.1700000000000017 
+            text = "o" 
+        intervals [2]:
+            xmin = 0.1700000000000017 
+            xmax = 0.2650245254247789 
+            text = "z" 
+        intervals [3]:
+            xmin = 0.2650245254247789 
+            xmax = 0.37000000000000455 
+            text = "f" 
+        intervals [4]:
+            xmin = 0.37000000000000455 
+            xmax = 0.46999999999999886 
+            text = "E" 
+        intervals [5]:
+            xmin = 0.46999999999999886 
+            xmax = 0.5300000000000011 
+            text = "R" 
+        intervals [6]:
+            xmin = 0.5300000000000011 
+            xmax = 0.6099999999999994 
+            text = "s" 
+        intervals [7]:
+            xmin = 0.6099999999999994 
+            xmax = 0.6799999999999926 
+            text = "@" 
+        intervals [8]:
+            xmin = 0.6799999999999926 
+            xmax = 0.7399999999999949 
+            text = "k" 
+        intervals [9]:
+            xmin = 0.7399999999999949 
+            xmax = 0.789999999999992 
+            text = "@" 
+        intervals [10]:
+            xmin = 0.789999999999992 
+            xmax = 0.8915105712630722 
+            text = "t" 
+        intervals [11]:
+            xmin = 0.8915105712630722 
+            xmax = 0.9618318690189654 
+            text = "y" 
+        intervals [12]:
+            xmin = 0.9618318690189654 
+            xmax = 1.0300000000000011 
+            text = "v" 
+        intervals [13]:
+            xmin = 1.0300000000000011 
+            xmax = 1.190052678243626 
+            text = "2" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "syll" 
+        xmin = 0 
+        xmax = 1.190052678243626 
+        intervals: size = 6 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.2650245254247789 
+            text = "oz" 
+        intervals [2]:
+            xmin = 0.2650245254247789 
+            xmax = 0.5300000000000011 
+            text = "fER" 
+        intervals [3]:
+            xmin = 0.5300000000000011 
+            xmax = 0.6799999999999926 
+            text = "s@" 
+        intervals [4]:
+            xmin = 0.6799999999999926 
+            xmax = 0.789999999999992 
+            text = "k@" 
+        intervals [5]:
+            xmin = 0.789999999999992 
+            xmax = 0.9618318690189654 
+            text = "ty" 
+        intervals [6]:
+            xmin = 0.9618318690189654 
+            xmax = 1.190052678243626 
+            text = "v2" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "words" 
+        xmin = 0 
+        xmax = 1.190052678243626 
+        intervals: size = 6 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.2650245254247789 
+            text = "ose" 
+        intervals [2]:
+            xmin = 0.2650245254247789 
+            xmax = 0.5300000000000011 
+            text = "faire" 
+        intervals [3]:
+            xmin = 0.5300000000000011 
+            xmax = 0.6799999999999926 
+            text = "ce" 
+        intervals [4]:
+            xmin = 0.6799999999999926 
+            xmax = 0.789999999999992 
+            text = "que" 
+        intervals [5]:
+            xmin = 0.789999999999992 
+            xmax = 0.9618318690189654 
+            text = "tu" 
+        intervals [6]:
+            xmin = 0.9618318690189654 
+            xmax = 1.190052678243626 
+            text = "veux" 
+    item [4]:
+        class = "IntervalTier" 
+        name = "phono" 
+        xmin = 0 
+        xmax = 1.190052678243626 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 1.190052678243626 
+            text = "oz fER s@ k@ ty v2" 
+    item [5]:
+        class = "IntervalTier" 
+        name = "ortho" 
+        xmin = 0 
+        xmax = 1.190052678243626 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 1.190052678243626 
+            text = "ose faire ce que tu veux" 

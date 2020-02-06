@@ -1,0 +1,152 @@
+﻿File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0.0000000000000000
+xmax = 1.0900000000000001
+tiers? <exists>
+size = 6
+item []:
+	item [1]:
+		class = "IntervalTier"
+		name = "phones"
+		xmin = 0.0000000000000000
+		xmax = 1.0900000000000001
+		intervals: size = 12
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.0677513350000000
+			text = "k"
+		intervals [2]:
+			xmin = 0.0677513350000000
+			xmax = 0.1584527890000000
+			text = "2"
+		intervals [3]:
+			xmin = 0.1584527890000000
+			xmax = 0.2300000000000000
+			text = "v"
+		intervals [4]:
+			xmin = 0.2300000000000000
+			xmax = 0.2820502900000000
+			text = "k"
+		intervals [5]:
+			xmin = 0.2820502900000000
+			xmax = 0.3400000000000000
+			text = "@"
+		intervals [6]:
+			xmin = 0.3400000000000000
+			xmax = 0.4219218750000000
+			text = "t"
+		intervals [7]:
+			xmin = 0.4219218750000000
+			xmax = 0.4700000000000000
+			text = "u"
+		intervals [8]:
+			xmin = 0.4700000000000000
+			xmax = 0.5600000000000001
+			text = "o"
+		intervals [9]:
+			xmin = 0.5600000000000001
+			xmax = 0.5900000000000000
+			text = "p"
+		intervals [10]:
+			xmin = 0.5900000000000000
+			xmax = 0.6899999999999999
+			text = "R"
+		intervals [11]:
+			xmin = 0.6899999999999999
+			xmax = 0.9399999999999999
+			text = "o"
+		intervals [12]:
+			xmin = 0.9399999999999999
+			xmax = 1.0900000000000001
+			text = "l"
+	item [2]:
+		class = "IntervalTier"
+		name = "syll"
+		xmin = 0.0000000000000000
+		xmax = 1.0900000000000001
+		intervals: size = 5
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.2300000000000000
+			text = "kes"
+		intervals [2]:
+			xmin = 0.2300000000000000
+			xmax = 0.3400000000000000
+			text = "k@"
+		intervals [3]:
+			xmin = 0.3400000000000000
+			xmax = 0.4700000000000000
+			text = "ty"
+		intervals [4]:
+			xmin = 0.4700000000000000
+			xmax = 0.5600000000000001
+			text = "e"
+		intervals [5]:
+			xmin = 0.5600000000000001
+			xmax = 1.0900000000000001
+			text = "dRol"
+	item [3]:
+		class = "IntervalTier"
+		name = "words"
+		xmin = 0.0000000000000000
+		xmax = 1.0900000000000001
+		intervals: size = 7
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.0677513350000000
+			text = "qu'"
+		intervals [2]:
+			xmin = 0.0677513350000000
+			xmax = 0.1584527890000000
+			text = "est"
+		intervals [3]:
+			xmin = 0.1584527890000000
+			xmax = 0.2300000000000000
+			text = "ce"
+		intervals [4]:
+			xmin = 0.2300000000000000
+			xmax = 0.3400000000000000
+			text = "que"
+		intervals [5]:
+			xmin = 0.3400000000000000
+			xmax = 0.4700000000000000
+			text = "tu"
+		intervals [6]:
+			xmin = 0.4700000000000000
+			xmax = 0.5600000000000001
+			text = "es"
+		intervals [7]:
+			xmin = 0.5600000000000001
+			xmax = 1.0900000000000001
+			text = "drôle"
+	item [4]:
+		class = "IntervalTier"
+		name = "textexpe"
+		xmin = 0.0000000000000000
+		xmax = 1.0900000000000001
+		intervals: size = 1
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 1.0900000000000001
+			text = "qu'est-ce que tu es drôle"
+	item [5]:
+		class = "IntervalTier"
+		name = "phono"
+		xmin = 0.0000000000000000
+		xmax = 1.0900000000000001
+		intervals: size = 1
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 1.0900000000000001
+			text = "k e s k@ ty e dRol"
+	item [6]:
+		class = "IntervalTier"
+		name = "ortho"
+		xmin = 0.0000000000000000
+		xmax = 1.0900000000000001
+		intervals: size = 1
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 1.0900000000000001
+			text = "qu'est-ce que tu es drôle"

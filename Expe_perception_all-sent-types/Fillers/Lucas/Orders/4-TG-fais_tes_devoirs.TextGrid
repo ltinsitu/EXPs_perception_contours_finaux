@@ -1,0 +1,114 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 0.8212342630711515 
+tiers? <exists> 
+size = 5 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "phones" 
+        xmin = 0 
+        xmax = 0.8212342630711515 
+        intervals: size = 10 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.0954269760891873 
+            text = "f" 
+        intervals [2]:
+            xmin = 0.0954269760891873 
+            xmax = 0.1899999999999995 
+            text = "E" 
+        intervals [3]:
+            xmin = 0.1899999999999995 
+            xmax = 0.2599999999999998 
+            text = "t" 
+        intervals [4]:
+            xmin = 0.2599999999999998 
+            xmax = 0.33143377892907033 
+            text = "e" 
+        intervals [5]:
+            xmin = 0.33143377892907033 
+            xmax = 0.387016509329811 
+            text = "d" 
+        intervals [6]:
+            xmin = 0.387016509329811 
+            xmax = 0.49190864343583446 
+            text = "@" 
+        intervals [7]:
+            xmin = 0.49190864343583446 
+            xmax = 0.5462773854684663 
+            text = "v" 
+        intervals [8]:
+            xmin = 0.5462773854684663 
+            xmax = 0.5929152116429885 
+            text = "w" 
+        intervals [9]:
+            xmin = 0.5929152116429885 
+            xmax = 0.7199999999999989 
+            text = "a" 
+        intervals [10]:
+            xmin = 0.7199999999999989 
+            xmax = 0.8212342630711515 
+            text = "R" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "syll" 
+        xmin = 0 
+        xmax = 0.8212342630711515 
+        intervals: size = 4 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.1899999999999995 
+            text = "fE" 
+        intervals [2]:
+            xmin = 0.1899999999999995 
+            xmax = 0.33143377892907033 
+            text = "te" 
+        intervals [3]:
+            xmin = 0.33143377892907033 
+            xmax = 0.49190864343583446 
+            text = "d@" 
+        intervals [4]:
+            xmin = 0.49190864343583446 
+            xmax = 0.8212342630711515 
+            text = "vwaR" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "words" 
+        xmin = 0 
+        xmax = 0.8212342630711515 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.1899999999999995 
+            text = "fais" 
+        intervals [2]:
+            xmin = 0.1899999999999995 
+            xmax = 0.33143377892907033 
+            text = "tes" 
+        intervals [3]:
+            xmin = 0.33143377892907033 
+            xmax = 0.8212342630711515 
+            text = "devoirs" 
+    item [4]:
+        class = "IntervalTier" 
+        name = "phono" 
+        xmin = 0 
+        xmax = 0.8212342630711515 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.8212342630711515 
+            text = "fE te d@vwaR" 
+    item [5]:
+        class = "IntervalTier" 
+        name = "ortho" 
+        xmin = 0 
+        xmax = 0.8212342630711515 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.8212342630711515 
+            text = "fais tes devoirs" 

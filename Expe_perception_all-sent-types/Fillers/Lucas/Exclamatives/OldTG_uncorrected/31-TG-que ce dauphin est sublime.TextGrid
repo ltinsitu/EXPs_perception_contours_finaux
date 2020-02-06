@@ -1,0 +1,154 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 1.4399999999999977 
+tiers? <exists> 
+size = 5 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "phones" 
+        xmin = 0 
+        xmax = 1.4399999999999977 
+        intervals: size = 15 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.060000000000002274 
+            text = "k" 
+        intervals [2]:
+            xmin = 0.060000000000002274 
+            xmax = 0.14000000000000057 
+            text = "@" 
+        intervals [3]:
+            xmin = 0.14000000000000057 
+            xmax = 0.25 
+            text = "s" 
+        intervals [4]:
+            xmin = 0.25 
+            xmax = 0.3100000000000023 
+            text = "@" 
+        intervals [5]:
+            xmin = 0.3100000000000023 
+            xmax = 0.39000000000000057 
+            text = "d" 
+        intervals [6]:
+            xmin = 0.39000000000000057 
+            xmax = 0.4900000000000091 
+            text = "o" 
+        intervals [7]:
+            xmin = 0.4900000000000091 
+            xmax = 0.6200000000000045 
+            text = "f" 
+        intervals [8]:
+            xmin = 0.6200000000000045 
+            xmax = 0.7600000000000051 
+            text = "e~" 
+        intervals [9]:
+            xmin = 0.7600000000000051 
+            xmax = 0.7999999999999972 
+            text = "e" 
+        intervals [10]:
+            xmin = 0.7999999999999972 
+            xmax = 0.9200000000000017 
+            text = "s" 
+        intervals [11]:
+            xmin = 0.9200000000000017 
+            xmax = 0.980000000000004 
+            text = "y" 
+        intervals [12]:
+            xmin = 0.980000000000004 
+            xmax = 1.0700000000000074 
+            text = "b" 
+        intervals [13]:
+            xmin = 1.0700000000000074 
+            xmax = 1.1099999999999994 
+            text = "l" 
+        intervals [14]:
+            xmin = 1.1099999999999994 
+            xmax = 1.2800000000000011 
+            text = "i" 
+        intervals [15]:
+            xmin = 1.2800000000000011 
+            xmax = 1.4399999999999977 
+            text = "m" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "syll" 
+        xmin = 0 
+        xmax = 1.4399999999999977 
+        intervals: size = 7 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.14000000000000057 
+            text = "k@" 
+        intervals [2]:
+            xmin = 0.14000000000000057 
+            xmax = 0.3100000000000023 
+            text = "s@" 
+        intervals [3]:
+            xmin = 0.3100000000000023 
+            xmax = 0.4900000000000091 
+            text = "do" 
+        intervals [4]:
+            xmin = 0.4900000000000091 
+            xmax = 0.7600000000000051 
+            text = "fe~" 
+        intervals [5]:
+            xmin = 0.7600000000000051 
+            xmax = 0.7999999999999972 
+            text = "e" 
+        intervals [6]:
+            xmin = 0.7999999999999972 
+            xmax = 0.980000000000004 
+            text = "sy" 
+        intervals [7]:
+            xmin = 0.980000000000004 
+            xmax = 1.4399999999999977 
+            text = "blim" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "words" 
+        xmin = 0 
+        xmax = 1.4399999999999977 
+        intervals: size = 5 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.14000000000000057 
+            text = "que" 
+        intervals [2]:
+            xmin = 0.14000000000000057 
+            xmax = 0.3100000000000023 
+            text = "ce" 
+        intervals [3]:
+            xmin = 0.3100000000000023 
+            xmax = 0.7600000000000051 
+            text = "dauphin" 
+        intervals [4]:
+            xmin = 0.7600000000000051 
+            xmax = 0.7999999999999972 
+            text = "est" 
+        intervals [5]:
+            xmin = 0.7999999999999972 
+            xmax = 1.4399999999999977 
+            text = "sublime" 
+    item [4]:
+        class = "IntervalTier" 
+        name = "phono" 
+        xmin = 0 
+        xmax = 1.4399999999999977 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 1.4399999999999977 
+            text = "k@ s@ dofe~ e syblim" 
+    item [5]:
+        class = "IntervalTier" 
+        name = "ortho" 
+        xmin = 0 
+        xmax = 1.4399999999999977 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 1.4399999999999977 
+            text = "que ce dauphin est sublime" 

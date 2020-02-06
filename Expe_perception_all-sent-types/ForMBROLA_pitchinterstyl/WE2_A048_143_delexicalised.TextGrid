@@ -1,0 +1,176 @@
+﻿File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0.0000000000000000
+xmax = 1.3359100730000000
+tiers? <exists>
+size = 6
+item []:
+	item [1]:
+		class = "IntervalTier"
+		name = "phones"
+		xmin = 0.0000000000000000
+		xmax = 1.3359100730000000
+		intervals: size = 16
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.0368992820000000
+			text = "v"
+		intervals [2]:
+			xmin = 0.0368992820000000
+			xmax = 0.0636453580000000
+			text = "u"
+		intervals [3]:
+			xmin = 0.0636453580000000
+			xmax = 0.1030897650000000
+			text = "v"
+		intervals [4]:
+			xmin = 0.1030897650000000
+			xmax = 0.1992529500000000
+			text = "i"
+		intervals [5]:
+			xmin = 0.1992529500000000
+			xmax = 0.2703678930000000
+			text = "d"
+		intervals [6]:
+			xmin = 0.2703678930000000
+			xmax = 0.3375091930000000
+			text = "E"
+		intervals [7]:
+			xmin = 0.3375091930000000
+			xmax = 0.4092562220000000
+			text = "R"
+		intervals [8]:
+			xmin = 0.4092562220000000
+			xmax = 0.4885755890000000
+			text = "o"
+		intervals [9]:
+			xmin = 0.4885755890000000
+			xmax = 0.5712534460000001
+			text = "z"
+		intervals [10]:
+			xmin = 0.5712534460000001
+			xmax = 0.6732156920000000
+			text = "y"
+		intervals [11]:
+			xmin = 0.6732156920000000
+			xmax = 0.7541868920000000
+			text = "e"
+		intervals [12]:
+			xmin = 0.7541868920000000
+			xmax = 0.8527965960000000
+			text = "p"
+		intervals [13]:
+			xmin = 0.8527965960000000
+			xmax = 0.9506100370000000
+			text = "E"
+		intervals [14]:
+			xmin = 0.9506100370000000
+			xmax = 1.0192078680000001
+			text = "l"
+		intervals [15]:
+			xmin = 1.0192078680000001
+			xmax = 1.1982037379999999
+			text = "y"
+		intervals [16]:
+			xmin = 1.1982037379999999
+			xmax = 1.3359100730000000
+			text = "Z"
+	item [2]:
+		class = "IntervalTier"
+		name = "syll"
+		xmin = 0.0000000000000000
+		xmax = 1.3359100730000000
+		intervals: size = 8
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.0636453580000000
+			text = "vu"
+		intervals [2]:
+			xmin = 0.0636453580000000
+			xmax = 0.1992529500000000
+			text = "zE"
+		intervals [3]:
+			xmin = 0.1992529500000000
+			xmax = 0.3375091930000000
+			text = "ta"
+		intervals [4]:
+			xmin = 0.3375091930000000
+			xmax = 0.4885755890000000
+			text = "Ri"
+		intervals [5]:
+			xmin = 0.4885755890000000
+			xmax = 0.6732156920000000
+			text = "ve"
+		intervals [6]:
+			xmin = 0.6732156920000000
+			xmax = 0.7541868920000000
+			text = "a"
+		intervals [7]:
+			xmin = 0.7541868920000000
+			xmax = 0.9506100370000000
+			text = "kE"
+		intervals [8]:
+			xmin = 0.9506100370000000
+			xmax = 1.3359100730000000
+			text = "laZ"
+	item [3]:
+		class = "IntervalTier"
+		name = "words"
+		xmin = 0.0000000000000000
+		xmax = 1.3359100730000000
+		intervals: size = 6
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.1030897650000000
+			text = "vous"
+		intervals [2]:
+			xmin = 0.1030897650000000
+			xmax = 0.2703678930000000
+			text = "êtes"
+		intervals [3]:
+			xmin = 0.2703678930000000
+			xmax = 0.6732156920000000
+			text = "arrivés"
+		intervals [4]:
+			xmin = 0.6732156920000000
+			xmax = 0.7541868920000000
+			text = "à"
+		intervals [5]:
+			xmin = 0.7541868920000000
+			xmax = 1.0192078680000001
+			text = "quel"
+		intervals [6]:
+			xmin = 1.0192078680000001
+			xmax = 1.3359100730000000
+			text = "âge"
+	item [4]:
+		class = "IntervalTier"
+		name = "textexpe"
+		xmin = 0.0000000000000000
+		xmax = 1.3359100730000000
+		intervals: size = 1
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 1.3359100730000000
+			text = "vous êtes arrivés à quel âge ?"
+	item [5]:
+		class = "IntervalTier"
+		name = "phono"
+		xmin = 0.0000000000000000
+		xmax = 1.3359100730000000
+		intervals: size = 1
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 1.3359100730000000
+			text = "wE wE e vu zE taRive a kE laZ"
+	item [6]:
+		class = "IntervalTier"
+		name = "ortho"
+		xmin = 0.0000000000000000
+		xmax = 1.3359100730000000
+		intervals: size = 1
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 1.3359100730000000
+			text = "ouais ouais et vous êtes arrivés à quel âge "

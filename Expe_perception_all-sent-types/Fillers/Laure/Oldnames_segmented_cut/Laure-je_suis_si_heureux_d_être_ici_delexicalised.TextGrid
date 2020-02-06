@@ -1,0 +1,180 @@
+﻿File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0.0000000000000000
+xmax = 1.5800000000000001
+tiers? <exists>
+size = 6
+item []:
+	item [1]:
+		class = "IntervalTier"
+		name = "phones"
+		xmin = 0.0000000000000000
+		xmax = 1.5800000000000001
+		intervals: size = 17
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.0870325650000000
+			text = "Z"
+		intervals [2]:
+			xmin = 0.0870325650000000
+			xmax = 0.1400000000000000
+			text = "@"
+		intervals [3]:
+			xmin = 0.1400000000000000
+			xmax = 0.2400000000000000
+			text = "s"
+		intervals [4]:
+			xmin = 0.2400000000000000
+			xmax = 0.2800000000000000
+			text = "w"
+		intervals [5]:
+			xmin = 0.2800000000000000
+			xmax = 0.3200000000000000
+			text = "e"
+		intervals [6]:
+			xmin = 0.3200000000000000
+			xmax = 0.5200229180000000
+			text = "f"
+		intervals [7]:
+			xmin = 0.5200229180000000
+			xmax = 0.6137438140000000
+			text = "y"
+		intervals [8]:
+			xmin = 0.6137438140000000
+			xmax = 0.6899999999999999
+			text = "9"
+		intervals [9]:
+			xmin = 0.6899999999999999
+			xmax = 0.7800000000000000
+			text = "R"
+		intervals [10]:
+			xmin = 0.7800000000000000
+			xmax = 0.9100000000000000
+			text = "y"
+		intervals [11]:
+			xmin = 0.9100000000000000
+			xmax = 0.9399999999999999
+			text = "b"
+		intervals [12]:
+			xmin = 0.9399999999999999
+			xmax = 1.0248450080000000
+			text = "y"
+		intervals [13]:
+			xmin = 1.0248450080000000
+			xmax = 1.0622106689999999
+			text = "b"
+		intervals [14]:
+			xmin = 1.0622106689999999
+			xmax = 1.1169338220000000
+			text = "R"
+		intervals [15]:
+			xmin = 1.1169338220000000
+			xmax = 1.1793334320000000
+			text = "i"
+		intervals [16]:
+			xmin = 1.1793334320000000
+			xmax = 1.3100000000000001
+			text = "z"
+		intervals [17]:
+			xmin = 1.3100000000000001
+			xmax = 1.5800000000000001
+			text = "i"
+	item [2]:
+		class = "IntervalTier"
+		name = "syll"
+		xmin = 0.0000000000000000
+		xmax = 1.5800000000000001
+		intervals: size = 8
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.1400000000000000
+			text = "Z@"
+		intervals [2]:
+			xmin = 0.1400000000000000
+			xmax = 0.3200000000000000
+			text = "sHi"
+		intervals [3]:
+			xmin = 0.3200000000000000
+			xmax = 0.6137438140000000
+			text = "si"
+		intervals [4]:
+			xmin = 0.6137438140000000
+			xmax = 0.6899999999999999
+			text = "2"
+		intervals [5]:
+			xmin = 0.6899999999999999
+			xmax = 0.9100000000000000
+			text = "R2"
+		intervals [6]:
+			xmin = 0.9100000000000000
+			xmax = 1.0248450080000000
+			text = "dE"
+		intervals [7]:
+			xmin = 1.0248450080000000
+			xmax = 1.1793334320000000
+			text = "tRi"
+		intervals [8]:
+			xmin = 1.1793334320000000
+			xmax = 1.5800000000000001
+			text = "si"
+	item [3]:
+		class = "IntervalTier"
+		name = "words"
+		xmin = 0.0000000000000000
+		xmax = 1.5800000000000001
+		intervals: size = 6
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.1400000000000000
+			text = "je"
+		intervals [2]:
+			xmin = 0.1400000000000000
+			xmax = 0.3200000000000000
+			text = "suis"
+		intervals [3]:
+			xmin = 0.3200000000000000
+			xmax = 0.6137438140000000
+			text = "si"
+		intervals [4]:
+			xmin = 0.6137438140000000
+			xmax = 0.9100000000000000
+			text = "heureux"
+		intervals [5]:
+			xmin = 0.9100000000000000
+			xmax = 1.0248450080000000
+			text = "d'être"
+		intervals [6]:
+			xmin = 1.0248450080000000
+			xmax = 1.5800000000000001
+			text = "ici"
+	item [4]:
+		class = "IntervalTier"
+		name = "textexpe"
+		xmin = 0.0000000000000000
+		xmax = 1.5800000000000001
+		intervals: size = 1
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 1.5800000000000001
+			text = "je suis si heureux d'être ici"
+	item [5]:
+		class = "IntervalTier"
+		name = "phono"
+		xmin = 0.0000000000000000
+		xmax = 1.5800000000000001
+		intervals: size = 1
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 1.5800000000000001
+			text = "Z@ sHi si 2R2 dE tRisi"
+	item [6]:
+		class = "IntervalTier"
+		name = "ortho"
+		xmin = 0.0000000000000000
+		xmax = 1.5800000000000001
+		intervals: size = 1
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 1.5800000000000001
+			text = "je suis si heureux d'être ici"

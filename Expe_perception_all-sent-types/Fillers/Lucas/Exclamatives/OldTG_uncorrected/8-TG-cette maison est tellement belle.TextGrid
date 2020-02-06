@@ -1,0 +1,158 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 1.5 
+tiers? <exists> 
+size = 5 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "phones" 
+        xmin = 0 
+        xmax = 1.5 
+        intervals: size = 16 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.120000000000001 
+            text = "s" 
+        intervals [2]:
+            xmin = 0.120000000000001 
+            xmax = 0.23999999999999844 
+            text = "e" 
+        intervals [3]:
+            xmin = 0.23999999999999844 
+            xmax = 0.2699999999999996 
+            text = "t" 
+        intervals [4]:
+            xmin = 0.2699999999999996 
+            xmax = 0.3299999999999983 
+            text = "m" 
+        intervals [5]:
+            xmin = 0.3299999999999983 
+            xmax = 0.39000000000000057 
+            text = "E" 
+        intervals [6]:
+            xmin = 0.39000000000000057 
+            xmax = 0.4800000000000004 
+            text = "z" 
+        intervals [7]:
+            xmin = 0.4800000000000004 
+            xmax = 0.6199999999999974 
+            text = "o~" 
+        intervals [8]:
+            xmin = 0.6199999999999974 
+            xmax = 0.75 
+            text = "e" 
+        intervals [9]:
+            xmin = 0.75 
+            xmax = 0.8000000000000007 
+            text = "t" 
+        intervals [10]:
+            xmin = 0.8000000000000007 
+            xmax = 0.8699999999999974 
+            text = "E" 
+        intervals [11]:
+            xmin = 0.8699999999999974 
+            xmax = 0.9199999999999982 
+            text = "l" 
+        intervals [12]:
+            xmin = 0.9199999999999982 
+            xmax = 1.009999999999998 
+            text = "m" 
+        intervals [13]:
+            xmin = 1.009999999999998 
+            xmax = 1.129999999999999 
+            text = "a~" 
+        intervals [14]:
+            xmin = 1.129999999999999 
+            xmax = 1.1699999999999982 
+            text = "b" 
+        intervals [15]:
+            xmin = 1.1699999999999982 
+            xmax = 1.4199999999999982 
+            text = "E" 
+        intervals [16]:
+            xmin = 1.4199999999999982 
+            xmax = 1.5 
+            text = "l" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "syll" 
+        xmin = 0 
+        xmax = 1.5 
+        intervals: size = 7 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.2699999999999996 
+            text = "set" 
+        intervals [2]:
+            xmin = 0.2699999999999996 
+            xmax = 0.39000000000000057 
+            text = "mE" 
+        intervals [3]:
+            xmin = 0.39000000000000057 
+            xmax = 0.6199999999999974 
+            text = "zo~" 
+        intervals [4]:
+            xmin = 0.6199999999999974 
+            xmax = 0.75 
+            text = "e" 
+        intervals [5]:
+            xmin = 0.75 
+            xmax = 0.9199999999999982 
+            text = "tEl" 
+        intervals [6]:
+            xmin = 0.9199999999999982 
+            xmax = 1.129999999999999 
+            text = "ma~" 
+        intervals [7]:
+            xmin = 1.129999999999999 
+            xmax = 1.5 
+            text = "bEl" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "words" 
+        xmin = 0 
+        xmax = 1.5 
+        intervals: size = 5 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.2699999999999996 
+            text = "cette" 
+        intervals [2]:
+            xmin = 0.2699999999999996 
+            xmax = 0.6199999999999974 
+            text = "maison" 
+        intervals [3]:
+            xmin = 0.6199999999999974 
+            xmax = 0.75 
+            text = "est" 
+        intervals [4]:
+            xmin = 0.75 
+            xmax = 1.129999999999999 
+            text = "tellement" 
+        intervals [5]:
+            xmin = 1.129999999999999 
+            xmax = 1.5 
+            text = "belle" 
+    item [4]:
+        class = "IntervalTier" 
+        name = "phono" 
+        xmin = 0 
+        xmax = 1.5 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 1.5 
+            text = "set mEzo~ e tElma~ bEl" 
+    item [5]:
+        class = "IntervalTier" 
+        name = "ortho" 
+        xmin = 0 
+        xmax = 1.5 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 1.5 
+            text = "cette maison est tellement belle" 

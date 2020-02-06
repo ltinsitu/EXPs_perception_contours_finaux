@@ -1,0 +1,196 @@
+﻿File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0.0000000000000000
+xmax = 1.3300000000000001
+tiers? <exists>
+size = 6
+item []:
+	item [1]:
+		class = "IntervalTier"
+		name = "phones"
+		xmin = 0.0000000000000000
+		xmax = 1.3300000000000001
+		intervals: size = 18
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.0400000000000000
+			text = "k"
+		intervals [2]:
+			xmin = 0.0400000000000000
+			xmax = 0.0965922120000000
+			text = "E"
+		intervals [3]:
+			xmin = 0.0965922120000000
+			xmax = 0.1700000000000000
+			text = "v"
+		intervals [4]:
+			xmin = 0.1700000000000000
+			xmax = 0.2200000000000000
+			text = "t"
+		intervals [5]:
+			xmin = 0.2200000000000000
+			xmax = 0.2600000000000000
+			text = "@"
+		intervals [6]:
+			xmin = 0.2600000000000000
+			xmax = 0.3027368930000000
+			text = "s"
+		intervals [7]:
+			xmin = 0.3027368930000000
+			xmax = 0.3500000000000000
+			text = "o"
+		intervals [8]:
+			xmin = 0.3500000000000000
+			xmax = 0.4100000000000000
+			text = "f"
+		intervals [9]:
+			xmin = 0.4100000000000000
+			xmax = 0.4954215380000000
+			text = "i"
+		intervals [10]:
+			xmin = 0.4954215380000000
+			xmax = 0.5308248390000000
+			text = "s"
+		intervals [11]:
+			xmin = 0.5308248390000000
+			xmax = 0.5862712770000000
+			text = "o"
+		intervals [12]:
+			xmin = 0.5862712770000000
+			xmax = 0.7500000000000000
+			text = "a~"
+		intervals [13]:
+			xmin = 0.7500000000000000
+			xmax = 0.7800000000000000
+			text = "z"
+		intervals [14]:
+			xmin = 0.7800000000000000
+			xmax = 0.8600000000000000
+			text = "y"
+		intervals [15]:
+			xmin = 0.8600000000000000
+			xmax = 0.9433807239999999
+			text = "k"
+		intervals [16]:
+			xmin = 0.9433807239999999
+			xmax = 1.0300000000000000
+			text = "s"
+		intervals [17]:
+			xmin = 1.0300000000000000
+			xmax = 1.1953248180000000
+			text = "i"
+		intervals [18]:
+			xmin = 1.1953248180000000
+			xmax = 1.3300000000000001
+			text = "R"
+	item [2]:
+		class = "IntervalTier"
+		name = "syll"
+		xmin = 0.0000000000000000
+		xmax = 1.3300000000000001
+		intervals: size = 8
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.1700000000000000
+			text = "kes"
+		intervals [2]:
+			xmin = 0.1700000000000000
+			xmax = 0.2600000000000000
+			text = "k@"
+		intervals [3]:
+			xmin = 0.2600000000000000
+			xmax = 0.3500000000000000
+			text = "vu"
+		intervals [4]:
+			xmin = 0.3500000000000000
+			xmax = 0.4954215380000000
+			text = "za"
+		intervals [5]:
+			xmin = 0.4954215380000000
+			xmax = 0.5862712770000000
+			text = "ve"
+		intervals [6]:
+			xmin = 0.5862712770000000
+			xmax = 0.7500000000000000
+			text = "a~"
+		intervals [7]:
+			xmin = 0.7500000000000000
+			xmax = 0.9433807239999999
+			text = "vid"
+		intervals [8]:
+			xmin = 0.9433807239999999
+			xmax = 1.3300000000000001
+			text = "fER"
+	item [3]:
+		class = "IntervalTier"
+		name = "words"
+		xmin = 0.0000000000000000
+		xmax = 1.3300000000000001
+		intervals: size = 9
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.0400000000000000
+			text = "qu'"
+		intervals [2]:
+			xmin = 0.0400000000000000
+			xmax = 0.0965922120000000
+			text = "est"
+		intervals [3]:
+			xmin = 0.0965922120000000
+			xmax = 0.1700000000000000
+			text = "ce"
+		intervals [4]:
+			xmin = 0.1700000000000000
+			xmax = 0.2600000000000000
+			text = "que"
+		intervals [5]:
+			xmin = 0.2600000000000000
+			xmax = 0.3500000000000000
+			text = "vous"
+		intervals [6]:
+			xmin = 0.3500000000000000
+			xmax = 0.5862712770000000
+			text = "avez"
+		intervals [7]:
+			xmin = 0.5862712770000000
+			xmax = 0.8600000000000000
+			text = "envie"
+		intervals [8]:
+			xmin = 0.8600000000000000
+			xmax = 0.9433807239999999
+			text = "de"
+		intervals [9]:
+			xmin = 0.9433807239999999
+			xmax = 1.3300000000000001
+			text = "faire"
+	item [4]:
+		class = "IntervalTier"
+		name = "textexpe"
+		xmin = 0.0000000000000000
+		xmax = 1.3300000000000001
+		intervals: size = 1
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 1.3300000000000001
+			text = "qu'est-ce que vous avez envie de faire ?"
+	item [5]:
+		class = "IntervalTier"
+		name = "phono"
+		xmin = 0.0000000000000000
+		xmax = 1.3300000000000001
+		intervals: size = 1
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 1.3300000000000001
+			text = "k e s k@ vu z*ave a~vi d fER"
+	item [6]:
+		class = "IntervalTier"
+		name = "ortho"
+		xmin = 0.0000000000000000
+		xmax = 1.3300000000000001
+		intervals: size = 1
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 1.3300000000000001
+			text = "qu'est-ce que vous avez envie de faire"

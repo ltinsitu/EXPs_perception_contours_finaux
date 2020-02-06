@@ -1,0 +1,94 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 0.8533292131909871 
+tiers? <exists> 
+size = 5 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "phones" 
+        xmin = 0 
+        xmax = 0.8533292131909871 
+        intervals: size = 6 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.15000000000000036 
+            text = "v" 
+        intervals [2]:
+            xmin = 0.15000000000000036 
+            xmax = 0.2263425550664049 
+            text = "a" 
+        intervals [3]:
+            xmin = 0.2263425550664049 
+            xmax = 0.4299999999999997 
+            text = "a~" 
+        intervals [4]:
+            xmin = 0.4299999999999997 
+            xmax = 0.5099999999999998 
+            text = "k" 
+        intervals [5]:
+            xmin = 0.5099999999999998 
+            xmax = 0.71 
+            text = "u" 
+        intervals [6]:
+            xmin = 0.71 
+            xmax = 0.8533292131909871 
+            text = "R" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "syll" 
+        xmin = 0 
+        xmax = 0.8533292131909871 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.2263425550664049 
+            text = "va" 
+        intervals [2]:
+            xmin = 0.2263425550664049 
+            xmax = 0.4299999999999997 
+            text = "a~" 
+        intervals [3]:
+            xmin = 0.4299999999999997 
+            xmax = 0.8533292131909871 
+            text = "kuR" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "words" 
+        xmin = 0 
+        xmax = 0.8533292131909871 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.2263425550664049 
+            text = "va" 
+        intervals [2]:
+            xmin = 0.2263425550664049 
+            xmax = 0.4299999999999997 
+            text = "en" 
+        intervals [3]:
+            xmin = 0.4299999999999997 
+            xmax = 0.8533292131909871 
+            text = "cours" 
+    item [4]:
+        class = "IntervalTier" 
+        name = "phono" 
+        xmin = 0 
+        xmax = 0.8533292131909871 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.8533292131909871 
+            text = "va a~ kuR" 
+    item [5]:
+        class = "IntervalTier" 
+        name = "ortho" 
+        xmin = 0 
+        xmax = 0.8533292131909871 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.8533292131909871 
+            text = "va en cours" 

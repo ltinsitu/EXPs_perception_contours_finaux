@@ -1,0 +1,132 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 0.8399999999999999 
+tiers? <exists> 
+size = 6 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "phones" 
+        xmin = 0 
+        xmax = 0.8399999999999999 
+        intervals: size = 12 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.05000000000000071 
+            text = "p" 
+        intervals [2]:
+            xmin = 0.05000000000000071 
+            xmax = 0.08999999999999986 
+            text = "R" 
+        intervals [3]:
+            xmin = 0.08999999999999986 
+            xmax = 0.1999999999999993 
+            text = "a~" 
+        intervals [4]:
+            xmin = 0.1999999999999993 
+            xmax = 0.23293680405655653 
+            text = "t" 
+        intervals [5]:
+            xmin = 0.23293680405655653 
+            xmax = 0.33000000000000185 
+            text = "o~" 
+        intervals [6]:
+            xmin = 0.33000000000000185 
+            xmax = 0.370000000000001 
+            text = "k" 
+        intervals [7]:
+            xmin = 0.370000000000001 
+            xmax = 0.4290688179125775 
+            text = "a" 
+        intervals [8]:
+            xmin = 0.4290688179125775 
+            xmax = 0.5399999999999991 
+            text = "R" 
+        intervals [9]:
+            xmin = 0.5399999999999991 
+            xmax = 0.5652155245904986 
+            text = "t" 
+        intervals [10]:
+            xmin = 0.5652155245904986 
+            xmax = 0.714566660183637 
+            text = "a" 
+        intervals [11]:
+            xmin = 0.714566660183637 
+            xmax = 0.7600000000000016 
+            text = "b" 
+        intervals [12]:
+            xmin = 0.7600000000000016 
+            xmax = 0.8399999999999999 
+            text = "l" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "syll" 
+        xmin = 0 
+        xmax = 0.8399999999999999 
+        intervals: size = 4 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.1999999999999993 
+            text = "pRa~" 
+        intervals [2]:
+            xmin = 0.1999999999999993 
+            xmax = 0.33000000000000185 
+            text = "to~" 
+        intervals [3]:
+            xmin = 0.33000000000000185 
+            xmax = 0.5399999999999991 
+            text = "kaR" 
+        intervals [4]:
+            xmin = 0.5399999999999991 
+            xmax = 0.8399999999999999 
+            text = "tabl" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "words" 
+        xmin = 0 
+        xmax = 0.8399999999999999 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.1999999999999993 
+            text = "prends" 
+        intervals [2]:
+            xmin = 0.1999999999999993 
+            xmax = 0.33000000000000185 
+            text = "ton" 
+        intervals [3]:
+            xmin = 0.33000000000000185 
+            xmax = 0.8399999999999999 
+            text = "cartable" 
+    item [4]:
+        class = "IntervalTier" 
+        name = "textexpe" 
+        xmin = 0 
+        xmax = 0.8399999999999999 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.8399999999999999 
+            text = "prends ton cartable" 
+    item [5]:
+        class = "IntervalTier" 
+        name = "phono" 
+        xmin = 0 
+        xmax = 0.8399999999999999 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.8399999999999999 
+            text = "pRa~ to~ kaRtabl" 
+    item [6]:
+        class = "IntervalTier" 
+        name = "ortho" 
+        xmin = 0 
+        xmax = 0.8399999999999999 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.8399999999999999 
+            text = "prends ton cartable" 

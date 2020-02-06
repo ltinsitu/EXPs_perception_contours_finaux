@@ -1,0 +1,144 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 0.9724460606791455 
+tiers? <exists> 
+size = 6 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "phones" 
+        xmin = 0 
+        xmax = 0.9724460606791455 
+        intervals: size = 11 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.032251137551723597 
+            text = "k" 
+        intervals [2]:
+            xmin = 0.032251137551723597 
+            xmax = 0.12468997073002042 
+            text = "e" 
+        intervals [3]:
+            xmin = 0.12468997073002042 
+            xmax = 0.22901567749685392 
+            text = "S" 
+        intervals [4]:
+            xmin = 0.22901567749685392 
+            xmax = 0.2574670069866961 
+            text = "k" 
+        intervals [5]:
+            xmin = 0.2574670069866961 
+            xmax = 0.3257619083879165 
+            text = "@" 
+        intervals [6]:
+            xmin = 0.3257619083879165 
+            xmax = 0.37955259901484184 
+            text = "Z" 
+        intervals [7]:
+            xmin = 0.37955259901484184 
+            xmax = 0.4270850481688562 
+            text = "m" 
+        intervals [8]:
+            xmin = 0.4270850481688562 
+            xmax = 0.49871043218733346 
+            text = "a" 
+        intervals [9]:
+            xmin = 0.49871043218733346 
+            xmax = 0.5864600246922499 
+            text = "m" 
+        intervals [10]:
+            xmin = 0.5864600246922499 
+            xmax = 0.8098888481021124 
+            text = "y" 
+        intervals [11]:
+            xmin = 0.8098888481021124 
+            xmax = 0.9724460606791455 
+            text = "z" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "syll" 
+        xmin = 0 
+        xmax = 0.9724460606791455 
+        intervals: size = 4 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.22901567749685392 
+            text = "kes" 
+        intervals [2]:
+            xmin = 0.22901567749685392 
+            xmax = 0.37955259901484184 
+            text = "k@Z" 
+        intervals [3]:
+            xmin = 0.37955259901484184 
+            xmax = 0.49871043218733346 
+            text = "ma" 
+        intervals [4]:
+            xmin = 0.49871043218733346 
+            xmax = 0.9724460606791455 
+            text = "myz" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "words" 
+        xmin = 0 
+        xmax = 0.9724460606791455 
+        intervals: size = 7 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.032251137551723597 
+            text = "qu'" 
+        intervals [2]:
+            xmin = 0.032251137551723597 
+            xmax = 0.12468997073002042 
+            text = "est" 
+        intervals [3]:
+            xmin = 0.12468997073002042 
+            xmax = 0.22901567749685392 
+            text = "ce" 
+        intervals [4]:
+            xmin = 0.22901567749685392 
+            xmax = 0.3257619083879165 
+            text = "que" 
+        intervals [5]:
+            xmin = 0.3257619083879165 
+            xmax = 0.37955259901484184 
+            text = "je" 
+        intervals [6]:
+            xmin = 0.37955259901484184 
+            xmax = 0.4270850481688562 
+            text = "m'" 
+        intervals [7]:
+            xmin = 0.4270850481688562 
+            xmax = 0.9724460606791455 
+            text = "amuse" 
+    item [4]:
+        class = "IntervalTier" 
+        name = "textexpe" 
+        xmin = 0 
+        xmax = 0.9724460606791455 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.9724460606791455 
+            text = "qu'est-ce que je m'amuse" 
+    item [5]:
+        class = "IntervalTier" 
+        name = "phono" 
+        xmin = 0 
+        xmax = 0.9724460606791455 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.9724460606791455 
+            text = "k e s k@ Z mamyz" 
+    item [6]:
+        class = "IntervalTier" 
+        name = "ortho" 
+        xmin = 0 
+        xmax = 0.9724460606791455 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.9724460606791455 
+            text = "qu'est-ce que je m'amuse" 

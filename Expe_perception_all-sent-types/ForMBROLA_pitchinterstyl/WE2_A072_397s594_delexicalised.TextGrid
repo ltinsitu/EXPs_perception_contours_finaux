@@ -1,0 +1,200 @@
+﻿File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0.0000000000000000
+xmax = 1.2934252390000001
+tiers? <exists>
+size = 6
+item []:
+	item [1]:
+		class = "IntervalTier"
+		name = "phones"
+		xmin = 0.0000000000000000
+		xmax = 1.2934252390000001
+		intervals: size = 20
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.0634252390000000
+			text = "o~"
+		intervals [2]:
+			xmin = 0.0634252390000000
+			xmax = 0.1034252390000000
+			text = "m"
+		intervals [3]:
+			xmin = 0.1034252390000000
+			xmax = 0.1970477940000000
+			text = "o"
+		intervals [4]:
+			xmin = 0.1970477940000000
+			xmax = 0.2686549980000000
+			text = "t"
+		intervals [5]:
+			xmin = 0.2686549980000000
+			xmax = 0.3280431390000000
+			text = "9"
+		intervals [6]:
+			xmin = 0.3280431390000000
+			xmax = 0.3734252390000000
+			text = "l"
+		intervals [7]:
+			xmin = 0.3734252390000000
+			xmax = 0.4394290170000000
+			text = "E"
+		intervals [8]:
+			xmin = 0.4394290170000000
+			xmax = 0.4998525490000000
+			text = "l"
+		intervals [9]:
+			xmin = 0.4998525490000000
+			xmax = 0.5559166650000000
+			text = "w"
+		intervals [10]:
+			xmin = 0.5559166650000000
+			xmax = 0.6249592430000001
+			text = "9"
+		intervals [11]:
+			xmin = 0.6249592430000001
+			xmax = 0.6549800780000000
+			text = "R"
+		intervals [12]:
+			xmin = 0.6549800780000000
+			xmax = 0.7249095129999999
+			text = "e"
+		intervals [13]:
+			xmin = 0.7249095129999999
+			xmax = 0.7562571910000000
+			text = "t"
+		intervals [14]:
+			xmin = 0.7562571910000000
+			xmax = 0.8534252390000000
+			text = "l"
+		intervals [15]:
+			xmin = 0.8534252390000000
+			xmax = 0.8834252390000000
+			text = "i"
+		intervals [16]:
+			xmin = 0.8834252390000000
+			xmax = 0.9134252390000001
+			text = "s"
+		intervals [17]:
+			xmin = 0.9134252390000001
+			xmax = 0.9718194420000000
+			text = "o"
+		intervals [18]:
+			xmin = 0.9718194420000000
+			xmax = 1.0198456920000001
+			text = "R"
+		intervals [19]:
+			xmin = 1.0198456920000001
+			xmax = 1.1471366150000000
+			text = "f"
+		intervals [20]:
+			xmin = 1.1471366150000000
+			xmax = 1.2934252390000001
+			text = "e"
+	item [2]:
+		class = "IntervalTier"
+		name = "syll"
+		xmin = 0.0000000000000000
+		xmax = 1.2934252390000001
+		intervals: size = 9
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.0634252390000000
+			text = "o~"
+		intervals [2]:
+			xmin = 0.0634252390000000
+			xmax = 0.1970477940000000
+			text = "na"
+		intervals [3]:
+			xmin = 0.1970477940000000
+			xmax = 0.3280431390000000
+			text = "pa"
+		intervals [4]:
+			xmin = 0.3280431390000000
+			xmax = 0.4394290170000000
+			text = "la"
+		intervals [5]:
+			xmin = 0.4394290170000000
+			xmax = 0.6249592430000001
+			text = "lwa"
+		intervals [6]:
+			xmin = 0.6249592430000001
+			xmax = 0.7249095129999999
+			text = "Ra"
+		intervals [7]:
+			xmin = 0.7249095129999999
+			xmax = 0.8834252390000000
+			text = "tRa"
+		intervals [8]:
+			xmin = 0.8834252390000000
+			xmax = 1.0198456920000001
+			text = "vER"
+		intervals [9]:
+			xmin = 1.0198456920000001
+			xmax = 1.2934252390000001
+			text = "se"
+	item [3]:
+		class = "IntervalTier"
+		name = "words"
+		xmin = 0.0000000000000000
+		xmax = 1.2934252390000001
+		intervals: size = 7
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.0634252390000000
+			text = "on"
+		intervals [2]:
+			xmin = 0.0634252390000000
+			xmax = 0.1970477940000000
+			text = "n'a"
+		intervals [3]:
+			xmin = 0.1970477940000000
+			xmax = 0.3280431390000000
+			text = "pas"
+		intervals [4]:
+			xmin = 0.3280431390000000
+			xmax = 0.4394290170000000
+			text = "la"
+		intervals [5]:
+			xmin = 0.4394290170000000
+			xmax = 0.6249592430000001
+			text = "loire"
+		intervals [6]:
+			xmin = 0.6249592430000001
+			xmax = 0.7249095129999999
+			text = "à"
+		intervals [7]:
+			xmin = 0.7249095129999999
+			xmax = 1.2934252390000001
+			text = "traverser"
+	item [4]:
+		class = "IntervalTier"
+		name = "textexpe"
+		xmin = 0.0000000000000000
+		xmax = 1.2934252390000001
+		intervals: size = 1
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 1.2934252390000001
+			text = "on n'a pas la Loire à traverser "
+	item [5]:
+		class = "IntervalTier"
+		name = "phono"
+		xmin = 0.0000000000000000
+		xmax = 1.2934252390000001
+		intervals: size = 1
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 1.2934252390000001
+			text = "o~ na pa la lwa Ra tRavERse"
+	item [6]:
+		class = "IntervalTier"
+		name = "ortho"
+		xmin = 0.0000000000000000
+		xmax = 1.2934252390000001
+		intervals: size = 1
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 1.2934252390000001
+			text = "on n'a pas la loire à traverser"

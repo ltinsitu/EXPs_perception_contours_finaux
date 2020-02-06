@@ -1,0 +1,120 @@
+﻿File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0.0000000000000000
+xmax = 0.5675771610000000
+tiers? <exists>
+size = 6
+item []:
+	item [1]:
+		class = "IntervalTier"
+		name = "phones"
+		xmin = 0.0000000000000000
+		xmax = 0.5675771610000000
+		intervals: size = 8
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.0145826240000000
+			text = "i"
+		intervals [2]:
+			xmin = 0.0145826240000000
+			xmax = 0.0599452370000000
+			text = "R"
+		intervals [3]:
+			xmin = 0.0599452370000000
+			xmax = 0.1501475520000000
+			text = "a"
+		intervals [4]:
+			xmin = 0.1501475520000000
+			xmax = 0.2001475520000000
+			text = "g"
+		intervals [5]:
+			xmin = 0.2001475520000000
+			xmax = 0.2329335010000000
+			text = "e"
+		intervals [6]:
+			xmin = 0.2329335010000000
+			xmax = 0.2892224050000000
+			text = "R"
+		intervals [7]:
+			xmin = 0.2892224050000000
+			xmax = 0.3601475520000000
+			text = "o"
+		intervals [8]:
+			xmin = 0.3601475520000000
+			xmax = 0.5675771610000000
+			text = "Z"
+	item [2]:
+		class = "IntervalTier"
+		name = "syll"
+		xmin = 0.0000000000000000
+		xmax = 0.5675771610000000
+		intervals: size = 4
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.0145826240000000
+			text = "i"
+		intervals [2]:
+			xmin = 0.0145826240000000
+			xmax = 0.1501475520000000
+			text = "la"
+		intervals [3]:
+			xmin = 0.1501475520000000
+			xmax = 0.2329335010000000
+			text = "kE"
+		intervals [4]:
+			xmin = 0.2329335010000000
+			xmax = 0.5675771610000000
+			text = "laZ"
+	item [3]:
+		class = "IntervalTier"
+		name = "words"
+		xmin = 0.0000000000000000
+		xmax = 0.5675771610000000
+		intervals: size = 4
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.0599452370000000
+			text = "il"
+		intervals [2]:
+			xmin = 0.0599452370000000
+			xmax = 0.1501475520000000
+			text = "a"
+		intervals [3]:
+			xmin = 0.1501475520000000
+			xmax = 0.2892224050000000
+			text = "quel"
+		intervals [4]:
+			xmin = 0.2892224050000000
+			xmax = 0.5675771610000000
+			text = "âge"
+	item [4]:
+		class = "IntervalTier"
+		name = "textexpe"
+		xmin = 0.0000000000000000
+		xmax = 0.5675771610000000
+		intervals: size = 1
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.5675771610000000
+			text = "il a quel âge ?"
+	item [5]:
+		class = "IntervalTier"
+		name = "phono"
+		xmin = 0.0000000000000000
+		xmax = 0.5675771610000000
+		intervals: size = 1
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.5675771610000000
+			text = "i la kE laZ"
+	item [6]:
+		class = "IntervalTier"
+		name = "ortho"
+		xmin = 0.0000000000000000
+		xmax = 0.5675771610000000
+		intervals: size = 1
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.5675771610000000
+			text = "il a quel âge"

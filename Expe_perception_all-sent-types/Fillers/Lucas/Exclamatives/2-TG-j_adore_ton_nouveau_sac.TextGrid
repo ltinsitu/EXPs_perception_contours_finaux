@@ -1,0 +1,142 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 1.3600000000000003 
+tiers? <exists> 
+size = 5 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "phones" 
+        xmin = 0 
+        xmax = 1.3600000000000003 
+        intervals: size = 14 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.14000000000000012 
+            text = "Z" 
+        intervals [2]:
+            xmin = 0.14000000000000012 
+            xmax = 0.22999999999999998 
+            text = "a" 
+        intervals [3]:
+            xmin = 0.22999999999999998 
+            xmax = 0.3617169516917484 
+            text = "d" 
+        intervals [4]:
+            xmin = 0.3617169516917484 
+            xmax = 0.5 
+            text = "O" 
+        intervals [5]:
+            xmin = 0.5 
+            xmax = 0.6100000000000003 
+            text = "R" 
+        intervals [6]:
+            xmin = 0.6100000000000003 
+            xmax = 0.6600000000000001 
+            text = "t" 
+        intervals [7]:
+            xmin = 0.6600000000000001 
+            xmax = 0.7199999999999998 
+            text = "o~" 
+        intervals [8]:
+            xmin = 0.7199999999999998 
+            xmax = 0.7700000000000005 
+            text = "n" 
+        intervals [9]:
+            xmin = 0.7700000000000005 
+            xmax = 0.8119884434910658 
+            text = "u" 
+        intervals [10]:
+            xmin = 0.8119884434910658 
+            xmax = 0.8700000000000001 
+            text = "v" 
+        intervals [11]:
+            xmin = 0.8700000000000001 
+            xmax = 0.9500000000000002 
+            text = "o" 
+        intervals [12]:
+            xmin = 0.9500000000000002 
+            xmax = 1.08 
+            text = "s" 
+        intervals [13]:
+            xmin = 1.08 
+            xmax = 1.2400000000000002 
+            text = "a" 
+        intervals [14]:
+            xmin = 1.2400000000000002 
+            xmax = 1.3600000000000003 
+            text = "k" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "syll" 
+        xmin = 0 
+        xmax = 1.3600000000000003 
+        intervals: size = 6 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.22999999999999998 
+            text = "Za" 
+        intervals [2]:
+            xmin = 0.22999999999999998 
+            xmax = 0.6100000000000003 
+            text = "dOR" 
+        intervals [3]:
+            xmin = 0.6100000000000003 
+            xmax = 0.7199999999999998 
+            text = "to~" 
+        intervals [4]:
+            xmin = 0.7199999999999998 
+            xmax = 0.8119884434910658 
+            text = "nu" 
+        intervals [5]:
+            xmin = 0.8119884434910658 
+            xmax = 0.9500000000000002 
+            text = "vo" 
+        intervals [6]:
+            xmin = 0.9500000000000002 
+            xmax = 1.3600000000000003 
+            text = "sak" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "words" 
+        xmin = 0 
+        xmax = 1.3600000000000003 
+        intervals: size = 4 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.6100000000000003 
+            text = "j'adore" 
+        intervals [2]:
+            xmin = 0.6100000000000003 
+            xmax = 0.7199999999999998 
+            text = "ton" 
+        intervals [3]:
+            xmin = 0.7199999999999998 
+            xmax = 0.9500000000000002 
+            text = "nouveau" 
+        intervals [4]:
+            xmin = 0.9500000000000002 
+            xmax = 1.3600000000000003 
+            text = "sac" 
+    item [4]:
+        class = "IntervalTier" 
+        name = "phono" 
+        xmin = 0 
+        xmax = 1.3600000000000003 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 1.3600000000000003 
+            text = "ZadOR to~ nuvo sak" 
+    item [5]:
+        class = "IntervalTier" 
+        name = "ortho" 
+        xmin = 0 
+        xmax = 1.3600000000000003 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 1.3600000000000003 
+            text = "j'adore ton nouveau sac" 

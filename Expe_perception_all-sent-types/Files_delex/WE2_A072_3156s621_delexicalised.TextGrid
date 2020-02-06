@@ -1,0 +1,260 @@
+﻿File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0.0000000000000000
+xmax = 2.4800000000000000
+tiers? <exists>
+size = 6
+item []:
+	item [1]:
+		class = "IntervalTier"
+		name = "phones"
+		xmin = 0.0000000000000000
+		xmax = 2.4800000000000000
+		intervals: size = 30
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.1091810670000000
+			text = "Z"
+		intervals [2]:
+			xmin = 0.1091810670000000
+			xmax = 0.2620481940000000
+			text = "u"
+		intervals [3]:
+			xmin = 0.2620481940000000
+			xmax = 0.4000000000000000
+			text = "f"
+		intervals [4]:
+			xmin = 0.4000000000000000
+			xmax = 0.4440092630000000
+			text = "E"
+		intervals [5]:
+			xmin = 0.4440092630000000
+			xmax = 0.5080610080000000
+			text = "R"
+		intervals [6]:
+			xmin = 0.5080610080000000
+			xmax = 0.6255761050000000
+			text = "s"
+		intervals [7]:
+			xmin = 0.6255761050000000
+			xmax = 0.7000000000000000
+			text = "e"
+		intervals [8]:
+			xmin = 0.7000000000000000
+			xmax = 0.7600000000000000
+			text = "m"
+		intervals [9]:
+			xmin = 0.7600000000000000
+			xmax = 0.9102125970000000
+			text = "a~"
+		intervals [10]:
+			xmin = 0.9102125970000000
+			xmax = 0.9655106040000000
+			text = "k"
+		intervals [11]:
+			xmin = 0.9655106040000000
+			xmax = 1.0531200880000000
+			text = "E"
+		intervals [12]:
+			xmin = 1.0531200880000000
+			xmax = 1.1381673530000000
+			text = "t"
+		intervals [13]:
+			xmin = 1.1381673530000000
+			xmax = 1.2200000000000000
+			text = "o~"
+		intervals [14]:
+			xmin = 1.2200000000000000
+			xmax = 1.3000000000000000
+			text = "S"
+		intervals [15]:
+			xmin = 1.3000000000000000
+			xmax = 1.4677212829999999
+			text = "i"
+		intervals [16]:
+			xmin = 1.4677212829999999
+			xmax = 1.5700000000000001
+			text = "g"
+		intervals [17]:
+			xmin = 1.5700000000000001
+			xmax = 1.6704223140000001
+			text = "o~"
+		intervals [18]:
+			xmin = 1.6704223140000001
+			xmax = 1.7300000000000000
+			text = "l"
+		intervals [19]:
+			xmin = 1.7300000000000000
+			xmax = 1.7800000000000000
+			text = "E"
+		intervals [20]:
+			xmin = 1.7800000000000000
+			xmax = 1.8100000000000001
+			text = "z"
+		intervals [21]:
+			xmin = 1.8100000000000001
+			xmax = 1.8999999999999999
+			text = "O"
+		intervals [22]:
+			xmin = 1.8999999999999999
+			xmax = 1.9778792599999999
+			text = "t"
+		intervals [23]:
+			xmin = 1.9778792599999999
+			xmax = 2.0400000000000000
+			text = "o~"
+		intervals [24]:
+			xmin = 2.0400000000000000
+			xmax = 2.1099999999999999
+			text = "f"
+		intervals [25]:
+			xmin = 2.1099999999999999
+			xmax = 2.1632049530000002
+			text = "s"
+		intervals [26]:
+			xmin = 2.1632049530000002
+			xmax = 2.2108167509999999
+			text = "d"
+		intervals [27]:
+			xmin = 2.2108167509999999
+			xmax = 2.2654742400000001
+			text = "u"
+		intervals [28]:
+			xmin = 2.2654742400000001
+			xmax = 2.3148346200000001
+			text = "l"
+		intervals [29]:
+			xmin = 2.3148346200000001
+			xmax = 2.3840105039999999
+			text = "e"
+		intervals [30]:
+			xmin = 2.3840105039999999
+			xmax = 2.4800000000000000
+			text = "R"
+	item [2]:
+		class = "IntervalTier"
+		name = "syll"
+		xmin = 0.0000000000000000
+		xmax = 2.4800000000000000
+		intervals: size = 13
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.2620481940000000
+			text = "Ze"
+		intervals [2]:
+			xmin = 0.2620481940000000
+			xmax = 0.5080610080000000
+			text = "fOR"
+		intervals [3]:
+			xmin = 0.5080610080000000
+			xmax = 0.7000000000000000
+			text = "se"
+		intervals [4]:
+			xmin = 0.7000000000000000
+			xmax = 0.9102125970000000
+			text = "ma~"
+		intervals [5]:
+			xmin = 0.9102125970000000
+			xmax = 1.0531200880000000
+			text = "de"
+		intervals [6]:
+			xmin = 1.0531200880000000
+			xmax = 1.2200000000000000
+			text = "ko~"
+		intervals [7]:
+			xmin = 1.2200000000000000
+			xmax = 1.4677212829999999
+			text = "Ze"
+		intervals [8]:
+			xmin = 1.4677212829999999
+			xmax = 1.6704223140000001
+			text = "da~"
+		intervals [9]:
+			xmin = 1.6704223140000001
+			xmax = 1.7800000000000000
+			text = "le"
+		intervals [10]:
+			xmin = 1.7800000000000000
+			xmax = 1.8999999999999999
+			text = "va"
+		intervals [11]:
+			xmin = 1.8999999999999999
+			xmax = 2.1099999999999999
+			text = "ka~s"
+		intervals [12]:
+			xmin = 2.1099999999999999
+			xmax = 2.2654742400000001
+			text = "skO"
+		intervals [13]:
+			xmin = 2.2654742400000001
+			xmax = 2.4800000000000000
+			text = "lER"
+	item [3]:
+		class = "IntervalTier"
+		name = "words"
+		xmin = 0.0000000000000000
+		xmax = 2.4800000000000000
+		intervals: size = 8
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.2620481940000000
+			text = "j'ai"
+		intervals [2]:
+			xmin = 0.2620481940000000
+			xmax = 0.9102125970000000
+			text = "forcément"
+		intervals [3]:
+			xmin = 0.9102125970000000
+			xmax = 1.0531200880000000
+			text = "des"
+		intervals [4]:
+			xmin = 1.0531200880000000
+			xmax = 1.4677212829999999
+			text = "congés"
+		intervals [5]:
+			xmin = 1.4677212829999999
+			xmax = 1.6704223140000001
+			text = "dans"
+		intervals [6]:
+			xmin = 1.6704223140000001
+			xmax = 1.7800000000000000
+			text = "les"
+		intervals [7]:
+			xmin = 1.7800000000000000
+			xmax = 2.1099999999999999
+			text = "vacances"
+		intervals [8]:
+			xmin = 2.1099999999999999
+			xmax = 2.4800000000000000
+			text = "scolaires"
+	item [4]:
+		class = "IntervalTier"
+		name = "textexpe"
+		xmin = 0.0000000000000000
+		xmax = 2.4800000000000000
+		intervals: size = 1
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 2.4800000000000000
+			text = "j'ai forcément des congés dans les vacances scolaires "
+	item [5]:
+		class = "IntervalTier"
+		name = "phono"
+		xmin = 0.0000000000000000
+		xmax = 2.4800000000000000
+		intervals: size = 1
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 2.4800000000000000
+			text = "do~k Ze fORsema~ de ko~Ze da~ le vaka~s skOlER"
+	item [6]:
+		class = "IntervalTier"
+		name = "ortho"
+		xmin = 0.0000000000000000
+		xmax = 2.4800000000000000
+		intervals: size = 1
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 2.4800000000000000
+			text = "donc j'ai forcément des congés dans les vacances scolaires"

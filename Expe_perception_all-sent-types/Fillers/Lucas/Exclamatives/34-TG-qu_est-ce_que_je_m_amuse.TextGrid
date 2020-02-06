@@ -1,0 +1,134 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 1.0366658195339422 
+tiers? <exists> 
+size = 5 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "phones" 
+        xmin = 0 
+        xmax = 1.0366658195339422 
+        intervals: size = 12 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.050828422470075796 
+            text = "k" 
+        intervals [2]:
+            xmin = 0.050828422470075796 
+            xmax = 0.1318330834476159 
+            text = "E" 
+        intervals [3]:
+            xmin = 0.1318330834476159 
+            xmax = 0.2443538941183444 
+            text = "s" 
+        intervals [4]:
+            xmin = 0.2443538941183444 
+            xmax = 0.29584468592490876 
+            text = "k" 
+        intervals [5]:
+            xmin = 0.29584468592490876 
+            xmax = 0.35244026146756224 
+            text = "@" 
+        intervals [6]:
+            xmin = 0.35244026146756224 
+            xmax = 0.42031469618231265 
+            text = "Z" 
+        intervals [7]:
+            xmin = 0.42031469618231265 
+            xmax = 0.46762523017092394 
+            text = "@" 
+        intervals [8]:
+            xmin = 0.46762523017092394 
+            xmax = 0.5334330992114465 
+            text = "m" 
+        intervals [9]:
+            xmin = 0.5334330992114465 
+            xmax = 0.5945172643562254 
+            text = "a" 
+        intervals [10]:
+            xmin = 0.5945172643562254 
+            xmax = 0.6811297522953216 
+            text = "m" 
+        intervals [11]:
+            xmin = 0.6811297522953216 
+            xmax = 0.8511272599606018 
+            text = "y" 
+        intervals [12]:
+            xmin = 0.8511272599606018 
+            xmax = 1.0366658195339422 
+            text = "z" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "syll" 
+        xmin = 0 
+        xmax = 1.0366658195339422 
+        intervals: size = 5 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.2443538941183444 
+            text = "kEs" 
+        intervals [2]:
+            xmin = 0.2443538941183444 
+            xmax = 0.35244026146756224 
+            text = "k@" 
+        intervals [3]:
+            xmin = 0.35244026146756224 
+            xmax = 0.46762523017092394 
+            text = "Z@" 
+        intervals [4]:
+            xmin = 0.46762523017092394 
+            xmax = 0.5945172643562254 
+            text = "ma" 
+        intervals [5]:
+            xmin = 0.5945172643562254 
+            xmax = 1.0366658195339422 
+            text = "myz" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "words" 
+        xmin = 0 
+        xmax = 1.0366658195339422 
+        intervals: size = 5 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.1318330834476159 
+            text = "qu'est" 
+        intervals [2]:
+            xmin = 0.1318330834476159 
+            xmax = 0.2443538941183444 
+            text = "ce" 
+        intervals [3]:
+            xmin = 0.2443538941183444 
+            xmax = 0.35244026146756224 
+            text = "que" 
+        intervals [4]:
+            xmin = 0.35244026146756224 
+            xmax = 0.46762523017092394 
+            text = "je" 
+        intervals [5]:
+            xmin = 0.46762523017092394 
+            xmax = 1.0366658195339422 
+            text = "m'amuse" 
+    item [4]:
+        class = "IntervalTier" 
+        name = "phono" 
+        xmin = 0 
+        xmax = 1.0366658195339422 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 1.0366658195339422 
+            text = "k e s k@ Z@ mamyz" 
+    item [5]:
+        class = "IntervalTier" 
+        name = "ortho" 
+        xmin = 0 
+        xmax = 1.0366658195339422 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 1.0366658195339422 
+            text = "qu'est-ce que je m'amuse" 

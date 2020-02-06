@@ -1,0 +1,50 @@
+#To cut the long fillers into several files, those recorded by Laure
+
+#Paths
+path$ = "/home/lucas/Documents/CloudStation/SDL/PhD/Prosodie/Expés_Prosodie/EXP_perception_contours_finaux/Fillers_to_check/Fillers_Laure_OK_uncut/"
+pathout$ = "/home/lucas/Documents/CloudStation/SDL/PhD/Prosodie/Expés_Prosodie/EXP_perception_contours_finaux/REAL_EXPE_Ibex/Fillers/Laure/"
+table$ = "/home/lucas/Documents/CloudStation/SDL/PhD/Prosodie/Expés_Prosodie/EXP_perception_contours_finaux/table_files_REAL-expe-perception_fillers.csv"
+
+wavlist$ = Create Strings as file list: "wavlist", "'path$'*.wav"
+
+selectObject: "Strings wavlist"
+
+numwav = Get number of strings
+
+clearinfo
+
+for n to numwav
+	selectObject: "Strings wavlist"
+	wavfile$ = Get string: 'n'
+	Read from file: "'path$''wavfile$'"
+	name$ = replace$ ("'wavfile$'", ".wav", "", 0)
+	Read from file: "'path$''name$'.TextGrid"
+	selectObject: "TextGrid 'name$'"
+	nint = Get number of intervals: 5
+	for t to 'nint'
+		selectObject: "TextGrid 'name$'"
+		labint$ = Get label of interval: 5, t
+		if not startsWith ("'labint$'", "_")
+			# ~ print 'name$'
+			# ~ printtab
+			# ~ print 'labint$'
+			# ~ printline
+			startint = Get start time of interval: 5, t
+			endint = Get end time of interval: 5, t
+			Extract part: 'startint', 'endint', "no"
+			Rename: "TG-'labint$'"
+			Save as text file: "'pathout$'/Laure-'labint$'.TextGrid"
+			selectObject: "Sound 'name$'"
+			Extract part: 'startint', 'endint', "rectangular", 1, "no"
+			Resample: 16000, 50
+			Rename: "Sound-'labint$'"
+			Save as WAV file: "'pathout$'/Laure-'labint$'.wav"
+		#if not startsWith ("'labint$'", "_")
+		endif
+	#for t to 'nint'
+	endfor
+#for n to numwav
+endfor
+
+selectObject: "Strings wavlist"
+Remove

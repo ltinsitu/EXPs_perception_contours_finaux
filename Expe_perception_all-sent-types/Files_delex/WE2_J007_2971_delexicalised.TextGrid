@@ -1,0 +1,116 @@
+﻿File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0.0000000000000000
+xmax = 0.4500000000000000
+tiers? <exists>
+size = 6
+item []:
+	item [1]:
+		class = "IntervalTier"
+		name = "phones"
+		xmin = 0.0000000000000000
+		xmax = 0.4500000000000000
+		intervals: size = 8
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.0400000000000000
+			text = "t"
+		intervals [2]:
+			xmin = 0.0400000000000000
+			xmax = 0.1105762240000000
+			text = "e~"
+		intervals [3]:
+			xmin = 0.1105762240000000
+			xmax = 0.1400358760000000
+			text = "n"
+		intervals [4]:
+			xmin = 0.1400358760000000
+			xmax = 0.2200000000000000
+			text = "e"
+		intervals [5]:
+			xmin = 0.2200000000000000
+			xmax = 0.2500000000000000
+			text = "p"
+		intervals [6]:
+			xmin = 0.2500000000000000
+			xmax = 0.3349156480000000
+			text = "u"
+		intervals [7]:
+			xmin = 0.3349156480000000
+			xmax = 0.3916970390000000
+			text = "t"
+		intervals [8]:
+			xmin = 0.3916970390000000
+			xmax = 0.4500000000000000
+			text = "R"
+	item [2]:
+		class = "IntervalTier"
+		name = "syll"
+		xmin = 0.0000000000000000
+		xmax = 0.4500000000000000
+		intervals: size = 3
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.1105762240000000
+			text = "ta~"
+		intervals [2]:
+			xmin = 0.1105762240000000
+			xmax = 0.2200000000000000
+			text = "na"
+		intervals [3]:
+			xmin = 0.2200000000000000
+			xmax = 0.4500000000000000
+			text = "dotR"
+	item [3]:
+		class = "IntervalTier"
+		name = "words"
+		xmin = 0.0000000000000000
+		xmax = 0.4500000000000000
+		intervals: size = 4
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.0400000000000000
+			text = "tu"
+		intervals [2]:
+			xmin = 0.0400000000000000
+			xmax = 0.1105762240000000
+			text = "en"
+		intervals [3]:
+			xmin = 0.1105762240000000
+			xmax = 0.2200000000000000
+			text = "as"
+		intervals [4]:
+			xmin = 0.2200000000000000
+			xmax = 0.4500000000000000
+			text = "d'autres"
+	item [4]:
+		class = "IntervalTier"
+		name = "textexpe"
+		xmin = 0.0000000000000000
+		xmax = 0.4500000000000000
+		intervals: size = 1
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.4500000000000000
+			text = "tu en as d'autres ?"
+	item [5]:
+		class = "IntervalTier"
+		name = "phono"
+		xmin = 0.0000000000000000
+		xmax = 0.4500000000000000
+		intervals: size = 1
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.4500000000000000
+			text = "e t a~ n*a dotR"
+	item [6]:
+		class = "IntervalTier"
+		name = "ortho"
+		xmin = 0.0000000000000000
+		xmax = 0.4500000000000000
+		intervals: size = 1
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.4500000000000000
+			text = "et tu en as d'autres"

@@ -1,0 +1,212 @@
+﻿File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0.0000000000000000
+xmax = 1.5065720080000000
+tiers? <exists>
+size = 6
+item []:
+	item [1]:
+		class = "IntervalTier"
+		name = "phones"
+		xmin = 0.0000000000000000
+		xmax = 1.5065720080000000
+		intervals: size = 24
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.0683218610000000
+			text = "Z"
+		intervals [2]:
+			xmin = 0.0683218610000000
+			xmax = 0.1308790660000000
+			text = "O"
+		intervals [3]:
+			xmin = 0.1308790660000000
+			xmax = 0.2083392480000000
+			text = "s"
+		intervals [4]:
+			xmin = 0.2083392480000000
+			xmax = 0.2625396000000000
+			text = "l"
+		intervals [5]:
+			xmin = 0.2625396000000000
+			xmax = 0.3383392480000000
+			text = "a"
+		intervals [6]:
+			xmin = 0.3383392480000000
+			xmax = 0.4183392480000000
+			text = "k"
+		intervals [7]:
+			xmin = 0.4183392480000000
+			xmax = 0.4683392480000000
+			text = "E"
+		intervals [8]:
+			xmin = 0.4683392480000000
+			xmax = 0.5283392480000000
+			text = "m"
+		intervals [9]:
+			xmin = 0.5283392480000000
+			xmax = 0.5920664610000000
+			text = "e~"
+		intervals [10]:
+			xmin = 0.5920664610000000
+			xmax = 0.6683392480000000
+			text = "E"
+		intervals [11]:
+			xmin = 0.6683392480000000
+			xmax = 0.6983392480000000
+			text = "n"
+		intervals [12]:
+			xmin = 0.6983392480000000
+			xmax = 0.7583392480000000
+			text = "z"
+		intervals [13]:
+			xmin = 0.7583392480000000
+			xmax = 0.7883392480000000
+			text = "H"
+		intervals [14]:
+			xmin = 0.7883392480000000
+			xmax = 0.8283392480000000
+			text = "a"
+		intervals [15]:
+			xmin = 0.8283392480000000
+			xmax = 0.9283392480000000
+			text = "p"
+		intervals [16]:
+			xmin = 0.9283392480000000
+			xmax = 0.9797454000000000
+			text = "a"
+		intervals [17]:
+			xmin = 0.9797454000000000
+			xmax = 1.0283392480000000
+			text = "R"
+		intervals [18]:
+			xmin = 1.0283392480000000
+			xmax = 1.0583392480000000
+			text = "p"
+		intervals [19]:
+			xmin = 1.0583392480000000
+			xmax = 1.1183392480000001
+			text = "s"
+		intervals [20]:
+			xmin = 1.1183392480000001
+			xmax = 1.1783392479999999
+			text = "y"
+		intervals [21]:
+			xmin = 1.1783392479999999
+			xmax = 1.2083392479999999
+			text = "R"
+		intervals [22]:
+			xmin = 1.2083392479999999
+			xmax = 1.2683392480000000
+			text = "f"
+		intervals [23]:
+			xmin = 1.2683392480000000
+			xmax = 1.3283392480000000
+			text = "o"
+		intervals [24]:
+			xmin = 1.3283392480000000
+			xmax = 1.5065720080000000
+			text = "s"
+	item [2]:
+		class = "IntervalTier"
+		name = "syll"
+		xmin = 0.0000000000000000
+		xmax = 1.5065720080000000
+		intervals: size = 9
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.1308790660000000
+			text = "Ze"
+		intervals [2]:
+			xmin = 0.1308790660000000
+			xmax = 0.3383392480000000
+			text = "fRe"
+		intervals [3]:
+			xmin = 0.3383392480000000
+			xmax = 0.4683392480000000
+			text = "ka"
+		intervals [4]:
+			xmin = 0.4683392480000000
+			xmax = 0.5920664610000000
+			text = "ma~"
+		intervals [5]:
+			xmin = 0.5920664610000000
+			xmax = 0.6983392480000000
+			text = "yn"
+		intervals [6]:
+			xmin = 0.6983392480000000
+			xmax = 0.8283392480000000
+			text = "vwa"
+		intervals [7]:
+			xmin = 0.8283392480000000
+			xmax = 1.0283392480000000
+			text = "tyR"
+		intervals [8]:
+			xmin = 1.0283392480000000
+			xmax = 1.2083392479999999
+			text = "dsER"
+		intervals [9]:
+			xmin = 1.2083392479999999
+			xmax = 1.5065720080000000
+			text = "vis"
+	item [3]:
+		class = "IntervalTier"
+		name = "words"
+		xmin = 0.0000000000000000
+		xmax = 1.5065720080000000
+		intervals: size = 6
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.1308790660000000
+			text = "j'ai"
+		intervals [2]:
+			xmin = 0.1308790660000000
+			xmax = 0.5920664610000000
+			text = "fréquemment"
+		intervals [3]:
+			xmin = 0.5920664610000000
+			xmax = 0.6983392480000000
+			text = "une"
+		intervals [4]:
+			xmin = 0.6983392480000000
+			xmax = 1.0283392480000000
+			text = "voiture"
+		intervals [5]:
+			xmin = 1.0283392480000000
+			xmax = 1.0583392480000000
+			text = "de"
+		intervals [6]:
+			xmin = 1.0583392480000000
+			xmax = 1.5065720080000000
+			text = "service"
+	item [4]:
+		class = "IntervalTier"
+		name = "textexpe"
+		xmin = 0.0000000000000000
+		xmax = 1.5065720080000000
+		intervals: size = 1
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 1.5065720080000000
+			text = "j'ai fréquemment une voiture de service "
+	item [5]:
+		class = "IntervalTier"
+		name = "phono"
+		xmin = 0.0000000000000000
+		xmax = 1.5065720080000000
+		intervals: size = 1
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 1.5065720080000000
+			text = "sa~ ko~te l fEt k@ puR mo~ tRavaj Ze fRekama~ yn vwatyR d sERvis"
+	item [6]:
+		class = "IntervalTier"
+		name = "ortho"
+		xmin = 0.0000000000000000
+		xmax = 1.5065720080000000
+		intervals: size = 1
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 1.5065720080000000
+			text = "sans compter le fait que pour mon travail j'ai fréquemment une voiture de service"

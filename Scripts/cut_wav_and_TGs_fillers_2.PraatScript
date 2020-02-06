@@ -1,0 +1,106 @@
+#Cut wav and TGs, second version for new files introduced 2019/2020
+##These two next lines do not seem to be right.
+#Each TG and wav file need to be already in praat objects
+#One TG has to be selected first 
+
+#PATH TO THIS SCRIPT: "/home/lucas/Documents/CloudStation/SDL/PhD/Prosodie/Expés_Prosodie/EXP_perception_contours_finaux/cut_wav_and_TGs_filers_2.PraatScript"
+
+#Defining folders (in and out)
+folderin$ = "/home/lucas/Documents/CloudStation/SDL/PhD/Prosodie/Expés_Prosodie/EXP_perception_contours_finaux/REAL_EXPE_Ibex/Fillers/Laure/Oldnames_uncorrected_uncut/"
+# ~ folderintg$ = "/home/lucas/Documents/CloudStation/SDL/PhD/Prosodie/Expés_Prosodie/EXP_perception_contours_finaux/REAL_EXPE_Ibex/Phrases_a_traiter/2-TGs_biensegmentes/"
+
+#Same folderout for wavs and TGs
+folderout$ = "/home/lucas/Documents/CloudStation/SDL/PhD/Prosodie/Expés_Prosodie/EXP_perception_contours_finaux/REAL_EXPE_Ibex/Fillers/Laure/Oldnames_segmented_cut/"
+
+#List of TGs in the folderin
+tglist$ = Create Strings as file list: "tglist", "'folderin$'*.TextGrid"
+
+selectObject: "Strings tglist"
+
+numtg = Get number of strings
+
+#We clear info and start looping on all TGs
+clearinfo
+for n to numtg
+	#We open TGs and wavs and identify some names
+	selectObject: "Strings tglist"
+	tgfile$ = Get string: 'n'
+	Read from file: "'folderin$''tgfile$'"
+	tgname$ = replace$ ("'tgfile$'", ".TextGrid", "", 0)
+	wavfile$ = "'tgname$'.wav"
+	wavname$ = replace$ ("'wavfile$'", ".wav", "", 0)
+	Read from file: "'folderin$''wavfile$'"
+	selectObject: "TextGrid 'tgname$'"
+	
+	#we need to add the tier textexpe to all TGs
+	Duplicate tier: 5, 4, "textexpe"
+	
+	#We start looping on intervals to select the one we're interested in
+	numint = Get number of intervals: 4
+
+	# ~ #Initiating counter to calculate the number of intervals containing "_"
+	countintempty = 0
+
+	# ~ #Some shitty prints unnecessary, can comment
+	print "processing TG:" 'tgname$'
+	printline
+	# ~ print "num of intervals:" 'numint'
+	# ~ printline
+
+
+	for int to 'numint'
+		selectObject: "TextGrid 'tgname$'"
+		labint$ = Get label of interval: 4, 'int'
+		if not startsWith ("'labint$'", "_")
+			countintempty += 1
+			# ~ print "interval" 'int' "is:"
+			# ~ printtab
+			# ~ print 'labint$'
+			# ~ printline
+			starttext = Get start time of interval: 4, 'int'
+			endtext = Get end time of interval: 4, 'int'
+			print "interval" 'int' "is:"
+			printtab
+			print 'labint$'
+			printline
+			Extract part: 'starttext', 'endtext', "no"
+			selectObject: "Sound 'wavname$'"
+			Extract part: 'starttext', 'endtext', "rectangular", 1, "no"
+		endif
+	#for n to 'numint'
+	endfor
+
+	# ~ numintok = 'numint' - 'countintempty'
+	# ~ print "number of intervals to consider:" 'numintok'
+	# ~ printline
+	# ~ print 'labint$'
+	# ~ printline
+	# ~ printline
+	
+	# ~ if 'numintok' = 2
+		# ~ starttext = Get start time of interval: 4, 3
+		# ~ endtext = Get end time of interval: 4, 3
+		# ~ Extract part: 'starttext', 'endtext', "no"
+		# ~ selectObject: "Sound 'wavname$'"
+		# ~ Extract part: 'starttext', 'endtext', "rectangular", 1, "no"
+	# ~ else
+		# ~ starttext = Get start time of interval: 4, 2
+		# ~ endtext = Get end time of interval: 4, 2
+		# ~ Extract part: 'starttext', 'endtext', "no"
+		# ~ selectObject: "Sound 'wavname$'"
+		# ~ Extract part: 'starttext', 'endtext', "rectangular", 1, "no"
+	# ~ #if 'numintok' = 2
+	# ~ endif
+	
+	selectObject: "TextGrid 'tgname$'"
+	plusObject: "Sound 'wavname$'"
+	Remove
+	selectObject: "TextGrid 'tgname$'_part"
+	Save as text file: "'folderout$''tgfile$'"
+	selectObject: "Sound 'wavname$'_part"
+	Save as WAV file: "'folderout$''wavfile$'"
+# ~ #for n to numtg
+endfor
+
+selectObject: "Strings tglist"
+Remove

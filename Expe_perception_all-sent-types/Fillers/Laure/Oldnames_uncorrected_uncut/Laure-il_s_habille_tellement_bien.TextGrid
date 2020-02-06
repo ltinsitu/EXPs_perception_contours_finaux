@@ -1,0 +1,146 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 1.2300000000000004 
+tiers? <exists> 
+size = 5 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "phones" 
+        xmin = 0 
+        xmax = 1.2300000000000004 
+        intervals: size = 15 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.0893843433334718 
+            text = "i" 
+        intervals [2]:
+            xmin = 0.0893843433334718 
+            xmax = 0.16232248844036337 
+            text = "l" 
+        intervals [3]:
+            xmin = 0.16232248844036337 
+            xmax = 0.20999999999999996 
+            text = "s" 
+        intervals [4]:
+            xmin = 0.20999999999999996 
+            xmax = 0.3000000000000007 
+            text = "a" 
+        intervals [5]:
+            xmin = 0.3000000000000007 
+            xmax = 0.33000000000000007 
+            text = "b" 
+        intervals [6]:
+            xmin = 0.33000000000000007 
+            xmax = 0.418678007107246 
+            text = "i" 
+        intervals [7]:
+            xmin = 0.418678007107246 
+            xmax = 0.54 
+            text = "j" 
+        intervals [8]:
+            xmin = 0.54 
+            xmax = 0.5800000000000001 
+            text = "t" 
+        intervals [9]:
+            xmin = 0.5800000000000001 
+            xmax = 0.7300000000000004 
+            text = "E" 
+        intervals [10]:
+            xmin = 0.7300000000000004 
+            xmax = 0.7600000000000007 
+            text = "l" 
+        intervals [11]:
+            xmin = 0.7600000000000007 
+            xmax = 0.79 
+            text = "m" 
+        intervals [12]:
+            xmin = 0.79 
+            xmax = 0.9155135263048317 
+            text = "a~" 
+        intervals [13]:
+            xmin = 0.9155135263048317 
+            xmax = 0.9484966850744223 
+            text = "b" 
+        intervals [14]:
+            xmin = 0.9484966850744223 
+            xmax = 1.0155297731700912 
+            text = "j" 
+        intervals [15]:
+            xmin = 1.0155297731700912 
+            xmax = 1.2300000000000004 
+            text = "e~" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "syll" 
+        xmin = 0 
+        xmax = 1.2300000000000004 
+        intervals: size = 6 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.16232248844036337 
+            text = "il" 
+        intervals [2]:
+            xmin = 0.16232248844036337 
+            xmax = 0.3000000000000007 
+            text = "sa" 
+        intervals [3]:
+            xmin = 0.3000000000000007 
+            xmax = 0.54 
+            text = "bij" 
+        intervals [4]:
+            xmin = 0.54 
+            xmax = 0.7600000000000007 
+            text = "tEl" 
+        intervals [5]:
+            xmin = 0.7600000000000007 
+            xmax = 0.9155135263048317 
+            text = "ma~" 
+        intervals [6]:
+            xmin = 0.9155135263048317 
+            xmax = 1.2300000000000004 
+            text = "bje~" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "words" 
+        xmin = 0 
+        xmax = 1.2300000000000004 
+        intervals: size = 4 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.16232248844036337 
+            text = "il" 
+        intervals [2]:
+            xmin = 0.16232248844036337 
+            xmax = 0.54 
+            text = "s'habille" 
+        intervals [3]:
+            xmin = 0.54 
+            xmax = 0.9155135263048317 
+            text = "tellement" 
+        intervals [4]:
+            xmin = 0.9155135263048317 
+            xmax = 1.2300000000000004 
+            text = "bien" 
+    item [4]:
+        class = "IntervalTier" 
+        name = "phono" 
+        xmin = 0 
+        xmax = 1.2300000000000004 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 1.2300000000000004 
+            text = "il sabij tElma~ bje~" 
+    item [5]:
+        class = "IntervalTier" 
+        name = "ortho" 
+        xmin = 0 
+        xmax = 1.2300000000000004 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 1.2300000000000004 
+            text = "il s'habille tellement bien" 

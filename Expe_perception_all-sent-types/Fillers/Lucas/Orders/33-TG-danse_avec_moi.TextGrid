@@ -1,0 +1,114 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 0.8102670027466959 
+tiers? <exists> 
+size = 5 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "phones" 
+        xmin = 0 
+        xmax = 0.8102670027466959 
+        intervals: size = 10 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.15839648507785656 
+            text = "d" 
+        intervals [2]:
+            xmin = 0.15839648507785656 
+            xmax = 0.2600000000000051 
+            text = "a~" 
+        intervals [3]:
+            xmin = 0.2600000000000051 
+            xmax = 0.3473217707573353 
+            text = "s" 
+        intervals [4]:
+            xmin = 0.3473217707573353 
+            xmax = 0.4000000000000057 
+            text = "a" 
+        intervals [5]:
+            xmin = 0.4000000000000057 
+            xmax = 0.45000000000000284 
+            text = "v" 
+        intervals [6]:
+            xmin = 0.45000000000000284 
+            xmax = 0.5100000000000051 
+            text = "E" 
+        intervals [7]:
+            xmin = 0.5100000000000051 
+            xmax = 0.5600000000000023 
+            text = "k" 
+        intervals [8]:
+            xmin = 0.5600000000000023 
+            xmax = 0.6481448538897351 
+            text = "m" 
+        intervals [9]:
+            xmin = 0.6481448538897351 
+            xmax = 0.6892902940660556 
+            text = "w" 
+        intervals [10]:
+            xmin = 0.6892902940660556 
+            xmax = 0.8102670027466959 
+            text = "a" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "syll" 
+        xmin = 0 
+        xmax = 0.8102670027466959 
+        intervals: size = 4 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.2600000000000051 
+            text = "da~" 
+        intervals [2]:
+            xmin = 0.2600000000000051 
+            xmax = 0.4000000000000057 
+            text = "sa" 
+        intervals [3]:
+            xmin = 0.4000000000000057 
+            xmax = 0.5600000000000023 
+            text = "vEk" 
+        intervals [4]:
+            xmin = 0.5600000000000023 
+            xmax = 0.8102670027466959 
+            text = "mwa" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "words" 
+        xmin = 0 
+        xmax = 0.8102670027466959 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.3473217707573353 
+            text = "danse" 
+        intervals [2]:
+            xmin = 0.3473217707573353 
+            xmax = 0.5600000000000023 
+            text = "avec" 
+        intervals [3]:
+            xmin = 0.5600000000000023 
+            xmax = 0.8102670027466959 
+            text = "moi" 
+    item [4]:
+        class = "IntervalTier" 
+        name = "phono" 
+        xmin = 0 
+        xmax = 0.8102670027466959 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.8102670027466959 
+            text = "da~ savEk mwa" 
+    item [5]:
+        class = "IntervalTier" 
+        name = "ortho" 
+        xmin = 0 
+        xmax = 0.8102670027466959 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.8102670027466959 
+            text = "danse avec moi" 

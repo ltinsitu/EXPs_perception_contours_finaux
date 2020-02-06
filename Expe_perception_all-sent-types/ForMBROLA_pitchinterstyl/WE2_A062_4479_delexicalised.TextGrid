@@ -1,0 +1,156 @@
+﻿File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0.0000000000000000
+xmax = 0.8646404370000000
+tiers? <exists>
+size = 6
+item []:
+	item [1]:
+		class = "IntervalTier"
+		name = "phones"
+		xmin = 0.0000000000000000
+		xmax = 0.8646404370000000
+		intervals: size = 15
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.0214667540000000
+			text = "v"
+		intervals [2]:
+			xmin = 0.0214667540000000
+			xmax = 0.0456337290000000
+			text = "s"
+		intervals [3]:
+			xmin = 0.0456337290000000
+			xmax = 0.1004482070000000
+			text = "O"
+		intervals [4]:
+			xmin = 0.1004482070000000
+			xmax = 0.1846404370000000
+			text = "d"
+		intervals [5]:
+			xmin = 0.1846404370000000
+			xmax = 0.2029764820000000
+			text = "j"
+		intervals [6]:
+			xmin = 0.2029764820000000
+			xmax = 0.2465138620000000
+			text = "i"
+		intervals [7]:
+			xmin = 0.2465138620000000
+			xmax = 0.3046404370000000
+			text = "g"
+		intervals [8]:
+			xmin = 0.3046404370000000
+			xmax = 0.3646404370000000
+			text = "R"
+		intervals [9]:
+			xmin = 0.3646404370000000
+			xmax = 0.4234031460000000
+			text = "e"
+		intervals [10]:
+			xmin = 0.4234031460000000
+			xmax = 0.5046404370000001
+			text = "f"
+		intervals [11]:
+			xmin = 0.5046404370000001
+			xmax = 0.5611473830000000
+			text = "p"
+		intervals [12]:
+			xmin = 0.5611473830000000
+			xmax = 0.6346404369999999
+			text = "@"
+		intervals [13]:
+			xmin = 0.6346404369999999
+			xmax = 0.7546404370000001
+			text = "p"
+		intervals [14]:
+			xmin = 0.7546404370000001
+			xmax = 0.7946404370000000
+			text = "H"
+		intervals [15]:
+			xmin = 0.7946404370000000
+			xmax = 0.8646404370000000
+			text = "a"
+	item [2]:
+		class = "IntervalTier"
+		name = "syll"
+		xmin = 0.0000000000000000
+		xmax = 0.8646404370000000
+		intervals: size = 5
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.1004482070000000
+			text = "vze"
+		intervals [2]:
+			xmin = 0.1004482070000000
+			xmax = 0.2465138620000000
+			text = "tje"
+		intervals [3]:
+			xmin = 0.2465138620000000
+			xmax = 0.5046404370000001
+			text = "pROf"
+		intervals [4]:
+			xmin = 0.5046404370000001
+			xmax = 0.6346404369999999
+			text = "d@"
+		intervals [5]:
+			xmin = 0.6346404369999999
+			xmax = 0.8646404370000000
+			text = "kwa"
+	item [3]:
+		class = "IntervalTier"
+		name = "words"
+		xmin = 0.0000000000000000
+		xmax = 0.8646404370000000
+		intervals: size = 5
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.0214667540000000
+			text = "vous"
+		intervals [2]:
+			xmin = 0.0214667540000000
+			xmax = 0.2465138620000000
+			text = "étiez"
+		intervals [3]:
+			xmin = 0.2465138620000000
+			xmax = 0.5046404370000001
+			text = "prof"
+		intervals [4]:
+			xmin = 0.5046404370000001
+			xmax = 0.6346404369999999
+			text = "de"
+		intervals [5]:
+			xmin = 0.6346404369999999
+			xmax = 0.8646404370000000
+			text = "quoi"
+	item [4]:
+		class = "IntervalTier"
+		name = "textexpe"
+		xmin = 0.0000000000000000
+		xmax = 0.8646404370000000
+		intervals: size = 1
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.8646404370000000
+			text = "vous étiez prof de quoi ? "
+	item [5]:
+		class = "IntervalTier"
+		name = "phono"
+		xmin = 0.0000000000000000
+		xmax = 0.8646404370000000
+		intervals: size = 1
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.8646404370000000
+			text = "v zetje pROf d@ kwa"
+	item [6]:
+		class = "IntervalTier"
+		name = "ortho"
+		xmin = 0.0000000000000000
+		xmax = 0.8646404370000000
+		intervals: size = 1
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.8646404370000000
+			text = "vous étiez prof de quoi"

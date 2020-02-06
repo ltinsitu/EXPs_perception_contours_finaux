@@ -1,0 +1,208 @@
+﻿File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0.0000000000000000
+xmax = 1.6752027050000000
+tiers? <exists>
+size = 6
+item []:
+	item [1]:
+		class = "IntervalTier"
+		name = "phones"
+		xmin = 0.0000000000000000
+		xmax = 1.6752027050000000
+		intervals: size = 22
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.0994216290000000
+			text = "E"
+		intervals [2]:
+			xmin = 0.0994216290000000
+			xmax = 0.2052027050000000
+			text = "R"
+		intervals [3]:
+			xmin = 0.2052027050000000
+			xmax = 0.3452027050000000
+			text = "a"
+		intervals [4]:
+			xmin = 0.3452027050000000
+			xmax = 0.4004201600000000
+			text = "t"
+		intervals [5]:
+			xmin = 0.4004201600000000
+			xmax = 0.4952027050000000
+			text = "o~"
+		intervals [6]:
+			xmin = 0.4952027050000000
+			xmax = 0.5673360770000000
+			text = "z"
+		intervals [7]:
+			xmin = 0.5673360770000000
+			xmax = 0.6346431170000000
+			text = "9~"
+		intervals [8]:
+			xmin = 0.6346431170000000
+			xmax = 0.6831281490000000
+			text = "l"
+		intervals [9]:
+			xmin = 0.6831281490000000
+			xmax = 0.7352027050000000
+			text = "y"
+		intervals [10]:
+			xmin = 0.7352027050000000
+			xmax = 0.8452027050000001
+			text = "v"
+		intervals [11]:
+			xmin = 0.8452027050000001
+			xmax = 0.9256197400000000
+			text = "o"
+		intervals [12]:
+			xmin = 0.9256197400000000
+			xmax = 0.9852027050000000
+			text = "g"
+		intervals [13]:
+			xmin = 0.9852027050000000
+			xmax = 1.0152027050000001
+			text = "R"
+		intervals [14]:
+			xmin = 1.0152027050000001
+			xmax = 1.0552027049999999
+			text = "y"
+		intervals [15]:
+			xmin = 1.0552027049999999
+			xmax = 1.1152027050000000
+			text = "z"
+		intervals [16]:
+			xmin = 1.1152027050000000
+			xmax = 1.1652027050000000
+			text = "O"
+		intervals [17]:
+			xmin = 1.1652027050000000
+			xmax = 1.2752027050000001
+			text = "f"
+		intervals [18]:
+			xmin = 1.2752027050000001
+			xmax = 1.3069154820000000
+			text = "j"
+		intervals [19]:
+			xmin = 1.3069154820000000
+			xmax = 1.3452027049999999
+			text = "i"
+		intervals [20]:
+			xmin = 1.3452027049999999
+			xmax = 1.4152027050000000
+			text = "m"
+		intervals [21]:
+			xmin = 1.4152027050000000
+			xmax = 1.5212558100000000
+			text = "2"
+		intervals [22]:
+			xmin = 1.5212558100000000
+			xmax = 1.6752027050000000
+			text = "l"
+	item [2]:
+		class = "IntervalTier"
+		name = "syll"
+		xmin = 0.0000000000000000
+		xmax = 1.6752027050000000
+		intervals: size = 10
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.0994216290000000
+			text = "E"
+		intervals [2]:
+			xmin = 0.0994216290000000
+			xmax = 0.3452027050000000
+			text = "le"
+		intervals [3]:
+			xmin = 0.3452027050000000
+			xmax = 0.4952027050000000
+			text = "da~"
+		intervals [4]:
+			xmin = 0.4952027050000000
+			xmax = 0.6346431170000000
+			text = "z9~"
+		intervals [5]:
+			xmin = 0.6346431170000000
+			xmax = 0.7352027050000000
+			text = "li"
+		intervals [6]:
+			xmin = 0.7352027050000000
+			xmax = 0.9256197400000000
+			text = "se"
+		intervals [7]:
+			xmin = 0.9256197400000000
+			xmax = 1.0552027049999999
+			text = "pRO"
+		intervals [8]:
+			xmin = 1.0552027049999999
+			xmax = 1.1652027050000000
+			text = "fE"
+		intervals [9]:
+			xmin = 1.1652027050000000
+			xmax = 1.3452027049999999
+			text = "sjO"
+		intervals [10]:
+			xmin = 1.3452027049999999
+			xmax = 1.6752027050000000
+			text = "nEl"
+	item [3]:
+		class = "IntervalTier"
+		name = "words"
+		xmin = 0.0000000000000000
+		xmax = 1.6752027050000000
+		intervals: size = 6
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.0994216290000000
+			text = "elle"
+		intervals [2]:
+			xmin = 0.0994216290000000
+			xmax = 0.3452027050000000
+			text = "est"
+		intervals [3]:
+			xmin = 0.3452027050000000
+			xmax = 0.4952027050000000
+			text = "dans"
+		intervals [4]:
+			xmin = 0.4952027050000000
+			xmax = 0.6346431170000000
+			text = "un"
+		intervals [5]:
+			xmin = 0.6346431170000000
+			xmax = 0.9256197400000000
+			text = "lycée"
+		intervals [6]:
+			xmin = 0.9256197400000000
+			xmax = 1.6752027050000000
+			text = "professionnel"
+	item [4]:
+		class = "IntervalTier"
+		name = "textexpe"
+		xmin = 0.0000000000000000
+		xmax = 1.6752027050000000
+		intervals: size = 1
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 1.6752027050000000
+			text = "elle est dans un lycée professionnel  "
+	item [5]:
+		class = "IntervalTier"
+		name = "phono"
+		xmin = 0.0000000000000000
+		xmax = 1.6752027050000000
+		intervals: size = 1
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 1.6752027050000000
+			text = "E lEm boku Ede le Z9n e E le da~ z9~ lise pROfEsjOnEl"
+	item [6]:
+		class = "IntervalTier"
+		name = "ortho"
+		xmin = 0.0000000000000000
+		xmax = 1.6752027050000000
+		intervals: size = 1
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 1.6752027050000000
+			text = "elle aime beaucoup aider les jeunes et elle est dans un lycée professionnel"

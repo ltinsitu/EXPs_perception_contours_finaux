@@ -1,0 +1,1105 @@
+File type = "ooTextFile"
+Object class = "Pitch 1"
+
+xmin = 0 
+xmax = 0.95 
+nx = 56 
+dx = 0.015 
+x1 = 0.06250000000000006 
+ceiling = 400 
+maxnCandidates = 15 
+frame []: 
+    frame [1]:
+        intensity = 0.36108993644197934 
+        nCandidates = 5 
+        candidate []: 
+            candidate [1]:
+                frequency = 117.09236261410221 
+                strength = 0.9182228340519055 
+            candidate [2]:
+                frequency = 237.0039543209932 
+                strength = 0.33278862726611247 
+            candidate [3]:
+                frequency = 0 
+                strength = 0 
+            candidate [4]:
+                frequency = 78.83038804881495 
+                strength = 0.27357239781201537 
+            candidate [5]:
+                frequency = 58.535983123150906 
+                strength = 0.7789889431909086 
+    frame [2]:
+        intensity = 0.34650536311189645 
+        nCandidates = 3 
+        candidate []: 
+            candidate [1]:
+                frequency = 113.82039374738038 
+                strength = 0.9233998704218335 
+            candidate [2]:
+                frequency = 0 
+                strength = 0 
+            candidate [3]:
+                frequency = 56.887427059054794 
+                strength = 0.7795934238636864 
+    frame [3]:
+        intensity = 0.4322740961278275 
+        nCandidates = 4 
+        candidate []: 
+            candidate [1]:
+                frequency = 108.1736449642473 
+                strength = 0.9164010742297543 
+            candidate [2]:
+                frequency = 5612.374599768468 
+                strength = 0.9782133323514528 
+            candidate [3]:
+                frequency = 0 
+                strength = 0 
+            candidate [4]:
+                frequency = 53.95705744562686 
+                strength = 0.7712089329576232 
+    frame [4]:
+        intensity = 0.4082215984425594 
+        nCandidates = 5 
+        candidate []: 
+            candidate [1]:
+                frequency = 105.75399578751276 
+                strength = 0.9555753002595602 
+            candidate [2]:
+                frequency = 5246.511326422896 
+                strength = 0.9764124411229286 
+            candidate [3]:
+                frequency = 0 
+                strength = 0 
+            candidate [4]:
+                frequency = 53.1768014503612 
+                strength = 0.9077230262525922 
+            candidate [5]:
+                frequency = 52.68826905658618 
+                strength = 0.9083414128191858 
+    frame [5]:
+        intensity = 0.42348456628562275 
+        nCandidates = 5 
+        candidate []: 
+            candidate [1]:
+                frequency = 107.48692936866885 
+                strength = 0.9557058156708411 
+            candidate [2]:
+                frequency = 5269.570055714975 
+                strength = 0.9724437259531977 
+            candidate [3]:
+                frequency = 0 
+                strength = 0 
+            candidate [4]:
+                frequency = 54.38305449783025 
+                strength = 0.8999647543037042 
+            candidate [5]:
+                frequency = 53.8742507479195 
+                strength = 0.9047820122970445 
+    frame [6]:
+        intensity = 0.47686348572589726 
+        nCandidates = 4 
+        candidate []: 
+            candidate [1]:
+                frequency = 117.95364090288331 
+                strength = 0.878165924262219 
+            candidate [2]:
+                frequency = 6008.227466091094 
+                strength = 0.9712067669556742 
+            candidate [3]:
+                frequency = 0 
+                strength = 0 
+            candidate [4]:
+                frequency = 58.32204831518026 
+                strength = 0.6678453961449732 
+    frame [7]:
+        intensity = 0.5980366871945615 
+        nCandidates = 4 
+        candidate []: 
+            candidate [1]:
+                frequency = 125.4424042120292 
+                strength = 0.896926067107432 
+            candidate [2]:
+                frequency = 254.94160040487878 
+                strength = 0.2440881705959606 
+            candidate [3]:
+                frequency = 0 
+                strength = 0 
+            candidate [4]:
+                frequency = 62.82834984471382 
+                strength = 0.6685726483003605 
+    frame [8]:
+        intensity = 0.7172922807253255 
+        nCandidates = 6 
+        candidate []: 
+            candidate [1]:
+                frequency = 131.2697004996815 
+                strength = 0.9303852689847316 
+            candidate [2]:
+                frequency = 262.38084280422225 
+                strength = 0.5826194225779145 
+            candidate [3]:
+                frequency = 0 
+                strength = 0 
+            candidate [4]:
+                frequency = 87.56005988826915 
+                strength = 0.5058996806370483 
+            candidate [5]:
+                frequency = 65.73054835810633 
+                strength = 0.782989204466769 
+            candidate [6]:
+                frequency = 52.61245774462526 
+                strength = 0.3938050552642367 
+    frame [9]:
+        intensity = 0.7152234285054084 
+        nCandidates = 6 
+        candidate []: 
+            candidate [1]:
+                frequency = 134.9077374604039 
+                strength = 0.9862345238859301 
+            candidate [2]:
+                frequency = 269.9577947486934 
+                strength = 0.7122905110136032 
+            candidate [3]:
+                frequency = 0 
+                strength = 0 
+            candidate [4]:
+                frequency = 89.93338524342714 
+                strength = 0.7008464839277675 
+            candidate [5]:
+                frequency = 67.45360262441271 
+                strength = 0.9586100338350798 
+            candidate [6]:
+                frequency = 53.922570079657234 
+                strength = 0.6739969856656273 
+    frame [10]:
+        intensity = 0.9693013139955431 
+        nCandidates = 6 
+        candidate []: 
+            candidate [1]:
+                frequency = 135.72554357510742 
+                strength = 0.9575889104337839 
+            candidate [2]:
+                frequency = 271.59554464792495 
+                strength = 0.7605419385721948 
+            candidate [3]:
+                frequency = 0 
+                strength = 0 
+            candidate [4]:
+                frequency = 90.50308675654821 
+                strength = 0.6992054027819414 
+            candidate [5]:
+                frequency = 67.8244309863899 
+                strength = 0.851459708116331 
+            candidate [6]:
+                frequency = 54.264059063310135 
+                strength = 0.5922503715965174 
+    frame [11]:
+        intensity = 0.885727150323401 
+        nCandidates = 5 
+        candidate []: 
+            candidate [1]:
+                frequency = 134.00347475567074 
+                strength = 0.8361539920933633 
+            candidate [2]:
+                frequency = 268.42292714712374 
+                strength = 0.6903763572815104 
+            candidate [3]:
+                frequency = 0 
+                strength = 0 
+            candidate [4]:
+                frequency = 89.70616619170552 
+                strength = 0.4677982735011103 
+            candidate [5]:
+                frequency = 67.10278169252622 
+                strength = 0.5176411002916685 
+    frame [12]:
+        intensity = 0.35663231256828143 
+        nCandidates = 4 
+        candidate []: 
+            candidate [1]:
+                frequency = 126.65923307434767 
+                strength = 0.6502000941804569 
+            candidate [2]:
+                frequency = 252.51774380140617 
+                strength = 0.5206866577678962 
+            candidate [3]:
+                frequency = 0 
+                strength = 0 
+            candidate [4]:
+                frequency = 58.725704549885336 
+                strength = 0.4869596472565286 
+    frame [13]:
+        intensity = 0.30324862008743203 
+        nCandidates = 5 
+        candidate []: 
+            candidate [1]:
+                frequency = 124.71652089827934 
+                strength = 0.7159065918701218 
+            candidate [2]:
+                frequency = 249.9227392687142 
+                strength = 0.7242820061358084 
+            candidate [3]:
+                frequency = 0 
+                strength = 0 
+            candidate [4]:
+                frequency = 82.6483236138923 
+                strength = 0.3563038599593828 
+            candidate [5]:
+                frequency = 61.05537347099547 
+                strength = 0.23252798997594587 
+    frame [14]:
+        intensity = 0.1478754554015209 
+        nCandidates = 6 
+        candidate []: 
+            candidate [1]:
+                frequency = 134.49361714794813 
+                strength = 0.6952081573643478 
+            candidate [2]:
+                frequency = 267.17271368551206 
+                strength = 0.6878542905719021 
+            candidate [3]:
+                frequency = 0 
+                strength = 0 
+            candidate [4]:
+                frequency = 90.7114840654318 
+                strength = 0.34786690889093275 
+            candidate [5]:
+                frequency = 69.01782114965653 
+                strength = 0.4671460853618974 
+            candidate [6]:
+                frequency = 55.40441306611749 
+                strength = 0.5036254725863856 
+    frame [15]:
+        intensity = 0.1883400046354617 
+        nCandidates = 6 
+        candidate []: 
+            candidate [1]:
+                frequency = 136.1168634355222 
+                strength = 0.7241343178322878 
+            candidate [2]:
+                frequency = 264.4594289776752 
+                strength = 0.5902031336199873 
+            candidate [3]:
+                frequency = 0 
+                strength = 0 
+            candidate [4]:
+                frequency = 90.71212124849478 
+                strength = 0.5446501700668807 
+            candidate [5]:
+                frequency = 67.5163376193279 
+                strength = 0.541999910452335 
+            candidate [6]:
+                frequency = 54.62398052162457 
+                strength = 0.3934337632864219 
+    frame [16]:
+        intensity = 0.34789688715037154 
+        nCandidates = 5 
+        candidate []: 
+            candidate [1]:
+                frequency = 0 
+                strength = 0 
+            candidate [2]:
+                frequency = 752.2617350371171 
+                strength = 0.4008837356238362 
+            candidate [3]:
+                frequency = 376.15785446920086 
+                strength = 0.4407483789183507 
+            candidate [4]:
+                frequency = 254.28122431132172 
+                strength = 0.2873454376652446 
+            candidate [5]:
+                frequency = 90.69592663300128 
+                strength = 0.2420686553097626 
+    frame [17]:
+        intensity = 0.4172469014925003 
+        nCandidates = 6 
+        candidate []: 
+            candidate [1]:
+                frequency = 0 
+                strength = 0 
+            candidate [2]:
+                frequency = 787.1783632979184 
+                strength = 0.24669798121709874 
+            candidate [3]:
+                frequency = 381.72424329281415 
+                strength = 0.2603756407198117 
+            candidate [4]:
+                frequency = 259.22555712512616 
+                strength = 0.326852636402404 
+            candidate [5]:
+                frequency = 132.6351492063012 
+                strength = 0.30848720256823925 
+            candidate [6]:
+                frequency = 68.10895129825684 
+                strength = 0.2309685763129948 
+    frame [18]:
+        intensity = 0.5701442438850836 
+        nCandidates = 5 
+        candidate []: 
+            candidate [1]:
+                frequency = 133.6090437244555 
+                strength = 0.7525874788255351 
+            candidate [2]:
+                frequency = 264.8433699805693 
+                strength = 0.5010904618572748 
+            candidate [3]:
+                frequency = 0 
+                strength = 0 
+            candidate [4]:
+                frequency = 88.20887213195688 
+                strength = 0.32913768794994425 
+            candidate [5]:
+                frequency = 66.6244859494767 
+                strength = 0.5108723126913599 
+    frame [19]:
+        intensity = 0.639488515167656 
+        nCandidates = 6 
+        candidate []: 
+            candidate [1]:
+                frequency = 131.67965835646368 
+                strength = 0.9552013017541696 
+            candidate [2]:
+                frequency = 261.86762845426585 
+                strength = 0.604265654341667 
+            candidate [3]:
+                frequency = 0 
+                strength = 0 
+            candidate [4]:
+                frequency = 87.30296690579249 
+                strength = 0.5804247762939078 
+            candidate [5]:
+                frequency = 65.74508833509017 
+                strength = 0.9018148012609877 
+            candidate [6]:
+                frequency = 52.41526988142445 
+                strength = 0.5450209106679649 
+    frame [20]:
+        intensity = 0.7042838387785669 
+        nCandidates = 6 
+        candidate []: 
+            candidate [1]:
+                frequency = 131.07210959351156 
+                strength = 0.9340996901082121 
+            candidate [2]:
+                frequency = 260.8839133222391 
+                strength = 0.5879429914287162 
+            candidate [3]:
+                frequency = 0 
+                strength = 0 
+            candidate [4]:
+                frequency = 86.97443151686716 
+                strength = 0.5277399007878159 
+            candidate [5]:
+                frequency = 65.41310432981518 
+                strength = 0.8047671733394111 
+            candidate [6]:
+                frequency = 52.03639636080959 
+                strength = 0.43283366362014825 
+    frame [21]:
+        intensity = 0.5829249898297921 
+        nCandidates = 5 
+        candidate []: 
+            candidate [1]:
+                frequency = 126.06409096427048 
+                strength = 0.8623075374183724 
+            candidate [2]:
+                frequency = 251.00994508169484 
+                strength = 0.5900404008455175 
+            candidate [3]:
+                frequency = 0 
+                strength = 0 
+            candidate [4]:
+                frequency = 82.87632622815744 
+                strength = 0.48507557336777285 
+            candidate [5]:
+                frequency = 61.9784262422097 
+                strength = 0.6852811817149425 
+    frame [22]:
+        intensity = 0.46852154783351774 
+        nCandidates = 5 
+        candidate []: 
+            candidate [1]:
+                frequency = 119.58982012274011 
+                strength = 0.7830997418323122 
+            candidate [2]:
+                frequency = 240.13963181532816 
+                strength = 0.6644050079668045 
+            candidate [3]:
+                frequency = 0 
+                strength = 0 
+            candidate [4]:
+                frequency = 79.95343948471674 
+                strength = 0.47214013979714414 
+            candidate [5]:
+                frequency = 59.71467417660202 
+                strength = 0.573516419201235 
+    frame [23]:
+        intensity = 0.3676892164034605 
+        nCandidates = 4 
+        candidate []: 
+            candidate [1]:
+                frequency = 112.46118852647177 
+                strength = 0.6031824829685206 
+            candidate [2]:
+                frequency = 226.66165629621264 
+                strength = 0.45807020907362445 
+            candidate [3]:
+                frequency = 0 
+                strength = 0 
+            candidate [4]:
+                frequency = 56.333221623168875 
+                strength = 0.34472887975334016 
+    frame [24]:
+        intensity = 0.17188819350636447 
+        nCandidates = 3 
+        candidate []: 
+            candidate [1]:
+                frequency = 0 
+                strength = 0 
+            candidate [2]:
+                frequency = 117.2042134114493 
+                strength = 0.2540602177155519 
+            candidate [3]:
+                frequency = 62.984990550143806 
+                strength = 0.25371291207589114 
+    frame [25]:
+        intensity = 0.10594688300361796 
+        nCandidates = 4 
+        candidate []: 
+            candidate [1]:
+                frequency = 0 
+                strength = 0 
+            candidate [2]:
+                frequency = 247.56881895582072 
+                strength = 0.4508550124763375 
+            candidate [3]:
+                frequency = 125.83685940511249 
+                strength = 0.3614461373055487 
+            candidate [4]:
+                frequency = 57.38482491313213 
+                strength = 0.314919872110175 
+    frame [26]:
+        intensity = 0.14836977838365106 
+        nCandidates = 3 
+        candidate []: 
+            candidate [1]:
+                frequency = 0 
+                strength = 0 
+            candidate [2]:
+                frequency = 268.8325342415178 
+                strength = 0.36648612998909397 
+            candidate [3]:
+                frequency = 132.74327328909996 
+                strength = 0.41462560661676506 
+    frame [27]:
+        intensity = 0.11564951011931517 
+        nCandidates = 4 
+        candidate []: 
+            candidate [1]:
+                frequency = 0 
+                strength = 0 
+            candidate [2]:
+                frequency = 273.456818633435 
+                strength = 0.35805530781737066 
+            candidate [3]:
+                frequency = 63.15236153453736 
+                strength = 0.24123223802247543 
+            candidate [4]:
+                frequency = 51.60597573563207 
+                strength = 0.3330364944296765 
+    frame [28]:
+        intensity = 0.16735856163999263 
+        nCandidates = 3 
+        candidate []: 
+            candidate [1]:
+                frequency = 0 
+                strength = 0 
+            candidate [2]:
+                frequency = 264.3519850933606 
+                strength = 0.23866107966030362 
+            candidate [3]:
+                frequency = 57.67003682172137 
+                strength = 0.2277708105698636 
+    frame [29]:
+        intensity = 0.18908985813250895 
+        nCandidates = 3 
+        candidate []: 
+            candidate [1]:
+                frequency = 110.81422907250298 
+                strength = 0.48242986745968364 
+            candidate [2]:
+                frequency = 0 
+                strength = 0 
+            candidate [3]:
+                frequency = 58.249394830699266 
+                strength = 0.3981987486997095 
+    frame [30]:
+        intensity = 0.29092156513109446 
+        nCandidates = 4 
+        candidate []: 
+            candidate [1]:
+                frequency = 113.04902493519408 
+                strength = 0.7776521854794146 
+            candidate [2]:
+                frequency = 226.4999439560787 
+                strength = 0.3209480903087722 
+            candidate [3]:
+                frequency = 0 
+                strength = 0 
+            candidate [4]:
+                frequency = 56.7491175135938 
+                strength = 0.6483368513833876 
+    frame [31]:
+        intensity = 0.48852675651272337 
+        nCandidates = 5 
+        candidate []: 
+            candidate [1]:
+                frequency = 113.95966072040947 
+                strength = 0.8983723342737026 
+            candidate [2]:
+                frequency = 228.30741789087972 
+                strength = 0.4575200892786229 
+            candidate [3]:
+                frequency = 0 
+                strength = 0 
+            candidate [4]:
+                frequency = 75.95458015578896 
+                strength = 0.3473373150352274 
+            candidate [5]:
+                frequency = 56.944085002553095 
+                strength = 0.728679972783213 
+    frame [32]:
+        intensity = 0.536140850755481 
+        nCandidates = 4 
+        candidate []: 
+            candidate [1]:
+                frequency = 112.48314784926808 
+                strength = 0.864836176178156 
+            candidate [2]:
+                frequency = 226.78655988465695 
+                strength = 0.29212306695998475 
+            candidate [3]:
+                frequency = 0 
+                strength = 0 
+            candidate [4]:
+                frequency = 55.96621942593455 
+                strength = 0.6373057700354477 
+    frame [33]:
+        intensity = 0.47439552517918165 
+        nCandidates = 5 
+        candidate []: 
+            candidate [1]:
+                frequency = 108.87684534155362 
+                strength = 0.932264150483887 
+            candidate [2]:
+                frequency = 217.89856346782196 
+                strength = 0.3306564065391781 
+            candidate [3]:
+                frequency = 0 
+                strength = 0 
+            candidate [4]:
+                frequency = 71.51350177519568 
+                strength = 0.30772746060756145 
+            candidate [5]:
+                frequency = 53.98125534363902 
+                strength = 0.9029652580211521 
+    frame [34]:
+        intensity = 0.5335247252760368 
+        nCandidates = 5 
+        candidate []: 
+            candidate [1]:
+                frequency = 108.21764556865051 
+                strength = 0.9858954460457001 
+            candidate [2]:
+                frequency = 216.4463083168881 
+                strength = 0.5429617306785117 
+            candidate [3]:
+                frequency = 0 
+                strength = 0 
+            candidate [4]:
+                frequency = 72.0270890649471 
+                strength = 0.5201098110990771 
+            candidate [5]:
+                frequency = 54.04321819956698 
+                strength = 0.964692347963556 
+    frame [35]:
+        intensity = 0.5692796730872137 
+        nCandidates = 5 
+        candidate []: 
+            candidate [1]:
+                frequency = 107.59214078375564 
+                strength = 0.9911093323540835 
+            candidate [2]:
+                frequency = 215.27081349960451 
+                strength = 0.6048259147322356 
+            candidate [3]:
+                frequency = 0 
+                strength = 0 
+            candidate [4]:
+                frequency = 71.74755164463568 
+                strength = 0.6003721378012807 
+            candidate [5]:
+                frequency = 53.79375887745083 
+                strength = 0.9823823566353246 
+    frame [36]:
+        intensity = 0.595165771975719 
+        nCandidates = 5 
+        candidate []: 
+            candidate [1]:
+                frequency = 107.7260139408947 
+                strength = 0.9851319174168902 
+            candidate [2]:
+                frequency = 215.83311851709763 
+                strength = 0.6325970300953889 
+            candidate [3]:
+                frequency = 0 
+                strength = 0 
+            candidate [4]:
+                frequency = 71.95866013220164 
+                strength = 0.6182529577643052 
+            candidate [5]:
+                frequency = 53.87381229610462 
+                strength = 0.969513099565486 
+    frame [37]:
+        intensity = 0.7041775290577442 
+        nCandidates = 5 
+        candidate []: 
+            candidate [1]:
+                frequency = 108.52618530517074 
+                strength = 0.9764138360320819 
+            candidate [2]:
+                frequency = 217.4724048461451 
+                strength = 0.5687371382724286 
+            candidate [3]:
+                frequency = 0 
+                strength = 0 
+            candidate [4]:
+                frequency = 72.39441495412886 
+                strength = 0.5473668195516153 
+            candidate [5]:
+                frequency = 54.16834105312324 
+                strength = 0.9456153887761892 
+    frame [38]:
+        intensity = 0.7120510229093002 
+        nCandidates = 5 
+        candidate []: 
+            candidate [1]:
+                frequency = 107.01865694908031 
+                strength = 0.9863615654032603 
+            candidate [2]:
+                frequency = 213.69843123061568 
+                strength = 0.4273989405301347 
+            candidate [3]:
+                frequency = 0 
+                strength = 0 
+            candidate [4]:
+                frequency = 71.2516812835043 
+                strength = 0.43311775599361263 
+            candidate [5]:
+                frequency = 53.53754091978999 
+                strength = 0.9740250101347117 
+    frame [39]:
+        intensity = 0.8109376977117665 
+        nCandidates = 5 
+        candidate []: 
+            candidate [1]:
+                frequency = 106.13522626017689 
+                strength = 0.9886553647747593 
+            candidate [2]:
+                frequency = 212.2420160124221 
+                strength = 0.41506626978708616 
+            candidate [3]:
+                frequency = 0 
+                strength = 0 
+            candidate [4]:
+                frequency = 70.75623614556639 
+                strength = 0.41271522529793564 
+            candidate [5]:
+                frequency = 53.10152366049984 
+                strength = 0.9788273900395508 
+    frame [40]:
+        intensity = 0.7713948620978669 
+        nCandidates = 5 
+        candidate []: 
+            candidate [1]:
+                frequency = 106.11443007830403 
+                strength = 0.9869322090632687 
+            candidate [2]:
+                frequency = 213.27490877694973 
+                strength = 0.4352285239833601 
+            candidate [3]:
+                frequency = 0 
+                strength = 0 
+            candidate [4]:
+                frequency = 71.13785519283793 
+                strength = 0.4203869235248951 
+            candidate [5]:
+                frequency = 53.0782922567115 
+                strength = 0.9635403320855304 
+    frame [41]:
+        intensity = 0.692099704110812 
+        nCandidates = 5 
+        candidate []: 
+            candidate [1]:
+                frequency = 106.10446419074074 
+                strength = 0.9948791801527163 
+            candidate [2]:
+                frequency = 212.91841764076545 
+                strength = 0.37337272474350813 
+            candidate [3]:
+                frequency = 0 
+                strength = 0 
+            candidate [4]:
+                frequency = 70.94059976076854 
+                strength = 0.381811011327669 
+            candidate [5]:
+                frequency = 53.07482351553349 
+                strength = 0.9877566789416378 
+    frame [42]:
+        intensity = 0.7319040699806652 
+        nCandidates = 5 
+        candidate []: 
+            candidate [1]:
+                frequency = 106.50265788195757 
+                strength = 0.9914856756005305 
+            candidate [2]:
+                frequency = 213.538961119449 
+                strength = 0.3305324441033419 
+            candidate [3]:
+                frequency = 0 
+                strength = 0 
+            candidate [4]:
+                frequency = 70.93762886990045 
+                strength = 0.3306422942824639 
+            candidate [5]:
+                frequency = 53.27570128370059 
+                strength = 0.9802571197256393 
+    frame [43]:
+        intensity = 0.6660062167272045 
+        nCandidates = 5 
+        candidate []: 
+            candidate [1]:
+                frequency = 106.8600912541628 
+                strength = 0.9819533621499166 
+            candidate [2]:
+                frequency = 216.4559189337322 
+                strength = 0.2827930878923218 
+            candidate [3]:
+                frequency = 0 
+                strength = 0 
+            candidate [4]:
+                frequency = 71.75547982839224 
+                strength = 0.27550493508140084 
+            candidate [5]:
+                frequency = 53.4117657422627 
+                strength = 0.943614442822994 
+    frame [44]:
+        intensity = 0.5863117335679175 
+        nCandidates = 3 
+        candidate []: 
+            candidate [1]:
+                frequency = 106.03978174980769 
+                strength = 0.9317860820988004 
+            candidate [2]:
+                frequency = 0 
+                strength = 0 
+            candidate [3]:
+                frequency = 53.00573380138918 
+                strength = 0.7937740941210691 
+    frame [45]:
+        intensity = 0.4207199659369385 
+        nCandidates = 3 
+        candidate []: 
+            candidate [1]:
+                frequency = 103.09498507744598 
+                strength = 0.8163026942906739 
+            candidate [2]:
+                frequency = 0 
+                strength = 0 
+            candidate [3]:
+                frequency = 51.33397326713127 
+                strength = 0.612021376268936 
+    frame [46]:
+        intensity = 0.1505282014346551 
+        nCandidates = 7 
+        candidate []: 
+            candidate [1]:
+                frequency = 98.53274007148201 
+                strength = 0.6917636955104924 
+            candidate [2]:
+                frequency = 6536.772110951925 
+                strength = 0.9687101379409474 
+            candidate [3]:
+                frequency = 3317.4752255033773 
+                strength = 0.9042245789417812 
+            candidate [4]:
+                frequency = 101.17820322162407 
+                strength = 0.6705128035212262 
+            candidate [5]:
+                frequency = 99.86984260760447 
+                strength = 0.6860147346208565 
+            candidate [6]:
+                frequency = 0 
+                strength = 0 
+            candidate [7]:
+                frequency = 50.49467049277255 
+                strength = 0.31694417689973753 
+    frame [47]:
+        intensity = 0.09836918978852266 
+        nCandidates = 15 
+        candidate []: 
+            candidate [1]:
+                frequency = 0 
+                strength = 0 
+            candidate [2]:
+                frequency = 6502.571707134958 
+                strength = 0.8727243026234518 
+            candidate [3]:
+                frequency = 3231.375072879857 
+                strength = 0.6402956695765575 
+            candidate [4]:
+                frequency = 1974.187584382374 
+                strength = 0.5555466419927801 
+            candidate [5]:
+                frequency = 1518.1343444982358 
+                strength = 0.5431006249937177 
+            candidate [6]:
+                frequency = 1241.1537235368826 
+                strength = 0.47175915769141513 
+            candidate [7]:
+                frequency = 1050.198116610284 
+                strength = 0.36945020202621015 
+            candidate [8]:
+                frequency = 898.1711279741156 
+                strength = 0.27629281181795284 
+            candidate [9]:
+                frequency = 770.3962308951953 
+                strength = 0.2508983314071551 
+            candidate [10]:
+                frequency = 98.47856937176584 
+                strength = 0.33983357259215774 
+            candidate [11]:
+                frequency = 106.87492992723034 
+                strength = 0.2934863700607715 
+            candidate [12]:
+                frequency = 105.33373098351147 
+                strength = 0.2993034093532293 
+            candidate [13]:
+                frequency = 103.01244591662359 
+                strength = 0.30194961494996436 
+            candidate [14]:
+                frequency = 101.5097021082741 
+                strength = 0.3310911029742879 
+            candidate [15]:
+                frequency = 99.97892146504077 
+                strength = 0.3569836144925559 
+    frame [48]:
+        intensity = 0.11669518102569128 
+        nCandidates = 6 
+        candidate []: 
+            candidate [1]:
+                frequency = 0 
+                strength = 0 
+            candidate [2]:
+                frequency = 6576.383220377966 
+                strength = 0.8367953051399042 
+            candidate [3]:
+                frequency = 3279.141828031416 
+                strength = 0.5330264709493754 
+            candidate [4]:
+                frequency = 1996.1128769022496 
+                strength = 0.3903657651037232 
+            candidate [5]:
+                frequency = 1522.587306314783 
+                strength = 0.40995887471139436 
+            candidate [6]:
+                frequency = 1239.1810283316609 
+                strength = 0.3457798705408402 
+    frame [49]:
+        intensity = 0.09995578156325957 
+        nCandidates = 11 
+        candidate []: 
+            candidate [1]:
+                frequency = 0 
+                strength = 0 
+            candidate [2]:
+                frequency = 6458.6889001973805 
+                strength = 0.8488771352902627 
+            candidate [3]:
+                frequency = 3189.845311031246 
+                strength = 0.5815137375081464 
+            candidate [4]:
+                frequency = 2000.8357017143935 
+                strength = 0.4625756345927594 
+            candidate [5]:
+                frequency = 1504.461175404453 
+                strength = 0.44599381533098487 
+            candidate [6]:
+                frequency = 1203.915604754469 
+                strength = 0.3718342668062292 
+            candidate [7]:
+                frequency = 997.8021702913178 
+                strength = 0.3226526876498058 
+            candidate [8]:
+                frequency = 865.1225680698415 
+                strength = 0.30535085795498934 
+            candidate [9]:
+                frequency = 765.2583885964093 
+                strength = 0.2943441703194984 
+            candidate [10]:
+                frequency = 103.81468369165668 
+                strength = 0.27786566974494004 
+            candidate [11]:
+                frequency = 100.65882403945801 
+                strength = 0.26293898751885075 
+    frame [50]:
+        intensity = 0.0782130163512384 
+        nCandidates = 11 
+        candidate []: 
+            candidate [1]:
+                frequency = 0 
+                strength = 0 
+            candidate [2]:
+                frequency = 6420.068826141025 
+                strength = 0.8829615781577297 
+            candidate [3]:
+                frequency = 3162.5347075650375 
+                strength = 0.7042342820555069 
+            candidate [4]:
+                frequency = 2024.0525082149686 
+                strength = 0.5955668803032663 
+            candidate [5]:
+                frequency = 1508.9211978092526 
+                strength = 0.5606013235886246 
+            candidate [6]:
+                frequency = 1210.7582743149248 
+                strength = 0.5011465100548911 
+            candidate [7]:
+                frequency = 1002.3757742241795 
+                strength = 0.4225474551672843 
+            candidate [8]:
+                frequency = 861.9893978036657 
+                strength = 0.3918201196913833 
+            candidate [9]:
+                frequency = 758.4757780892681 
+                strength = 0.35454966148365274 
+            candidate [10]:
+                frequency = 676.3021934785579 
+                strength = 0.3072855385209504 
+            candidate [11]:
+                frequency = 611.8353928903948 
+                strength = 0.2520065430156893 
+    frame [51]:
+        intensity = 0.1873082775042989 
+        nCandidates = 8 
+        candidate []: 
+            candidate [1]:
+                frequency = 0 
+                strength = 0 
+            candidate [2]:
+                frequency = 145.56267286499616 
+                strength = 0.38667658845418673 
+            candidate [3]:
+                frequency = 139.33680526103976 
+                strength = 0.36535824514913756 
+            candidate [4]:
+                frequency = 136.15066919436586 
+                strength = 0.3591133125665966 
+            candidate [5]:
+                frequency = 132.96366200451163 
+                strength = 0.3587402793354204 
+            candidate [6]:
+                frequency = 129.83512536474646 
+                strength = 0.361475244889048 
+            candidate [7]:
+                frequency = 127.22646376433103 
+                strength = 0.36243066437848703 
+            candidate [8]:
+                frequency = 124.975132443588 
+                strength = 0.3542755259152549 
+    frame [52]:
+        intensity = 0.49413855705742826 
+        nCandidates = 4 
+        candidate []: 
+            candidate [1]:
+                frequency = 121.7474264074037 
+                strength = 0.6896385709698966 
+            candidate [2]:
+                frequency = 242.53133352514124 
+                strength = 0.2798576859141816 
+            candidate [3]:
+                frequency = 0 
+                strength = 0 
+            candidate [4]:
+                frequency = 60.509068769784115 
+                strength = 0.4030373266589159 
+    frame [53]:
+        intensity = 0.5492808756508126 
+        nCandidates = 5 
+        candidate []: 
+            candidate [1]:
+                frequency = 119.7478210105081 
+                strength = 0.908936375429929 
+            candidate [2]:
+                frequency = 242.68509689160024 
+                strength = 0.50223739861355 
+            candidate [3]:
+                frequency = 0 
+                strength = 0 
+            candidate [4]:
+                frequency = 80.35842940352302 
+                strength = 0.4358120918480424 
+            candidate [5]:
+                frequency = 59.76652329262027 
+                strength = 0.7891492909924629 
+    frame [54]:
+        intensity = 0.5372593668574941 
+        nCandidates = 5 
+        candidate []: 
+            candidate [1]:
+                frequency = 117.26733735868656 
+                strength = 0.9231908892945153 
+            candidate [2]:
+                frequency = 240.34836356117023 
+                strength = 0.4616361223993555 
+            candidate [3]:
+                frequency = 0 
+                strength = 0 
+            candidate [4]:
+                frequency = 78.86882217872144 
+                strength = 0.44696139901481174 
+            candidate [5]:
+                frequency = 58.661594008750406 
+                strength = 0.8079696584873145 
+    frame [55]:
+        intensity = 0.5535952592681628 
+        nCandidates = 5 
+        candidate []: 
+            candidate [1]:
+                frequency = 114.40552075660315 
+                strength = 0.9263541473730111 
+            candidate [2]:
+                frequency = 243.66384187513856 
+                strength = 0.35786623057851746 
+            candidate [3]:
+                frequency = 0 
+                strength = 0 
+            candidate [4]:
+                frequency = 77.94582126254696 
+                strength = 0.35673389197594185 
+            candidate [5]:
+                frequency = 57.241304813387856 
+                strength = 0.7970820378617258 
+    frame [56]:
+        intensity = 0.5108955362125326 
+        nCandidates = 3 
+        candidate []: 
+            candidate [1]:
+                frequency = 111.71180087490981 
+                strength = 0.8693223990705751 
+            candidate [2]:
+                frequency = 0 
+                strength = 0 
+            candidate [3]:
+                frequency = 55.83991390230235 
+                strength = 0.6537531771782137 

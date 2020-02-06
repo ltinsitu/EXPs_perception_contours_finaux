@@ -1,0 +1,108 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 0.517146391078966 
+tiers? <exists> 
+size = 6 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "phones" 
+        xmin = 0 
+        xmax = 0.517146391078966 
+        intervals: size = 7 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.06344981561808716 
+            text = "t" 
+        intervals [2]:
+            xmin = 0.06344981561808716 
+            xmax = 0.0953985755159188 
+            text = "y" 
+        intervals [3]:
+            xmin = 0.0953985755159188 
+            xmax = 0.19344981561808705 
+            text = "f" 
+        intervals [4]:
+            xmin = 0.19344981561808705 
+            xmax = 0.26344981561808734 
+            text = "E" 
+        intervals [5]:
+            xmin = 0.26344981561808734 
+            xmax = 0.363449815618087 
+            text = "k" 
+        intervals [6]:
+            xmin = 0.363449815618087 
+            xmax = 0.4134498156180868 
+            text = "w" 
+        intervals [7]:
+            xmin = 0.4134498156180868 
+            xmax = 0.517146391078966 
+            text = "a" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "syll" 
+        xmin = 0 
+        xmax = 0.517146391078966 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.0953985755159188 
+            text = "ty" 
+        intervals [2]:
+            xmin = 0.0953985755159188 
+            xmax = 0.26344981561808734 
+            text = "fE" 
+        intervals [3]:
+            xmin = 0.26344981561808734 
+            xmax = 0.517146391078966 
+            text = "kwa" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "words" 
+        xmin = 0 
+        xmax = 0.517146391078966 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.0953985755159188 
+            text = "tu" 
+        intervals [2]:
+            xmin = 0.0953985755159188 
+            xmax = 0.26344981561808734 
+            text = "fais" 
+        intervals [3]:
+            xmin = 0.26344981561808734 
+            xmax = 0.517146391078966 
+            text = "quoi" 
+    item [4]:
+        class = "IntervalTier" 
+        name = "textexpe" 
+        xmin = 0 
+        xmax = 0.517146391078966 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.517146391078966 
+            text = "tu fais quoi ? " 
+    item [5]:
+        class = "IntervalTier" 
+        name = "phono" 
+        xmin = 0 
+        xmax = 0.517146391078966 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.517146391078966 
+            text = "dakOR e 2 ka~ ty tRavaj pa ty fE kwa" 
+    item [6]:
+        class = "IntervalTier" 
+        name = "ortho" 
+        xmin = 0 
+        xmax = 0.517146391078966 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.517146391078966 
+            text = "d'accord et euh quand tu travailles pas tu fais quoi" 
