@@ -1,0 +1,156 @@
+﻿File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0.0000000000000000
+xmax = 0.8873229360000000
+tiers? <exists>
+size = 6
+item []:
+	item [1]:
+		class = "IntervalTier"
+		name = "phones"
+		xmin = 0.0000000000000000
+		xmax = 0.8873229360000000
+		intervals: size = 14
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.0910288330000000
+			text = "Z"
+		intervals [2]:
+			xmin = 0.0910288330000000
+			xmax = 0.1273229360000000
+			text = "E"
+		intervals [3]:
+			xmin = 0.1273229360000000
+			xmax = 0.2570705280000000
+			text = "z"
+		intervals [4]:
+			xmin = 0.2570705280000000
+			xmax = 0.2873229360000000
+			text = "O"
+		intervals [5]:
+			xmin = 0.2873229360000000
+			xmax = 0.3173229360000000
+			text = "n"
+		intervals [6]:
+			xmin = 0.3173229360000000
+			xmax = 0.4073229360000000
+			text = "e"
+		intervals [7]:
+			xmin = 0.4073229360000000
+			xmax = 0.4373229360000000
+			text = "d"
+		intervals [8]:
+			xmin = 0.4373229360000000
+			xmax = 0.4873229360000000
+			text = "O"
+		intervals [9]:
+			xmin = 0.4873229360000000
+			xmax = 0.5173229360000000
+			text = "R"
+		intervals [10]:
+			xmin = 0.5173229360000000
+			xmax = 0.5562679290000000
+			text = "m"
+		intervals [11]:
+			xmin = 0.5562679290000000
+			xmax = 0.6073229360000000
+			text = "R"
+		intervals [12]:
+			xmin = 0.6073229360000000
+			xmax = 0.6373229360000000
+			text = "9"
+		intervals [13]:
+			xmin = 0.6373229360000000
+			xmax = 0.7946316720000000
+			text = "v"
+		intervals [14]:
+			xmin = 0.7946316720000000
+			xmax = 0.8873229360000000
+			text = "e"
+	item [2]:
+		class = "IntervalTier"
+		name = "syll"
+		xmin = 0.0000000000000000
+		xmax = 0.8873229360000000
+		intervals: size = 6
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.1273229360000000
+			text = "Ze"
+		intervals [2]:
+			xmin = 0.1273229360000000
+			xmax = 0.2873229360000000
+			text = "fi"
+		intervals [3]:
+			xmin = 0.2873229360000000
+			xmax = 0.4073229360000000
+			text = "ni"
+		intervals [4]:
+			xmin = 0.4073229360000000
+			xmax = 0.5562679290000000
+			text = "paRm"
+		intervals [5]:
+			xmin = 0.5562679290000000
+			xmax = 0.6373229360000000
+			text = "la"
+		intervals [6]:
+			xmin = 0.6373229360000000
+			xmax = 0.8873229360000000
+			text = "se"
+	item [3]:
+		class = "IntervalTier"
+		name = "words"
+		xmin = 0.0000000000000000
+		xmax = 0.8873229360000000
+		intervals: size = 5
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.1273229360000000
+			text = "j'ai"
+		intervals [2]:
+			xmin = 0.1273229360000000
+			xmax = 0.4073229360000000
+			text = "fini"
+		intervals [3]:
+			xmin = 0.4073229360000000
+			xmax = 0.5173229360000000
+			text = "par"
+		intervals [4]:
+			xmin = 0.5173229360000000
+			xmax = 0.5562679290000000
+			text = "me"
+		intervals [5]:
+			xmin = 0.5562679290000000
+			xmax = 0.8873229360000000
+			text = "lasser"
+	item [4]:
+		class = "IntervalTier"
+		name = "textexpe"
+		xmin = 0.0000000000000000
+		xmax = 0.8873229360000000
+		intervals: size = 1
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.8873229360000000
+			text = "j'ai fini par me lasser "
+	item [5]:
+		class = "IntervalTier"
+		name = "phono"
+		xmin = 0.0000000000000000
+		xmax = 0.8873229360000000
+		intervals: size = 1
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.8873229360000000
+			text = "dale RegyljERma~ o d@va~ mE o bu d kElk@ ta~ ba Ze fini paR m@ lase"
+	item [6]:
+		class = "IntervalTier"
+		name = "ortho"
+		xmin = 0.0000000000000000
+		xmax = 0.8873229360000000
+		intervals: size = 1
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.8873229360000000
+			text = "d'aller régulièrement au devant mais au bout de quelques temps bah j'ai fini par me lasser"

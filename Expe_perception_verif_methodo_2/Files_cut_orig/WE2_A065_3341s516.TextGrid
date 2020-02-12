@@ -1,0 +1,148 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 1.0079567028783543 
+tiers? <exists> 
+size = 6 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "phones" 
+        xmin = 0 
+        xmax = 1.0079567028783543 
+        intervals: size = 13 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.08795670287835436 
+            text = "E" 
+        intervals [2]:
+            xmin = 0.08795670287835436 
+            xmax = 0.13795670287835435 
+            text = "l" 
+        intervals [3]:
+            xmin = 0.13795670287835435 
+            xmax = 0.21418534246357304 
+            text = "e" 
+        intervals [4]:
+            xmin = 0.21418534246357304 
+            xmax = 0.2979567028783543 
+            text = "p" 
+        intervals [5]:
+            xmin = 0.2979567028783543 
+            xmax = 0.3279567028783543 
+            text = "l" 
+        intervals [6]:
+            xmin = 0.3279567028783543 
+            xmax = 0.36336348340585345 
+            text = "y" 
+        intervals [7]:
+            xmin = 0.36336348340585345 
+            xmax = 0.42688689383644407 
+            text = "z" 
+        intervals [8]:
+            xmin = 0.42688689383644407 
+            xmax = 0.5105932325655682 
+            text = "o~" 
+        intervals [9]:
+            xmin = 0.5105932325655682 
+            xmax = 0.5823197943261975 
+            text = "k" 
+        intervals [10]:
+            xmin = 0.5823197943261975 
+            xmax = 0.6804247473280933 
+            text = "t" 
+        intervals [11]:
+            xmin = 0.6804247473280933 
+            xmax = 0.7104160350520422 
+            text = "y" 
+        intervals [12]:
+            xmin = 0.7104160350520422 
+            xmax = 0.9501722781630358 
+            text = "2" 
+        intervals [13]:
+            xmin = 0.9501722781630358 
+            xmax = 1.0079567028783543 
+            text = "z" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "syll" 
+        xmin = 0 
+        xmax = 1.0079567028783543 
+        intervals: size = 6 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.08795670287835436 
+            text = "E" 
+        intervals [2]:
+            xmin = 0.08795670287835436 
+            xmax = 0.21418534246357304 
+            text = "le" 
+        intervals [3]:
+            xmin = 0.21418534246357304 
+            xmax = 0.36336348340585345 
+            text = "ply" 
+        intervals [4]:
+            xmin = 0.36336348340585345 
+            xmax = 0.5823197943261975 
+            text = "zo~k" 
+        intervals [5]:
+            xmin = 0.5823197943261975 
+            xmax = 0.7104160350520422 
+            text = "ty" 
+        intervals [6]:
+            xmin = 0.7104160350520422 
+            xmax = 1.0079567028783543 
+            text = "2z" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "words" 
+        xmin = 0 
+        xmax = 1.0079567028783543 
+        intervals: size = 4 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.08795670287835436 
+            text = "elle" 
+        intervals [2]:
+            xmin = 0.08795670287835436 
+            xmax = 0.21418534246357304 
+            text = "est" 
+        intervals [3]:
+            xmin = 0.21418534246357304 
+            xmax = 0.42688689383644407 
+            text = "plus" 
+        intervals [4]:
+            xmin = 0.42688689383644407 
+            xmax = 1.0079567028783543 
+            text = "onctueuse" 
+    item [4]:
+        class = "IntervalTier" 
+        name = "textexpe" 
+        xmin = 0 
+        xmax = 1.0079567028783543 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 1.0079567028783543 
+            text = "elle est plus onctueuse " 
+    item [5]:
+        class = "IntervalTier" 
+        name = "phono" 
+        xmin = 0 
+        xmax = 1.0079567028783543 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 1.0079567028783543 
+            text = "E le ply zo~kty2z" 
+    item [6]:
+        class = "IntervalTier" 
+        name = "ortho" 
+        xmin = 0 
+        xmax = 1.0079567028783543 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 1.0079567028783543 
+            text = "elle est plus onctueuse" 

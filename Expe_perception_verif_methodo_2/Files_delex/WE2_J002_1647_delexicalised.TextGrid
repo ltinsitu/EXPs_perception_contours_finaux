@@ -1,0 +1,216 @@
+﻿File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0.0000000000000000
+xmax = 1.2900000000000000
+tiers? <exists>
+size = 6
+item []:
+	item [1]:
+		class = "IntervalTier"
+		name = "phones"
+		xmin = 0.0000000000000000
+		xmax = 1.2900000000000000
+		intervals: size = 24
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.0400000000000000
+			text = "s"
+		intervals [2]:
+			xmin = 0.0400000000000000
+			xmax = 0.0974299640000000
+			text = "y"
+		intervals [3]:
+			xmin = 0.0974299640000000
+			xmax = 0.1639096800000000
+			text = "g"
+		intervals [4]:
+			xmin = 0.1639096800000000
+			xmax = 0.2100000000000000
+			text = "E"
+		intervals [5]:
+			xmin = 0.2100000000000000
+			xmax = 0.2850680740000000
+			text = "a"
+		intervals [6]:
+			xmin = 0.2850680740000000
+			xmax = 0.3411254420000000
+			text = "2"
+		intervals [7]:
+			xmin = 0.3411254420000000
+			xmax = 0.3688518400000000
+			text = "n"
+		intervals [8]:
+			xmin = 0.3688518400000000
+			xmax = 0.4500000000000000
+			text = "u"
+		intervals [9]:
+			xmin = 0.4500000000000000
+			xmax = 0.5000000000000000
+			text = "p"
+		intervals [10]:
+			xmin = 0.5000000000000000
+			xmax = 0.5841285540000000
+			text = "O"
+		intervals [11]:
+			xmin = 0.5841285540000000
+			xmax = 0.6317376970000000
+			text = "v"
+		intervals [12]:
+			xmin = 0.6317376970000000
+			xmax = 0.6600000000000000
+			text = "j"
+		intervals [13]:
+			xmin = 0.6600000000000000
+			xmax = 0.7400000000000000
+			text = "e~"
+		intervals [14]:
+			xmin = 0.7400000000000000
+			xmax = 0.7700000000000000
+			text = "t"
+		intervals [15]:
+			xmin = 0.7700000000000000
+			xmax = 0.8176133860000000
+			text = "a"
+		intervals [16]:
+			xmin = 0.8176133860000000
+			xmax = 0.8900000000000000
+			text = "R"
+		intervals [17]:
+			xmin = 0.8900000000000000
+			xmax = 0.9399999999999999
+			text = "t"
+		intervals [18]:
+			xmin = 0.9399999999999999
+			xmax = 0.9900000000000000
+			text = "2"
+		intervals [19]:
+			xmin = 0.9900000000000000
+			xmax = 1.0200000000000000
+			text = "g"
+		intervals [20]:
+			xmin = 1.0200000000000000
+			xmax = 1.0800000000000001
+			text = "E"
+		intervals [21]:
+			xmin = 1.0800000000000001
+			xmax = 1.1100000000000001
+			text = "R"
+		intervals [22]:
+			xmin = 1.1100000000000001
+			xmax = 1.1499999999999999
+			text = "j"
+		intervals [23]:
+			xmin = 1.1499999999999999
+			xmax = 1.2395627190000000
+			text = "E"
+		intervals [24]:
+			xmin = 1.2395627190000000
+			xmax = 1.2900000000000000
+			text = "R"
+	item [2]:
+		class = "IntervalTier"
+		name = "syll"
+		xmin = 0.0000000000000000
+		xmax = 1.2900000000000000
+		intervals: size = 11
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.0974299640000000
+			text = "se"
+		intervals [2]:
+			xmin = 0.0974299640000000
+			xmax = 0.2100000000000000
+			text = "tE"
+		intervals [3]:
+			xmin = 0.2100000000000000
+			xmax = 0.2850680740000000
+			text = "a"
+		intervals [4]:
+			xmin = 0.2850680740000000
+			xmax = 0.3411254420000000
+			text = "y"
+		intervals [5]:
+			xmin = 0.3411254420000000
+			xmax = 0.4500000000000000
+			text = "nO"
+		intervals [6]:
+			xmin = 0.4500000000000000
+			xmax = 0.5841285540000000
+			text = "ka"
+		intervals [7]:
+			xmin = 0.5841285540000000
+			xmax = 0.7400000000000000
+			text = "zjo~"
+		intervals [8]:
+			xmin = 0.7400000000000000
+			xmax = 0.8900000000000000
+			text = "paR"
+		intervals [9]:
+			xmin = 0.8900000000000000
+			xmax = 0.9900000000000000
+			text = "ti"
+		intervals [10]:
+			xmin = 0.9900000000000000
+			xmax = 1.0800000000000001
+			text = "ky"
+		intervals [11]:
+			xmin = 1.0800000000000001
+			xmax = 1.2900000000000000
+			text = "ljER"
+	item [3]:
+		class = "IntervalTier"
+		name = "words"
+		xmin = 0.0000000000000000
+		xmax = 1.2900000000000000
+		intervals: size = 5
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.2100000000000000
+			text = "c'était"
+		intervals [2]:
+			xmin = 0.2100000000000000
+			xmax = 0.2850680740000000
+			text = "à"
+		intervals [3]:
+			xmin = 0.2850680740000000
+			xmax = 0.3688518400000000
+			text = "une"
+		intervals [4]:
+			xmin = 0.3688518400000000
+			xmax = 0.7400000000000000
+			text = "occasion"
+		intervals [5]:
+			xmin = 0.7400000000000000
+			xmax = 1.2900000000000000
+			text = "particulière"
+	item [4]:
+		class = "IntervalTier"
+		name = "textexpe"
+		xmin = 0.0000000000000000
+		xmax = 1.2900000000000000
+		intervals: size = 1
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 1.2900000000000000
+			text = "c'était à une occasion particulière"
+	item [5]:
+		class = "IntervalTier"
+		name = "phono"
+		xmin = 0.0000000000000000
+		xmax = 1.2900000000000000
+		intervals: size = 1
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 1.2900000000000000
+			text = "setE a y nOkazjo~ paRtikyljER"
+	item [6]:
+		class = "IntervalTier"
+		name = "ortho"
+		xmin = 0.0000000000000000
+		xmax = 1.2900000000000000
+		intervals: size = 1
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 1.2900000000000000
+			text = "c'était à une occasion particulière"

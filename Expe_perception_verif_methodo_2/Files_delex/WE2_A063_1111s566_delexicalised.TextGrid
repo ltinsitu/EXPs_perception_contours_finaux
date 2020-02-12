@@ -1,0 +1,136 @@
+﻿File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0.0000000000000000
+xmax = 0.8864395790000000
+tiers? <exists>
+size = 6
+item []:
+	item [1]:
+		class = "IntervalTier"
+		name = "phones"
+		xmin = 0.0000000000000000
+		xmax = 0.8864395790000000
+		intervals: size = 12
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.1064395790000000
+			text = "s"
+		intervals [2]:
+			xmin = 0.1064395790000000
+			xmax = 0.1564395790000000
+			text = "2"
+		intervals [3]:
+			xmin = 0.1564395790000000
+			xmax = 0.2464395790000000
+			text = "b"
+		intervals [4]:
+			xmin = 0.2464395790000000
+			xmax = 0.2964395790000000
+			text = "l"
+		intervals [5]:
+			xmin = 0.2964395790000000
+			xmax = 0.3650068540000000
+			text = "E"
+		intervals [6]:
+			xmin = 0.3650068540000000
+			xmax = 0.4364395790000000
+			text = "t"
+		intervals [7]:
+			xmin = 0.4364395790000000
+			xmax = 0.4757804890000000
+			text = "o"
+		intervals [8]:
+			xmin = 0.4757804890000000
+			xmax = 0.5164395790000000
+			text = "l"
+		intervals [9]:
+			xmin = 0.5164395790000000
+			xmax = 0.6006419110000000
+			text = "E"
+		intervals [10]:
+			xmin = 0.6006419110000000
+			xmax = 0.6799033310000000
+			text = "m"
+		intervals [11]:
+			xmin = 0.6799033310000000
+			xmax = 0.7764330780000001
+			text = "2"
+		intervals [12]:
+			xmin = 0.7764330780000001
+			xmax = 0.8864395790000000
+			text = "k"
+	item [2]:
+		class = "IntervalTier"
+		name = "syll"
+		xmin = 0.0000000000000000
+		xmax = 0.8864395790000000
+		intervals: size = 5
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.1564395790000000
+			text = "se"
+		intervals [2]:
+			xmin = 0.1564395790000000
+			xmax = 0.3650068540000000
+			text = "tRo"
+		intervals [3]:
+			xmin = 0.3650068540000000
+			xmax = 0.4757804890000000
+			text = "pO"
+		intervals [4]:
+			xmin = 0.4757804890000000
+			xmax = 0.6006419110000000
+			text = "le"
+		intervals [5]:
+			xmin = 0.6006419110000000
+			xmax = 0.8864395790000000
+			text = "mik"
+	item [3]:
+		class = "IntervalTier"
+		name = "words"
+		xmin = 0.0000000000000000
+		xmax = 0.8864395790000000
+		intervals: size = 3
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.1564395790000000
+			text = "c'est"
+		intervals [2]:
+			xmin = 0.1564395790000000
+			xmax = 0.3650068540000000
+			text = "trop"
+		intervals [3]:
+			xmin = 0.3650068540000000
+			xmax = 0.8864395790000000
+			text = "polémique"
+	item [4]:
+		class = "IntervalTier"
+		name = "textexpe"
+		xmin = 0.0000000000000000
+		xmax = 0.8864395790000000
+		intervals: size = 1
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.8864395790000000
+			text = "c'est trop polémique "
+	item [5]:
+		class = "IntervalTier"
+		name = "phono"
+		xmin = 0.0000000000000000
+		xmax = 0.8864395790000000
+		intervals: size = 1
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.8864395790000000
+			text = "e pa d paRa~ delEv no~ ply se tRo pOlemik"
+	item [6]:
+		class = "IntervalTier"
+		name = "ortho"
+		xmin = 0.0000000000000000
+		xmax = 0.8864395790000000
+		intervals: size = 1
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.8864395790000000
+			text = "et pas de parents d'élèves non plus c'est trop polémique"

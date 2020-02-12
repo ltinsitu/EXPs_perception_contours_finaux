@@ -1,0 +1,220 @@
+﻿File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0.0000000000000000
+xmax = 1.2308016230000001
+tiers? <exists>
+size = 6
+item []:
+	item [1]:
+		class = "IntervalTier"
+		name = "phones"
+		xmin = 0.0000000000000000
+		xmax = 1.2308016230000001
+		intervals: size = 22
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.0671201670000000
+			text = "o~"
+		intervals [2]:
+			xmin = 0.0671201670000000
+			xmax = 0.1175924660000000
+			text = "d"
+		intervals [3]:
+			xmin = 0.1175924660000000
+			xmax = 0.2182877020000000
+			text = "E"
+		intervals [4]:
+			xmin = 0.2182877020000000
+			xmax = 0.2675924660000000
+			text = "d"
+		intervals [5]:
+			xmin = 0.2675924660000000
+			xmax = 0.2975924660000000
+			text = "o"
+		intervals [6]:
+			xmin = 0.2975924660000000
+			xmax = 0.3760868790000000
+			text = "2"
+		intervals [7]:
+			xmin = 0.3760868790000000
+			xmax = 0.4175924660000000
+			text = "R"
+		intervals [8]:
+			xmin = 0.4175924660000000
+			xmax = 0.4925823290000000
+			text = "y"
+		intervals [9]:
+			xmin = 0.4925823290000000
+			xmax = 0.5775924660000000
+			text = "f"
+		intervals [10]:
+			xmin = 0.5775924660000000
+			xmax = 0.6075924660000001
+			text = "y"
+		intervals [11]:
+			xmin = 0.6075924660000001
+			xmax = 0.6475924660000000
+			text = "R"
+		intervals [12]:
+			xmin = 0.6475924660000000
+			xmax = 0.6775924660000000
+			text = "l"
+		intervals [13]:
+			xmin = 0.6775924660000000
+			xmax = 0.7475924660000000
+			text = "y"
+		intervals [14]:
+			xmin = 0.7475924660000000
+			xmax = 0.7885490560000000
+			text = "p"
+		intervals [15]:
+			xmin = 0.7885490560000000
+			xmax = 0.8498533539999999
+			text = "O"
+		intervals [16]:
+			xmin = 0.8498533539999999
+			xmax = 0.9075924660000000
+			text = "R"
+		intervals [17]:
+			xmin = 0.9075924660000000
+			xmax = 0.9375924660000000
+			text = "k"
+		intervals [18]:
+			xmin = 0.9375924660000000
+			xmax = 0.9875924659999999
+			text = "@"
+		intervals [19]:
+			xmin = 0.9875924659999999
+			xmax = 1.0508573740000000
+			text = "l"
+		intervals [20]:
+			xmin = 1.0508573740000000
+			xmax = 1.1072045020000001
+			text = "w"
+		intervals [21]:
+			xmin = 1.1072045020000001
+			xmax = 1.1775924659999999
+			text = "i"
+		intervals [22]:
+			xmin = 1.1775924659999999
+			xmax = 1.2308016230000001
+			text = "R"
+	item [2]:
+		class = "IntervalTier"
+		name = "syll"
+		xmin = 0.0000000000000000
+		xmax = 1.2308016230000001
+		intervals: size = 10
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.0671201670000000
+			text = "o~"
+		intervals [2]:
+			xmin = 0.0671201670000000
+			xmax = 0.2182877020000000
+			text = "p2"
+		intervals [3]:
+			xmin = 0.2182877020000000
+			xmax = 0.2975924660000000
+			text = "pa"
+		intervals [4]:
+			xmin = 0.2975924660000000
+			xmax = 0.3760868790000000
+			text = "a"
+		intervals [5]:
+			xmin = 0.3760868790000000
+			xmax = 0.4925823290000000
+			text = "le"
+		intervals [6]:
+			xmin = 0.4925823290000000
+			xmax = 0.6475924660000000
+			text = "syR"
+		intervals [7]:
+			xmin = 0.6475924660000000
+			xmax = 0.7475924660000000
+			text = "le"
+		intervals [8]:
+			xmin = 0.7475924660000000
+			xmax = 0.9075924660000000
+			text = "bOR"
+		intervals [9]:
+			xmin = 0.9075924660000000
+			xmax = 0.9875924659999999
+			text = "d@"
+		intervals [10]:
+			xmin = 0.9875924659999999
+			xmax = 1.2308016230000001
+			text = "lwaR"
+	item [3]:
+		class = "IntervalTier"
+		name = "words"
+		xmin = 0.0000000000000000
+		xmax = 1.2308016230000001
+		intervals: size = 9
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.0671201670000000
+			text = "on"
+		intervals [2]:
+			xmin = 0.0671201670000000
+			xmax = 0.2182877020000000
+			text = "peut"
+		intervals [3]:
+			xmin = 0.2182877020000000
+			xmax = 0.2975924660000000
+			text = "pas"
+		intervals [4]:
+			xmin = 0.2975924660000000
+			xmax = 0.4925823290000000
+			text = "aller"
+		intervals [5]:
+			xmin = 0.4925823290000000
+			xmax = 0.6475924660000000
+			text = "sur"
+		intervals [6]:
+			xmin = 0.6475924660000000
+			xmax = 0.7475924660000000
+			text = "les"
+		intervals [7]:
+			xmin = 0.7475924660000000
+			xmax = 0.9075924660000000
+			text = "bords"
+		intervals [8]:
+			xmin = 0.9075924660000000
+			xmax = 0.9875924659999999
+			text = "de"
+		intervals [9]:
+			xmin = 0.9875924659999999
+			xmax = 1.2308016230000001
+			text = "loire"
+	item [4]:
+		class = "IntervalTier"
+		name = "textexpe"
+		xmin = 0.0000000000000000
+		xmax = 1.2308016230000001
+		intervals: size = 1
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 1.2308016230000001
+			text = "on peut pas aller sur les bords de Loire "
+	item [5]:
+		class = "IntervalTier"
+		name = "phono"
+		xmin = 0.0000000000000000
+		xmax = 1.2308016230000001
+		intervals: size = 1
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 1.2308016230000001
+			text = "a~ s mOma~ o~ p2 pa ale syR le bOR d@ lwaR"
+	item [6]:
+		class = "IntervalTier"
+		name = "ortho"
+		xmin = 0.0000000000000000
+		xmax = 1.2308016230000001
+		intervals: size = 1
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 1.2308016230000001
+			text = "en ce moment on peut pas aller sur les bords de loire"

@@ -1,0 +1,120 @@
+﻿File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0.0000000000000000
+xmax = 0.6000000000000000
+tiers? <exists>
+size = 6
+item []:
+	item [1]:
+		class = "IntervalTier"
+		name = "phones"
+		xmin = 0.0000000000000000
+		xmax = 0.6000000000000000
+		intervals: size = 9
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.0900000000000000
+			text = "s"
+		intervals [2]:
+			xmin = 0.0900000000000000
+			xmax = 0.1600000000000000
+			text = "O"
+		intervals [3]:
+			xmin = 0.1600000000000000
+			xmax = 0.2200000000000000
+			text = "f"
+		intervals [4]:
+			xmin = 0.2200000000000000
+			xmax = 0.2500000000000000
+			text = "d"
+		intervals [5]:
+			xmin = 0.2500000000000000
+			xmax = 0.3600000000000000
+			text = "a"
+		intervals [6]:
+			xmin = 0.3600000000000000
+			xmax = 0.3900000000000000
+			text = "z"
+		intervals [7]:
+			xmin = 0.3900000000000000
+			xmax = 0.4200000000000000
+			text = "d"
+		intervals [8]:
+			xmin = 0.4200000000000000
+			xmax = 0.4600000000000000
+			text = "j"
+		intervals [9]:
+			xmin = 0.4600000000000000
+			xmax = 0.6000000000000000
+			text = "e~"
+	item [2]:
+		class = "IntervalTier"
+		name = "syll"
+		xmin = 0.0000000000000000
+		xmax = 0.6000000000000000
+		intervals: size = 3
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.2200000000000000
+			text = "sas"
+		intervals [2]:
+			xmin = 0.2200000000000000
+			xmax = 0.3900000000000000
+			text = "pas"
+		intervals [3]:
+			xmin = 0.3900000000000000
+			xmax = 0.6000000000000000
+			text = "bje~"
+	item [3]:
+		class = "IntervalTier"
+		name = "words"
+		xmin = 0.0000000000000000
+		xmax = 0.6000000000000000
+		intervals: size = 4
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.1600000000000000
+			text = "ça"
+		intervals [2]:
+			xmin = 0.1600000000000000
+			xmax = 0.2200000000000000
+			text = "se"
+		intervals [3]:
+			xmin = 0.2200000000000000
+			xmax = 0.3900000000000000
+			text = "passe"
+		intervals [4]:
+			xmin = 0.3900000000000000
+			xmax = 0.6000000000000000
+			text = "bien"
+	item [4]:
+		class = "IntervalTier"
+		name = "textexpe"
+		xmin = 0.0000000000000000
+		xmax = 0.6000000000000000
+		intervals: size = 1
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.6000000000000000
+			text = "ça se passe bien ?"
+	item [5]:
+		class = "IntervalTier"
+		name = "phono"
+		xmin = 0.0000000000000000
+		xmax = 0.6000000000000000
+		intervals: size = 1
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.6000000000000000
+			text = "sa s pas bje~"
+	item [6]:
+		class = "IntervalTier"
+		name = "ortho"
+		xmin = 0.0000000000000000
+		xmax = 0.6000000000000000
+		intervals: size = 1
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.6000000000000000
+			text = "ça se passe bien"

@@ -5,13 +5,13 @@ import sys, re, os, shutil, csv
 from os import walk
 
 #Pathin
-pathin = "/media/sda4/lucas/Téléchargements/Corpus/Corpus_data/ATRAITER/ESLO/ESLO2-decla-cut/"
+pathin = "/home/lucas/Documents/CloudStation/SDL/PhD/Prosodie/Expés_Prosodie/EXPs_perception_contours_finaux/Expe_perception_all-sent-types/Files_cut_orig/"
 
 #Pathout
-pathout = "/home/lucas/Documents/CloudStation/SDL/PhD/Corpora/Audio/ESLO2-decla-cut/"
+pathout = "/home/lucas/Documents/CloudStation/SDL/PhD/Prosodie/Expés_Prosodie/EXPs_perception_contours_finaux/Expe_perception_verif_methodo_2/Files_cut_orig/"
 
 #Reading csv file
-table = open("/home/lucas/Documents/CloudStation/SDL/PhD/Prosodie/Expés_Prosodie/Expé_perception_contours_finaux/EXP_perception_contours_finaux/table_files_REAL-expe-perception.csv", "r")
+table = open("/home/lucas/Documents/CloudStation/SDL/PhD/Prosodie/Expés_Prosodie/EXPs_perception_contours_finaux/Expe_perception_verif_methodo_2/Expe_perception_verif_methodo_2.csv", "r")
 readertable = csv.DictReader(table, skipinitialspace=True, delimiter="\t")
 
 listdecla = []

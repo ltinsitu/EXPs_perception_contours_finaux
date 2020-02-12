@@ -1,0 +1,140 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 1.0159417376476088 
+tiers? <exists> 
+size = 6 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "phones" 
+        xmin = 0 
+        xmax = 1.0159417376476088 
+        intervals: size = 12 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.08639804578978816 
+            text = "i" 
+        intervals [2]:
+            xmin = 0.08639804578978816 
+            xmax = 0.15999999999999992 
+            text = "s" 
+        intervals [3]:
+            xmin = 0.15999999999999992 
+            xmax = 0.2269609716813017 
+            text = "o~" 
+        intervals [4]:
+            xmin = 0.2269609716813017 
+            xmax = 0.2799999999999998 
+            text = "a~" 
+        intervals [5]:
+            xmin = 0.2799999999999998 
+            xmax = 0.3635331133223134 
+            text = "t" 
+        intervals [6]:
+            xmin = 0.3635331133223134 
+            xmax = 0.4200493590332728 
+            text = "u" 
+        intervals [7]:
+            xmin = 0.4200493590332728 
+            xmax = 0.5281927940380633 
+            text = "z" 
+        intervals [8]:
+            xmin = 0.5281927940380633 
+            xmax = 0.5600000000000003 
+            text = "j" 
+        intervals [9]:
+            xmin = 0.5600000000000003 
+            xmax = 0.6900000000000002 
+            text = "a" 
+        intervals [10]:
+            xmin = 0.6900000000000002 
+            xmax = 0.8435213712997352 
+            text = "s" 
+        intervals [11]:
+            xmin = 0.8435213712997352 
+            xmax = 0.9131791989113924 
+            text = "t" 
+        intervals [12]:
+            xmin = 0.9131791989113924 
+            xmax = 1.0159417376476088 
+            text = "@" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "syll" 
+        xmin = 0 
+        xmax = 1.0159417376476088 
+        intervals: size = 6 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.08639804578978816 
+            text = "i" 
+        intervals [2]:
+            xmin = 0.08639804578978816 
+            xmax = 0.2269609716813017 
+            text = "so~" 
+        intervals [3]:
+            xmin = 0.2269609716813017 
+            xmax = 0.2799999999999998 
+            text = "a~" 
+        intervals [4]:
+            xmin = 0.2799999999999998 
+            xmax = 0.4200493590332728 
+            text = "tu" 
+        intervals [5]:
+            xmin = 0.4200493590332728 
+            xmax = 0.6900000000000002 
+            text = "zja" 
+        intervals [6]:
+            xmin = 0.6900000000000002 
+            xmax = 1.0159417376476088 
+            text = "st@" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "words" 
+        xmin = 0 
+        xmax = 1.0159417376476088 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.08639804578978816 
+            text = "ils" 
+        intervals [2]:
+            xmin = 0.08639804578978816 
+            xmax = 0.2269609716813017 
+            text = "sont" 
+        intervals [3]:
+            xmin = 0.2269609716813017 
+            xmax = 1.0159417376476088 
+            text = "enthousiastes" 
+    item [4]:
+        class = "IntervalTier" 
+        name = "textexpe" 
+        xmin = 0 
+        xmax = 1.0159417376476088 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 1.0159417376476088 
+            text = "ils sont enthousiastes " 
+    item [5]:
+        class = "IntervalTier" 
+        name = "phono" 
+        xmin = 0 
+        xmax = 1.0159417376476088 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 1.0159417376476088 
+            text = "i so~ tuZu R9 ko~ta~ d tu i so~ a~tuzjast@" 
+    item [6]:
+        class = "IntervalTier" 
+        name = "ortho" 
+        xmin = 0 
+        xmax = 1.0159417376476088 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 1.0159417376476088 
+            text = "ils sont toujours heu contents de tout ils sont enthousiastes" 

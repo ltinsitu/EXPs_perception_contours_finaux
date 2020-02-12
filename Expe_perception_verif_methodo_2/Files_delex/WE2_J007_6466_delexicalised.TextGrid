@@ -1,0 +1,168 @@
+﻿File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0.0000000000000000
+xmax = 0.8500000000000000
+tiers? <exists>
+size = 6
+item []:
+	item [1]:
+		class = "IntervalTier"
+		name = "phones"
+		xmin = 0.0000000000000000
+		xmax = 0.8500000000000000
+		intervals: size = 15
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.0400000000000000
+			text = "t"
+		intervals [2]:
+			xmin = 0.0400000000000000
+			xmax = 0.0900000000000000
+			text = "2"
+		intervals [3]:
+			xmin = 0.0900000000000000
+			xmax = 0.1200000000000000
+			text = "v"
+		intervals [4]:
+			xmin = 0.1200000000000000
+			xmax = 0.1723159210000000
+			text = "o"
+		intervals [5]:
+			xmin = 0.1723159210000000
+			xmax = 0.2212745200000000
+			text = "u"
+		intervals [6]:
+			xmin = 0.2212745200000000
+			xmax = 0.2800000000000000
+			text = "m"
+		intervals [7]:
+			xmin = 0.2800000000000000
+			xmax = 0.3265955390000000
+			text = "e"
+		intervals [8]:
+			xmin = 0.3265955390000000
+			xmax = 0.3641223260000000
+			text = "l"
+		intervals [9]:
+			xmin = 0.3641223260000000
+			xmax = 0.4500000000000000
+			text = "Z"
+		intervals [10]:
+			xmin = 0.4500000000000000
+			xmax = 0.5200000000000000
+			text = "2"
+		intervals [11]:
+			xmin = 0.5200000000000000
+			xmax = 0.5500000000000000
+			text = "d"
+		intervals [12]:
+			xmin = 0.5500000000000000
+			xmax = 0.6200000000000000
+			text = "m"
+		intervals [13]:
+			xmin = 0.6200000000000000
+			xmax = 0.6580700500000000
+			text = "o"
+		intervals [14]:
+			xmin = 0.6580700500000000
+			xmax = 0.7636062010000000
+			text = "u"
+		intervals [15]:
+			xmin = 0.7636062010000000
+			xmax = 0.8500000000000000
+			text = "l"
+	item [2]:
+		class = "IntervalTier"
+		name = "syll"
+		xmin = 0.0000000000000000
+		xmax = 0.8500000000000000
+		intervals: size = 7
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.0900000000000000
+			text = "ty"
+		intervals [2]:
+			xmin = 0.0900000000000000
+			xmax = 0.1723159210000000
+			text = "va"
+		intervals [3]:
+			xmin = 0.1723159210000000
+			xmax = 0.2212745200000000
+			text = "o"
+		intervals [4]:
+			xmin = 0.2212745200000000
+			xmax = 0.3641223260000000
+			text = "maR"
+		intervals [5]:
+			xmin = 0.3641223260000000
+			xmax = 0.5500000000000000
+			text = "Sed"
+		intervals [6]:
+			xmin = 0.5500000000000000
+			xmax = 0.6580700500000000
+			text = "nO"
+		intervals [7]:
+			xmin = 0.6580700500000000
+			xmax = 0.8500000000000000
+			text = "El"
+	item [3]:
+		class = "IntervalTier"
+		name = "words"
+		xmin = 0.0000000000000000
+		xmax = 0.8500000000000000
+		intervals: size = 6
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.0900000000000000
+			text = "tu"
+		intervals [2]:
+			xmin = 0.0900000000000000
+			xmax = 0.1723159210000000
+			text = "vas"
+		intervals [3]:
+			xmin = 0.1723159210000000
+			xmax = 0.2212745200000000
+			text = "au"
+		intervals [4]:
+			xmin = 0.2212745200000000
+			xmax = 0.5200000000000000
+			text = "marché"
+		intervals [5]:
+			xmin = 0.5200000000000000
+			xmax = 0.5500000000000000
+			text = "de"
+		intervals [6]:
+			xmin = 0.5500000000000000
+			xmax = 0.8500000000000000
+			text = "noël"
+	item [4]:
+		class = "IntervalTier"
+		name = "textexpe"
+		xmin = 0.0000000000000000
+		xmax = 0.8500000000000000
+		intervals: size = 1
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.8500000000000000
+			text = "tu vas au marché de Noël ?"
+	item [5]:
+		class = "IntervalTier"
+		name = "phono"
+		xmin = 0.0000000000000000
+		xmax = 0.8500000000000000
+		intervals: size = 1
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.8500000000000000
+			text = "no~ mE se tRo sa e ty va o maRSe d nOEl"
+	item [6]:
+		class = "IntervalTier"
+		name = "ortho"
+		xmin = 0.0000000000000000
+		xmax = 0.8500000000000000
+		intervals: size = 1
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.8500000000000000
+			text = "non mais c'est trop ça et tu vas au marché de noël"

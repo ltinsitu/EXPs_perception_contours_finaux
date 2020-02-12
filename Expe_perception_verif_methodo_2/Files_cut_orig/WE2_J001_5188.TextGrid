@@ -1,0 +1,144 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 0.9199999999999999 
+tiers? <exists> 
+size = 6 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "phones" 
+        xmin = 0 
+        xmax = 0.9199999999999999 
+        intervals: size = 13 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.06 
+            text = "t" 
+        intervals [2]:
+            xmin = 0.06 
+            xmax = 0.14 
+            text = "y" 
+        intervals [3]:
+            xmin = 0.14 
+            xmax = 0.1806510649847271 
+            text = "p" 
+        intervals [4]:
+            xmin = 0.1806510649847271 
+            xmax = 0.2651784370396399 
+            text = "a" 
+        intervals [5]:
+            xmin = 0.2651784370396399 
+            xmax = 0.3258395612046698 
+            text = "R" 
+        intervals [6]:
+            xmin = 0.3258395612046698 
+            xmax = 0.34853032834656256 
+            text = "l" 
+        intervals [7]:
+            xmin = 0.34853032834656256 
+            xmax = 0.45811068353129764 
+            text = "@" 
+        intervals [8]:
+            xmin = 0.45811068353129764 
+            xmax = 0.48779994232519136 
+            text = "d" 
+        intervals [9]:
+            xmin = 0.48779994232519136 
+            xmax = 0.574168695180155 
+            text = "o" 
+        intervals [10]:
+            xmin = 0.574168695180155 
+            xmax = 0.668094713909928 
+            text = "t" 
+        intervals [11]:
+            xmin = 0.668094713909928 
+            xmax = 0.69 
+            text = "l" 
+        intervals [12]:
+            xmin = 0.69 
+            xmax = 0.8599999999999999 
+            text = "a~" 
+        intervals [13]:
+            xmin = 0.8599999999999999 
+            xmax = 0.9199999999999999 
+            text = "g" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "syll" 
+        xmin = 0 
+        xmax = 0.9199999999999999 
+        intervals: size = 5 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.14 
+            text = "ty" 
+        intervals [2]:
+            xmin = 0.14 
+            xmax = 0.3258395612046698 
+            text = "paR" 
+        intervals [3]:
+            xmin = 0.3258395612046698 
+            xmax = 0.45811068353129764 
+            text = "l@" 
+        intervals [4]:
+            xmin = 0.45811068353129764 
+            xmax = 0.668094713909928 
+            text = "dot" 
+        intervals [5]:
+            xmin = 0.668094713909928 
+            xmax = 0.9199999999999999 
+            text = "la~g" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "words" 
+        xmin = 0 
+        xmax = 0.9199999999999999 
+        intervals: size = 4 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.14 
+            text = "tu" 
+        intervals [2]:
+            xmin = 0.14 
+            xmax = 0.45811068353129764 
+            text = "parles" 
+        intervals [3]:
+            xmin = 0.45811068353129764 
+            xmax = 0.668094713909928 
+            text = "d'autres" 
+        intervals [4]:
+            xmin = 0.668094713909928 
+            xmax = 0.9199999999999999 
+            text = "langues" 
+    item [4]:
+        class = "IntervalTier" 
+        name = "textexpe" 
+        xmin = 0 
+        xmax = 0.9199999999999999 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.9199999999999999 
+            text = "tu parles d'autres langues" 
+    item [5]:
+        class = "IntervalTier" 
+        name = "phono" 
+        xmin = 0 
+        xmax = 0.9199999999999999 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.9199999999999999 
+            text = "ty paRl dot la~g" 
+    item [6]:
+        class = "IntervalTier" 
+        name = "ortho" 
+        xmin = 0 
+        xmax = 0.9199999999999999 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.9199999999999999 
+            text = "tu parles d'autres langues" 

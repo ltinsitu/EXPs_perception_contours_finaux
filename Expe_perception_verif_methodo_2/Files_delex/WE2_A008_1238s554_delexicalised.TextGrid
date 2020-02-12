@@ -1,0 +1,156 @@
+﻿File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0.0000000000000000
+xmax = 1.0500000000000000
+tiers? <exists>
+size = 6
+item []:
+	item [1]:
+		class = "IntervalTier"
+		name = "phones"
+		xmin = 0.0000000000000000
+		xmax = 1.0500000000000000
+		intervals: size = 14
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.0700000000000000
+			text = "S"
+		intervals [2]:
+			xmin = 0.0700000000000000
+			xmax = 0.1300000000000000
+			text = "t"
+		intervals [3]:
+			xmin = 0.1300000000000000
+			xmax = 0.1700000000000000
+			text = "R"
+		intervals [4]:
+			xmin = 0.1700000000000000
+			xmax = 0.2200000000000000
+			text = "2"
+		intervals [5]:
+			xmin = 0.2200000000000000
+			xmax = 0.2700000000000000
+			text = "z"
+		intervals [6]:
+			xmin = 0.2700000000000000
+			xmax = 0.3300000000000000
+			text = "g"
+		intervals [7]:
+			xmin = 0.3300000000000000
+			xmax = 0.3700000000000000
+			text = "@"
+		intervals [8]:
+			xmin = 0.3700000000000000
+			xmax = 0.4600000000000000
+			text = "s"
+		intervals [9]:
+			xmin = 0.4600000000000000
+			xmax = 0.5300000000000000
+			text = "O"
+		intervals [10]:
+			xmin = 0.5300000000000000
+			xmax = 0.5700000000000000
+			text = "b"
+		intervals [11]:
+			xmin = 0.5700000000000000
+			xmax = 0.6400000000000000
+			text = "u"
+		intervals [12]:
+			xmin = 0.6400000000000000
+			xmax = 0.7200000000000000
+			text = "n"
+		intervals [13]:
+			xmin = 0.7200000000000000
+			xmax = 0.8511405220000000
+			text = "o"
+		intervals [14]:
+			xmin = 0.8511405220000000
+			xmax = 1.0500000000000000
+			text = "Z"
+	item [2]:
+		class = "IntervalTier"
+		name = "syll"
+		xmin = 0.0000000000000000
+		xmax = 1.0500000000000000
+		intervals: size = 6
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.0700000000000000
+			text = "saS"
+		intervals [2]:
+			xmin = 0.0700000000000000
+			xmax = 0.2700000000000000
+			text = "tRuv"
+		intervals [3]:
+			xmin = 0.2700000000000000
+			xmax = 0.3700000000000000
+			text = "k@"
+		intervals [4]:
+			xmin = 0.3700000000000000
+			xmax = 0.5300000000000000
+			text = "se"
+		intervals [5]:
+			xmin = 0.5300000000000000
+			xmax = 0.6400000000000000
+			text = "dO"
+		intervals [6]:
+			xmin = 0.6400000000000000
+			xmax = 1.0500000000000000
+			text = "maZ"
+	item [3]:
+		class = "IntervalTier"
+		name = "words"
+		xmin = 0.0000000000000000
+		xmax = 1.0500000000000000
+		intervals: size = 5
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.0700000000000000
+			text = "je"
+		intervals [2]:
+			xmin = 0.0700000000000000
+			xmax = 0.2700000000000000
+			text = "trouve"
+		intervals [3]:
+			xmin = 0.2700000000000000
+			xmax = 0.3700000000000000
+			text = "que"
+		intervals [4]:
+			xmin = 0.3700000000000000
+			xmax = 0.5300000000000000
+			text = "c'est"
+		intervals [5]:
+			xmin = 0.5300000000000000
+			xmax = 1.0500000000000000
+			text = "dommage"
+	item [4]:
+		class = "IntervalTier"
+		name = "textexpe"
+		xmin = 0.0000000000000000
+		xmax = 1.0500000000000000
+		intervals: size = 1
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 1.0500000000000000
+			text = "je trouve que c'est dommage"
+	item [5]:
+		class = "IntervalTier"
+		name = "phono"
+		xmin = 0.0000000000000000
+		xmax = 1.0500000000000000
+		intervals: size = 1
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 1.0500000000000000
+			text = "e sa S tRuv k@ se dOmaZ"
+	item [6]:
+		class = "IntervalTier"
+		name = "ortho"
+		xmin = 0.0000000000000000
+		xmax = 1.0500000000000000
+		intervals: size = 1
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 1.0500000000000000
+			text = "et ça je trouve que c'est dommage"

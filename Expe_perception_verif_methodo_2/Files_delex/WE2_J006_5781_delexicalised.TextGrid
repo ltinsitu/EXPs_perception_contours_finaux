@@ -1,0 +1,144 @@
+﻿File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0.0000000000000000
+xmax = 0.7900000000000000
+tiers? <exists>
+size = 6
+item []:
+	item [1]:
+		class = "IntervalTier"
+		name = "phones"
+		xmin = 0.0000000000000000
+		xmax = 0.7900000000000000
+		intervals: size = 12
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.0400000000000000
+			text = "t"
+		intervals [2]:
+			xmin = 0.0400000000000000
+			xmax = 0.0961068720000000
+			text = "y"
+		intervals [3]:
+			xmin = 0.0961068720000000
+			xmax = 0.2100000000000000
+			text = "a~"
+		intervals [4]:
+			xmin = 0.2100000000000000
+			xmax = 0.2400000000000000
+			text = "d"
+		intervals [5]:
+			xmin = 0.2400000000000000
+			xmax = 0.3700000000000000
+			text = "9~"
+		intervals [6]:
+			xmin = 0.3700000000000000
+			xmax = 0.4000000000000000
+			text = "p"
+		intervals [7]:
+			xmin = 0.4000000000000000
+			xmax = 0.4528056810000000
+			text = "k"
+		intervals [8]:
+			xmin = 0.4528056810000000
+			xmax = 0.4670943320000000
+			text = "H"
+		intervals [9]:
+			xmin = 0.4670943320000000
+			xmax = 0.5500000000000000
+			text = "e"
+		intervals [10]:
+			xmin = 0.5500000000000000
+			xmax = 0.5900000000000000
+			text = "k"
+		intervals [11]:
+			xmin = 0.5900000000000000
+			xmax = 0.6483788080000000
+			text = "o"
+		intervals [12]:
+			xmin = 0.6483788080000000
+			xmax = 0.7900000000000000
+			text = "R"
+	item [2]:
+		class = "IntervalTier"
+		name = "syll"
+		xmin = 0.0000000000000000
+		xmax = 0.7900000000000000
+		intervals: size = 5
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.0961068720000000
+			text = "ta"
+		intervals [2]:
+			xmin = 0.0961068720000000
+			xmax = 0.2100000000000000
+			text = "9~"
+		intervals [3]:
+			xmin = 0.2100000000000000
+			xmax = 0.4000000000000000
+			text = "ko~t"
+		intervals [4]:
+			xmin = 0.4000000000000000
+			xmax = 0.5500000000000000
+			text = "twi"
+		intervals [5]:
+			xmin = 0.5500000000000000
+			xmax = 0.7900000000000000
+			text = "t9R"
+	item [3]:
+		class = "IntervalTier"
+		name = "words"
+		xmin = 0.0000000000000000
+		xmax = 0.7900000000000000
+		intervals: size = 5
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.0400000000000000
+			text = "tu"
+		intervals [2]:
+			xmin = 0.0400000000000000
+			xmax = 0.0961068720000000
+			text = "as"
+		intervals [3]:
+			xmin = 0.0961068720000000
+			xmax = 0.2100000000000000
+			text = "un"
+		intervals [4]:
+			xmin = 0.2100000000000000
+			xmax = 0.4000000000000000
+			text = "compte"
+		intervals [5]:
+			xmin = 0.4000000000000000
+			xmax = 0.7900000000000000
+			text = "twitter"
+	item [4]:
+		class = "IntervalTier"
+		name = "textexpe"
+		xmin = 0.0000000000000000
+		xmax = 0.7900000000000000
+		intervals: size = 1
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.7900000000000000
+			text = "tu as un compte Twitter ?"
+	item [5]:
+		class = "IntervalTier"
+		name = "phono"
+		xmin = 0.0000000000000000
+		xmax = 0.7900000000000000
+		intervals: size = 1
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.7900000000000000
+			text = "e 2 t a 9~ ko~t twit9R"
+	item [6]:
+		class = "IntervalTier"
+		name = "ortho"
+		xmin = 0.0000000000000000
+		xmax = 0.7900000000000000
+		intervals: size = 1
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.7900000000000000
+			text = "et euh tu as un compte twitter"

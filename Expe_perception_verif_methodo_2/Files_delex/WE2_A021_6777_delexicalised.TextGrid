@@ -1,0 +1,152 @@
+﻿File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0.0000000000000000
+xmax = 0.8900000000000000
+tiers? <exists>
+size = 6
+item []:
+	item [1]:
+		class = "IntervalTier"
+		name = "phones"
+		xmin = 0.0000000000000000
+		xmax = 0.8900000000000000
+		intervals: size = 13
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.0400000000000000
+			text = "t"
+		intervals [2]:
+			xmin = 0.0400000000000000
+			xmax = 0.1100000000000000
+			text = "O"
+		intervals [3]:
+			xmin = 0.1100000000000000
+			xmax = 0.1571087040000000
+			text = "g"
+		intervals [4]:
+			xmin = 0.1571087040000000
+			xmax = 0.2036336260000000
+			text = "o"
+		intervals [5]:
+			xmin = 0.2036336260000000
+			xmax = 0.2272007040000000
+			text = "R"
+		intervals [6]:
+			xmin = 0.2272007040000000
+			xmax = 0.2730610440000000
+			text = "l"
+		intervals [7]:
+			xmin = 0.2730610440000000
+			xmax = 0.3621181310000000
+			text = "o~"
+		intervals [8]:
+			xmin = 0.3621181310000000
+			xmax = 0.4400000000000000
+			text = "t"
+		intervals [9]:
+			xmin = 0.4400000000000000
+			xmax = 0.4800000000000000
+			text = "y"
+		intervals [10]:
+			xmin = 0.4800000000000000
+			xmax = 0.6036920420000000
+			text = "9~"
+		intervals [11]:
+			xmin = 0.6036920420000000
+			xmax = 0.6770953119999999
+			text = "g"
+		intervals [12]:
+			xmin = 0.6770953119999999
+			xmax = 0.7300000000000000
+			text = "R"
+		intervals [13]:
+			xmin = 0.7300000000000000
+			xmax = 0.8900000000000000
+			text = "E"
+	item [2]:
+		class = "IntervalTier"
+		name = "syll"
+		xmin = 0.0000000000000000
+		xmax = 0.8900000000000000
+		intervals: size = 6
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.1100000000000000
+			text = "ty"
+		intervals [2]:
+			xmin = 0.1100000000000000
+			xmax = 0.2272007040000000
+			text = "paR"
+		intervals [3]:
+			xmin = 0.2272007040000000
+			xmax = 0.3621181310000000
+			text = "l9~"
+		intervals [4]:
+			xmin = 0.3621181310000000
+			xmax = 0.4800000000000000
+			text = "p2"
+		intervals [5]:
+			xmin = 0.4800000000000000
+			xmax = 0.6036920420000000
+			text = "a~"
+		intervals [6]:
+			xmin = 0.6036920420000000
+			xmax = 0.8900000000000000
+			text = "glE"
+	item [3]:
+		class = "IntervalTier"
+		name = "words"
+		xmin = 0.0000000000000000
+		xmax = 0.8900000000000000
+		intervals: size = 5
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.1100000000000000
+			text = "tu"
+		intervals [2]:
+			xmin = 0.1100000000000000
+			xmax = 0.2730610440000000
+			text = "parles"
+		intervals [3]:
+			xmin = 0.2730610440000000
+			xmax = 0.3621181310000000
+			text = "un"
+		intervals [4]:
+			xmin = 0.3621181310000000
+			xmax = 0.4800000000000000
+			text = "peu"
+		intervals [5]:
+			xmin = 0.4800000000000000
+			xmax = 0.8900000000000000
+			text = "anglais"
+	item [4]:
+		class = "IntervalTier"
+		name = "textexpe"
+		xmin = 0.0000000000000000
+		xmax = 0.8900000000000000
+		intervals: size = 1
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.8900000000000000
+			text = "tu parles un peu anglais ? "
+	item [5]:
+		class = "IntervalTier"
+		name = "phono"
+		xmin = 0.0000000000000000
+		xmax = 0.8900000000000000
+		intervals: size = 1
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.8900000000000000
+			text = "wE ty paR l9~ p2 a~glE"
+	item [6]:
+		class = "IntervalTier"
+		name = "ortho"
+		xmin = 0.0000000000000000
+		xmax = 0.8900000000000000
+		intervals: size = 1
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.8900000000000000
+			text = "ouais tu parles un peu anglais"

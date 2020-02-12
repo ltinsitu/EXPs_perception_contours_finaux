@@ -1,0 +1,176 @@
+﻿File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0.0000000000000000
+xmax = 1.0778211680000001
+tiers? <exists>
+size = 6
+item []:
+	item [1]:
+		class = "IntervalTier"
+		name = "phones"
+		xmin = 0.0000000000000000
+		xmax = 1.0778211680000001
+		intervals: size = 17
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.0560967680000000
+			text = "t"
+		intervals [2]:
+			xmin = 0.0560967680000000
+			xmax = 0.1300000000000000
+			text = "y"
+		intervals [3]:
+			xmin = 0.1300000000000000
+			xmax = 0.1698369030000000
+			text = "p"
+		intervals [4]:
+			xmin = 0.1698369030000000
+			xmax = 0.2600000000000000
+			text = "y"
+		intervals [5]:
+			xmin = 0.2600000000000000
+			xmax = 0.3000000000000000
+			text = "g"
+		intervals [6]:
+			xmin = 0.3000000000000000
+			xmax = 0.3300000000000000
+			text = "l"
+		intervals [7]:
+			xmin = 0.3300000000000000
+			xmax = 0.4100000000000000
+			text = "e"
+		intervals [8]:
+			xmin = 0.4100000000000000
+			xmax = 0.4400000000000000
+			text = "p"
+		intervals [9]:
+			xmin = 0.4400000000000000
+			xmax = 0.5204976890000000
+			text = "o~"
+		intervals [10]:
+			xmin = 0.5204976890000000
+			xmax = 0.6000000000000000
+			text = "f"
+		intervals [11]:
+			xmin = 0.6000000000000000
+			xmax = 0.6500000000000000
+			text = "@"
+		intervals [12]:
+			xmin = 0.6500000000000000
+			xmax = 0.7000000000000000
+			text = "b"
+		intervals [13]:
+			xmin = 0.7000000000000000
+			xmax = 0.7794374560000000
+			text = "o"
+		intervals [14]:
+			xmin = 0.7794374560000000
+			xmax = 0.8673955730000000
+			text = "l"
+		intervals [15]:
+			xmin = 0.8673955730000000
+			xmax = 0.9362363680000000
+			text = "b"
+		intervals [16]:
+			xmin = 0.9362363680000000
+			xmax = 0.9625227020000000
+			text = "j"
+		intervals [17]:
+			xmin = 0.9625227020000000
+			xmax = 1.0778211680000001
+			text = "e"
+	item [2]:
+		class = "IntervalTier"
+		name = "syll"
+		xmin = 0.0000000000000000
+		xmax = 1.0778211680000001
+		intervals: size = 7
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.1300000000000000
+			text = "ty"
+		intervals [2]:
+			xmin = 0.1300000000000000
+			xmax = 0.2600000000000000
+			text = "ti"
+		intervals [3]:
+			xmin = 0.2600000000000000
+			xmax = 0.4100000000000000
+			text = "plE"
+		intervals [4]:
+			xmin = 0.4100000000000000
+			xmax = 0.5204976890000000
+			text = "da~"
+		intervals [5]:
+			xmin = 0.5204976890000000
+			xmax = 0.6500000000000000
+			text = "s@"
+		intervals [6]:
+			xmin = 0.6500000000000000
+			xmax = 0.8673955730000000
+			text = "kaR"
+		intervals [7]:
+			xmin = 0.8673955730000000
+			xmax = 1.0778211680000001
+			text = "tje"
+	item [3]:
+		class = "IntervalTier"
+		name = "words"
+		xmin = 0.0000000000000000
+		xmax = 1.0778211680000001
+		intervals: size = 6
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.1300000000000000
+			text = "tu"
+		intervals [2]:
+			xmin = 0.1300000000000000
+			xmax = 0.2600000000000000
+			text = "t'y"
+		intervals [3]:
+			xmin = 0.2600000000000000
+			xmax = 0.4100000000000000
+			text = "plais"
+		intervals [4]:
+			xmin = 0.4100000000000000
+			xmax = 0.5204976890000000
+			text = "dans"
+		intervals [5]:
+			xmin = 0.5204976890000000
+			xmax = 0.6500000000000000
+			text = "ce"
+		intervals [6]:
+			xmin = 0.6500000000000000
+			xmax = 1.0778211680000001
+			text = "quartier"
+	item [4]:
+		class = "IntervalTier"
+		name = "textexpe"
+		xmin = 0.0000000000000000
+		xmax = 1.0778211680000001
+		intervals: size = 1
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 1.0778211680000001
+			text = "tu t'y plais dans ce quartier ? "
+	item [5]:
+		class = "IntervalTier"
+		name = "phono"
+		xmin = 0.0000000000000000
+		xmax = 1.0778211680000001
+		intervals: size = 1
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 1.0778211680000001
+			text = "ty ti plE da~ s@ kaRtje"
+	item [6]:
+		class = "IntervalTier"
+		name = "ortho"
+		xmin = 0.0000000000000000
+		xmax = 1.0778211680000001
+		intervals: size = 1
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 1.0778211680000001
+			text = "tu t'y plais dans ce quartier"

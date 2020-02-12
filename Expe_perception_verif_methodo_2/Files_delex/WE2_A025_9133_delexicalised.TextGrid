@@ -1,0 +1,232 @@
+﻿File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0.0000000000000000
+xmax = 1.5377962009999999
+tiers? <exists>
+size = 6
+item []:
+	item [1]:
+		class = "IntervalTier"
+		name = "phones"
+		xmin = 0.0000000000000000
+		xmax = 1.5377962009999999
+		intervals: size = 25
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.0651192740000000
+			text = "t"
+		intervals [2]:
+			xmin = 0.0651192740000000
+			xmax = 0.1077962010000000
+			text = "a"
+		intervals [3]:
+			xmin = 0.1077962010000000
+			xmax = 0.1677962010000000
+			text = "b"
+		intervals [4]:
+			xmin = 0.1677962010000000
+			xmax = 0.2177962010000000
+			text = "u"
+		intervals [5]:
+			xmin = 0.2177962010000000
+			xmax = 0.2677962010000000
+			text = "m"
+		intervals [6]:
+			xmin = 0.2677962010000000
+			xmax = 0.3479028610000000
+			text = "u"
+		intervals [7]:
+			xmin = 0.3479028610000000
+			xmax = 0.4477962010000000
+			text = "z"
+		intervals [8]:
+			xmin = 0.4477962010000000
+			xmax = 0.5977962010000000
+			text = "E"
+		intervals [9]:
+			xmin = 0.5977962010000000
+			xmax = 0.7252230240000000
+			text = "i"
+		intervals [10]:
+			xmin = 0.7252230240000000
+			xmax = 0.7477962010000000
+			text = "s"
+		intervals [11]:
+			xmin = 0.7477962010000000
+			xmax = 0.8470560370000000
+			text = "9~"
+		intervals [12]:
+			xmin = 0.8470560370000000
+			xmax = 0.8777962010000000
+			text = "k"
+		intervals [13]:
+			xmin = 0.8777962010000000
+			xmax = 0.9335410600000000
+			text = "E"
+		intervals [14]:
+			xmin = 0.9335410600000000
+			xmax = 0.9777962010000000
+			text = "t"
+		intervals [15]:
+			xmin = 0.9777962010000000
+			xmax = 1.0277962009999999
+			text = "a"
+		intervals [16]:
+			xmin = 1.0277962009999999
+			xmax = 1.0677962009999999
+			text = "d"
+		intervals [17]:
+			xmin = 1.0677962009999999
+			xmax = 1.0993220470000000
+			text = "a"
+		intervals [18]:
+			xmin = 1.0993220470000000
+			xmax = 1.1977962010000001
+			text = "f"
+		intervals [19]:
+			xmin = 1.1977962010000001
+			xmax = 1.2377962010000001
+			text = "O"
+		intervals [20]:
+			xmin = 1.2377962010000001
+			xmax = 1.2877962009999999
+			text = "l"
+		intervals [21]:
+			xmin = 1.2877962009999999
+			xmax = 1.3477962010000000
+			text = "u"
+		intervals [22]:
+			xmin = 1.3477962010000000
+			xmax = 1.3877962010000000
+			text = "l"
+		intervals [23]:
+			xmin = 1.3877962010000000
+			xmax = 1.4177962010000000
+			text = "R"
+		intervals [24]:
+			xmin = 1.4177962010000000
+			xmax = 1.4477962010000001
+			text = "y"
+		intervals [25]:
+			xmin = 1.4477962010000001
+			xmax = 1.5377962009999999
+			text = "a~"
+	item [2]:
+		class = "IntervalTier"
+		name = "syll"
+		xmin = 0.0000000000000000
+		xmax = 1.5377962009999999
+		intervals: size = 13
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.1077962010000000
+			text = "ty"
+		intervals [2]:
+			xmin = 0.1077962010000000
+			xmax = 0.2177962010000000
+			text = "kO"
+		intervals [3]:
+			xmin = 0.2177962010000000
+			xmax = 0.3479028610000000
+			text = "ne"
+		intervals [4]:
+			xmin = 0.3479028610000000
+			xmax = 0.5977962010000000
+			text = "sE"
+		intervals [5]:
+			xmin = 0.5977962010000000
+			xmax = 0.7252230240000000
+			text = "a"
+		intervals [6]:
+			xmin = 0.7252230240000000
+			xmax = 0.8470560370000000
+			text = "va~"
+		intervals [7]:
+			xmin = 0.8470560370000000
+			xmax = 0.9335410600000000
+			text = "da"
+		intervals [8]:
+			xmin = 0.9335410600000000
+			xmax = 1.0277962009999999
+			text = "bi"
+		intervals [9]:
+			xmin = 1.0277962009999999
+			xmax = 1.0993220470000000
+			text = "te"
+		intervals [10]:
+			xmin = 1.0993220470000000
+			xmax = 1.2377962010000001
+			text = "sy"
+		intervals [11]:
+			xmin = 1.2377962010000001
+			xmax = 1.3877962010000000
+			text = "ROR"
+		intervals [12]:
+			xmin = 1.3877962010000000
+			xmax = 1.4477962010000001
+			text = "le"
+		intervals [13]:
+			xmin = 1.4477962010000001
+			xmax = 1.5377962009999999
+			text = "a~"
+	item [3]:
+		class = "IntervalTier"
+		name = "words"
+		xmin = 0.0000000000000000
+		xmax = 1.5377962009999999
+		intervals: size = 6
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.1077962010000000
+			text = "tu"
+		intervals [2]:
+			xmin = 0.1077962010000000
+			xmax = 0.5977962010000000
+			text = "connaissais"
+		intervals [3]:
+			xmin = 0.5977962010000000
+			xmax = 0.8470560370000000
+			text = "avant"
+		intervals [4]:
+			xmin = 0.8470560370000000
+			xmax = 1.0993220470000000
+			text = "d'habiter"
+		intervals [5]:
+			xmin = 1.0993220470000000
+			xmax = 1.2377962010000001
+			text = "sur"
+		intervals [6]:
+			xmin = 1.2377962010000001
+			xmax = 1.5377962009999999
+			text = "orléans"
+	item [4]:
+		class = "IntervalTier"
+		name = "textexpe"
+		xmin = 0.0000000000000000
+		xmax = 1.5377962009999999
+		intervals: size = 1
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 1.5377962009999999
+			text = "tu connaissais avant d'habiter sur orléans ? "
+	item [5]:
+		class = "IntervalTier"
+		name = "phono"
+		xmin = 0.0000000000000000
+		xmax = 1.5377962009999999
+		intervals: size = 1
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 1.5377962009999999
+			text = "ty kOnesE ava~ dabite sy RORlea~"
+	item [6]:
+		class = "IntervalTier"
+		name = "ortho"
+		xmin = 0.0000000000000000
+		xmax = 1.5377962009999999
+		intervals: size = 1
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 1.5377962009999999
+			text = "tu connaissais avant d'habiter sur orléans"
