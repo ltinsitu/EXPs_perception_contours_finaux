@@ -1,0 +1,232 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 1.8683910115449356 
+tiers? <exists> 
+size = 6 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "phones" 
+        xmin = 0 
+        xmax = 1.8683910115449356 
+        intervals: size = 21 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.02348635330927579 
+            text = "_" 
+        intervals [2]:
+            xmin = 0.02348635330927579 
+            xmax = 0.06580422516101785 
+            text = "k" 
+        intervals [3]:
+            xmin = 0.06580422516101785 
+            xmax = 0.14729635552694398 
+            text = "E" 
+        intervals [4]:
+            xmin = 0.14729635552694398 
+            xmax = 0.21663840128383724 
+            text = "l" 
+        intervals [5]:
+            xmin = 0.21663840128383724 
+            xmax = 0.31794861773201905 
+            text = "m" 
+        intervals [6]:
+            xmin = 0.31794861773201905 
+            xmax = 0.3960553183498058 
+            text = "E" 
+        intervals [7]:
+            xmin = 0.3960553183498058 
+            xmax = 0.44526216573345734 
+            text = "R" 
+        intervals [8]:
+            xmin = 0.44526216573345734 
+            xmax = 0.5083910115449353 
+            text = "v" 
+        intervals [9]:
+            xmin = 0.5083910115449353 
+            xmax = 0.5719845153702974 
+            text = "E" 
+        intervals [10]:
+            xmin = 0.5719845153702974 
+            xmax = 0.6661208106275399 
+            text = "j" 
+        intervals [11]:
+            xmin = 0.6661208106275399 
+            xmax = 0.7683910115449353 
+            text = "2" 
+        intervals [12]:
+            xmin = 0.7683910115449353 
+            xmax = 0.8945834328241552 
+            text = "z" 
+        intervals [13]:
+            xmin = 0.8945834328241552 
+            xmax = 1.0083910115449353 
+            text = "O" 
+        intervals [14]:
+            xmin = 1.0083910115449353 
+            xmax = 1.0983910115449351 
+            text = "m" 
+        intervals [15]:
+            xmin = 1.0983910115449351 
+            xmax = 1.2031084909386727 
+            text = "e" 
+        intervals [16]:
+            xmin = 1.2031084909386727 
+            xmax = 1.2583910115449353 
+            text = "p" 
+        intervals [17]:
+            xmin = 1.2583910115449353 
+            xmax = 1.328391011544935 
+            text = "a" 
+        intervals [18]:
+            xmin = 1.328391011544935 
+            xmax = 1.4483910115449352 
+            text = "R" 
+        intervals [19]:
+            xmin = 1.4483910115449352 
+            xmax = 1.5583910115449355 
+            text = "t" 
+        intervals [20]:
+            xmin = 1.5583910115449355 
+            xmax = 1.7444326287776806 
+            text = "i" 
+        intervals [21]:
+            xmin = 1.7444326287776806 
+            xmax = 1.8683910115449356 
+            text = "_" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "syll" 
+        xmin = 0 
+        xmax = 1.8683910115449356 
+        intervals: size = 10 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.02348635330927579 
+            text = "_" 
+        intervals [2]:
+            xmin = 0.02348635330927579 
+            xmax = 0.21663840128383724 
+            text = "kEl" 
+        intervals [3]:
+            xmin = 0.21663840128383724 
+            xmax = 0.44526216573345734 
+            text = "mER" 
+        intervals [4]:
+            xmin = 0.44526216573345734 
+            xmax = 0.5719845153702974 
+            text = "vE" 
+        intervals [5]:
+            xmin = 0.5719845153702974 
+            xmax = 0.7683910115449353 
+            text = "j2" 
+        intervals [6]:
+            xmin = 0.7683910115449353 
+            xmax = 1.0083910115449353 
+            text = "zO" 
+        intervals [7]:
+            xmin = 1.0083910115449353 
+            xmax = 1.2031084909386727 
+            text = "me" 
+        intervals [8]:
+            xmin = 1.2031084909386727 
+            xmax = 1.4483910115449352 
+            text = "paR" 
+        intervals [9]:
+            xmin = 1.4483910115449352 
+            xmax = 1.7444326287776806 
+            text = "ti" 
+        intervals [10]:
+            xmin = 1.7444326287776806 
+            xmax = 1.8683910115449356 
+            text = "_" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "words" 
+        xmin = 0 
+        xmax = 1.8683910115449356 
+        intervals: size = 7 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.02348635330927579 
+            text = "_" 
+        intervals [2]:
+            xmin = 0.02348635330927579 
+            xmax = 0.21663840128383724 
+            text = "quel" 
+        intervals [3]:
+            xmin = 0.21663840128383724 
+            xmax = 0.7683910115449353 
+            text = "merveilleux" 
+        intervals [4]:
+            xmin = 0.7683910115449353 
+            xmax = 1.0983910115449351 
+            text = "homme" 
+        intervals [5]:
+            xmin = 1.0983910115449351 
+            xmax = 1.2031084909386727 
+            text = "est" 
+        intervals [6]:
+            xmin = 1.2031084909386727 
+            xmax = 1.7444326287776806 
+            text = "parti" 
+        intervals [7]:
+            xmin = 1.7444326287776806 
+            xmax = 1.8683910115449356 
+            text = "_" 
+    item [4]:
+        class = "IntervalTier" 
+        name = "textexpe" 
+        xmin = 0 
+        xmax = 1.8683910115449356 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.02348635330927579 
+            text = "_" 
+        intervals [2]:
+            xmin = 0.02348635330927579 
+            xmax = 1.7444326287776806 
+            text = "quel merveilleux homme est parti" 
+        intervals [3]:
+            xmin = 1.7444326287776806 
+            xmax = 1.8683910115449356 
+            text = "_" 
+    item [5]:
+        class = "IntervalTier" 
+        name = "phono" 
+        xmin = 0 
+        xmax = 1.8683910115449356 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.02348635330927579 
+            text = "_" 
+        intervals [2]:
+            xmin = 0.02348635330927579 
+            xmax = 1.7444326287776806 
+            text = "kEl mERvEj2 z*Om e paRti" 
+        intervals [3]:
+            xmin = 1.7444326287776806 
+            xmax = 1.8683910115449356 
+            text = "_" 
+    item [6]:
+        class = "IntervalTier" 
+        name = "ortho" 
+        xmin = 0 
+        xmax = 1.8683910115449356 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.02348635330927579 
+            text = "_" 
+        intervals [2]:
+            xmin = 0.02348635330927579 
+            xmax = 1.7444326287776806 
+            text = "quel merveilleux homme est parti" 
+        intervals [3]:
+            xmin = 1.7444326287776806 
+            xmax = 1.8683910115449356 
+            text = "_" 

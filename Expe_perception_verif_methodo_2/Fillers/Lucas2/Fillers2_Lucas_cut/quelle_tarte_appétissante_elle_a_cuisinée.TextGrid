@@ -1,0 +1,236 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 2.140807968707017 
+tiers? <exists> 
+size = 6 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "phones" 
+        xmin = 0 
+        xmax = 2.140807968707017 
+        intervals: size = 26 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.05000000000000071 
+            text = "k" 
+        intervals [2]:
+            xmin = 0.05000000000000071 
+            xmax = 0.14000000000000057 
+            text = "E" 
+        intervals [3]:
+            xmin = 0.14000000000000057 
+            xmax = 0.2537752719859227 
+            text = "l" 
+        intervals [4]:
+            xmin = 0.2537752719859227 
+            xmax = 0.33000000000000185 
+            text = "t" 
+        intervals [5]:
+            xmin = 0.33000000000000185 
+            xmax = 0.4200000000000017 
+            text = "a" 
+        intervals [6]:
+            xmin = 0.4200000000000017 
+            xmax = 0.5500000000000007 
+            text = "R" 
+        intervals [7]:
+            xmin = 0.5500000000000007 
+            xmax = 0.6099999999999994 
+            text = "t" 
+        intervals [8]:
+            xmin = 0.6099999999999994 
+            xmax = 0.7115276734134004 
+            text = "_" 
+        intervals [9]:
+            xmin = 0.7115276734134004 
+            xmax = 0.8246743065159814 
+            text = "a" 
+        intervals [10]:
+            xmin = 0.8246743065159814 
+            xmax = 0.9000000000000021 
+            text = "p" 
+        intervals [11]:
+            xmin = 0.9000000000000021 
+            xmax = 0.9800000000000004 
+            text = "e" 
+        intervals [12]:
+            xmin = 0.9800000000000004 
+            xmax = 1.0399999999999991 
+            text = "t" 
+        intervals [13]:
+            xmin = 1.0399999999999991 
+            xmax = 1.120000000000001 
+            text = "i" 
+        intervals [14]:
+            xmin = 1.120000000000001 
+            xmax = 1.240000000000002 
+            text = "s" 
+        intervals [15]:
+            xmin = 1.240000000000002 
+            xmax = 1.379999999999999 
+            text = "a~" 
+        intervals [16]:
+            xmin = 1.379999999999999 
+            xmax = 1.4316282884200136 
+            text = "t" 
+        intervals [17]:
+            xmin = 1.4316282884200136 
+            xmax = 1.490000000000002 
+            text = "E" 
+        intervals [18]:
+            xmin = 1.490000000000002 
+            xmax = 1.5199999999999996 
+            text = "l" 
+        intervals [19]:
+            xmin = 1.5199999999999996 
+            xmax = 1.629999999999999 
+            text = "a" 
+        intervals [20]:
+            xmin = 1.629999999999999 
+            xmax = 1.6900000000000013 
+            text = "k" 
+        intervals [21]:
+            xmin = 1.6900000000000013 
+            xmax = 1.7300000000000004 
+            text = "H" 
+        intervals [22]:
+            xmin = 1.7300000000000004 
+            xmax = 1.772909335513994 
+            text = "i" 
+        intervals [23]:
+            xmin = 1.772909335513994 
+            xmax = 1.8284663649416086 
+            text = "z" 
+        intervals [24]:
+            xmin = 1.8284663649416086 
+            xmax = 1.8900000000000006 
+            text = "i" 
+        intervals [25]:
+            xmin = 1.8900000000000006 
+            xmax = 1.9800000000000004 
+            text = "n" 
+        intervals [26]:
+            xmin = 1.9800000000000004 
+            xmax = 2.140807968707017 
+            text = "e" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "syll" 
+        xmin = 0 
+        xmax = 2.140807968707017 
+        intervals: size = 12 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.2537752719859227 
+            text = "kEl" 
+        intervals [2]:
+            xmin = 0.2537752719859227 
+            xmax = 0.6099999999999994 
+            text = "taRt" 
+        intervals [3]:
+            xmin = 0.6099999999999994 
+            xmax = 0.7115276734134004 
+            text = "_" 
+        intervals [4]:
+            xmin = 0.7115276734134004 
+            xmax = 0.8246743065159814 
+            text = "a" 
+        intervals [5]:
+            xmin = 0.8246743065159814 
+            xmax = 0.9800000000000004 
+            text = "pe" 
+        intervals [6]:
+            xmin = 0.9800000000000004 
+            xmax = 1.120000000000001 
+            text = "ti" 
+        intervals [7]:
+            xmin = 1.120000000000001 
+            xmax = 1.379999999999999 
+            text = "sa~" 
+        intervals [8]:
+            xmin = 1.379999999999999 
+            xmax = 1.490000000000002 
+            text = "tE" 
+        intervals [9]:
+            xmin = 1.490000000000002 
+            xmax = 1.629999999999999 
+            text = "la" 
+        intervals [10]:
+            xmin = 1.629999999999999 
+            xmax = 1.772909335513994 
+            text = "kHi" 
+        intervals [11]:
+            xmin = 1.772909335513994 
+            xmax = 1.8900000000000006 
+            text = "zi" 
+        intervals [12]:
+            xmin = 1.8900000000000006 
+            xmax = 2.140807968707017 
+            text = "ne" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "words" 
+        xmin = 0 
+        xmax = 2.140807968707017 
+        intervals: size = 7 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.2537752719859227 
+            text = "quelle" 
+        intervals [2]:
+            xmin = 0.2537752719859227 
+            xmax = 0.6099999999999994 
+            text = "tarte" 
+        intervals [3]:
+            xmin = 0.6099999999999994 
+            xmax = 0.7115276734134004 
+            text = "_" 
+        intervals [4]:
+            xmin = 0.7115276734134004 
+            xmax = 1.4316282884200136 
+            text = "appétissante" 
+        intervals [5]:
+            xmin = 1.4316282884200136 
+            xmax = 1.5199999999999996 
+            text = "elle" 
+        intervals [6]:
+            xmin = 1.5199999999999996 
+            xmax = 1.629999999999999 
+            text = "a" 
+        intervals [7]:
+            xmin = 1.629999999999999 
+            xmax = 2.140807968707017 
+            text = "cuisinée" 
+    item [4]:
+        class = "IntervalTier" 
+        name = "textexpe" 
+        xmin = 0 
+        xmax = 2.140807968707017 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 2.140807968707017 
+            text = "quelle tarte appétissante elle a cuisinée" 
+    item [5]:
+        class = "IntervalTier" 
+        name = "phono" 
+        xmin = 0 
+        xmax = 2.140807968707017 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 2.140807968707017 
+            text = "kEltaRtapetisa~tElakHizine" 
+    item [6]:
+        class = "IntervalTier" 
+        name = "ortho" 
+        xmin = 0 
+        xmax = 2.140807968707017 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 2.140807968707017 
+            text = "quelle tarte appétissante elle a cuisinée" 

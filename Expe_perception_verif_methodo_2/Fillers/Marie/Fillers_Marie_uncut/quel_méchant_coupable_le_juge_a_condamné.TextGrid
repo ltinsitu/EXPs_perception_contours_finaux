@@ -1,0 +1,260 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 2.4836106528980526 
+tiers? <exists> 
+size = 6 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "phones" 
+        xmin = 0 
+        xmax = 2.4836106528980526 
+        intervals: size = 27 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.0506497201876163 
+            text = "_" 
+        intervals [2]:
+            xmin = 0.0506497201876163 
+            xmax = 0.09361065289805248 
+            text = "k" 
+        intervals [3]:
+            xmin = 0.09361065289805248 
+            xmax = 0.1847321124961202 
+            text = "E" 
+        intervals [4]:
+            xmin = 0.1847321124961202 
+            xmax = 0.27116887483336327 
+            text = "l" 
+        intervals [5]:
+            xmin = 0.27116887483336327 
+            xmax = 0.3963031129047714 
+            text = "m" 
+        intervals [6]:
+            xmin = 0.3963031129047714 
+            xmax = 0.47978837604025487 
+            text = "e" 
+        intervals [7]:
+            xmin = 0.47978837604025487 
+            xmax = 0.6136106528980525 
+            text = "S" 
+        intervals [8]:
+            xmin = 0.6136106528980525 
+            xmax = 0.7736106528980524 
+            text = "a~" 
+        intervals [9]:
+            xmin = 0.7736106528980524 
+            xmax = 0.8236106528980525 
+            text = "k" 
+        intervals [10]:
+            xmin = 0.8236106528980525 
+            xmax = 0.9400355400462986 
+            text = "u" 
+        intervals [11]:
+            xmin = 0.9400355400462986 
+            xmax = 1.0009980846373914 
+            text = "p" 
+        intervals [12]:
+            xmin = 1.0009980846373914 
+            xmax = 1.1578491850737544 
+            text = "a" 
+        intervals [13]:
+            xmin = 1.1578491850737544 
+            xmax = 1.2023413334996627 
+            text = "b" 
+        intervals [14]:
+            xmin = 1.2023413334996627 
+            xmax = 1.242819036838079 
+            text = "l" 
+        intervals [15]:
+            xmin = 1.242819036838079 
+            xmax = 1.3136106528980527 
+            text = "@" 
+        intervals [16]:
+            xmin = 1.3136106528980527 
+            xmax = 1.378588000119017 
+            text = "l" 
+        intervals [17]:
+            xmin = 1.378588000119017 
+            xmax = 1.5002536342281614 
+            text = "@" 
+        intervals [18]:
+            xmin = 1.5002536342281614 
+            xmax = 1.6316445842031395 
+            text = "Z" 
+        intervals [19]:
+            xmin = 1.6316445842031395 
+            xmax = 1.7374769127233738 
+            text = "y" 
+        intervals [20]:
+            xmin = 1.7374769127233738 
+            xmax = 1.8057830371069512 
+            text = "Z" 
+        intervals [21]:
+            xmin = 1.8057830371069512 
+            xmax = 1.9036106528980525 
+            text = "a" 
+        intervals [22]:
+            xmin = 1.9036106528980525 
+            xmax = 2.0236106528980526 
+            text = "k" 
+        intervals [23]:
+            xmin = 2.0236106528980526 
+            xmax = 2.1336106528980525 
+            text = "o~" 
+        intervals [24]:
+            xmin = 2.1336106528980525 
+            xmax = 2.1736106528980526 
+            text = "d" 
+        intervals [25]:
+            xmin = 2.1736106528980526 
+            xmax = 2.263460549980818 
+            text = "a" 
+        intervals [26]:
+            xmin = 2.263460549980818 
+            xmax = 2.344837599400759 
+            text = "n" 
+        intervals [27]:
+            xmin = 2.344837599400759 
+            xmax = 2.4836106528980526 
+            text = "e" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "syll" 
+        xmin = 0 
+        xmax = 2.4836106528980526 
+        intervals: size = 13 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.0506497201876163 
+            text = "_" 
+        intervals [2]:
+            xmin = 0.0506497201876163 
+            xmax = 0.27116887483336327 
+            text = "kEl" 
+        intervals [3]:
+            xmin = 0.27116887483336327 
+            xmax = 0.47978837604025487 
+            text = "me" 
+        intervals [4]:
+            xmin = 0.47978837604025487 
+            xmax = 0.7736106528980524 
+            text = "Sa~" 
+        intervals [5]:
+            xmin = 0.7736106528980524 
+            xmax = 0.9400355400462986 
+            text = "ku" 
+        intervals [6]:
+            xmin = 0.9400355400462986 
+            xmax = 1.1578491850737544 
+            text = "pa" 
+        intervals [7]:
+            xmin = 1.1578491850737544 
+            xmax = 1.3136106528980527 
+            text = "bl@" 
+        intervals [8]:
+            xmin = 1.3136106528980527 
+            xmax = 1.5002536342281614 
+            text = "l@" 
+        intervals [9]:
+            xmin = 1.5002536342281614 
+            xmax = 1.7374769127233738 
+            text = "Zy" 
+        intervals [10]:
+            xmin = 1.7374769127233738 
+            xmax = 1.9036106528980525 
+            text = "Za" 
+        intervals [11]:
+            xmin = 1.9036106528980525 
+            xmax = 2.1336106528980525 
+            text = "ko~" 
+        intervals [12]:
+            xmin = 2.1336106528980525 
+            xmax = 2.263460549980818 
+            text = "da" 
+        intervals [13]:
+            xmin = 2.263460549980818 
+            xmax = 2.4836106528980526 
+            text = "ne" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "words" 
+        xmin = 0 
+        xmax = 2.4836106528980526 
+        intervals: size = 8 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.0506497201876163 
+            text = "_" 
+        intervals [2]:
+            xmin = 0.0506497201876163 
+            xmax = 0.27116887483336327 
+            text = "quel" 
+        intervals [3]:
+            xmin = 0.27116887483336327 
+            xmax = 0.7736106528980524 
+            text = "méchant" 
+        intervals [4]:
+            xmin = 0.7736106528980524 
+            xmax = 1.3136106528980527 
+            text = "coupable" 
+        intervals [5]:
+            xmin = 1.3136106528980527 
+            xmax = 1.5002536342281614 
+            text = "le" 
+        intervals [6]:
+            xmin = 1.5002536342281614 
+            xmax = 1.8057830371069512 
+            text = "juge" 
+        intervals [7]:
+            xmin = 1.8057830371069512 
+            xmax = 1.9036106528980525 
+            text = "a" 
+        intervals [8]:
+            xmin = 1.9036106528980525 
+            xmax = 2.4836106528980526 
+            text = "condamné" 
+    item [4]:
+        class = "IntervalTier" 
+        name = "textexpe" 
+        xmin = 0 
+        xmax = 2.4836106528980526 
+        intervals: size = 2 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.0506497201876163 
+            text = "_" 
+        intervals [2]:
+            xmin = 0.0506497201876163 
+            xmax = 2.4836106528980526 
+            text = "quel méchant coupable le juge a condamné" 
+    item [5]:
+        class = "IntervalTier" 
+        name = "phono" 
+        xmin = 0 
+        xmax = 2.4836106528980526 
+        intervals: size = 2 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.0506497201876163 
+            text = "_" 
+        intervals [2]:
+            xmin = 0.0506497201876163 
+            xmax = 2.4836106528980526 
+            text = "kEl meSa~ kupabl@* l@ ZyZ a ko~dane" 
+    item [6]:
+        class = "IntervalTier" 
+        name = "ortho" 
+        xmin = 0 
+        xmax = 2.4836106528980526 
+        intervals: size = 2 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.0506497201876163 
+            text = "_" 
+        intervals [2]:
+            xmin = 0.0506497201876163 
+            xmax = 2.4836106528980526 
+            text = "quel méchant coupable le juge a condamné" 

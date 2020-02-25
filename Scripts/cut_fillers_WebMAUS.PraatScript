@@ -1,0 +1,52 @@
+#To cut the TG and sound containing fillers into several files
+#First in Praat, add a tier in position 4 named ortho, and label each sentence in this tier
+#After applying this script use the one called "add text to phono tier"
+
+
+folderout$ = "/home/lucas/Documents/CloudStation/SDL/PhD/Prosodie/Expés_Prosodie/EXPs_perception_contours_finaux/Expe_perception_verif_methodo_2/Fillers/Lucas2/Fillers2Lucas/"
+
+id$ = selected$("TextGrid")
+
+
+Set tier name: 1, "words"
+Remove tier: 2
+Set tier name: 2, "phones"
+Duplicate tier: 2, 1, "phones"
+Remove tier: 3
+Duplicate tier: 4, 3, "textexpe"
+Insert interval tier: 2, "syll"
+Insert interval tier: 5, "phono"
+
+
+nint = Get number of intervals: 4
+
+clearinfo
+
+num = 00
+
+for n to 'nint'
+	selectObject: "TextGrid 'id$'"
+	labint$ = Get label of interval: 4, n
+	if not startsWith ("'labint$'", "_")
+		num = 'num' + 1
+		selectObject: "TextGrid 'id$'"
+		startint = Get start time of interval: 4, n
+		endint = Get end time of interval: 4, n
+		print 'num'
+		printtab
+		print 'startint'
+		printtab
+		print 'labint$'
+		printtab
+		print 'endint'
+		printline
+		Extract part: 'startint', 'endint', "no"
+		Rename: "TG-'labint$'"
+		Save as text file: "'folderout$'/'num'-TG-'labint$'.TextGrid"
+		selectObject: "Sound 'id$'"
+		Extract part: 'startint', 'endint', "rectangular", 1, "no"
+		Resample: 16000, 50
+		Rename: "Sound-'labint$'"
+		Save as WAV file: "'folderout$'/'num'-Sound-'labint$'.wav"
+	endif
+endfor

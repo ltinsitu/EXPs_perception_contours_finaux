@@ -1,0 +1,29 @@
+#To cut the TG and sound containing fillers into several files
+#First in Praat, add a tier in position 4 named ortho, and label each sentence in this tier
+#After applying this script use the one called "add text to phono tier"
+
+
+folderout$ = "/home/lucas/Documents/CloudStation/SDL/PhD/Prosodie/Expés_Prosodie/EXPs_perception_contours_finaux/Expe_perception_verif_methodo_2/Fillers/Lucas2/TEST/TESSTTTT/"
+
+id$ = selected$("TextGrid")
+
+Insert interval tier: 4, "ortho"
+
+nphones = Get number of intervals: 3
+
+for p to 'nphones'
+	labphone$ = Get label of interval: 3, p
+	startphone = Get start time of interval: 3, p
+	stopphone = Get end time of interval: 3, p
+	if startsWith ("'labphone$'", "_")
+		if p = 1
+			Insert boundary: 4, stopphone
+		elif p = nphones
+			Insert boundary: 4, startphone
+		else
+			Insert boundary: 4, startphone
+			Insert boundary: 4, stopphone
+		endif
+	endif
+endfor
+

@@ -6,8 +6,8 @@ import sys, re, os, csv
 from os import walk
 
 #Defining folders
-folder = "/home/lucas/Documents/CloudStation/SDL/PhD/Prosodie/Expés_Prosodie/EXP_perception_contours_finaux/REAL_EXPE_Ibex/Fillers/Laure/Oldnames_segmented_cut/"
-folderout = "/home/lucas/Documents/CloudStation/SDL/PhD/Prosodie/Expés_Prosodie/EXP_perception_contours_finaux/REAL_EXPE_Ibex/Fillers/Laure/Fillers_Laure_delexicalised/"
+folder = "/home/lucas/Documents/CloudStation/SDL/PhD/Prosodie/Expés_Prosodie/EXPs_perception_contours_finaux/Expe_perception_verif_methodo_2/Fillers/Marie/Marie_clair/"
+folderout = "/home/lucas/Documents/CloudStation/SDL/PhD/Prosodie/Expés_Prosodie/EXPs_perception_contours_finaux/Expe_perception_verif_methodo_2/Fillers/Marie/Marie_clair/Marie_clair_audio/"
 
 #Defining the first part of the command
 commandstart = "/usr/bin/mbrola /home/lucas/Documents/CloudStation/SDL/PhD/Prosodie/Expés_Prosodie/EXP_perception_contours_finaux/ForMBROLA/Database_voices/fr4/fr4"
@@ -17,13 +17,13 @@ for (dirpath, dirnames, filenames) in walk(folder):
 		if file.endswith(".pho"):
 			filepho = dirpath+file
 			# ~ print(filepho)
-			fileoutput = file.strip(".pho") + ".wav"
+			fileoutput = file.strip("_delexicalised.pho") + "_clair.wav"
 			# ~ print(fileoutput)
 			pathoutput = folderout + fileoutput
 			# ~ print(pathoutput)
 			command = commandstart + " " + filepho + " " + pathoutput
 			print(command)
-			os.system(command)
+			# ~ os.system(command)
 			
 			
 #Start the loop

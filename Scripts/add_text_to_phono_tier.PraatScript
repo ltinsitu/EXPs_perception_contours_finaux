@@ -1,0 +1,22 @@
+#To get the phono sequence from the phones tier and insert it in the phono tier
+#TO be applied cyclically to all TGs
+#Path to script: /home/lucas/Documents/CloudStation/SDL/PhD/Prosodie/Expés_Prosodie/EXPs_perception_contours_finaux/Scripts/add_text_to_phono_tier.PraatScript
+
+
+id$ = selected$("TextGrid")
+
+nint = Get number of intervals: 1
+
+clearinfo
+
+textphono$ = ""
+
+for n to 'nint'
+	selectObject: "TextGrid 'id$'"
+	labint$ = Get label of interval: 1, n
+	print 'labint$'
+	textphono$ = "'textphono$'"+"'labint$'"
+#for n to 'nint'
+endfor
+
+Set interval text: 5, 1, "'textphono$'"
