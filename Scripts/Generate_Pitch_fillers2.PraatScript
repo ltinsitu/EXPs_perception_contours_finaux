@@ -1,0 +1,72 @@
+#To generate all .Pitch for the experiment, with different settings depending on gender
+
+#Define folders
+folderwav$ ="/home/lucas/Documents/CloudStation/SDL/PhD/Prosodie/Expés_Prosodie/EXPs_perception_contours_finaux/Expe_perception_verif_methodo_2/Fillers/Touff et Maïté/SimonMaite_cut/"
+folderPitch$ = "/home/lucas/Documents/CloudStation/SDL/PhD/Prosodie/Expés_Prosodie/EXPs_perception_contours_finaux/Expe_perception_verif_methodo_2/Fillers/Touff et Maïté/SimonMaite_cut/"
+
+#We open the csv file
+Read Table from tab-separated file: "/home/lucas/Documents/CloudStation/SDL/PhD/Prosodie/Expés_Prosodie/EXPs_perception_contours_finaux/Expe_perception_verif_methodo_2/Expe_perception_verif_methodo_2_fillers.csv"
+selectObject: "Table Expe_perception_verif_methodo_2_fillers"
+
+nrows = Get number of rows
+
+clearinfo
+#Get the label of the spksex, expeOK and sentencekey cols
+sentencekeylab$ = Get column label: 3
+spksexlab$ = Get column label: 10
+# ~ okexpelab$ = Get column label: 4
+# ~ praatnotdonelab$ = Get column label: 7
+
+#ALSO SPKID CAUSE OF THE MISTAKE MENTIONED BELOW. NOT NECESSARY BUT HARMLESS
+#spkidlab$ = Get column label: 44
+
+
+#Starting the loop on all sentences
+for n to 'nrows'
+	#Need to be sure the table is selected
+	selectObject: "Table Expe_perception_verif_methodo_2_fillers"
+	# ~ okexpe$ = Get value: 'n', "'okexpelab$'"
+	#HERE I JUST TAKE INTO ACCOUNT ONE SPEAKER THAT WAS WRONGLY IDENTIFIED AS MALE
+	#TO REMOVE IF SCRIPT IS APPLIED AGAIN TO THE WHOLE CORPUS
+	# ~ spkid$ = Get value: 'n', "'spkidlab$'"
+	# ~ if index ("'spkid$'", "WT075") > 0
+		#We take only sentences for expe
+	# ~ if index ("'okexpe$'", "YES") > 0
+	#We get the new sentence key, wavfile name and spksex
+	sentencekey$ = Get value: 'n', "'sentencekeylab$'"
+	# ~ print 'sentencekey$'
+	# ~ printline
+	wavfile$ = "'sentencekey$'" + ".wav"
+	#We create the strings for Pitch filenames
+	pitchfile$ = "'sentencekey$'" + ".Pitch"
+	spksex$ = Get value: 'n', "'spksexlab$'"
+	print 'sentencekey$'
+	printtab
+	print 'spksex$'
+	printline
+	#I'm doing another condition here because in this script I only treat the 7 files that were added ultimately
+	# ~ praatnotdone$ = Get value: 'n', "'praatnotdonelab$'"
+	# ~ if index ("'praatnotdone$'", "NO") > 0
+	# ~ #We open all wav files and be sure to select the right one
+	Read from file: "'folderwav$''wavfile$'"
+	# ~ selectObject: "Sound 'wavname$'"
+	#We consider separately males and females (as it should be)
+	if index ("'spksex$'", "M") > 0
+		To Pitch (ac): 0, 50, 15, "yes", 0.03, 0.45, 0.01, 0.35, 0.14, 400
+		# ~ selectObject: "Pitch 'sentencekey$'"
+		Save as text file: "'folderPitch$''pitchfile$'"
+	endif
+	if index ("'spksex$'", "F") > 0
+		To Pitch (ac): 0, 75, 15, "yes", 0.03, 0.45, 0.01, 0.35, 0.14, 600
+		# ~ selectObject: "Pitch 'sentencekey$'"
+		Save as text file: "'folderPitch$''pitchfile$'"
+		endif
+	#if index ("'praatnotdone'", "NO") > 0
+	endif
+	# ~ endif
+	# ~ endif
+endfor
+
+#Remove the table at the end
+selectObject: "Table Expe_perception_verif_methodo_2_fillers"
+Remove

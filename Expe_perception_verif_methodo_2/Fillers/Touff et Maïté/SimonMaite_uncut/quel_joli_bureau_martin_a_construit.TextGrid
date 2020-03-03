@@ -1,0 +1,264 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 1.8100000000000023 
+tiers? <exists> 
+size = 6 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "phones" 
+        xmin = 0 
+        xmax = 1.8100000000000023 
+        intervals: size = 26 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.05375077252669021 
+            text = "_" 
+        intervals [2]:
+            xmin = 0.05375077252669021 
+            xmax = 0.08000000000000185 
+            text = "k" 
+        intervals [3]:
+            xmin = 0.08000000000000185 
+            xmax = 0.13965309312149865 
+            text = "E" 
+        intervals [4]:
+            xmin = 0.13965309312149865 
+            xmax = 0.19000000000000128 
+            text = "l" 
+        intervals [5]:
+            xmin = 0.19000000000000128 
+            xmax = 0.3000000000000007 
+            text = "Z" 
+        intervals [6]:
+            xmin = 0.3000000000000007 
+            xmax = 0.370000000000001 
+            text = "O" 
+        intervals [7]:
+            xmin = 0.370000000000001 
+            xmax = 0.4200000000000017 
+            text = "l" 
+        intervals [8]:
+            xmin = 0.4200000000000017 
+            xmax = 0.5300000000000011 
+            text = "i" 
+        intervals [9]:
+            xmin = 0.5300000000000011 
+            xmax = 0.5700000000000003 
+            text = "b" 
+        intervals [10]:
+            xmin = 0.5700000000000003 
+            xmax = 0.6799999999999997 
+            text = "y" 
+        intervals [11]:
+            xmin = 0.6799999999999997 
+            xmax = 0.7206645279670694 
+            text = "R" 
+        intervals [12]:
+            xmin = 0.7206645279670694 
+            xmax = 0.8300000000000018 
+            text = "o" 
+        intervals [13]:
+            xmin = 0.8300000000000018 
+            xmax = 0.9000000000000021 
+            text = "m" 
+        intervals [14]:
+            xmin = 0.9000000000000021 
+            xmax = 0.9700000000000024 
+            text = "a" 
+        intervals [15]:
+            xmin = 0.9700000000000024 
+            xmax = 1.0800000000000018 
+            text = "R" 
+        intervals [16]:
+            xmin = 1.0800000000000018 
+            xmax = 1.1300000000000026 
+            text = "t" 
+        intervals [17]:
+            xmin = 1.1300000000000026 
+            xmax = 1.186085042850113 
+            text = "e~" 
+        intervals [18]:
+            xmin = 1.186085042850113 
+            xmax = 1.2900000000000027 
+            text = "a" 
+        intervals [19]:
+            xmin = 1.2900000000000027 
+            xmax = 1.360000000000003 
+            text = "k" 
+        intervals [20]:
+            xmin = 1.360000000000003 
+            xmax = 1.4299999999999997 
+            text = "o~" 
+        intervals [21]:
+            xmin = 1.4299999999999997 
+            xmax = 1.5239483091667652 
+            text = "s" 
+        intervals [22]:
+            xmin = 1.5239483091667652 
+            xmax = 1.5688484877318996 
+            text = "t" 
+        intervals [23]:
+            xmin = 1.5688484877318996 
+            xmax = 1.625291511062206 
+            text = "R" 
+        intervals [24]:
+            xmin = 1.625291511062206 
+            xmax = 1.6616824076830616 
+            text = "H" 
+        intervals [25]:
+            xmin = 1.6616824076830616 
+            xmax = 1.75847724155214 
+            text = "i" 
+        intervals [26]:
+            xmin = 1.75847724155214 
+            xmax = 1.8100000000000023 
+            text = "_" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "syll" 
+        xmin = 0 
+        xmax = 1.8100000000000023 
+        intervals: size = 12 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.05375077252669021 
+            text = "_" 
+        intervals [2]:
+            xmin = 0.05375077252669021 
+            xmax = 0.19000000000000128 
+            text = "kEl" 
+        intervals [3]:
+            xmin = 0.19000000000000128 
+            xmax = 0.370000000000001 
+            text = "ZO" 
+        intervals [4]:
+            xmin = 0.370000000000001 
+            xmax = 0.5300000000000011 
+            text = "li" 
+        intervals [5]:
+            xmin = 0.5300000000000011 
+            xmax = 0.6799999999999997 
+            text = "by" 
+        intervals [6]:
+            xmin = 0.6799999999999997 
+            xmax = 0.8300000000000018 
+            text = "Ro" 
+        intervals [7]:
+            xmin = 0.8300000000000018 
+            xmax = 1.0800000000000018 
+            text = "maR" 
+        intervals [8]:
+            xmin = 1.0800000000000018 
+            xmax = 1.186085042850113 
+            text = "te~" 
+        intervals [9]:
+            xmin = 1.186085042850113 
+            xmax = 1.2900000000000027 
+            text = "a" 
+        intervals [10]:
+            xmin = 1.2900000000000027 
+            xmax = 1.5239483091667652 
+            text = "ko~s" 
+        intervals [11]:
+            xmin = 1.5239483091667652 
+            xmax = 1.75847724155214 
+            text = "tRHi" 
+        intervals [12]:
+            xmin = 1.75847724155214 
+            xmax = 1.8100000000000023 
+            text = "_" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "words" 
+        xmin = 0 
+        xmax = 1.8100000000000023 
+        intervals: size = 8 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.05375077252669021 
+            text = "_" 
+        intervals [2]:
+            xmin = 0.05375077252669021 
+            xmax = 0.19000000000000128 
+            text = "quel" 
+        intervals [3]:
+            xmin = 0.19000000000000128 
+            xmax = 0.5300000000000011 
+            text = "joli" 
+        intervals [4]:
+            xmin = 0.5300000000000011 
+            xmax = 0.8300000000000018 
+            text = "bureau" 
+        intervals [5]:
+            xmin = 0.8300000000000018 
+            xmax = 1.186085042850113 
+            text = "martin" 
+        intervals [6]:
+            xmin = 1.186085042850113 
+            xmax = 1.2900000000000027 
+            text = "a" 
+        intervals [7]:
+            xmin = 1.2900000000000027 
+            xmax = 1.75847724155214 
+            text = "construit" 
+        intervals [8]:
+            xmin = 1.75847724155214 
+            xmax = 1.8100000000000023 
+            text = "_" 
+    item [4]:
+        class = "IntervalTier" 
+        name = "textexpe" 
+        xmin = 0 
+        xmax = 1.8100000000000023 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.05375077252669021 
+            text = "_" 
+        intervals [2]:
+            xmin = 0.05375077252669021 
+            xmax = 1.75847724155214 
+            text = "quel joli bureau martin a construit" 
+        intervals [3]:
+            xmin = 1.75847724155214 
+            xmax = 1.8100000000000023 
+            text = "_" 
+    item [5]:
+        class = "IntervalTier" 
+        name = "phono" 
+        xmin = 0 
+        xmax = 1.8100000000000023 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.05375077252669021 
+            text = "_" 
+        intervals [2]:
+            xmin = 0.05375077252669021 
+            xmax = 1.75847724155214 
+            text = "kEl ZOli byRo maRte~ a ko~stRHi" 
+        intervals [3]:
+            xmin = 1.75847724155214 
+            xmax = 1.8100000000000023 
+            text = "_" 
+    item [6]:
+        class = "IntervalTier" 
+        name = "ortho" 
+        xmin = 0 
+        xmax = 1.8100000000000023 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.05375077252669021 
+            text = "_" 
+        intervals [2]:
+            xmin = 0.05375077252669021 
+            xmax = 1.75847724155214 
+            text = "quel joli bureau martin a construit" 
+        intervals [3]:
+            xmin = 1.75847724155214 
+            xmax = 1.8100000000000023 
+            text = "_" 

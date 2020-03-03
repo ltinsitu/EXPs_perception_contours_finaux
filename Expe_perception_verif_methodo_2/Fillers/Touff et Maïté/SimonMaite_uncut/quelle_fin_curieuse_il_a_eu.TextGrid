@@ -1,0 +1,192 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 1.7130503122138359 
+tiers? <exists> 
+size = 6 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "phones" 
+        xmin = 0 
+        xmax = 1.7130503122138359 
+        intervals: size = 16 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.07000000000000006 
+            text = "k" 
+        intervals [2]:
+            xmin = 0.07000000000000006 
+            xmax = 0.13500544537105788 
+            text = "E" 
+        intervals [3]:
+            xmin = 0.13500544537105788 
+            xmax = 0.20000000000000018 
+            text = "l" 
+        intervals [4]:
+            xmin = 0.20000000000000018 
+            xmax = 0.38639380248066124 
+            text = "f" 
+        intervals [5]:
+            xmin = 0.38639380248066124 
+            xmax = 0.54 
+            text = "e~" 
+        intervals [6]:
+            xmin = 0.54 
+            xmax = 0.6486928329247924 
+            text = "k" 
+        intervals [7]:
+            xmin = 0.6486928329247924 
+            xmax = 0.7900000000000003 
+            text = "y" 
+        intervals [8]:
+            xmin = 0.7900000000000003 
+            xmax = 0.8617357783334436 
+            text = "R" 
+        intervals [9]:
+            xmin = 0.8617357783334436 
+            xmax = 0.9574678128004346 
+            text = "j" 
+        intervals [10]:
+            xmin = 0.9574678128004346 
+            xmax = 1.11 
+            text = "2" 
+        intervals [11]:
+            xmin = 1.11 
+            xmax = 1.1898961976303455 
+            text = "z" 
+        intervals [12]:
+            xmin = 1.1898961976303455 
+            xmax = 1.2698023714143416 
+            text = "i" 
+        intervals [13]:
+            xmin = 1.2698023714143416 
+            xmax = 1.3182742876001599 
+            text = "l" 
+        intervals [14]:
+            xmin = 1.3182742876001599 
+            xmax = 1.4652242177842116 
+            text = "a" 
+        intervals [15]:
+            xmin = 1.4652242177842116 
+            xmax = 1.6722588996418255 
+            text = "y" 
+        intervals [16]:
+            xmin = 1.6722588996418255 
+            xmax = 1.7130503122138359 
+            text = "_" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "syll" 
+        xmin = 0 
+        xmax = 1.7130503122138359 
+        intervals: size = 8 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.20000000000000018 
+            text = "kElo" 
+        intervals [2]:
+            xmin = 0.20000000000000018 
+            xmax = 0.54 
+            text = "fe~" 
+        intervals [3]:
+            xmin = 0.54 
+            xmax = 0.7900000000000003 
+            text = "ky" 
+        intervals [4]:
+            xmin = 0.7900000000000003 
+            xmax = 1.11 
+            text = "Rj2" 
+        intervals [5]:
+            xmin = 1.11 
+            xmax = 1.2698023714143416 
+            text = "zi" 
+        intervals [6]:
+            xmin = 1.2698023714143416 
+            xmax = 1.4652242177842116 
+            text = "la" 
+        intervals [7]:
+            xmin = 1.4652242177842116 
+            xmax = 1.6722588996418255 
+            text = "y" 
+        intervals [8]:
+            xmin = 1.6722588996418255 
+            xmax = 1.7130503122138359 
+            text = "_" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "words" 
+        xmin = 0 
+        xmax = 1.7130503122138359 
+        intervals: size = 7 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.20000000000000018 
+            text = "quelle" 
+        intervals [2]:
+            xmin = 0.20000000000000018 
+            xmax = 0.54 
+            text = "fin" 
+        intervals [3]:
+            xmin = 0.54 
+            xmax = 1.11 
+            text = "curieuse" 
+        intervals [4]:
+            xmin = 1.11 
+            xmax = 1.2698023714143416 
+            text = "il" 
+        intervals [5]:
+            xmin = 1.2698023714143416 
+            xmax = 1.4652242177842116 
+            text = "a" 
+        intervals [6]:
+            xmin = 1.4652242177842116 
+            xmax = 1.6722588996418255 
+            text = "eu" 
+        intervals [7]:
+            xmin = 1.6722588996418255 
+            xmax = 1.7130503122138359 
+            text = "_" 
+    item [4]:
+        class = "IntervalTier" 
+        name = "textexpe" 
+        xmin = 0 
+        xmax = 1.7130503122138359 
+        intervals: size = 2 
+        intervals [1]:
+            xmin = 0 
+            xmax = 1.6722588996418255 
+            text = "quelle fin curieuse il a eu" 
+        intervals [2]:
+            xmin = 1.6722588996418255 
+            xmax = 1.7130503122138359 
+            text = "_" 
+    item [5]:
+        class = "IntervalTier" 
+        name = "phono" 
+        xmin = 0 
+        xmax = 1.7130503122138359 
+        intervals: size = 2 
+        intervals [1]:
+            xmin = 0 
+            xmax = 1.6722588996418255 
+            text = "kEl fe~ kyRj2 zi la y" 
+        intervals [2]:
+            xmin = 1.6722588996418255 
+            xmax = 1.7130503122138359 
+            text = "_" 
+    item [6]:
+        class = "IntervalTier" 
+        name = "ortho" 
+        xmin = 0 
+        xmax = 1.7130503122138359 
+        intervals: size = 2 
+        intervals [1]:
+            xmin = 0 
+            xmax = 1.6722588996418255 
+            text = "quelle fin curieuse il a eu" 
+        intervals [2]:
+            xmin = 1.6722588996418255 
+            xmax = 1.7130503122138359 
+            text = "_" 

@@ -1,7 +1,7 @@
 #To cut the TG and sound containing fillers into several files
 #Path to script: /home/lucas/Documents/CloudStation/SDL/PhD/Prosodie/Expés_Prosodie/EXPs_perception_contours_finaux/Scripts/cut_fillers.PraatScript
 
-folderout$ = "/home/lucas/Documents/CloudStation/SDL/PhD/Prosodie/Expés_Prosodie/EXPs_perception_contours_finaux/Expe_perception_verif_methodo_2/Fillers/Lucas2/Fillers2_Lucas_cut/"
+folderout$ = "/home/lucas/Documents/CloudStation/SDL/PhD/Prosodie/Expés_Prosodie/EXPs_perception_contours_finaux/Expe_perception_verif_methodo_2/Fillers/Touff et Maïté/SimonMaite_cut/"
 
 id$ = selected$("TextGrid")
 
