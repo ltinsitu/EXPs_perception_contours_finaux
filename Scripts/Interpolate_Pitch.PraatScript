@@ -1,8 +1,8 @@
 #To interpolate all pitch and save them
 #Path: /home/lucas/Documents/CloudStation/SDL/PhD/Prosodie/Expés_Prosodie/EXPs_perception_contours_finaux/Scripts/Interpolate_Pitch.PraatScript
 
-folderin$ = "/home/lucas/Documents/CloudStation/SDL/PhD/Prosodie/Expés_Prosodie/EXPs_perception_contours_finaux/Expe_perception_verif_methodo_2/Fillers/Marie/Marie_clair/"
-folderout$ = "/home/lucas/Documents/CloudStation/SDL/PhD/Prosodie/Expés_Prosodie/EXPs_perception_contours_finaux/Expe_perception_verif_methodo_2/Fillers/Marie/Marie_clair/PitchInter/"
+folderin$ = "/home/lucas/Documents/CloudStation/SDL/PhD/Prosodie/Expés_Prosodie/EXPs_perception_contours_finaux/Expe_perception_verif_methodo_2/Fillers/AllFillers/AllFillers_cut/"
+folderout$ = "/home/lucas/Documents/CloudStation/SDL/PhD/Prosodie/Expés_Prosodie/EXPs_perception_contours_finaux/Expe_perception_verif_methodo_2/Fillers/AllFillers/AllFillers_Pitch_StylInter/"
 
 #List of Pitch in the folderin
 pitchlist$ = Create Strings as file list: "pitchlist", "'folderin$'*.Pitch"
@@ -22,6 +22,7 @@ for n to numpitch
 	Stylize: 0.5, "Semitones"
 	Save as text file: "'folderout$''pitchname$'.PitchTier"
 	To Pitch: 0.02, 50, 700
+	Interpolate
 	Save as text file: "'folderout$''pitchname$'.Pitch"
 endfor
 

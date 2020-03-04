@@ -1,31 +1,61 @@
-sentence_key	stimnum	texte_expe	type-de-phrase	audio-type	num_syll	pronom	adj	adj_pos	spksex	spk
-191-we-OR-FI-FI-0-13-LU-M-FI	198	quel ancien cinéma la ville a détruit	wh-ex-situ	delex	11	quel	vieux	PRE	F	MT
-221-ex-OR-FI-FI-0-11-LU-M-FI	233	quel appétissant repas il nous a préparé	wh-exclamative	delex	12	quel	appétissant	PRE	F	MT
-202-we-CL-FI-FI-0-14-LU-M-FI	184	quel charmant garçon caroline a invité	wh-ex-situ	orig	12	quel	charmant	PRE	F	MT
-181-we-OR-FI-FI-0-8-MR-F-FI	208	quel chaton mignon charlotte a adopté	wh-ex-situ	clair	11	quel	mignon	POST	M	SI
-222-ex-CL-FI-FI-0-9-MR-F-FI	234	quel énorme bâtiment il a construit	wh-exclamative	delex	11	quel	énorme	PRE	M	SI
-182-we-OR-FI-FI-0-10-MT-F-FI	183	quel étudiant intelligent a écrit ce devoir	wh-ex-situ	clair	14	quel	intelligent	POST	F	MT
-213-ex-CL-FI-FI-0-15-MT-F-FI	232	quel garçon adorable elle a rencontré	wh-exclamative	clair	11	quel	adorable	PRE	M	SI
-183-we-CL-FI-FI-0-14-MT-F-FI	196	quel gentil garçon a envoyé cette lettre	wh-ex-situ	clair	11	quel	gentil	PRE	F	MT
-204-we-DE-FI-FI-0-11-LU-M-FI	185	quel joli bureau martin a construit	wh-ex-situ	orig	10	quel	joli	PRE	M	SI
-226-ex-CL-FI-FI-0-14-MR-F-FI	239	quel livre ancien marie a trouvé	wh-exclamative	delex	9	quel	vieux	POST	F	MT
-184-we-OR-FI-FI-0-12-MT-F-FI	199	quel livre parfait marc a terminé	wh-ex-situ	clair	10	quel	parfait	POST	M	SI
-227-ex-DE-FI-FI-0-10-MR-F-FI	230	quel mauvais livre jérôme a lu	wh-exclamative	delex	8	quel	manipulateur	PRE	F	MT
-186-we-CL-FI-FI-0-11-MR-F-FI	192	quel objet utile l'artisan a fabriqué	wh-ex-situ	clair	12	quel	utile	POST	F	MT
-228-ex-DE-FI-FI-0-10-MR-F-FI	240	quel orage violent a fait peur au chien	wh-exclamative	delex	10	quel	violent	POST	M	SI
-229-ex-CL-FI-FI-0-13-LU-M-FI	236	quel professeur charmant ils ont décoré	wh-exclamative	delex	11	quel	charmant	POST	M	SI
-207-we-DE-FI-FI-0-10-SI-M-FI	187	quelle boîte adorable l'artiste a fabriquée	wh-ex-situ	orig	11	quelle	adorable	POST	F	MT
-232-ex-CL-FI-FI-0-11-SI-M-FI	218	quelle église merveilleuse ils ont visitée	wh-exclamative	orig	11	quelle	merveilleux	POST	M	SI
-208-we-CL-FI-FI-0-11-SI-M-FI	194	quelle femme époustouflante il va épouser	wh-ex-situ	orig	11	quelle	époustouflant	POST	M	SI
-209-we-DE-FI-FI-0-13-LU-M-FI	182	quelle femme superbe oscar veut embrasser	wh-ex-situ	orig	10	quelle	superbe	POST	F	MT
-217-ex-OR-FI-FI-0-11-MR-F-FI	219	quelle fin curieuse il a eu	wh-exclamative	clair	7	quelle	curieux	POST	F	MT
-196-we-CL-FI-FI-0-11-MT-F-FI	197	quelle grande footballeuse a marqué ce but	wh-ex-situ	delex	10	quelle	grand	PRE	F	MT
-210-we-DE-FI-FI-0-11-LU-M-FI	193	quelle haute tour il a escaladé	wh-ex-situ	orig	9	quelle	haut	PRE	M	SI
-234-ex-DE-FI-FI-0-11-SI-M-FI	211	quelle intelligente élève il a récompensée	wh-exclamative	orig	13	quelle	intelligent	PRE	F	MT
-235-ex-CL-FI-FI-0-9-LU-M-FI	212	quelle mignonne sculpture sophie a vendue	wh-exclamative	orig	10	quelle	mignon	PRE	F	MT
-197-we-DE-FI-FI-0-10-MT-F-FI	207	quelle minuscule statuette le sage adore	wh-ex-situ	delex	10	quelle	minuscule	PRE	M	SI
-219-ex-CL-FI-FI-0-7-MT-F-FI	225	quelle montagne haute ils ont creusée	wh-exclamative	clair	9	quelle	haut	POST	M	SI
-220-ex-OR-FI-FI-0-10-MR-F-FI	213	quelle parfaite introduction le doctorant a rédigée	wh-exclamative	clair	15	quelle	parfait	PRE	F	MT
-198-we-DE-FI-FI-0-11-MT-F-FI	206	quelle peinture somptueuse ils ont achetée	wh-ex-situ	delex	9	quelle	somptueux	POST	M	SI
-239-ex-DE-FI-FI-0-9-MT-F-FI	224	quelle sorcière méchante le héros a combattu	wh-exclamative	orig	12	quelle	méchant	POST	M	SI
-190-we-OR-FI-FI-0-11-MR-F-FI	205	quelle violente tempête a détruit la maison	wh-ex-situ	clair	11	quelle	violent	PRE	M	SI
+sentence_key	texte_expe	type-de-phrase	audio-type	num_syll	spksex	spk	stimnum	pronom	adj	adj_pos
+181-we-CL-FI-FI-0-14-LU-M-quelle_avocate_grandiose_a_défendu_cet_accusé	quelle avocate grandiose a défendu cet accusé ?	wh-ex-situ	clair	14	M	LU	181	quelle	grandiose	POST
+182-we-CL-FI-FI-0-13-LU-M-quelle_députée_mauvaise_a_gagné_les_élections	quelle députée mauvaise a gagné les élections ?	wh-ex-situ	clair	13	M	LU	182	quelle	manipulateur	POST
+183-we-DE-FI-FI-0-13-LU-M-quelle_élève_enthousiaste_le_prof_a_félicitée	quelle élève enthousiaste le prof a félicitée ?	wh-ex-situ	delex	13	M	LU	183	quelle	enthousiaste	POST
+184-we-DE-FI-FI-0-11-LU-M-quelle_fin_étonnante_l_auteur_a_divulguée	quelle fin étonnante l’auteur a divulguée ?	wh-ex-situ	delex	11	M	LU	184	quelle	étonnant	POST
+185-we-DE-FI-FI-0-11-LU-M-quelle_tarte_appétissante_elle_a_cuisinée	quelle tarte appétissante elle a cuisinée ?	wh-ex-situ	delex	11	M	LU	185	quelle	appétissant	POST
+186-we-OR-FI-FI-0-9-LU-M-quel_curieux_jeu_le_croupier_adore	quel curieux jeu le croupier adore ?	wh-ex-situ	orig	9	M	LU	186	quel	curieux	PRE
+187-we-OR-FI-FI-0-13-LU-M-quel_repas_délicieux_alexandre_a_cuisiné	quel repas délicieux Alexandre a cuisiné ?	wh-ex-situ	orig	13	M	LU	187	quel	délicieux	POST
+188-we-CL-FI-FI-0-11-MR-F-quel_méchant_coupable_le_juge_a_condamné	quel méchant coupable le juge a condamné ?	wh-ex-situ	clair	11	F	MR	188	quel	méchant	PRE
+189-we-CL-FI-FI-0-9-MR-F-quelle_fabuleuse_jupe_elle_a_achetée	quelle fabuleuse jupe elle a achetée ?	wh-ex-situ	clair	9	F	MR	189	quelle	fabuleux	PRE
+190-we-DE-FI-FI-0-12-MR-F-quel_excellent_dessert_paul_a_apporté	quel excellent dessert Paul a apporté ?	wh-ex-situ	delex	12	F	MR	190	quel	excellent	PRE
+191-we-DE-FI-FI-0-12-MR-F-quel_magnifique_bal_pauline_a_organisé	quel magnifique bal Pauline a organisé ?	wh-ex-situ	delex	12	F	MR	191	quel	magnifique	PRE
+192-we-DE-FI-FI-0-8-MR-F-quelle_voiture_énorme_il_désire	quelle voiture énorme il désire ?	wh-ex-situ	delex	8	F	MR	192	quelle	énorme	POST
+193-we-OR-FI-FI-0-11-MR-F-quel_agréable_paysage_il_a_peint	quel agréable paysage il a peint ?	wh-ex-situ	orig	11	F	MR	193	quel	agréable	PRE
+194-we-OR-FI-FI-0-8-MR-F-quel_merveilleux_homme_est_parti	quel merveilleux homme est parti ?	wh-ex-situ	orig	8	F	MR	194	quel	merveilleux	PRE
+195-we-CL-FI-FI-0-14-MT-F-quel_étudiant_intelligent_a_écrit_ce_devoir	quel étudiant intelligent a écrit ce devoir ?	wh-ex-situ	clair	14	F	MT	195	quel	intelligent	POST
+196-we-CL-FI-FI-0-11-MT-F-quel_gentil_garçon_a_envoyé_cette_lettre	quel gentil garçon a envoyé cette lettre ?	wh-ex-situ	clair	11	F	MT	196	quel	gentil	PRE
+197-we-CL-FI-FI-0-12-MT-F-quel_objet_utile_l_artisan_a_fabriqué	quel objet utile l’artisan a fabriqué ?	wh-ex-situ	clair	12	F	MT	197	quel	utile	POST
+198-we-DE-FI-FI-0-11-MT-F-quel_ancien_cinéma_la_ville_a_détruit	quel ancien cinéma la ville a détruit ?	wh-ex-situ	delex	11	F	MT	198	quel	vieux	PRE
+199-we-DE-FI-FI-0-10-MT-F-quelle_grande_footballeuse_a_marqué_ce_but	quelle grande footballeuse a marqué ce but ?	wh-ex-situ	delex	10	F	MT	199	quelle	grand	PRE
+200-we-OR-FI-FI-0-12-MT-F-quel_charmant_garçon_caroline_a_invité	quel charmant garçon Caroline a invité ?	wh-ex-situ	orig	12	F	MT	200	quel	charmant	PRE
+201-we-OR-FI-FI-0-11-MT-F-quelle_boîte_adorable_l_artiste_a_fabriquée	quelle boîte adorable l’artiste a fabriquée ?	wh-ex-situ	orig	11	F	MT	201	quelle	adorable	POST
+202-we-OR-FI-FI-0-10-MT-F-quelle_femme_superbe_oscar_veut_embrasser	quelle femme superbe Oscar veut embrasser ?	wh-ex-situ	orig	10	F	MT	202	quelle	superbe	POST
+203-we-CL-FI-FI-0-11-SI-M-quel_chaton_mignon_charlotte_a_adopté	quel chaton mignon Charlotte a adopté ?	wh-ex-situ	clair	11	M	SI	203	quel	mignon	POST
+204-we-CL-FI-FI-0-10-SI-M-quel_livre_parfait_marc_a_terminé	quel livre parfait Marc a terminé ?	wh-ex-situ	clair	10	M	SI	204	quel	parfait	POST
+205-we-CL-FI-FI-0-11-SI-M-quelle_violente_tempête_a_détruit_la_maison	quelle violente tempête a détruit la maison ?	wh-ex-situ	clair	11	M	SI	205	quelle	violent	PRE
+206-we-DE-FI-FI-0-10-SI-M-quelle_minuscule_statuette_le_sage_adore	quelle minuscule statuette le sage adore ?	wh-ex-situ	delex	10	M	SI	206	quelle	minuscule	PRE
+207-we-DE-FI-FI-0-9-SI-M-quelle_peinture_somptueuse_ils_ont_achetée	quelle peinture somptueuse ils ont achetée ?	wh-ex-situ	delex	9	M	SI	207	quelle	somptueux	POST
+208-we-OR-FI-FI-0-10-SI-M-quel_joli_bureau_martin_a_construit	quel joli bureau Martin a construit ?	wh-ex-situ	orig	10	M	SI	208	quel	joli	PRE
+209-we-OR-FI-FI-0-11-SI-M-quelle_femme_époustouflante_il_va_épouser	quelle femme époustouflante il va épouser ?	wh-ex-situ	orig	11	M	SI	209	quelle	époustouflant	POST
+210-we-OR-FI-FI-0-9-SI-M-quelle_haute_tour_il_a_escaladé	quelle haute tour il a escaladé ?	wh-ex-situ	orig	9	M	SI	210	quelle	haut	PRE
+211-ex-CL-FI-FI-0-10-LU-M-quel_chien_minuscule_il_a_caressé	quel chien minuscule il a caressé !	wh-exclamative	clair	10	M	LU	211	quel	minuscule	POST
+212-ex-CL-FI-FI-0-13-LU-M-quel_grandiose_évènement_françoise_a_organisé	quel grandiose évènement Françoise a organisé !	wh-exclamative	clair	13	M	LU	212	quel	grandiose	PRE
+213-ex-CL-FI-FI-0-9-LU-M-quel_superbe_tableau_pierre_a_peint	quel superbe tableau Pierre a peint !	wh-exclamative	clair	9	M	LU	213	quel	superbe	PRE
+214-ex-DE-FI-FI-0-8-LU-M-quel_homme_grand_sophie_a_battu	quel homme grand Sophie a battu !	wh-exclamative	delex	8	M	LU	214	quel	grand	POST
+215-ex-DE-FI-FI-0-11-LU-M-quel_somptueux_opéra_ils_ont_programmé	quel somptueux opéra ils ont programmé !	wh-exclamative	delex	11	M	LU	215	quel	somptueux	PRE
+216-ex-OR-FI-FI-0-11-LU-M-quelle_fille_gentille_l_instituteur_a_grondée	quelle fille gentille l’instituteur a grondée !	wh-exclamative	orig	11	M	LU	216	quelle	gentil	POST
+217-ex-OR-FI-FI-0-12-LU-M-quelle_salle_magnifique_la_mairie_a_décorée	quelle salle magnifique la mairie a décorée !	wh-exclamative	orig	12	M	LU	217	quelle	magnifique	POST
+218-ex-OR-FI-FI-0-11-LU-M-quelle_utile_inspiration_il_m_a_donnée	quelle utile inspiration il m’a donnée !	wh-exclamative	orig	11	M	LU	218	quelle	utile	PRE
+219-ex-CL-FI-FI-0-14-MR-F-quel_enthousiaste_musicien_a_enregistré_l_album	quel enthousiaste musicien a enregistré l’album !	wh-exclamative	clair	14	F	MR	219	quel	enthousiaste	PRE
+220-ex-CL-FI-FI-0-12-MR-F-quelle_balade_agréable_ils_ont_organisée	quelle balade agréable ils ont organisée !	wh-exclamative	clair	12	F	MR	220	quelle	agréable	POST
+221-ex-CL-FI-FI-0-9-MR-F-quelle_maison_jolie_ils_ont_trouvée	quelle maison jolie ils ont trouvée !	wh-exclamative	clair	9	F	MR	221	quelle	joli	POST
+222-ex-DE-FI-FI-0-10-MR-F-quel_époustouflant_spectacle_ils_ont_vu	quel époustouflant spectacle ils ont vu !	wh-exclamative	delex	10	F	MR	222	quel	époustouflant	PRE
+223-ex-DE-FI-FI-0-10-MR-F-quel_étonnant_programme_il_a_prévu	quel étonnant programme il a prévu !	wh-exclamative	delex	10	F	MR	223	quel	étonnant	PRE
+224-ex-OR-FI-FI-0-13-MR-F-quelle_délicieuse_omelette_le_serveur_a_apportée	quelle délicieuse omelette le serveur a apportée !	wh-exclamative	orig	13	F	MR	224	quelle	délicieux	PRE
+225-ex-OR-FI-FI-0-10-MR-F-quelle_nouvelle_excellente_elle_a_reçue	quelle nouvelle excellente elle a reçue !	wh-exclamative	orig	10	F	MR	225	quelle	excellent	POST
+226-ex-OR-FI-FI-0-11-MR-F-quelle_personne_fabuleuse_il_a_épousée	quelle personne fabuleuse il a épousée !	wh-exclamative	orig	11	F	MR	226	quelle	fabuleux	POST
+227-ex-CL-FI-FI-0-7-MT-F-quelle_fin_curieuse_il_a_eu	quelle fin curieuse il a eu !	wh-exclamative	clair	7	F	MT	227	quelle	curieux	POST
+228-ex-CL-FI-FI-0-15-MT-F-quelle_parfaite_introduction_le_doctorant_a_rédigée	quelle parfaite introduction le doctorant a rédigée !	wh-exclamative	clair	15	F	MT	228	quelle	parfait	PRE
+229-ex-DE-FI-FI-0-12-MT-F-quel_appétissant_repas_il_nous_a_préparé	quel appétissant repas il nous a préparé !	wh-exclamative	delex	12	F	MT	229	quel	appétissant	PRE
+230-ex-DE-FI-FI-0-9-MT-F-quel_livre_ancien_marie_a_trouvé	quel livre ancien Marie a trouvé !	wh-exclamative	delex	9	F	MT	230	quel	vieux	POST
+231-ex-DE-FI-FI-0-8-MT-F-quel_mauvais_livre_jérôme_a_lu	quel mauvais livre Jérôme a lu !	wh-exclamative	delex	8	F	MT	231	quel	manipulateur	PRE
+232-ex-OR-FI-FI-0-13-MT-F-quelle_intelligente_élève_il_a_récompensée	quelle intelligente élève il a récompensée !	wh-exclamative	orig	13	F	MT	232	quelle	intelligent	PRE
+233-ex-OR-FI-FI-0-10-MT-F-quelle_mignonne_sculpture_sophie_a_vendue	quelle mignonne sculpture Sophie a vendue !	wh-exclamative	orig	10	F	MT	233	quelle	mignon	PRE
+234-ex-CL-FI-FI-0-11-SI-M-quel_garçon_adorable_elle_a_rencontré	quel garçon adorable elle a rencontré !	wh-exclamative	clair	11	M	SI	234	quel	adorable	PRE
+235-ex-CL-FI-FI-0-9-SI-M-quelle_montagne_haute_ils_ont_creusée	quelle montagne haute ils ont creusée !	wh-exclamative	clair	9	M	SI	235	quelle	haut	POST
+236-ex-DE-FI-FI-0-11-SI-M-quel_énorme_bâtiment_il_a_construit	quel énorme bâtiment il a construit !	wh-exclamative	delex	11	M	SI	236	quel	énorme	PRE
+237-ex-DE-FI-FI-0-10-SI-M-quel_orage_violent_a_fait_peur_au_chien	quel orage violent a fait peur au chien !	wh-exclamative	delex	10	M	SI	237	quel	violent	POST
+238-ex-DE-FI-FI-0-11-SI-M-quel_professeur_charmant_ils_ont_décoré	quel professeur charmant ils ont décoré !	wh-exclamative	delex	11	M	SI	238	quel	charmant	POST
+239-ex-OR-FI-FI-0-11-SI-M-quelle_église_merveilleuse_ils_ont_visitée	quelle église merveilleuse ils ont visitée !	wh-exclamative	orig	11	M	SI	239	quelle	merveilleux	POST
+240-ex-OR-FI-FI-0-12-SI-M-quelle_sorcière_méchante_le_héros_a_combattu	quelle sorcière méchante le héros a combattu !	wh-exclamative	orig	12	M	SI	240	quelle	méchant	POST

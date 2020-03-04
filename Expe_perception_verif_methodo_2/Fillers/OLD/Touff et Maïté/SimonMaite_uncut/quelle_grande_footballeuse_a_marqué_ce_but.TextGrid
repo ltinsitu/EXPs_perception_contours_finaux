@@ -1,0 +1,240 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 2.08 
+tiers? <exists> 
+size = 6 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "phones" 
+        xmin = 0 
+        xmax = 2.08 
+        intervals: size = 27 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.07000000000000028 
+            text = "k" 
+        intervals [2]:
+            xmin = 0.07000000000000028 
+            xmax = 0.14544623779502053 
+            text = "E" 
+        intervals [3]:
+            xmin = 0.14544623779502053 
+            xmax = 0.2400000000000002 
+            text = "l" 
+        intervals [4]:
+            xmin = 0.2400000000000002 
+            xmax = 0.28999999999999915 
+            text = "g" 
+        intervals [5]:
+            xmin = 0.28999999999999915 
+            xmax = 0.33000000000000007 
+            text = "R" 
+        intervals [6]:
+            xmin = 0.33000000000000007 
+            xmax = 0.436553093970387 
+            text = "a~" 
+        intervals [7]:
+            xmin = 0.436553093970387 
+            xmax = 0.48999999999999844 
+            text = "d" 
+        intervals [8]:
+            xmin = 0.48999999999999844 
+            xmax = 0.5499999999999989 
+            text = "f" 
+        intervals [9]:
+            xmin = 0.5499999999999989 
+            xmax = 0.6199999999999992 
+            text = "u" 
+        intervals [10]:
+            xmin = 0.6199999999999992 
+            xmax = 0.6600000000000001 
+            text = "t" 
+        intervals [11]:
+            xmin = 0.6600000000000001 
+            xmax = 0.7099999999999991 
+            text = "b" 
+        intervals [12]:
+            xmin = 0.7099999999999991 
+            xmax = 0.7699999999999996 
+            text = "o" 
+        intervals [13]:
+            xmin = 0.7699999999999996 
+            xmax = 0.8300000000000001 
+            text = "l" 
+        intervals [14]:
+            xmin = 0.8300000000000001 
+            xmax = 0.9899999999999984 
+            text = "2" 
+        intervals [15]:
+            xmin = 0.9899999999999984 
+            xmax = 1.0825714824868247 
+            text = "z" 
+        intervals [16]:
+            xmin = 1.0825714824868247 
+            xmax = 1.13197867188399 
+            text = "_" 
+        intervals [17]:
+            xmin = 1.13197867188399 
+            xmax = 1.2299999999999986 
+            text = "a" 
+        intervals [18]:
+            xmin = 1.2299999999999986 
+            xmax = 1.2799999999999994 
+            text = "m" 
+        intervals [19]:
+            xmin = 1.2799999999999994 
+            xmax = 1.33 
+            text = "a" 
+        intervals [20]:
+            xmin = 1.33 
+            xmax = 1.3900000000000006 
+            text = "R" 
+        intervals [21]:
+            xmin = 1.3900000000000006 
+            xmax = 1.4499999999999993 
+            text = "k" 
+        intervals [22]:
+            xmin = 1.4499999999999993 
+            xmax = 1.5099999999999998 
+            text = "e" 
+        intervals [23]:
+            xmin = 1.5099999999999998 
+            xmax = 1.6099999999999994 
+            text = "s" 
+        intervals [24]:
+            xmin = 1.6099999999999994 
+            xmax = 1.6799999999999997 
+            text = "@" 
+        intervals [25]:
+            xmin = 1.6799999999999997 
+            xmax = 1.7599999999999998 
+            text = "b" 
+        intervals [26]:
+            xmin = 1.7599999999999998 
+            xmax = 1.8499999999999996 
+            text = "y" 
+        intervals [27]:
+            xmin = 1.8499999999999996 
+            xmax = 2.08 
+            text = "t" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "syll" 
+        xmin = 0 
+        xmax = 2.08 
+        intervals: size = 11 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.2400000000000002 
+            text = "kEl" 
+        intervals [2]:
+            xmin = 0.2400000000000002 
+            xmax = 0.48999999999999844 
+            text = "gRa~d" 
+        intervals [3]:
+            xmin = 0.48999999999999844 
+            xmax = 0.6600000000000001 
+            text = "fut" 
+        intervals [4]:
+            xmin = 0.6600000000000001 
+            xmax = 0.7699999999999996 
+            text = "bo" 
+        intervals [5]:
+            xmin = 0.7699999999999996 
+            xmax = 1.0825714824868247 
+            text = "l2z" 
+        intervals [6]:
+            xmin = 1.0825714824868247 
+            xmax = 1.13197867188399 
+            text = "_" 
+        intervals [7]:
+            xmin = 1.13197867188399 
+            xmax = 1.2299999999999986 
+            text = "" 
+        intervals [8]:
+            xmin = 1.2299999999999986 
+            xmax = 1.3900000000000006 
+            text = "maR" 
+        intervals [9]:
+            xmin = 1.3900000000000006 
+            xmax = 1.5099999999999998 
+            text = "ke" 
+        intervals [10]:
+            xmin = 1.5099999999999998 
+            xmax = 1.6799999999999997 
+            text = "s@" 
+        intervals [11]:
+            xmin = 1.6799999999999997 
+            xmax = 2.08 
+            text = "byt" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "words" 
+        xmin = 0 
+        xmax = 2.08 
+        intervals: size = 8 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.2400000000000002 
+            text = "quelle" 
+        intervals [2]:
+            xmin = 0.2400000000000002 
+            xmax = 0.48999999999999844 
+            text = "grande" 
+        intervals [3]:
+            xmin = 0.48999999999999844 
+            xmax = 1.0825714824868247 
+            text = "footballeuse" 
+        intervals [4]:
+            xmin = 1.0825714824868247 
+            xmax = 1.13197867188399 
+            text = "_" 
+        intervals [5]:
+            xmin = 1.13197867188399 
+            xmax = 1.2299999999999986 
+            text = "a" 
+        intervals [6]:
+            xmin = 1.2299999999999986 
+            xmax = 1.5099999999999998 
+            text = "marqué" 
+        intervals [7]:
+            xmin = 1.5099999999999998 
+            xmax = 1.6799999999999997 
+            text = "ce" 
+        intervals [8]:
+            xmin = 1.6799999999999997 
+            xmax = 2.08 
+            text = "but" 
+    item [4]:
+        class = "IntervalTier" 
+        name = "textexpe" 
+        xmin = 0 
+        xmax = 2.08 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 2.08 
+            text = "quelle grande footballeuse a marqué ce but" 
+    item [5]:
+        class = "IntervalTier" 
+        name = "phono" 
+        xmin = 0 
+        xmax = 2.08 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 2.08 
+            text = "kEl gRa~d futbol2z a maRke s@ byt" 
+    item [6]:
+        class = "IntervalTier" 
+        name = "ortho" 
+        xmin = 0 
+        xmax = 2.08 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 2.08 
+            text = "quelle grande footballeuse a marqué ce but" 

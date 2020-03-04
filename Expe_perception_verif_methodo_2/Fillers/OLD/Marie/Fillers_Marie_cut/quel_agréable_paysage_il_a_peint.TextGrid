@@ -1,0 +1,236 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 2.010081101856354 
+tiers? <exists> 
+size = 6 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "phones" 
+        xmin = 0 
+        xmax = 2.010081101856354 
+        intervals: size = 24 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.039158455954362945 
+            text = "k" 
+        intervals [2]:
+            xmin = 0.039158455954362945 
+            xmax = 0.16453563125549617 
+            text = "E" 
+        intervals [3]:
+            xmin = 0.16453563125549617 
+            xmax = 0.2242883241776133 
+            text = "l" 
+        intervals [4]:
+            xmin = 0.2242883241776133 
+            xmax = 0.30731089040745085 
+            text = "a" 
+        intervals [5]:
+            xmin = 0.30731089040745085 
+            xmax = 0.3692921196452985 
+            text = "g" 
+        intervals [6]:
+            xmin = 0.3692921196452985 
+            xmax = 0.4715608262284165 
+            text = "R" 
+        intervals [7]:
+            xmin = 0.4715608262284165 
+            xmax = 0.5374757121442268 
+            text = "e" 
+        intervals [8]:
+            xmin = 0.5374757121442268 
+            xmax = 0.6320409621484234 
+            text = "a" 
+        intervals [9]:
+            xmin = 0.6320409621484234 
+            xmax = 0.7091584559543633 
+            text = "b" 
+        intervals [10]:
+            xmin = 0.7091584559543633 
+            xmax = 0.767322241544406 
+            text = "l" 
+        intervals [11]:
+            xmin = 0.767322241544406 
+            xmax = 0.8244623915518422 
+            text = "@" 
+        intervals [12]:
+            xmin = 0.8244623915518422 
+            xmax = 0.8977972595072127 
+            text = "_" 
+        intervals [13]:
+            xmin = 0.8977972595072127 
+            xmax = 0.911936988949588 
+            text = "p" 
+        intervals [14]:
+            xmin = 0.911936988949588 
+            xmax = 1.0209746404118734 
+            text = "e" 
+        intervals [15]:
+            xmin = 1.0209746404118734 
+            xmax = 1.1243145066171378 
+            text = "i" 
+        intervals [16]:
+            xmin = 1.1243145066171378 
+            xmax = 1.20493885751543 
+            text = "z" 
+        intervals [17]:
+            xmin = 1.20493885751543 
+            xmax = 1.3991584559543628 
+            text = "a" 
+        intervals [18]:
+            xmin = 1.3991584559543628 
+            xmax = 1.479158455954363 
+            text = "Z" 
+        intervals [19]:
+            xmin = 1.479158455954363 
+            xmax = 1.599158455954363 
+            text = "i" 
+        intervals [20]:
+            xmin = 1.599158455954363 
+            xmax = 1.6291584559543633 
+            text = "l" 
+        intervals [21]:
+            xmin = 1.6291584559543633 
+            xmax = 1.746885964098244 
+            text = "a" 
+        intervals [22]:
+            xmin = 1.746885964098244 
+            xmax = 1.8029655690052917 
+            text = "_" 
+        intervals [23]:
+            xmin = 1.8029655690052917 
+            xmax = 1.844426131607511 
+            text = "p" 
+        intervals [24]:
+            xmin = 1.844426131607511 
+            xmax = 2.010081101856354 
+            text = "e~" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "syll" 
+        xmin = 0 
+        xmax = 2.010081101856354 
+        intervals: size = 13 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.16453563125549617 
+            text = "kE" 
+        intervals [2]:
+            xmin = 0.16453563125549617 
+            xmax = 0.30731089040745085 
+            text = "la" 
+        intervals [3]:
+            xmin = 0.30731089040745085 
+            xmax = 0.5374757121442268 
+            text = "gRe" 
+        intervals [4]:
+            xmin = 0.5374757121442268 
+            xmax = 0.6320409621484234 
+            text = "a" 
+        intervals [5]:
+            xmin = 0.6320409621484234 
+            xmax = 0.8244623915518422 
+            text = "bl@" 
+        intervals [6]:
+            xmin = 0.8244623915518422 
+            xmax = 0.8977972595072127 
+            text = "_" 
+        intervals [7]:
+            xmin = 0.8977972595072127 
+            xmax = 1.0209746404118734 
+            text = "pe" 
+        intervals [8]:
+            xmin = 1.0209746404118734 
+            xmax = 1.1243145066171378 
+            text = "i" 
+        intervals [9]:
+            xmin = 1.1243145066171378 
+            xmax = 1.3991584559543628 
+            text = "za" 
+        intervals [10]:
+            xmin = 1.3991584559543628 
+            xmax = 1.599158455954363 
+            text = "Zi" 
+        intervals [11]:
+            xmin = 1.599158455954363 
+            xmax = 1.746885964098244 
+            text = "la" 
+        intervals [12]:
+            xmin = 1.746885964098244 
+            xmax = 1.8029655690052917 
+            text = "_" 
+        intervals [13]:
+            xmin = 1.8029655690052917 
+            xmax = 2.010081101856354 
+            text = "pe~" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "words" 
+        xmin = 0 
+        xmax = 2.010081101856354 
+        intervals: size = 8 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.16453563125549617 
+            text = "quel" 
+        intervals [2]:
+            xmin = 0.16453563125549617 
+            xmax = 0.8244623915518422 
+            text = "agréable" 
+        intervals [3]:
+            xmin = 0.8244623915518422 
+            xmax = 0.8977972595072127 
+            text = "_" 
+        intervals [4]:
+            xmin = 0.8977972595072127 
+            xmax = 1.3991584559543628 
+            text = "paysage" 
+        intervals [5]:
+            xmin = 1.3991584559543628 
+            xmax = 1.599158455954363 
+            text = "il" 
+        intervals [6]:
+            xmin = 1.599158455954363 
+            xmax = 1.746885964098244 
+            text = "a" 
+        intervals [7]:
+            xmin = 1.746885964098244 
+            xmax = 1.8029655690052917 
+            text = "_" 
+        intervals [8]:
+            xmin = 1.8029655690052917 
+            xmax = 2.010081101856354 
+            text = "peint" 
+    item [4]:
+        class = "IntervalTier" 
+        name = "textexpe" 
+        xmin = 0 
+        xmax = 2.010081101856354 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 2.010081101856354 
+            text = "quel agréable paysage il a peint" 
+    item [5]:
+        class = "IntervalTier" 
+        name = "phono" 
+        xmin = 0 
+        xmax = 2.010081101856354 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 2.010081101856354 
+            text = "kE lagReabl@ peiza Zi la pe~" 
+    item [6]:
+        class = "IntervalTier" 
+        name = "ortho" 
+        xmin = 0 
+        xmax = 2.010081101856354 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 2.010081101856354 
+            text = "quel agréable paysage il a peint" 

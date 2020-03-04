@@ -1,0 +1,240 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 2.156233914867365 
+tiers? <exists> 
+size = 6 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "phones" 
+        xmin = 0 
+        xmax = 2.156233914867365 
+        intervals: size = 26 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.06382081337639373 
+            text = "k" 
+        intervals [2]:
+            xmin = 0.06382081337639373 
+            xmax = 0.1651368220136188 
+            text = "E" 
+        intervals [3]:
+            xmin = 0.1651368220136188 
+            xmax = 0.2821808192928173 
+            text = "l" 
+        intervals [4]:
+            xmin = 0.2821808192928173 
+            xmax = 0.4400000000000013 
+            text = "a~" 
+        intervals [5]:
+            xmin = 0.4400000000000013 
+            xmax = 0.5700000000000003 
+            text = "s" 
+        intervals [6]:
+            xmin = 0.5700000000000003 
+            xmax = 0.6099999999999994 
+            text = "j" 
+        intervals [7]:
+            xmin = 0.6099999999999994 
+            xmax = 0.6600000000000001 
+            text = "e~" 
+        intervals [8]:
+            xmin = 0.6600000000000001 
+            xmax = 0.7800000000000011 
+            text = "s" 
+        intervals [9]:
+            xmin = 0.7800000000000011 
+            xmax = 0.8200000000000003 
+            text = "i" 
+        intervals [10]:
+            xmin = 0.8200000000000003 
+            xmax = 0.8500000000000014 
+            text = "n" 
+        intervals [11]:
+            xmin = 0.8500000000000014 
+            xmax = 0.9125683604239299 
+            text = "e" 
+        intervals [12]:
+            xmin = 0.9125683604239299 
+            xmax = 0.990000000000002 
+            text = "m" 
+        intervals [13]:
+            xmin = 0.990000000000002 
+            xmax = 1.1919549094798172 
+            text = "a" 
+        intervals [14]:
+            xmin = 1.1919549094798172 
+            xmax = 1.2485661234266334 
+            text = "_" 
+        intervals [15]:
+            xmin = 1.2485661234266334 
+            xmax = 1.3300000000000018 
+            text = "l" 
+        intervals [16]:
+            xmin = 1.3300000000000018 
+            xmax = 1.429572585585446 
+            text = "a" 
+        intervals [17]:
+            xmin = 1.429572585585446 
+            xmax = 1.5 
+            text = "v" 
+        intervals [18]:
+            xmin = 1.5 
+            xmax = 1.5899999999999999 
+            text = "i" 
+        intervals [19]:
+            xmin = 1.5899999999999999 
+            xmax = 1.6300000000000026 
+            text = "l" 
+        intervals [20]:
+            xmin = 1.6300000000000026 
+            xmax = 1.7100000000000009 
+            text = "a" 
+        intervals [21]:
+            xmin = 1.7100000000000009 
+            xmax = 1.7699999999999996 
+            text = "d" 
+        intervals [22]:
+            xmin = 1.7699999999999996 
+            xmax = 1.8599999999999994 
+            text = "e" 
+        intervals [23]:
+            xmin = 1.8599999999999994 
+            xmax = 1.9499999999999993 
+            text = "t" 
+        intervals [24]:
+            xmin = 1.9499999999999993 
+            xmax = 1.9800000000000004 
+            text = "R" 
+        intervals [25]:
+            xmin = 1.9800000000000004 
+            xmax = 2.0119917199775514 
+            text = "H" 
+        intervals [26]:
+            xmin = 2.0119917199775514 
+            xmax = 2.156233914867365 
+            text = "i" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "syll" 
+        xmin = 0 
+        xmax = 2.156233914867365 
+        intervals: size = 12 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.2821808192928173 
+            text = "kEl" 
+        intervals [2]:
+            xmin = 0.2821808192928173 
+            xmax = 0.4400000000000013 
+            text = "a~" 
+        intervals [3]:
+            xmin = 0.4400000000000013 
+            xmax = 0.6600000000000001 
+            text = "sje~" 
+        intervals [4]:
+            xmin = 0.6600000000000001 
+            xmax = 0.8200000000000003 
+            text = "si" 
+        intervals [5]:
+            xmin = 0.8200000000000003 
+            xmax = 0.9125683604239299 
+            text = "ne" 
+        intervals [6]:
+            xmin = 0.9125683604239299 
+            xmax = 1.1919549094798172 
+            text = "ma" 
+        intervals [7]:
+            xmin = 1.1919549094798172 
+            xmax = 1.2485661234266334 
+            text = "_" 
+        intervals [8]:
+            xmin = 1.2485661234266334 
+            xmax = 1.429572585585446 
+            text = "la" 
+        intervals [9]:
+            xmin = 1.429572585585446 
+            xmax = 1.5899999999999999 
+            text = "vi" 
+        intervals [10]:
+            xmin = 1.5899999999999999 
+            xmax = 1.7100000000000009 
+            text = "la" 
+        intervals [11]:
+            xmin = 1.7100000000000009 
+            xmax = 1.8599999999999994 
+            text = "de" 
+        intervals [12]:
+            xmin = 1.8599999999999994 
+            xmax = 2.156233914867365 
+            text = "tRHi" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "words" 
+        xmin = 0 
+        xmax = 2.156233914867365 
+        intervals: size = 8 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.2821808192928173 
+            text = "quel" 
+        intervals [2]:
+            xmin = 0.2821808192928173 
+            xmax = 0.6600000000000001 
+            text = "ancien" 
+        intervals [3]:
+            xmin = 0.6600000000000001 
+            xmax = 1.1919549094798172 
+            text = "cinéma" 
+        intervals [4]:
+            xmin = 1.1919549094798172 
+            xmax = 1.2485661234266334 
+            text = "_" 
+        intervals [5]:
+            xmin = 1.2485661234266334 
+            xmax = 1.429572585585446 
+            text = "la" 
+        intervals [6]:
+            xmin = 1.429572585585446 
+            xmax = 1.6300000000000026 
+            text = "ville" 
+        intervals [7]:
+            xmin = 1.6300000000000026 
+            xmax = 1.7100000000000009 
+            text = "a" 
+        intervals [8]:
+            xmin = 1.7100000000000009 
+            xmax = 2.156233914867365 
+            text = "détruit" 
+    item [4]:
+        class = "IntervalTier" 
+        name = "textexpe" 
+        xmin = 0 
+        xmax = 2.156233914867365 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 2.156233914867365 
+            text = "quel ancien cinéma la ville a détruit" 
+    item [5]:
+        class = "IntervalTier" 
+        name = "phono" 
+        xmin = 0 
+        xmax = 2.156233914867365 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 2.156233914867365 
+            text = "kE la~sje~ sinema la vil a detRHi" 
+    item [6]:
+        class = "IntervalTier" 
+        name = "ortho" 
+        xmin = 0 
+        xmax = 2.156233914867365 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 2.156233914867365 
+            text = "quel ancien cinéma la ville a détruit" 
