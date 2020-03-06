@@ -5,8 +5,8 @@
 import sys, re, os, csv
 
 #Defining folders
-folderin = "/home/lucas/Documents/CloudStation/SDL/PhD/Prosodie/Expés_Prosodie/EXPs_perception_contours_finaux/Expe_perception_verif_methodo_2/Fillers/AllFillers/FORMBROLA_clair/"
-folderout = "/home/lucas/Documents/CloudStation/SDL/PhD/Prosodie/Expés_Prosodie/EXPs_perception_contours_finaux/Expe_perception_verif_methodo_2/Fillers/Fillers_clair/"
+folderin = "/home/lucas/Documents/CloudStation/SDL/PhD/Prosodie/Expés_Prosodie/EXPs_perception_contours_finaux/Expe_perception_verif_methodo_2/Fillers/AllFillers/FORMBROLA_delex/"
+folderout = "/home/lucas/Documents/CloudStation/SDL/PhD/Prosodie/Expés_Prosodie/EXPs_perception_contours_finaux/Expe_perception_verif_methodo_2/Fillers/Fillers_delex/"
 
 
 #Reading csv file
@@ -23,7 +23,7 @@ commandstart = "/usr/bin/mbrola /home/lucas/Documents/CloudStation/SDL/PhD/Proso
 
 #Start the loop
 for row in reader:
-	if row["audio-type"] == "clair":
+	if row["audio-type"] == "delex":
 		#We rename textexpe to make it match with the corresponding files
 		textexpe = row["texte_expe"]
 		textexpe = textexpe.lower()

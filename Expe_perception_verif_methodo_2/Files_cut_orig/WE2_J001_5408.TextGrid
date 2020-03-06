@@ -1,0 +1,100 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 0.3107897508748367 
+tiers? <exists> 
+size = 6 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "phones" 
+        xmin = 0 
+        xmax = 0.3107897508748367 
+        intervals: size = 6 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.03651390676278775 
+            text = "s" 
+        intervals [2]:
+            xmin = 0.03651390676278775 
+            xmax = 0.11928967538849171 
+            text = "a" 
+        intervals [3]:
+            xmin = 0.11928967538849171 
+            xmax = 0.14912968730138038 
+            text = "t" 
+        intervals [4]:
+            xmin = 0.14912968730138038 
+            xmax = 0.18091939195655818 
+            text = "S" 
+        intervals [5]:
+            xmin = 0.18091939195655818 
+            xmax = 0.23793931931591947 
+            text = "O" 
+        intervals [6]:
+            xmin = 0.23793931931591947 
+            xmax = 0.3107897508748367 
+            text = "k" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "syll" 
+        xmin = 0 
+        xmax = 0.3107897508748367 
+        intervals: size = 2 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.11928967538849171 
+            text = "sa" 
+        intervals [2]:
+            xmin = 0.11928967538849171 
+            xmax = 0.3107897508748367 
+            text = "tSOk" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "words" 
+        xmin = 0 
+        xmax = 0.3107897508748367 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.11928967538849171 
+            text = "ça" 
+        intervals [2]:
+            xmin = 0.11928967538849171 
+            xmax = 0.14912968730138038 
+            text = "te" 
+        intervals [3]:
+            xmin = 0.14912968730138038 
+            xmax = 0.3107897508748367 
+            text = "choque" 
+    item [4]:
+        class = "IntervalTier" 
+        name = "textexpe" 
+        xmin = 0 
+        xmax = 0.3107897508748367 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.3107897508748367 
+            text = "ça te choque" 
+    item [5]:
+        class = "IntervalTier" 
+        name = "phono" 
+        xmin = 0 
+        xmax = 0.3107897508748367 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.3107897508748367 
+            text = "sat SOk" 
+    item [6]:
+        class = "IntervalTier" 
+        name = "ortho" 
+        xmin = 0 
+        xmax = 0.3107897508748367 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.3107897508748367 
+            text = "ça te choque" 

@@ -1,0 +1,136 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 1.0133067581323094 
+tiers? <exists> 
+size = 6 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "phones" 
+        xmin = 0 
+        xmax = 1.0133067581323094 
+        intervals: size = 11 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.027211255060816397 
+            text = "v" 
+        intervals [2]:
+            xmin = 0.027211255060816397 
+            xmax = 0.07936149638073098 
+            text = "u" 
+        intervals [3]:
+            xmin = 0.07936149638073098 
+            xmax = 0.16195912783276412 
+            text = "z" 
+        intervals [4]:
+            xmin = 0.16195912783276412 
+            xmax = 0.23897746935719544 
+            text = "e" 
+        intervals [5]:
+            xmin = 0.23897746935719544 
+            xmax = 0.3446437240580079 
+            text = "m" 
+        intervals [6]:
+            xmin = 0.3446437240580079 
+            xmax = 0.4336350465639559 
+            text = "e" 
+        intervals [7]:
+            xmin = 0.4336350465639559 
+            xmax = 0.5459856355610043 
+            text = "l" 
+        intervals [8]:
+            xmin = 0.5459856355610043 
+            xmax = 0.601765080009841 
+            text = "R" 
+        intervals [9]:
+            xmin = 0.601765080009841 
+            xmax = 0.755321003413374 
+            text = "o" 
+        intervals [10]:
+            xmin = 0.755321003413374 
+            xmax = 0.8552443420382038 
+            text = "z" 
+        intervals [11]:
+            xmin = 0.8552443420382038 
+            xmax = 1.0133067581323094 
+            text = "e" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "syll" 
+        xmin = 0 
+        xmax = 1.0133067581323094 
+        intervals: size = 5 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.07936149638073098 
+            text = "vu" 
+        intervals [2]:
+            xmin = 0.07936149638073098 
+            xmax = 0.23897746935719544 
+            text = "ze" 
+        intervals [3]:
+            xmin = 0.23897746935719544 
+            xmax = 0.5459856355610043 
+            text = "mel" 
+        intervals [4]:
+            xmin = 0.5459856355610043 
+            xmax = 0.755321003413374 
+            text = "Ro" 
+        intervals [5]:
+            xmin = 0.755321003413374 
+            xmax = 1.0133067581323094 
+            text = "ze" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "words" 
+        xmin = 0 
+        xmax = 1.0133067581323094 
+        intervals: size = 4 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.07936149638073098 
+            text = "vous" 
+        intervals [2]:
+            xmin = 0.07936149638073098 
+            xmax = 0.4336350465639559 
+            text = "aimez" 
+        intervals [3]:
+            xmin = 0.4336350465639559 
+            xmax = 0.5459856355610043 
+            text = "le" 
+        intervals [4]:
+            xmin = 0.5459856355610043 
+            xmax = 1.0133067581323094 
+            text = "rosé" 
+    item [4]:
+        class = "IntervalTier" 
+        name = "textexpe" 
+        xmin = 0 
+        xmax = 1.0133067581323094 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 1.0133067581323094 
+            text = "vous aimez le rosé" 
+    item [5]:
+        class = "IntervalTier" 
+        name = "phono" 
+        xmin = 0 
+        xmax = 1.0133067581323094 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 1.0133067581323094 
+            text = "vu zemel Roze" 
+    item [6]:
+        class = "IntervalTier" 
+        name = "ortho" 
+        xmin = 0 
+        xmax = 1.0133067581323094 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 1.0133067581323094 
+            text = "vous aimez le rosé" 
