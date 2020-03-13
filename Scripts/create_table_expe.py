@@ -18,12 +18,12 @@ header = reader.fieldnames
 ibex1 = '\t[["'
 ibex2 = '",'
 ibex3 = '], "Question", {q: "<div style=\\"width: 40em;\\"><audio autoplay controls preload=\\"auto\\"><source src=\''
-# ~ url = "https://raw.github.com/ltinsitu/EXPs_perception_contours_finaux/tree/master/Expe_perception_verif_methodo_2/Audio_Expe_verif_methodo2/"
+url = "https://github.com/ltinsitu/EXPs_perception_contours_finaux/blob/master/Expe_perception_verif_methodo_2/Audio_Expe_verif_methodo2/"
 # ~ mclair = "MBROLA-clair/"
 # ~ mdelex = "MBROLA-delexicalised/"
 # ~ orig = "Originals/"
 #We'll need to comment the filename, it's enough to add the comment tag <!-- at the end of ibex4, and closing it with --> at the beginning of ibex5
-ibex4 = "\'type=\'audio/mpeg\'></source></audio><br><br><br>"
+ibex4 = ".mp3?raw=true\'type=\'audio/mpeg\'></source></audio><br><br><br>"
 ibex5 = '<br>Est-ce que cette phrase vous donne l\'impression d\'être une question ?''</div>", as: ["Oui", "Non"]}],'
 
 # ~ #Item counters
@@ -73,7 +73,7 @@ for row in reader:
 		list_sentence_key = row["sentence_key"].split("-")
 		stimtype = "T"
 		item = int(row["item"])
-		print(ibex1, stimtype, ibex2, item, ibex3, ibex4, row["sentence_key"], ibex5, sep="", end="\n")
+		print(ibex1, stimtype, ibex2, item, ibex3, url, row["sentence_key"], ibex4, row["sentence_key"], ibex5, sep="", end="\n")
 		# ~ oldkey_lastpart = "-".join(list_ibex_key[1:])
 		# ~ if row["type-de-phrase"] == "decla":
 			# ~ MCdecla = "PI-MC-"+oldkey_lastpart+".mp3"
@@ -102,5 +102,5 @@ for row in reader:
 		# ~ print(list_sentence_key[3])
 		stimtype = "F"
 		item = int(row["item"])
-		print(ibex1, stimtype, ibex2, item, ibex3, ibex4, row["sentence_key"], ibex5, sep="", end="\n")
+		print(ibex1, stimtype, ibex2, item, ibex3, url, row["sentence_key"], ibex4, row["sentence_key"], ibex5, sep="", end="\n")
 
