@@ -11,8 +11,8 @@ f_output <- "/home/lucas/Documents/CloudStation/SDL/PhD/Prosodie/Expés_Prosodie
 
 #We need to replace "Formit" by "Form" in the results files, else ibextor doesn't work
 results_lines <- readLines(f_results)
-#results_lines_ok  <- gsub(pattern = "Formit", replace = "Form", x = results_lines)
-#writeLines(results_lines_ok, con=f_results)
+results_lines_ok  <- gsub(pattern = "Formit", replace = "Form", x = results_lines)
+writeLines(results_lines_ok, con=f_results)
 
 #We use Ibex to get results and participants questionnaire
 results <- get_results_q(f_results)
@@ -24,7 +24,7 @@ res <- merge(subjinfo, results, by = "subj")
 
 #We add order of presentation of stimuli for each participants
 #TOCHANGE ONCE WE HAVE THE WHOLE EXPE SET UP
-res$num_sequence <- c(1:120)
+res$num_sequence <- c(1:123)
 
 ##We split the stimulus full-name to create new cols
 #First a regex to get the filename
@@ -50,7 +50,7 @@ res <- res[which(res$type == "T"), ]
 res <- droplevels(res)
 
 
-#PLOT JUST FOR FUN
+# #PLOT JUST FOR FUN
 # library(ggplot2)
 # plotres <- ggplot(res, aes(audio_type, ..count..)) + geom_bar(aes(fill = answer))
 # plotres + facet_grid(. ~ sentence_type)

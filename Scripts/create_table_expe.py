@@ -73,7 +73,10 @@ for row in reader:
 		list_sentence_key = row["sentence_key"].split("-")
 		stimtype = "T"
 		item = int(row["item"])
-		print(ibex1, stimtype, ibex2, item, ibex3, url, row["sentence_key"], ibex4, row["sentence_key"], ibex5, sep="", end="\n")
+		#Print with sentence key in the html code
+		# ~ print(ibex1, stimtype, ibex2, item, ibex3, url, row["sentence_key"], ibex4, row["sentence_key"], ibex5, sep="", end="\n")
+		#Print WITHOUT sentence key in the html code
+		print(ibex1, stimtype, ibex2, item, ibex3, url, row["sentence_key"], ibex4, ibex5, sep="", end="\n")
 		# ~ oldkey_lastpart = "-".join(list_ibex_key[1:])
 		# ~ if row["type-de-phrase"] == "decla":
 			# ~ MCdecla = "PI-MC-"+oldkey_lastpart+".mp3"
@@ -102,5 +105,8 @@ for row in reader:
 		# ~ print(list_sentence_key[3])
 		stimtype = "F"
 		item = int(row["item"])
-		print(ibex1, stimtype, ibex2, item, ibex3, url, row["sentence_key"], ibex4, row["sentence_key"], ibex5, sep="", end="\n")
+		#Print with sentence key in the html code
+		# ~ print(ibex1, stimtype, ibex2, item, ibex3, url, row["sentence_key"], ibex4, row["sentence_key"], ibex5, sep="", end="\n")
+		#Print WITHOUT sentence key in the html code
+		print(ibex1, stimtype, ibex2, item, ibex3, url, row["sentence_key"], ibex4, ibex5, sep="", end="\n")
 
