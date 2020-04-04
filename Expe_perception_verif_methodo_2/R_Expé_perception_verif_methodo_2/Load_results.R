@@ -13,21 +13,14 @@ f_output_fillers <- "/home/lucas/Documents/CloudStation/SDL/PhD/Prosodie/Expés_
 #We need to replace "Formit" by "Form" in the results files, else ibextor doesn't work
 results_lines <- readLines(f_results)
 results_lines_ok  <- gsub(pattern = "Formit", replace = "Form", x = results_lines)
+results_lines_ok <- gsub("'", "", results_lines_ok)
+results_lines_ok <- gsub('"', '', results_lines_ok)
+#Need to replace Tristan's comment which includes apostrophes
+# results_lines_ok <- gsub("1585748064,4e1cc0cd8a4a548d96ea356fb6538aa2,Formit,6,0,endexpe,NULL,commentexpe,C\'est assez compliqué au début de savoir si l\'on doit répondre \"est ce que ca me semble être une question\" ou \'est ce que c\'est vraiment une question\". Je crois une petit retour arrière serait pas mal\%2C j\'ai cliqué un peu vite sur certains et après coup j\'aurais peutetre choisi la réponse inverse. \%0AMerci en tout cas\%2C\%0ALes bisous docteur Tual",
+                         # "1585748064,4e1cc0cd8a4a548d96ea356fb6538aa2, Formit,6,0,endexpe,NULL,commentexpe,compliquederepondre",
+                         # results_lines_ok)
 writeLines(results_lines_ok, con=f_results)
 
-#Need to replace Tristan's comment which includes apostrophes
-# results_lines_ok <- gsub(pattern = "1585748064,4e1cc0cd8a4a548d96ea356fb6538aa2,
-#                          Formit,6,0,endexpe,NULL,commentexpe,
-#                          C'est assez compliqué au début de savoir si l'on doit répondre
-#                          \"est ce que ca me semble être une question\"
-#                          ou 'est ce que c'est vraiment une question\".
-#                          Je crois une petit retour arrière serait pas mal%2C
-#                          j'ai cliqué un peu vite sur certains et après coup
-#                          j'aurais peutetre choisi la réponse inverse.
-#                          %0AMerci en tout cas%2C%0ALes bisous docteur Tual",
-#                          replace = "1585748064,4e1cc0cd8a4a548d96ea356fb6538aa2,
-#                          Formit,6,0,endexpe,NULL,commentexpe,compliquederepondre",
-#                          x = results_lines_ok)
 
 #We use Ibex to get results and participants questionnaire
 results <- get_results_q(f_results)
@@ -80,6 +73,7 @@ res <- rename(res, c("X1"="stim_number", "X2"="sentence_type", "X3"="audio_type"
 etcol <- colnames (res)
 #Everything as factor
 res[sapply(res, is.character)] <- lapply(res[sapply(res, is.character)], as.factor)
+
 
 #Subset only expe trials, put fillers apart
 resfillers <- res[which(res$type == "F"), ]
@@ -139,3 +133,4 @@ plotreynde <- ggplot(resplotynde, aes(x = factor(item),
                                       fill = factor(answer)))+
   geom_bar(stat="identity") +
   labs(x = "item", y = "percent", fill = "Answer")
+
