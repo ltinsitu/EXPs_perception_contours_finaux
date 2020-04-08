@@ -1,0 +1,115 @@
+#To get pitch information in sentences for expe perception verif methodo 2
+#pathtoscript: /home/lucas/Documents/CloudStation/SDL/PhD/Prosodie/Expés_Prosodie/EXPs_perception_contours_finaux/Scripts/Get_Pitch_final_contours.PraatScript
+
+clearinfo
+
+Create Table with column names: "table_Pitch_expe_percep_verif2", 60, "filename v1start v1end v1dur v1mid pitchHzv1start pitchHzv1end pitchHzv1mid pitchHzv1mean pitchstv1start pitchstv1end pitchstv1mid pitchstv1mean v0start v0end v0dur v0mid pitchHzv0start pitchHzv0end pitchHzv0mid pitchHzv0mean pitchstv0start pitchstv0end pitchstv0mid pitchstv0mean diffmeanHz diffmidHz diffmeanst diffmidst"
+
+#Path to TGs
+path$ = "/home/lucas/Documents/CloudStation/SDL/PhD/Prosodie/Expés_Prosodie/EXPs_perception_contours_finaux/Expe_perception_verif_methodo_2/Files_for_finalcontour_analysis/"
+
+#Open all TGs
+Create Strings as file list: "fileList", "'path$'*.TextGrid"
+selectObject: "Strings fileList"
+totsfile = Get number of strings
+
+#Start looping on all TGs
+for n from 1 to 'totsfile'
+	selectObject: "Strings fileList"
+	
+	#Get filename without .TextGrid
+	filename$ = Get string: 'n'
+	filename$ = replace$ ("'filename$'", ".TextGrid", "", 0) 
+	
+	#Open TG and Pitch
+	Read from file: "'path$''filename$'.TextGrid"
+	Read from file: "'path$''filename$'.Pitch"
+	selectObject: "TextGrid 'filename$'"
+
+	#Start looping on all intervals to get last vowels
+	nint = Get number of intervals: 1
+	for m to nint
+		labint$ = Get label of interval: 1, m
+		if startsWith("'labint$'", "V1")
+			v1start = Get start time of interval: 1, m
+			v1end = Get end time of interval: 1, m
+			v1dur = 'v1end' - 'v1start'
+			v1mid = 'v1start' + ('v1dur'/2)
+			selectObject: "Pitch 'filename$'"
+			pitchHzv1start = Get value at time: 'v1start', "Hertz", "Linear"
+			pitchHzv1end = Get value at time: 'v1end', "Hertz", "Linear"
+			pitchHzv1mid = Get value at time: 'v1mid', "Hertz", "Linear"
+			pitchHzv1mean = Get mean: 'v1start', 'v1end', "Hertz"
+			pitchstv1start = Get value at time: 'v1start', "semitones re 100 Hz", "Linear"
+			pitchstv1end = Get value at time: 'v1end', "semitones re 100 Hz", "Linear"
+			pitchstv1mid = Get value at time: 'v1mid', "semitones re 100 Hz", "Linear"
+			pitchstv1mean = Get mean: 'v1start', 'v1end', "semitones re 100 Hz"
+		endif
+		selectObject: "TextGrid 'filename$'"
+		if startsWith("'labint$'", "V0")
+			v0start = Get start time of interval: 1, m
+			v0end = Get end time of interval: 1, m
+			v0dur = 'v0end' - 'v0start'
+			v0mid = 'v0start' + ('v0dur'/2)
+			selectObject: "Pitch 'filename$'"
+			pitchHzv0start = Get value at time: 'v0start', "Hertz", "Linear"
+			pitchHzv0end = Get value at time: 'v0end', "Hertz", "Linear"
+			pitchHzv0mid = Get value at time: 'v0mid', "Hertz", "Linear"
+			pitchHzv0mean = Get mean: 'v0start', 'v0end', "Hertz"
+			pitchstv0start = Get value at time: 'v0start', "semitones re 100 Hz", "Linear"
+			pitchstv0end = Get value at time: 'v0end', "semitones re 100 Hz", "Linear"
+			pitchstv0mid = Get value at time: 'v0mid', "semitones re 100 Hz", "Linear"
+			pitchstv0mean = Get mean: 'v0start', 'v0end', "semitones re 100 Hz"
+		endif
+		selectObject: "Pitch 'filename$'"
+		selectObject: "TextGrid 'filename$'"
+	#for m to nint
+	endfor
+	
+	#Get diff values between V0 and V1
+	diffmeanHz = 'pitchHzv0mean' - 'pitchHzv1mean'
+	diffmidHz = 'pitchHzv0mid' -  'pitchHzv1mid'
+	diffmeanst = 'pitchstv0mean' - 'pitchstv1mean'
+	diffmidst = 'pitchstv0mid' -  'pitchstv1mid'
+
+	#Write infos in table
+	selectObject: "Table table_Pitch_expe_percep_verif2"
+	nrows = Get number of rows
+
+	Set string value: n, "filename", "'filename$'"
+	Set string value: n, "v1start", "'v1start'"
+	Set string value: n, "v1end", "'v1end'"
+	Set string value: n, "v1dur", "'v1dur'"
+	Set string value: n, "v1mid", "'v1mid'"
+	Set string value: n, "pitchHzv1start", "'pitchHzv1start'"
+	Set string value: n, "pitchHzv1end", "'pitchHzv1end'"
+	Set string value: n, "pitchHzv1mid", "'pitchHzv1mid'"
+	Set string value: n, "pitchHzv1mean", "'pitchHzv1mean'"
+	Set string value: n, "pitchstv1start", "'pitchstv1start'"
+	Set string value: n, "pitchstv1end", "'pitchstv1end'"
+	Set string value: n, "pitchstv1mid", "'pitchstv1mid'"
+	Set string value: n, "pitchstv1mean", "'pitchstv1mean'"
+	Set string value: n, "v0start", "'v0start'"
+	Set string value: n, "v0end", "'v0end'"
+	Set string value: n, "v0dur", "'v0dur'"
+	Set string value: n, "v0mid", "'v0mid'"
+	Set string value: n, "pitchHzv0start", "'pitchHzv0start'"
+	Set string value: n, "pitchHzv0end", "'pitchHzv0end'"
+	Set string value: n, "pitchHzv0mid", "'pitchHzv0mid'"
+	Set string value: n, "pitchHzv0mean", "'pitchHzv0mean'"
+	Set string value: n, "pitchstv0start", "'pitchstv0start'"
+	Set string value: n, "pitchstv0end", "'pitchstv0end'"
+	Set string value: n, "pitchstv0mid", "'pitchstv0mid'"
+	Set string value: n, "pitchstv0mean", "'pitchstv0mean'"
+	Set string value: n, "diffmeanHz", "'diffmeanHz'"
+	Set string value: n, "diffmidHz", "'diffmidHz'"
+	Set string value: n, "diffmeanst", "'diffmeanst'"
+	Set string value: n, "diffmidst", "'diffmidst'"
+#for n from 1 to 'totsfile'
+endfor
+
+selectObject: "Strings fileList"
+Remove
+
+selectObject: "Table table_Pitch_expe_percep_verif2"
+Save as comma-separated file: "/home/lucas/Documents/CloudStation/SDL/PhD/Prosodie/Expés_Prosodie/EXPs_perception_contours_finaux/Expe_perception_verif_methodo_2/table_Pitch_expe_percep_verif2.csv"
