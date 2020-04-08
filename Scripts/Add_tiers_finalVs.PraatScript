@@ -1,0 +1,9 @@
+#pathtoscript: /home/lucas/Documents/CloudStation/SDL/PhD/Prosodie/Expés_Prosodie/EXPs_perception_contours_finaux/Scripts/Add_tiers_finalVs.PraatScript
+
+id$ = selected$("TextGrid")
+print 'id$'
+printline
+
+Insert interval tier: 1, "finalVs"
+
+Save as text file: "/home/lucas/Documents/CloudStation/SDL/PhD/Prosodie/Expés_Prosodie/EXPs_perception_contours_finaux/Expe_perception_verif_methodo_2/Files_for_finalcontour_analysis/'id$'.TextGrid"
