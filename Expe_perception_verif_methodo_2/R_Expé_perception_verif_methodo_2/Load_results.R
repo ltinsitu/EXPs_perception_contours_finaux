@@ -71,9 +71,9 @@ res <- rename(res, c("X1"="stim_number", "X2"="sentence_type", "X3"="audio_type"
                      "X8"="spk_id", "X9"="spk_sex", "X10"="orig_filename"))
 
 etcol <- colnames (res)
+
 #Everything as factor
 res[sapply(res, is.character)] <- lapply(res[sapply(res, is.character)], as.factor)
-
 
 #Subset only expe trials, put fillers apart
 resfillers <- res[which(res$type == "F"), ]
@@ -81,56 +81,37 @@ resfillers <- droplevels(resfillers)
 res <- res[which(res$type == "T"), ]
 res <- droplevels(res)
 
-# #PLOT JUST FOR FUN
-library(ggplot2)
-#Plot percentage  
-library(dplyr)
+##Define right answers
+res$rightanswer[res$sentence_type == "de" & res$answer == "Non"] <- "Yes"
+res$rightanswer[res$sentence_type == "de" & res$answer == "Oui"] <- "No"
+res$rightanswer[res$sentence_type == "yn" & res$answer == "Non"] <- "No"
+res$rightanswer[res$sentence_type == "yn" & res$answer == "Oui"] <- "Yes"
 
-resplot <- res %>%
-  group_by(audio_type, sentence_type, answer) %>% 
-  summarise(count=n()) %>% 
-  mutate(perc=count/sum(count))
+#Everything as factor
+res[sapply(res, is.character)] <- lapply(res[sapply(res, is.character)], as.factor)
 
-plotrespercent <- ggplot(resplot, aes(x = factor(audio_type),
-                                      y = perc*100,
-                                      fill = factor(answer)))+
-  geom_bar(stat="identity") +
-  labs(x = "Audiotype", y = "percent", fill = "Answer")
 
-plotrespercent + facet_grid(. ~ sentence_type)
+#INCLUDE PITCH INFOS
+#Open pitch table
+tablepitch <- read.csv("/home/lucas/Documents/CloudStation/SDL/PhD/Prosodie/Expés_Prosodie/EXPs_perception_contours_finaux/Expe_perception_verif_methodo_2/table_Pitch_expe_percep_verif2.csv",
+         header = T)
 
-resplotfillers  <- resfillers %>%
-  group_by(audio_type, sentence_type, answer) %>% 
-  summarise(count=n()) %>% 
-  mutate(perc=count/sum(count))
+#Rename column filename of tablepitch to match res
+names(tablepitch)[names(tablepitch)=="filename"] <- "orig_filename"
 
-plotresfillerspercent <- ggplot(resplotfillers, aes(x = factor(audio_type),
-                                      y = perc*100,
-                                      fill = factor(answer)))+
-  geom_bar(stat="identity") +
-  labs(x = "Audiotype", y = "percent", fill = "Answer")
+#Merge the two dfs
+res <- merge(res, tablepitch, by = "orig_filename")
 
-plotresfillerspercent + facet_grid(. ~ sentence_type)
+#Reorder by subject
+res <- res[order(res$subj),]
+
+#Everything as factor
+res <- droplevels(res)
+res[sapply(res, is.character)] <- lapply(res[sapply(res, is.character)], as.factor)
 
 ##Writing the table into a csv file
 write.csv(res, file = f_output)
 write.csv(resfillers, file = f_output_fillers)
 
 
-##TEST AREA
-resyn <- res[which(res$sentence_type == "yn"), ]
-resynde <- resyn[which(resyn$audio_type == "DE"), ]
-
-resynde <- droplevels(resynde)
-
-resplotynde <- resplotynde %>%
-  group_by(item, answer) %>% 
-  summarise(count=n()) %>% 
-  mutate(perc=count/sum(count))
-
-plotreynde <- ggplot(resplotynde, aes(x = factor(item),
-                                      y = perc*100,
-                                      fill = factor(answer)))+
-  geom_bar(stat="identity") +
-  labs(x = "item", y = "percent", fill = "Answer")
 

@@ -1,0 +1,186 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 0.7958189715008609 
+tiers? <exists> 
+size = 7 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "finalVs" 
+        xmin = 0 
+        xmax = 0.7958189715008609 
+        intervals: size = 4 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.6159203234688737 
+            text = "" 
+        intervals [2]:
+            xmin = 0.6159203234688737 
+            xmax = 0.6563682041150021 
+            text = "V1" 
+        intervals [3]:
+            xmin = 0.6563682041150021 
+            xmax = 0.696368204115002 
+            text = "" 
+        intervals [4]:
+            xmin = 0.696368204115002 
+            xmax = 0.7958189715008609 
+            text = "V0" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "phones" 
+        xmin = 0 
+        xmax = 0.7958189715008609 
+        intervals: size = 15 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.015472892159089188 
+            text = "t" 
+        intervals [2]:
+            xmin = 0.015472892159089188 
+            xmax = 0.07636820411500204 
+            text = "a" 
+        intervals [3]:
+            xmin = 0.07636820411500204 
+            xmax = 0.09529309517558358 
+            text = "v" 
+        intervals [4]:
+            xmin = 0.09529309517558358 
+            xmax = 0.13014131822612074 
+            text = "E" 
+        intervals [5]:
+            xmin = 0.13014131822612074 
+            xmax = 0.20992119000978482 
+            text = "e" 
+        intervals [6]:
+            xmin = 0.20992119000978482 
+            xmax = 0.25636820411500205 
+            text = "t" 
+        intervals [7]:
+            xmin = 0.25636820411500205 
+            xmax = 0.2740652743802322 
+            text = "e" 
+        intervals [8]:
+            xmin = 0.2740652743802322 
+            xmax = 0.38422871465950215 
+            text = "e~" 
+        intervals [9]:
+            xmin = 0.38422871465950215 
+            xmax = 0.44636820411500205 
+            text = "t" 
+        intervals [10]:
+            xmin = 0.44636820411500205 
+            xmax = 0.520752651272218 
+            text = "E" 
+        intervals [11]:
+            xmin = 0.520752651272218 
+            xmax = 0.5600015044033859 
+            text = "R" 
+        intervals [12]:
+            xmin = 0.5600015044033859 
+            xmax = 0.6159203234688737 
+            text = "j" 
+        intervals [13]:
+            xmin = 0.6159203234688737 
+            xmax = 0.6563682041150021 
+            text = "u" 
+        intervals [14]:
+            xmin = 0.6563682041150021 
+            xmax = 0.696368204115002 
+            text = "w" 
+        intervals [15]:
+            xmin = 0.696368204115002 
+            xmax = 0.7958189715008609 
+            text = "e" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "syll" 
+        xmin = 0 
+        xmax = 0.7958189715008609 
+        intervals: size = 8 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.07636820411500204 
+            text = "ta" 
+        intervals [2]:
+            xmin = 0.07636820411500204 
+            xmax = 0.13014131822612074 
+            text = "vE" 
+        intervals [3]:
+            xmin = 0.13014131822612074 
+            xmax = 0.20992119000978482 
+            text = "e" 
+        intervals [4]:
+            xmin = 0.20992119000978482 
+            xmax = 0.2740652743802322 
+            text = "te" 
+        intervals [5]:
+            xmin = 0.2740652743802322 
+            xmax = 0.38422871465950215 
+            text = "e~" 
+        intervals [6]:
+            xmin = 0.38422871465950215 
+            xmax = 0.520752651272218 
+            text = "tE" 
+        intervals [7]:
+            xmin = 0.520752651272218 
+            xmax = 0.6563682041150021 
+            text = "Rju" 
+        intervals [8]:
+            xmin = 0.6563682041150021 
+            xmax = 0.7958189715008609 
+            text = "we" 
+    item [4]:
+        class = "IntervalTier" 
+        name = "words" 
+        xmin = 0 
+        xmax = 0.7958189715008609 
+        intervals: size = 4 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.015472892159089188 
+            text = "tu" 
+        intervals [2]:
+            xmin = 0.015472892159089188 
+            xmax = 0.13014131822612074 
+            text = "avais" 
+        intervals [3]:
+            xmin = 0.13014131822612074 
+            xmax = 0.2740652743802322 
+            text = "été" 
+        intervals [4]:
+            xmin = 0.2740652743802322 
+            xmax = 0.7958189715008609 
+            text = "interviewée" 
+    item [5]:
+        class = "IntervalTier" 
+        name = "textexpe" 
+        xmin = 0 
+        xmax = 0.7958189715008609 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.7958189715008609 
+            text = "tu avais été interviewée ? " 
+    item [6]:
+        class = "IntervalTier" 
+        name = "phono" 
+        xmin = 0 
+        xmax = 0.7958189715008609 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.7958189715008609 
+            text = "t avE ete e~tERjuwe" 
+    item [7]:
+        class = "IntervalTier" 
+        name = "ortho" 
+        xmin = 0 
+        xmax = 0.7958189715008609 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.7958189715008609 
+            text = "tu avais été interviewée" 

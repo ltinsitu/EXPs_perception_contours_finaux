@@ -1,0 +1,186 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 1.145445567739591 
+tiers? <exists> 
+size = 7 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "finalVs" 
+        xmin = 0 
+        xmax = 1.145445567739591 
+        intervals: size = 4 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.8498874032892435 
+            text = "" 
+        intervals [2]:
+            xmin = 0.8498874032892435 
+            xmax = 0.9098874032892436 
+            text = "V1" 
+        intervals [3]:
+            xmin = 0.9098874032892436 
+            xmax = 0.9498874032892435 
+            text = "" 
+        intervals [4]:
+            xmin = 0.9498874032892435 
+            xmax = 1.145445567739591 
+            text = "V0" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "phones" 
+        xmin = 0 
+        xmax = 1.145445567739591 
+        intervals: size = 15 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.05988740328924355 
+            text = "i" 
+        intervals [2]:
+            xmin = 0.05988740328924355 
+            xmax = 0.08988740328924355 
+            text = "l" 
+        intervals [3]:
+            xmin = 0.08988740328924355 
+            xmax = 0.11988740328924355 
+            text = "l" 
+        intervals [4]:
+            xmin = 0.11988740328924355 
+            xmax = 0.20988740328924357 
+            text = "e" 
+        intervals [5]:
+            xmin = 0.20988740328924357 
+            xmax = 0.26988740328924354 
+            text = "z" 
+        intervals [6]:
+            xmin = 0.26988740328924354 
+            xmax = 0.38988740328924354 
+            text = "E" 
+        intervals [7]:
+            xmin = 0.38988740328924354 
+            xmax = 0.4198874032892435 
+            text = "d" 
+        intervals [8]:
+            xmin = 0.4198874032892435 
+            xmax = 0.5398874032892436 
+            text = "a" 
+        intervals [9]:
+            xmin = 0.5398874032892436 
+            xmax = 0.651938684412579 
+            text = "s" 
+        intervals [10]:
+            xmin = 0.651938684412579 
+            xmax = 0.7234619350357734 
+            text = "e~" 
+        intervals [11]:
+            xmin = 0.7234619350357734 
+            xmax = 0.7998874032892436 
+            text = "s" 
+        intervals [12]:
+            xmin = 0.7998874032892436 
+            xmax = 0.8498874032892435 
+            text = "t" 
+        intervals [13]:
+            xmin = 0.8498874032892435 
+            xmax = 0.9098874032892436 
+            text = "a" 
+        intervals [14]:
+            xmin = 0.9098874032892436 
+            xmax = 0.9498874032892435 
+            text = "l" 
+        intervals [15]:
+            xmin = 0.9498874032892435 
+            xmax = 1.145445567739591 
+            text = "e" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "syll" 
+        xmin = 0 
+        xmax = 1.145445567739591 
+        intervals: size = 7 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.08988740328924355 
+            text = "il" 
+        intervals [2]:
+            xmin = 0.08988740328924355 
+            xmax = 0.20988740328924357 
+            text = "le" 
+        intervals [3]:
+            xmin = 0.20988740328924357 
+            xmax = 0.38988740328924354 
+            text = "zE" 
+        intervals [4]:
+            xmin = 0.38988740328924354 
+            xmax = 0.5398874032892436 
+            text = "da" 
+        intervals [5]:
+            xmin = 0.5398874032892436 
+            xmax = 0.7998874032892436 
+            text = "se~s" 
+        intervals [6]:
+            xmin = 0.7998874032892436 
+            xmax = 0.9098874032892436 
+            text = "ta" 
+        intervals [7]:
+            xmin = 0.9098874032892436 
+            xmax = 1.145445567739591 
+            text = "le" 
+    item [4]:
+        class = "IntervalTier" 
+        name = "words" 
+        xmin = 0 
+        xmax = 1.145445567739591 
+        intervals: size = 5 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.08988740328924355 
+            text = "ils" 
+        intervals [2]:
+            xmin = 0.08988740328924355 
+            xmax = 0.20988740328924357 
+            text = "les" 
+        intervals [3]:
+            xmin = 0.20988740328924357 
+            xmax = 0.4198874032892435 
+            text = "aident" 
+        intervals [4]:
+            xmin = 0.4198874032892435 
+            xmax = 0.5398874032892436 
+            text = "à" 
+        intervals [5]:
+            xmin = 0.5398874032892436 
+            xmax = 1.145445567739591 
+            text = "s'installer" 
+    item [5]:
+        class = "IntervalTier" 
+        name = "textexpe" 
+        xmin = 0 
+        xmax = 1.145445567739591 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 1.145445567739591 
+            text = "ils les aident à s'installer ?" 
+    item [6]:
+        class = "IntervalTier" 
+        name = "phono" 
+        xmin = 0 
+        xmax = 1.145445567739591 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 1.145445567739591 
+            text = "il le z*Ed a se~stale" 
+    item [7]:
+        class = "IntervalTier" 
+        name = "ortho" 
+        xmin = 0 
+        xmax = 1.145445567739591 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 1.145445567739591 
+            text = "ils les aident à s'installer" 

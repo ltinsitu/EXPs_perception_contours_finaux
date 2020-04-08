@@ -1,0 +1,202 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 1.1649461896156263 
+tiers? <exists> 
+size = 7 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "finalVs" 
+        xmin = 0 
+        xmax = 1.1649461896156263 
+        intervals: size = 4 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.8449461896156264 
+            text = "" 
+        intervals [2]:
+            xmin = 0.8449461896156264 
+            xmax = 0.9549461896156264 
+            text = "V1" 
+        intervals [3]:
+            xmin = 0.9549461896156264 
+            xmax = 1.1049461896156263 
+            text = "" 
+        intervals [4]:
+            xmin = 1.1049461896156263 
+            xmax = 1.1649461896156263 
+            text = "V0" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "phones" 
+        xmin = 0 
+        xmax = 1.1649461896156263 
+        intervals: size = 17 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.14494618961562647 
+            text = "s" 
+        intervals [2]:
+            xmin = 0.14494618961562647 
+            xmax = 0.24494618961562645 
+            text = "e" 
+        intervals [3]:
+            xmin = 0.24494618961562645 
+            xmax = 0.2788095506029804 
+            text = "p" 
+        intervals [4]:
+            xmin = 0.2788095506029804 
+            xmax = 0.3649461896156264 
+            text = "a" 
+        intervals [5]:
+            xmin = 0.3649461896156264 
+            xmax = 0.4349461896156265 
+            text = "k" 
+        intervals [6]:
+            xmin = 0.4349461896156265 
+            xmax = 0.4649461896156264 
+            text = "l" 
+        intervals [7]:
+            xmin = 0.4649461896156264 
+            xmax = 0.5449461896156265 
+            text = "a" 
+        intervals [8]:
+            xmin = 0.5449461896156265 
+            xmax = 0.5749461896156264 
+            text = "l" 
+        intervals [9]:
+            xmin = 0.5749461896156264 
+            xmax = 0.6305611173367676 
+            text = "a~" 
+        intervals [10]:
+            xmin = 0.6305611173367676 
+            xmax = 0.7197060755715201 
+            text = "g" 
+        intervals [11]:
+            xmin = 0.7197060755715201 
+            xmax = 0.753760015049612 
+            text = "d" 
+        intervals [12]:
+            xmin = 0.753760015049612 
+            xmax = 0.8149461896156264 
+            text = "@" 
+        intervals [13]:
+            xmin = 0.8149461896156264 
+            xmax = 0.8449461896156264 
+            text = "b" 
+        intervals [14]:
+            xmin = 0.8449461896156264 
+            xmax = 0.9549461896156264 
+            text = "a~" 
+        intervals [15]:
+            xmin = 0.9549461896156264 
+            xmax = 1.0049461896156262 
+            text = "l" 
+        intervals [16]:
+            xmin = 1.0049461896156262 
+            xmax = 1.1049461896156263 
+            text = "j" 
+        intervals [17]:
+            xmin = 1.1049461896156263 
+            xmax = 1.1649461896156263 
+            text = "2" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "syll" 
+        xmin = 0 
+        xmax = 1.1649461896156263 
+        intervals: size = 7 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.24494618961562645 
+            text = "se" 
+        intervals [2]:
+            xmin = 0.24494618961562645 
+            xmax = 0.3649461896156264 
+            text = "pa" 
+        intervals [3]:
+            xmin = 0.3649461896156264 
+            xmax = 0.5449461896156265 
+            text = "kla" 
+        intervals [4]:
+            xmin = 0.5449461896156265 
+            xmax = 0.7197060755715201 
+            text = "la~g" 
+        intervals [5]:
+            xmin = 0.7197060755715201 
+            xmax = 0.8149461896156264 
+            text = "d@" 
+        intervals [6]:
+            xmin = 0.8149461896156264 
+            xmax = 0.9549461896156264 
+            text = "ba~" 
+        intervals [7]:
+            xmin = 0.9549461896156264 
+            xmax = 1.1649461896156263 
+            text = "lj2" 
+    item [4]:
+        class = "IntervalTier" 
+        name = "words" 
+        xmin = 0 
+        xmax = 1.1649461896156263 
+        intervals: size = 7 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.24494618961562645 
+            text = "c'est" 
+        intervals [2]:
+            xmin = 0.24494618961562645 
+            xmax = 0.3649461896156264 
+            text = "pas" 
+        intervals [3]:
+            xmin = 0.3649461896156264 
+            xmax = 0.4349461896156265 
+            text = "que" 
+        intervals [4]:
+            xmin = 0.4349461896156265 
+            xmax = 0.5449461896156265 
+            text = "la" 
+        intervals [5]:
+            xmin = 0.5449461896156265 
+            xmax = 0.7197060755715201 
+            text = "langue" 
+        intervals [6]:
+            xmin = 0.7197060755715201 
+            xmax = 0.8149461896156264 
+            text = "de" 
+        intervals [7]:
+            xmin = 0.8149461896156264 
+            xmax = 1.1649461896156263 
+            text = "banlieue" 
+    item [5]:
+        class = "IntervalTier" 
+        name = "textexpe" 
+        xmin = 0 
+        xmax = 1.1649461896156263 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 1.1649461896156263 
+            text = "c'est pas que la langue de banlieue" 
+    item [6]:
+        class = "IntervalTier" 
+        name = "phono" 
+        xmin = 0 
+        xmax = 1.1649461896156263 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 1.1649461896156263 
+            text = "se pa k la la~g d@ ba~lj2" 
+    item [7]:
+        class = "IntervalTier" 
+        name = "ortho" 
+        xmin = 0 
+        xmax = 1.1649461896156263 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 1.1649461896156263 
+            text = "c'est pas que la langue de banlieue" 

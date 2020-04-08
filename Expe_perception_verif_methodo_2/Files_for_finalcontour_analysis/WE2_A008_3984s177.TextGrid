@@ -1,0 +1,234 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 1.64 
+tiers? <exists> 
+size = 7 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "finalVs" 
+        xmin = 0 
+        xmax = 1.64 
+        intervals: size = 4 
+        intervals [1]:
+            xmin = 0 
+            xmax = 1.3699999999999999 
+            text = "" 
+        intervals [2]:
+            xmin = 1.3699999999999999 
+            xmax = 1.43 
+            text = "V1" 
+        intervals [3]:
+            xmin = 1.43 
+            xmax = 1.5332710167552357 
+            text = "" 
+        intervals [4]:
+            xmin = 1.5332710167552357 
+            xmax = 1.64 
+            text = "V0" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "phones" 
+        xmin = 0 
+        xmax = 1.64 
+        intervals: size = 22 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.10999999999999999 
+            text = "i" 
+        intervals [2]:
+            xmin = 0.10999999999999999 
+            xmax = 0.15999999999999998 
+            text = "d" 
+        intervals [3]:
+            xmin = 0.15999999999999998 
+            xmax = 0.23309464340099362 
+            text = "i" 
+        intervals [4]:
+            xmin = 0.23309464340099362 
+            xmax = 0.29 
+            text = "z" 
+        intervals [5]:
+            xmin = 0.29 
+            xmax = 0.3663701339140383 
+            text = "b" 
+        intervals [6]:
+            xmin = 0.3663701339140383 
+            xmax = 0.49 
+            text = "o~" 
+        intervals [7]:
+            xmin = 0.49 
+            xmax = 0.62 
+            text = "s" 
+        intervals [8]:
+            xmin = 0.62 
+            xmax = 0.6942733806681528 
+            text = "w" 
+        intervals [9]:
+            xmin = 0.6942733806681528 
+            xmax = 0.7605960319420383 
+            text = "a" 
+        intervals [10]:
+            xmin = 0.7605960319420383 
+            xmax = 0.8099999999999999 
+            text = "R" 
+        intervals [11]:
+            xmin = 0.8099999999999999 
+            xmax = 0.8697024299254776 
+            text = "m" 
+        intervals [12]:
+            xmin = 0.8697024299254776 
+            xmax = 0.935499526134675 
+            text = "E" 
+        intervals [13]:
+            xmin = 0.935499526134675 
+            xmax = 0.9999999999999998 
+            text = "m" 
+        intervals [14]:
+            xmin = 0.9999999999999998 
+            xmax = 1.0499999999999998 
+            text = "k" 
+        intervals [15]:
+            xmin = 1.0499999999999998 
+            xmax = 1.112094404169223 
+            text = "a~" 
+        intervals [16]:
+            xmin = 1.112094404169223 
+            xmax = 1.22 
+            text = "s" 
+        intervals [17]:
+            xmin = 1.22 
+            xmax = 1.2699999999999998 
+            text = "e" 
+        intervals [18]:
+            xmin = 1.2699999999999998 
+            xmax = 1.2999999999999998 
+            text = "l" 
+        intervals [19]:
+            xmin = 1.2999999999999998 
+            xmax = 1.3699999999999999 
+            text = "m" 
+        intervals [20]:
+            xmin = 1.3699999999999999 
+            xmax = 1.43 
+            text = "a" 
+        intervals [21]:
+            xmin = 1.43 
+            xmax = 1.5332710167552357 
+            text = "t" 
+        intervals [22]:
+            xmin = 1.5332710167552357 
+            xmax = 1.64 
+            text = "e~" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "syll" 
+        xmin = 0 
+        xmax = 1.64 
+        intervals: size = 9 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.10999999999999999 
+            text = "i" 
+        intervals [2]:
+            xmin = 0.10999999999999999 
+            xmax = 0.29 
+            text = "diz" 
+        intervals [3]:
+            xmin = 0.29 
+            xmax = 0.49 
+            text = "bo~" 
+        intervals [4]:
+            xmin = 0.49 
+            xmax = 0.8099999999999999 
+            text = "swaR" 
+        intervals [5]:
+            xmin = 0.8099999999999999 
+            xmax = 0.9999999999999998 
+            text = "mEm" 
+        intervals [6]:
+            xmin = 0.9999999999999998 
+            xmax = 1.112094404169223 
+            text = "ka~" 
+        intervals [7]:
+            xmin = 1.112094404169223 
+            xmax = 1.2999999999999998 
+            text = "sel" 
+        intervals [8]:
+            xmin = 1.2999999999999998 
+            xmax = 1.43 
+            text = "ma" 
+        intervals [9]:
+            xmin = 1.43 
+            xmax = 1.64 
+            text = "te~" 
+    item [4]:
+        class = "IntervalTier" 
+        name = "words" 
+        xmin = 0 
+        xmax = 1.64 
+        intervals: size = 8 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.10999999999999999 
+            text = "ils" 
+        intervals [2]:
+            xmin = 0.10999999999999999 
+            xmax = 0.29 
+            text = "disent" 
+        intervals [3]:
+            xmin = 0.29 
+            xmax = 0.8099999999999999 
+            text = "bonsoir" 
+        intervals [4]:
+            xmin = 0.8099999999999999 
+            xmax = 0.9999999999999998 
+            text = "même" 
+        intervals [5]:
+            xmin = 0.9999999999999998 
+            xmax = 1.112094404169223 
+            text = "quand" 
+        intervals [6]:
+            xmin = 1.112094404169223 
+            xmax = 1.2699999999999998 
+            text = "c'est" 
+        intervals [7]:
+            xmin = 1.2699999999999998 
+            xmax = 1.2999999999999998 
+            text = "le" 
+        intervals [8]:
+            xmin = 1.2999999999999998 
+            xmax = 1.64 
+            text = "matin" 
+    item [5]:
+        class = "IntervalTier" 
+        name = "textexpe" 
+        xmin = 0 
+        xmax = 1.64 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 1.64 
+            text = "ils disent bonsoir même quand c'est le matin" 
+    item [6]:
+        class = "IntervalTier" 
+        name = "phono" 
+        xmin = 0 
+        xmax = 1.64 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 1.64 
+            text = "i diz bo~swaR mEm ka~ se l mate~" 
+    item [7]:
+        class = "IntervalTier" 
+        name = "ortho" 
+        xmin = 0 
+        xmax = 1.64 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 1.64 
+            text = "ils disent bonsoir même quand c'est le matin" 

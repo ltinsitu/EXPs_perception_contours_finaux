@@ -1,0 +1,294 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 2.17 
+tiers? <exists> 
+size = 7 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "finalVs" 
+        xmin = 0 
+        xmax = 2.17 
+        intervals: size = 5 
+        intervals [1]:
+            xmin = 0 
+            xmax = 1.8481165231188923 
+            text = "" 
+        intervals [2]:
+            xmin = 1.8481165231188923 
+            xmax = 1.9058435403956575 
+            text = "V1" 
+        intervals [3]:
+            xmin = 1.9058435403956575 
+            xmax = 1.95 
+            text = "" 
+        intervals [4]:
+            xmin = 1.95 
+            xmax = 2.06 
+            text = "V0" 
+        intervals [5]:
+            xmin = 2.06 
+            xmax = 2.17 
+            text = "" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "phones" 
+        xmin = 0 
+        xmax = 2.17 
+        intervals: size = 30 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.039999999999999994 
+            text = "S" 
+        intervals [2]:
+            xmin = 0.039999999999999994 
+            xmax = 0.09 
+            text = "f" 
+        intervals [3]:
+            xmin = 0.09 
+            xmax = 0.15 
+            text = "2" 
+        intervals [4]:
+            xmin = 0.15 
+            xmax = 0.18000000000000002 
+            text = "z" 
+        intervals [5]:
+            xmin = 0.18000000000000002 
+            xmax = 0.272360861864412 
+            text = "E" 
+        intervals [6]:
+            xmin = 0.272360861864412 
+            xmax = 0.36 
+            text = "b" 
+        intervals [7]:
+            xmin = 0.36 
+            xmax = 0.45846849167471326 
+            text = "o" 
+        intervals [8]:
+            xmin = 0.45846849167471326 
+            xmax = 0.5499999999999999 
+            text = "k" 
+        intervals [9]:
+            xmin = 0.5499999999999999 
+            xmax = 0.6 
+            text = "u" 
+        intervals [10]:
+            xmin = 0.6 
+            xmax = 0.6444027496990914 
+            text = "d" 
+        intervals [11]:
+            xmin = 0.6444027496990914 
+            xmax = 0.7447610027351169 
+            text = "m" 
+        intervals [12]:
+            xmin = 0.7447610027351169 
+            xmax = 0.82 
+            text = "y" 
+        intervals [13]:
+            xmin = 0.82 
+            xmax = 0.909759527094915 
+            text = "z" 
+        intervals [14]:
+            xmin = 0.909759527094915 
+            xmax = 1.0048285655285831 
+            text = "i" 
+        intervals [15]:
+            xmin = 1.0048285655285831 
+            xmax = 1.09 
+            text = "k" 
+        intervals [16]:
+            xmin = 1.09 
+            xmax = 1.1674791656404397 
+            text = "o" 
+        intervals [17]:
+            xmin = 1.1674791656404397 
+            xmax = 1.31 
+            text = "s" 
+        intervals [18]:
+            xmin = 1.31 
+            xmax = 1.41 
+            text = "i" 
+        intervals [19]:
+            xmin = 1.41 
+            xmax = 1.45 
+            text = "k" 
+        intervals [20]:
+            xmin = 1.45 
+            xmax = 1.51 
+            text = "a~" 
+        intervals [21]:
+            xmin = 1.51 
+            xmax = 1.54 
+            text = "Z" 
+        intervals [22]:
+            xmin = 1.54 
+            xmax = 1.6099999999999999 
+            text = "e" 
+        intervals [23]:
+            xmin = 1.6099999999999999 
+            xmax = 1.6725819735887875 
+            text = "t" 
+        intervals [24]:
+            xmin = 1.6725819735887875 
+            xmax = 1.7517675134126975 
+            text = "E" 
+        intervals [25]:
+            xmin = 1.7517675134126975 
+            xmax = 1.82 
+            text = "p" 
+        intervals [26]:
+            xmin = 1.82 
+            xmax = 1.8481165231188923 
+            text = "l" 
+        intervals [27]:
+            xmin = 1.8481165231188923 
+            xmax = 1.9058435403956575 
+            text = "y" 
+        intervals [28]:
+            xmin = 1.9058435403956575 
+            xmax = 1.95 
+            text = "Z" 
+        intervals [29]:
+            xmin = 1.95 
+            xmax = 2.06 
+            text = "9" 
+        intervals [30]:
+            xmin = 2.06 
+            xmax = 2.17 
+            text = "n" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "syll" 
+        xmin = 0 
+        xmax = 2.17 
+        intervals: size = 13 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.15 
+            text = "Sf2" 
+        intervals [2]:
+            xmin = 0.15 
+            xmax = 0.272360861864412 
+            text = "zE" 
+        intervals [3]:
+            xmin = 0.272360861864412 
+            xmax = 0.45846849167471326 
+            text = "bo" 
+        intervals [4]:
+            xmin = 0.45846849167471326 
+            xmax = 0.6444027496990914 
+            text = "kud" 
+        intervals [5]:
+            xmin = 0.6444027496990914 
+            xmax = 0.82 
+            text = "my" 
+        intervals [6]:
+            xmin = 0.82 
+            xmax = 1.0048285655285831 
+            text = "zi" 
+        intervals [7]:
+            xmin = 1.0048285655285831 
+            xmax = 1.1674791656404397 
+            text = "ko" 
+        intervals [8]:
+            xmin = 1.1674791656404397 
+            xmax = 1.41 
+            text = "si" 
+        intervals [9]:
+            xmin = 1.41 
+            xmax = 1.51 
+            text = "ka~" 
+        intervals [10]:
+            xmin = 1.51 
+            xmax = 1.6099999999999999 
+            text = "Ze" 
+        intervals [11]:
+            xmin = 1.6099999999999999 
+            xmax = 1.7517675134126975 
+            text = "tE" 
+        intervals [12]:
+            xmin = 1.7517675134126975 
+            xmax = 1.9058435403956575 
+            text = "ply" 
+        intervals [13]:
+            xmin = 1.9058435403956575 
+            xmax = 2.17 
+            text = "Z9n" 
+    item [4]:
+        class = "IntervalTier" 
+        name = "words" 
+        xmin = 0 
+        xmax = 2.17 
+        intervals: size = 10 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.039999999999999994 
+            text = "je" 
+        intervals [2]:
+            xmin = 0.039999999999999994 
+            xmax = 0.272360861864412 
+            text = "faisais" 
+        intervals [3]:
+            xmin = 0.272360861864412 
+            xmax = 0.6 
+            text = "beaucoup" 
+        intervals [4]:
+            xmin = 0.6 
+            xmax = 0.6444027496990914 
+            text = "de" 
+        intervals [5]:
+            xmin = 0.6444027496990914 
+            xmax = 1.0048285655285831 
+            text = "musique" 
+        intervals [6]:
+            xmin = 1.0048285655285831 
+            xmax = 1.41 
+            text = "aussi" 
+        intervals [7]:
+            xmin = 1.41 
+            xmax = 1.51 
+            text = "quand" 
+        intervals [8]:
+            xmin = 1.51 
+            xmax = 1.7517675134126975 
+            text = "j'étais" 
+        intervals [9]:
+            xmin = 1.7517675134126975 
+            xmax = 1.9058435403956575 
+            text = "plus" 
+        intervals [10]:
+            xmin = 1.9058435403956575 
+            xmax = 2.17 
+            text = "jeune" 
+    item [5]:
+        class = "IntervalTier" 
+        name = "textexpe" 
+        xmin = 0 
+        xmax = 2.17 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 2.17 
+            text = "je faisais beaucoup de musique aussi quand j'étais plus jeune  " 
+    item [6]:
+        class = "IntervalTier" 
+        name = "phono" 
+        xmin = 0 
+        xmax = 2.17 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 2.17 
+            text = "S f2zE boku d myzi kosi ka~ ZetE ply Z9n" 
+    item [7]:
+        class = "IntervalTier" 
+        name = "ortho" 
+        xmin = 0 
+        xmax = 2.17 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 2.17 
+            text = "je faisais beaucoup de musique aussi quand j'étais plus jeune" 

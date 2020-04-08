@@ -1,0 +1,178 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 0.8401466923832115 
+tiers? <exists> 
+size = 7 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "finalVs" 
+        xmin = 0 
+        xmax = 0.8401466923832115 
+        intervals: size = 4 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.5201466923832114 
+            text = "" 
+        intervals [2]:
+            xmin = 0.5201466923832114 
+            xmax = 0.6101466923832115 
+            text = "V1" 
+        intervals [3]:
+            xmin = 0.6101466923832115 
+            xmax = 0.7101466923832114 
+            text = "" 
+        intervals [4]:
+            xmin = 0.7101466923832114 
+            xmax = 0.8401466923832115 
+            text = "V0" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "phones" 
+        xmin = 0 
+        xmax = 0.8401466923832115 
+        intervals: size = 14 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.03014669238321155 
+            text = "v" 
+        intervals [2]:
+            xmin = 0.03014669238321155 
+            xmax = 0.060146692383211575 
+            text = "u" 
+        intervals [3]:
+            xmin = 0.060146692383211575 
+            xmax = 0.11014669238321162 
+            text = "v" 
+        intervals [4]:
+            xmin = 0.11014669238321162 
+            xmax = 0.15014669238321154 
+            text = "u" 
+        intervals [5]:
+            xmin = 0.15014669238321154 
+            xmax = 0.22377235190884048 
+            text = "z" 
+        intervals [6]:
+            xmin = 0.22377235190884048 
+            xmax = 0.29014669238321156 
+            text = "i" 
+        intervals [7]:
+            xmin = 0.29014669238321156 
+            xmax = 0.3501466923832115 
+            text = "t" 
+        intervals [8]:
+            xmin = 0.3501466923832115 
+            xmax = 0.4401466923832116 
+            text = "R" 
+        intervals [9]:
+            xmin = 0.4401466923832116 
+            xmax = 0.4701466923832114 
+            text = "u" 
+        intervals [10]:
+            xmin = 0.4701466923832114 
+            xmax = 0.5201466923832114 
+            text = "v" 
+        intervals [11]:
+            xmin = 0.5201466923832114 
+            xmax = 0.6101466923832115 
+            text = "e" 
+        intervals [12]:
+            xmin = 0.6101466923832115 
+            xmax = 0.6401466923832115 
+            text = "b" 
+        intervals [13]:
+            xmin = 0.6401466923832115 
+            xmax = 0.7101466923832114 
+            text = "j" 
+        intervals [14]:
+            xmin = 0.7101466923832114 
+            xmax = 0.8401466923832115 
+            text = "e~" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "syll" 
+        xmin = 0 
+        xmax = 0.8401466923832115 
+        intervals: size = 6 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.060146692383211575 
+            text = "vu" 
+        intervals [2]:
+            xmin = 0.060146692383211575 
+            xmax = 0.15014669238321154 
+            text = "vu" 
+        intervals [3]:
+            xmin = 0.15014669238321154 
+            xmax = 0.29014669238321156 
+            text = "zi" 
+        intervals [4]:
+            xmin = 0.29014669238321156 
+            xmax = 0.4701466923832114 
+            text = "tRu" 
+        intervals [5]:
+            xmin = 0.4701466923832114 
+            xmax = 0.6101466923832115 
+            text = "ve" 
+        intervals [6]:
+            xmin = 0.6101466923832115 
+            xmax = 0.8401466923832115 
+            text = "bje~" 
+    item [4]:
+        class = "IntervalTier" 
+        name = "words" 
+        xmin = 0 
+        xmax = 0.8401466923832115 
+        intervals: size = 5 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.060146692383211575 
+            text = "vous" 
+        intervals [2]:
+            xmin = 0.060146692383211575 
+            xmax = 0.15014669238321154 
+            text = "vous" 
+        intervals [3]:
+            xmin = 0.15014669238321154 
+            xmax = 0.29014669238321156 
+            text = "y" 
+        intervals [4]:
+            xmin = 0.29014669238321156 
+            xmax = 0.6101466923832115 
+            text = "trouvez" 
+        intervals [5]:
+            xmin = 0.6101466923832115 
+            xmax = 0.8401466923832115 
+            text = "bien" 
+    item [5]:
+        class = "IntervalTier" 
+        name = "textexpe" 
+        xmin = 0 
+        xmax = 0.8401466923832115 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.8401466923832115 
+            text = "vous vous y trouvez bien" 
+    item [6]:
+        class = "IntervalTier" 
+        name = "phono" 
+        xmin = 0 
+        xmax = 0.8401466923832115 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.8401466923832115 
+            text = "vu vu zi tRuve bje~" 
+    item [7]:
+        class = "IntervalTier" 
+        name = "ortho" 
+        xmin = 0 
+        xmax = 0.8401466923832115 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.8401466923832115 
+            text = "vous vous y trouvez bien" 

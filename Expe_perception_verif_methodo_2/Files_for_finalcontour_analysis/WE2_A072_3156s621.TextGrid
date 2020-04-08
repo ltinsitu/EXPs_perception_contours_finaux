@@ -1,0 +1,286 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 2.48 
+tiers? <exists> 
+size = 7 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "finalVs" 
+        xmin = 0 
+        xmax = 2.48 
+        intervals: size = 5 
+        intervals [1]:
+            xmin = 0 
+            xmax = 2.210816750672108 
+            text = "" 
+        intervals [2]:
+            xmin = 2.210816750672108 
+            xmax = 2.2654742398574617 
+            text = "V1" 
+        intervals [3]:
+            xmin = 2.2654742398574617 
+            xmax = 2.3148346200750654 
+            text = "" 
+        intervals [4]:
+            xmin = 2.3148346200750654 
+            xmax = 2.3840105043834687 
+            text = "V0" 
+        intervals [5]:
+            xmin = 2.3840105043834687 
+            xmax = 2.48 
+            text = "" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "phones" 
+        xmin = 0 
+        xmax = 2.48 
+        intervals: size = 30 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.10918106653682152 
+            text = "Z" 
+        intervals [2]:
+            xmin = 0.10918106653682152 
+            xmax = 0.26204819351047504 
+            text = "e" 
+        intervals [3]:
+            xmin = 0.26204819351047504 
+            xmax = 0.4 
+            text = "f" 
+        intervals [4]:
+            xmin = 0.4 
+            xmax = 0.444009262704251 
+            text = "O" 
+        intervals [5]:
+            xmin = 0.444009262704251 
+            xmax = 0.5080610078433377 
+            text = "R" 
+        intervals [6]:
+            xmin = 0.5080610078433377 
+            xmax = 0.6255761052972477 
+            text = "s" 
+        intervals [7]:
+            xmin = 0.6255761052972477 
+            xmax = 0.7000000000000001 
+            text = "e" 
+        intervals [8]:
+            xmin = 0.7000000000000001 
+            xmax = 0.76 
+            text = "m" 
+        intervals [9]:
+            xmin = 0.76 
+            xmax = 0.9102125974455219 
+            text = "a~" 
+        intervals [10]:
+            xmin = 0.9102125974455219 
+            xmax = 0.9655106040822669 
+            text = "d" 
+        intervals [11]:
+            xmin = 0.9655106040822669 
+            xmax = 1.053120088236032 
+            text = "e" 
+        intervals [12]:
+            xmin = 1.053120088236032 
+            xmax = 1.1381673534461947 
+            text = "k" 
+        intervals [13]:
+            xmin = 1.1381673534461947 
+            xmax = 1.2199999999999998 
+            text = "o~" 
+        intervals [14]:
+            xmin = 1.2199999999999998 
+            xmax = 1.2999999999999998 
+            text = "Z" 
+        intervals [15]:
+            xmin = 1.2999999999999998 
+            xmax = 1.4677212833300768 
+            text = "e" 
+        intervals [16]:
+            xmin = 1.4677212833300768 
+            xmax = 1.5699999999999998 
+            text = "d" 
+        intervals [17]:
+            xmin = 1.5699999999999998 
+            xmax = 1.6704223142318768 
+            text = "a~" 
+        intervals [18]:
+            xmin = 1.6704223142318768 
+            xmax = 1.73 
+            text = "l" 
+        intervals [19]:
+            xmin = 1.73 
+            xmax = 1.7799999999999998 
+            text = "e" 
+        intervals [20]:
+            xmin = 1.7799999999999998 
+            xmax = 1.81 
+            text = "v" 
+        intervals [21]:
+            xmin = 1.81 
+            xmax = 1.9 
+            text = "a" 
+        intervals [22]:
+            xmin = 1.9 
+            xmax = 1.977879260380592 
+            text = "k" 
+        intervals [23]:
+            xmin = 1.977879260380592 
+            xmax = 2.04 
+            text = "a~" 
+        intervals [24]:
+            xmin = 2.04 
+            xmax = 2.11 
+            text = "s" 
+        intervals [25]:
+            xmin = 2.11 
+            xmax = 2.163204953452053 
+            text = "s" 
+        intervals [26]:
+            xmin = 2.163204953452053 
+            xmax = 2.210816750672108 
+            text = "k" 
+        intervals [27]:
+            xmin = 2.210816750672108 
+            xmax = 2.2654742398574617 
+            text = "O" 
+        intervals [28]:
+            xmin = 2.2654742398574617 
+            xmax = 2.3148346200750654 
+            text = "l" 
+        intervals [29]:
+            xmin = 2.3148346200750654 
+            xmax = 2.3840105043834687 
+            text = "E" 
+        intervals [30]:
+            xmin = 2.3840105043834687 
+            xmax = 2.48 
+            text = "R" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "syll" 
+        xmin = 0 
+        xmax = 2.48 
+        intervals: size = 13 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.26204819351047504 
+            text = "Ze" 
+        intervals [2]:
+            xmin = 0.26204819351047504 
+            xmax = 0.5080610078433377 
+            text = "fOR" 
+        intervals [3]:
+            xmin = 0.5080610078433377 
+            xmax = 0.7000000000000001 
+            text = "se" 
+        intervals [4]:
+            xmin = 0.7000000000000001 
+            xmax = 0.9102125974455219 
+            text = "ma~" 
+        intervals [5]:
+            xmin = 0.9102125974455219 
+            xmax = 1.053120088236032 
+            text = "de" 
+        intervals [6]:
+            xmin = 1.053120088236032 
+            xmax = 1.2199999999999998 
+            text = "ko~" 
+        intervals [7]:
+            xmin = 1.2199999999999998 
+            xmax = 1.4677212833300768 
+            text = "Ze" 
+        intervals [8]:
+            xmin = 1.4677212833300768 
+            xmax = 1.6704223142318768 
+            text = "da~" 
+        intervals [9]:
+            xmin = 1.6704223142318768 
+            xmax = 1.7799999999999998 
+            text = "le" 
+        intervals [10]:
+            xmin = 1.7799999999999998 
+            xmax = 1.9 
+            text = "va" 
+        intervals [11]:
+            xmin = 1.9 
+            xmax = 2.11 
+            text = "ka~s" 
+        intervals [12]:
+            xmin = 2.11 
+            xmax = 2.2654742398574617 
+            text = "skO" 
+        intervals [13]:
+            xmin = 2.2654742398574617 
+            xmax = 2.48 
+            text = "lER" 
+    item [4]:
+        class = "IntervalTier" 
+        name = "words" 
+        xmin = 0 
+        xmax = 2.48 
+        intervals: size = 8 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.26204819351047504 
+            text = "j'ai" 
+        intervals [2]:
+            xmin = 0.26204819351047504 
+            xmax = 0.9102125974455219 
+            text = "forcément" 
+        intervals [3]:
+            xmin = 0.9102125974455219 
+            xmax = 1.053120088236032 
+            text = "des" 
+        intervals [4]:
+            xmin = 1.053120088236032 
+            xmax = 1.4677212833300768 
+            text = "congés" 
+        intervals [5]:
+            xmin = 1.4677212833300768 
+            xmax = 1.6704223142318768 
+            text = "dans" 
+        intervals [6]:
+            xmin = 1.6704223142318768 
+            xmax = 1.7799999999999998 
+            text = "les" 
+        intervals [7]:
+            xmin = 1.7799999999999998 
+            xmax = 2.11 
+            text = "vacances" 
+        intervals [8]:
+            xmin = 2.11 
+            xmax = 2.48 
+            text = "scolaires" 
+    item [5]:
+        class = "IntervalTier" 
+        name = "textexpe" 
+        xmin = 0 
+        xmax = 2.48 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 2.48 
+            text = "j'ai forcément des congés dans les vacances scolaires " 
+    item [6]:
+        class = "IntervalTier" 
+        name = "phono" 
+        xmin = 0 
+        xmax = 2.48 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 2.48 
+            text = "do~k Ze fORsema~ de ko~Ze da~ le vaka~s skOlER" 
+    item [7]:
+        class = "IntervalTier" 
+        name = "ortho" 
+        xmin = 0 
+        xmax = 2.48 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 2.48 
+            text = "donc j'ai forcément des congés dans les vacances scolaires" 

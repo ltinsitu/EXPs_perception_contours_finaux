@@ -1,0 +1,158 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 0.8999999999999998 
+tiers? <exists> 
+size = 7 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "finalVs" 
+        xmin = 0 
+        xmax = 0.8999999999999998 
+        intervals: size = 4 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.51 
+            text = "" 
+        intervals [2]:
+            xmin = 0.51 
+            xmax = 0.61 
+            text = "V1" 
+        intervals [3]:
+            xmin = 0.61 
+            xmax = 0.7599999999999999 
+            text = "" 
+        intervals [4]:
+            xmin = 0.7599999999999999 
+            xmax = 0.8999999999999998 
+            text = "V0" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "phones" 
+        xmin = 0 
+        xmax = 0.8999999999999998 
+        intervals: size = 11 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.07999999999999996 
+            text = "s" 
+        intervals [2]:
+            xmin = 0.07999999999999996 
+            xmax = 0.14999999999999997 
+            text = "a" 
+        intervals [3]:
+            xmin = 0.14999999999999997 
+            xmax = 0.24 
+            text = "s" 
+        intervals [4]:
+            xmin = 0.24 
+            xmax = 0.29999999999999993 
+            text = "e" 
+        intervals [5]:
+            xmin = 0.29999999999999993 
+            xmax = 0.3378804782498551 
+            text = "b" 
+        intervals [6]:
+            xmin = 0.3378804782498551 
+            xmax = 0.371515955233063 
+            text = "j" 
+        intervals [7]:
+            xmin = 0.371515955233063 
+            xmax = 0.47 
+            text = "e~" 
+        intervals [8]:
+            xmin = 0.47 
+            xmax = 0.51 
+            text = "p" 
+        intervals [9]:
+            xmin = 0.51 
+            xmax = 0.61 
+            text = "a" 
+        intervals [10]:
+            xmin = 0.61 
+            xmax = 0.7599999999999999 
+            text = "s" 
+        intervals [11]:
+            xmin = 0.7599999999999999 
+            xmax = 0.8999999999999998 
+            text = "e" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "syll" 
+        xmin = 0 
+        xmax = 0.8999999999999998 
+        intervals: size = 5 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.14999999999999997 
+            text = "sa" 
+        intervals [2]:
+            xmin = 0.14999999999999997 
+            xmax = 0.29999999999999993 
+            text = "se" 
+        intervals [3]:
+            xmin = 0.29999999999999993 
+            xmax = 0.47 
+            text = "bje~" 
+        intervals [4]:
+            xmin = 0.47 
+            xmax = 0.61 
+            text = "pa" 
+        intervals [5]:
+            xmin = 0.61 
+            xmax = 0.8999999999999998 
+            text = "se" 
+    item [4]:
+        class = "IntervalTier" 
+        name = "words" 
+        xmin = 0 
+        xmax = 0.8999999999999998 
+        intervals: size = 4 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.14999999999999997 
+            text = "ça" 
+        intervals [2]:
+            xmin = 0.14999999999999997 
+            xmax = 0.29999999999999993 
+            text = "s'est" 
+        intervals [3]:
+            xmin = 0.29999999999999993 
+            xmax = 0.47 
+            text = "bien" 
+        intervals [4]:
+            xmin = 0.47 
+            xmax = 0.8999999999999998 
+            text = "passé" 
+    item [5]:
+        class = "IntervalTier" 
+        name = "textexpe" 
+        xmin = 0 
+        xmax = 0.8999999999999998 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.8999999999999998 
+            text = "ça s'est bien passé ?" 
+    item [6]:
+        class = "IntervalTier" 
+        name = "phono" 
+        xmin = 0 
+        xmax = 0.8999999999999998 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.8999999999999998 
+            text = "sa se bje~ pase" 
+    item [7]:
+        class = "IntervalTier" 
+        name = "ortho" 
+        xmin = 0 
+        xmax = 0.8999999999999998 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.8999999999999998 
+            text = "ça s'est bien passé" 

@@ -1,0 +1,190 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 0.6735600520809676 
+tiers? <exists> 
+size = 7 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "finalVs" 
+        xmin = 0 
+        xmax = 0.6735600520809676 
+        intervals: size = 4 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.5309267542274444 
+            text = "" 
+        intervals [2]:
+            xmin = 0.5309267542274444 
+            xmax = 0.5711898240462331 
+            text = "V1" 
+        intervals [3]:
+            xmin = 0.5711898240462331 
+            xmax = 0.6199999999999998 
+            text = "" 
+        intervals [4]:
+            xmin = 0.6199999999999998 
+            xmax = 0.6735600520809676 
+            text = "V0" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "phones" 
+        xmin = 0 
+        xmax = 0.6735600520809676 
+        intervals: size = 15 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.029999999999999916 
+            text = "t" 
+        intervals [2]:
+            xmin = 0.029999999999999916 
+            xmax = 0.05999999999999994 
+            text = "y" 
+        intervals [3]:
+            xmin = 0.05999999999999994 
+            xmax = 0.08999999999999997 
+            text = "v" 
+        intervals [4]:
+            xmin = 0.08999999999999997 
+            xmax = 0.1499999999999999 
+            text = "a" 
+        intervals [5]:
+            xmin = 0.1499999999999999 
+            xmax = 0.24811373029931405 
+            text = "s" 
+        intervals [6]:
+            xmin = 0.24811373029931405 
+            xmax = 0.28375664259435884 
+            text = "u" 
+        intervals [7]:
+            xmin = 0.28375664259435884 
+            xmax = 0.31219618763785395 
+            text = "v" 
+        intervals [8]:
+            xmin = 0.31219618763785395 
+            xmax = 0.33999999999999975 
+            text = "a~" 
+        intervals [9]:
+            xmin = 0.33999999999999975 
+            xmax = 0.3699999999999998 
+            text = "o" 
+        intervals [10]:
+            xmin = 0.3699999999999998 
+            xmax = 0.47999999999999987 
+            text = "s" 
+        intervals [11]:
+            xmin = 0.47999999999999987 
+            xmax = 0.5099999999999999 
+            text = "i" 
+        intervals [12]:
+            xmin = 0.5099999999999999 
+            xmax = 0.5309267542274444 
+            text = "n" 
+        intervals [13]:
+            xmin = 0.5309267542274444 
+            xmax = 0.5711898240462331 
+            text = "e" 
+        intervals [14]:
+            xmin = 0.5711898240462331 
+            xmax = 0.6199999999999998 
+            text = "m" 
+        intervals [15]:
+            xmin = 0.6199999999999998 
+            xmax = 0.6735600520809676 
+            text = "a" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "syll" 
+        xmin = 0 
+        xmax = 0.6735600520809676 
+        intervals: size = 8 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.05999999999999994 
+            text = "ty" 
+        intervals [2]:
+            xmin = 0.05999999999999994 
+            xmax = 0.1499999999999999 
+            text = "va" 
+        intervals [3]:
+            xmin = 0.1499999999999999 
+            xmax = 0.28375664259435884 
+            text = "su" 
+        intervals [4]:
+            xmin = 0.28375664259435884 
+            xmax = 0.33999999999999975 
+            text = "va~" 
+        intervals [5]:
+            xmin = 0.33999999999999975 
+            xmax = 0.3699999999999998 
+            text = "o" 
+        intervals [6]:
+            xmin = 0.3699999999999998 
+            xmax = 0.5099999999999999 
+            text = "si" 
+        intervals [7]:
+            xmin = 0.5099999999999999 
+            xmax = 0.5711898240462331 
+            text = "ne" 
+        intervals [8]:
+            xmin = 0.5711898240462331 
+            xmax = 0.6735600520809676 
+            text = "ma" 
+    item [4]:
+        class = "IntervalTier" 
+        name = "words" 
+        xmin = 0 
+        xmax = 0.6735600520809676 
+        intervals: size = 5 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.05999999999999994 
+            text = "tu" 
+        intervals [2]:
+            xmin = 0.05999999999999994 
+            xmax = 0.1499999999999999 
+            text = "vas" 
+        intervals [3]:
+            xmin = 0.1499999999999999 
+            xmax = 0.33999999999999975 
+            text = "souvent" 
+        intervals [4]:
+            xmin = 0.33999999999999975 
+            xmax = 0.3699999999999998 
+            text = "au" 
+        intervals [5]:
+            xmin = 0.3699999999999998 
+            xmax = 0.6735600520809676 
+            text = "cinéma" 
+    item [5]:
+        class = "IntervalTier" 
+        name = "textexpe" 
+        xmin = 0 
+        xmax = 0.6735600520809676 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.6735600520809676 
+            text = "tu vas souvent au cinéma ?" 
+    item [6]:
+        class = "IntervalTier" 
+        name = "phono" 
+        xmin = 0 
+        xmax = 0.6735600520809676 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.6735600520809676 
+            text = "a wE do~k ty va suva~ o sinema" 
+    item [7]:
+        class = "IntervalTier" 
+        name = "ortho" 
+        xmin = 0 
+        xmax = 0.6735600520809676 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.6735600520809676 
+            text = "ah ouais donc tu vas souvent au cinéma" 

@@ -1,0 +1,238 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 1.3878819879837971 
+tiers? <exists> 
+size = 7 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "finalVs" 
+        xmin = 0 
+        xmax = 1.3878819879837971 
+        intervals: size = 5 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.9885102002867412 
+            text = "" 
+        intervals [2]:
+            xmin = 0.9885102002867412 
+            xmax = 1.0385102002867412 
+            text = "V1" 
+        intervals [3]:
+            xmin = 1.0385102002867412 
+            xmax = 1.203613580236971 
+            text = "" 
+        intervals [4]:
+            xmin = 1.203613580236971 
+            xmax = 1.2910472447770194 
+            text = "V0" 
+        intervals [5]:
+            xmin = 1.2910472447770194 
+            xmax = 1.3878819879837971 
+            text = "" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "phones" 
+        xmin = 0 
+        xmax = 1.3878819879837971 
+        intervals: size = 22 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.03345836982398956 
+            text = "l" 
+        intervals [2]:
+            xmin = 0.03345836982398956 
+            xmax = 0.11821941098640595 
+            text = "a" 
+        intervals [3]:
+            xmin = 0.11821941098640595 
+            xmax = 0.19328422060045095 
+            text = "g" 
+        intervals [4]:
+            xmin = 0.19328422060045095 
+            xmax = 0.27424716267453897 
+            text = "a" 
+        intervals [5]:
+            xmin = 0.27424716267453897 
+            xmax = 0.3185102002867414 
+            text = "m" 
+        intervals [6]:
+            xmin = 0.3185102002867414 
+            xmax = 0.3885102002867413 
+            text = "v" 
+        intervals [7]:
+            xmin = 0.3885102002867413 
+            xmax = 0.4585102002867413 
+            text = "a" 
+        intervals [8]:
+            xmin = 0.4585102002867413 
+            xmax = 0.5385102002867413 
+            text = "e" 
+        intervals [9]:
+            xmin = 0.5385102002867413 
+            xmax = 0.5885102002867413 
+            text = "v" 
+        intervals [10]:
+            xmin = 0.5885102002867413 
+            xmax = 0.6485102002867413 
+            text = "O" 
+        intervals [11]:
+            xmin = 0.6485102002867413 
+            xmax = 0.6785102002867414 
+            text = "l" 
+        intervals [12]:
+            xmin = 0.6785102002867414 
+            xmax = 0.7285457101954567 
+            text = "y" 
+        intervals [13]:
+            xmin = 0.7285457101954567 
+            xmax = 0.8485102002867413 
+            text = "e" 
+        intervals [14]:
+            xmin = 0.8485102002867413 
+            xmax = 0.9011825539718841 
+            text = "p" 
+        intervals [15]:
+            xmin = 0.9011825539718841 
+            xmax = 0.9285102002867411 
+            text = "a" 
+        intervals [16]:
+            xmin = 0.9285102002867411 
+            xmax = 0.9585102002867412 
+            text = "R" 
+        intervals [17]:
+            xmin = 0.9585102002867412 
+            xmax = 0.9885102002867412 
+            text = "l" 
+        intervals [18]:
+            xmin = 0.9885102002867412 
+            xmax = 1.0385102002867412 
+            text = "a" 
+        intervals [19]:
+            xmin = 1.0385102002867412 
+            xmax = 1.1728381928988674 
+            text = "s" 
+        intervals [20]:
+            xmin = 1.1728381928988674 
+            xmax = 1.203613580236971 
+            text = "H" 
+        intervals [21]:
+            xmin = 1.203613580236971 
+            xmax = 1.2910472447770194 
+            text = "i" 
+        intervals [22]:
+            xmin = 1.2910472447770194 
+            xmax = 1.3878819879837971 
+            text = "t" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "syll" 
+        xmin = 0 
+        xmax = 1.3878819879837971 
+        intervals: size = 10 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.11821941098640595 
+            text = "la" 
+        intervals [2]:
+            xmin = 0.11821941098640595 
+            xmax = 0.3185102002867414 
+            text = "gam" 
+        intervals [3]:
+            xmin = 0.3185102002867414 
+            xmax = 0.4585102002867413 
+            text = "va" 
+        intervals [4]:
+            xmin = 0.4585102002867413 
+            xmax = 0.5385102002867413 
+            text = "e" 
+        intervals [5]:
+            xmin = 0.5385102002867413 
+            xmax = 0.6485102002867413 
+            text = "vO" 
+        intervals [6]:
+            xmin = 0.6485102002867413 
+            xmax = 0.7285457101954567 
+            text = "ly" 
+        intervals [7]:
+            xmin = 0.7285457101954567 
+            xmax = 0.8485102002867413 
+            text = "e" 
+        intervals [8]:
+            xmin = 0.8485102002867413 
+            xmax = 0.9585102002867412 
+            text = "paR" 
+        intervals [9]:
+            xmin = 0.9585102002867412 
+            xmax = 1.0385102002867412 
+            text = "la" 
+        intervals [10]:
+            xmin = 1.0385102002867412 
+            xmax = 1.3878819879837971 
+            text = "sHit" 
+    item [4]:
+        class = "IntervalTier" 
+        name = "words" 
+        xmin = 0 
+        xmax = 1.3878819879837971 
+        intervals: size = 7 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.11821941098640595 
+            text = "la" 
+        intervals [2]:
+            xmin = 0.11821941098640595 
+            xmax = 0.3185102002867414 
+            text = "gamme" 
+        intervals [3]:
+            xmin = 0.3185102002867414 
+            xmax = 0.4585102002867413 
+            text = "va" 
+        intervals [4]:
+            xmin = 0.4585102002867413 
+            xmax = 0.8485102002867413 
+            text = "évoluer" 
+        intervals [5]:
+            xmin = 0.8485102002867413 
+            xmax = 0.9585102002867412 
+            text = "par" 
+        intervals [6]:
+            xmin = 0.9585102002867412 
+            xmax = 1.0385102002867412 
+            text = "la" 
+        intervals [7]:
+            xmin = 1.0385102002867412 
+            xmax = 1.3878819879837971 
+            text = "suite" 
+    item [5]:
+        class = "IntervalTier" 
+        name = "textexpe" 
+        xmin = 0 
+        xmax = 1.3878819879837971 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 1.3878819879837971 
+            text = "la gamme va évoluer par la suite " 
+    item [6]:
+        class = "IntervalTier" 
+        name = "phono" 
+        xmin = 0 
+        xmax = 1.3878819879837971 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 1.3878819879837971 
+            text = "e pHi la gam va evOlye paR la sHit" 
+    item [7]:
+        class = "IntervalTier" 
+        name = "ortho" 
+        xmin = 0 
+        xmax = 1.3878819879837971 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 1.3878819879837971 
+            text = "et puis la gamme va évoluer par la suite" 

@@ -1,0 +1,182 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 1.0500000000000003 
+tiers? <exists> 
+size = 7 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "finalVs" 
+        xmin = 0 
+        xmax = 1.0500000000000003 
+        intervals: size = 5 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.5700000000000003 
+            text = "" 
+        intervals [2]:
+            xmin = 0.5700000000000003 
+            xmax = 0.6400000000000001 
+            text = "V1" 
+        intervals [3]:
+            xmin = 0.6400000000000001 
+            xmax = 0.7200000000000002 
+            text = "" 
+        intervals [4]:
+            xmin = 0.7200000000000002 
+            xmax = 0.8511405222693798 
+            text = "V0" 
+        intervals [5]:
+            xmin = 0.8511405222693798 
+            xmax = 1.0500000000000003 
+            text = "" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "phones" 
+        xmin = 0 
+        xmax = 1.0500000000000003 
+        intervals: size = 14 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.07000000000000028 
+            text = "S" 
+        intervals [2]:
+            xmin = 0.07000000000000028 
+            xmax = 0.13000000000000034 
+            text = "t" 
+        intervals [3]:
+            xmin = 0.13000000000000034 
+            xmax = 0.17000000000000037 
+            text = "R" 
+        intervals [4]:
+            xmin = 0.17000000000000037 
+            xmax = 0.2200000000000002 
+            text = "u" 
+        intervals [5]:
+            xmin = 0.2200000000000002 
+            xmax = 0.27 
+            text = "v" 
+        intervals [6]:
+            xmin = 0.27 
+            xmax = 0.33000000000000007 
+            text = "k" 
+        intervals [7]:
+            xmin = 0.33000000000000007 
+            xmax = 0.3700000000000001 
+            text = "@" 
+        intervals [8]:
+            xmin = 0.3700000000000001 
+            xmax = 0.45999999999999996 
+            text = "s" 
+        intervals [9]:
+            xmin = 0.45999999999999996 
+            xmax = 0.5300000000000002 
+            text = "e" 
+        intervals [10]:
+            xmin = 0.5300000000000002 
+            xmax = 0.5700000000000003 
+            text = "d" 
+        intervals [11]:
+            xmin = 0.5700000000000003 
+            xmax = 0.6400000000000001 
+            text = "O" 
+        intervals [12]:
+            xmin = 0.6400000000000001 
+            xmax = 0.7200000000000002 
+            text = "m" 
+        intervals [13]:
+            xmin = 0.7200000000000002 
+            xmax = 0.8511405222693798 
+            text = "a" 
+        intervals [14]:
+            xmin = 0.8511405222693798 
+            xmax = 1.0500000000000003 
+            text = "Z" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "syll" 
+        xmin = 0 
+        xmax = 1.0500000000000003 
+        intervals: size = 6 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.07000000000000028 
+            text = "saS" 
+        intervals [2]:
+            xmin = 0.07000000000000028 
+            xmax = 0.27 
+            text = "tRuv" 
+        intervals [3]:
+            xmin = 0.27 
+            xmax = 0.3700000000000001 
+            text = "k@" 
+        intervals [4]:
+            xmin = 0.3700000000000001 
+            xmax = 0.5300000000000002 
+            text = "se" 
+        intervals [5]:
+            xmin = 0.5300000000000002 
+            xmax = 0.6400000000000001 
+            text = "dO" 
+        intervals [6]:
+            xmin = 0.6400000000000001 
+            xmax = 1.0500000000000003 
+            text = "maZ" 
+    item [4]:
+        class = "IntervalTier" 
+        name = "words" 
+        xmin = 0 
+        xmax = 1.0500000000000003 
+        intervals: size = 5 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.07000000000000028 
+            text = "je" 
+        intervals [2]:
+            xmin = 0.07000000000000028 
+            xmax = 0.27 
+            text = "trouve" 
+        intervals [3]:
+            xmin = 0.27 
+            xmax = 0.3700000000000001 
+            text = "que" 
+        intervals [4]:
+            xmin = 0.3700000000000001 
+            xmax = 0.5300000000000002 
+            text = "c'est" 
+        intervals [5]:
+            xmin = 0.5300000000000002 
+            xmax = 1.0500000000000003 
+            text = "dommage" 
+    item [5]:
+        class = "IntervalTier" 
+        name = "textexpe" 
+        xmin = 0 
+        xmax = 1.0500000000000003 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 1.0500000000000003 
+            text = "je trouve que c'est dommage" 
+    item [6]:
+        class = "IntervalTier" 
+        name = "phono" 
+        xmin = 0 
+        xmax = 1.0500000000000003 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 1.0500000000000003 
+            text = "e sa S tRuv k@ se dOmaZ" 
+    item [7]:
+        class = "IntervalTier" 
+        name = "ortho" 
+        xmin = 0 
+        xmax = 1.0500000000000003 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 1.0500000000000003 
+            text = "et ça je trouve que c'est dommage" 

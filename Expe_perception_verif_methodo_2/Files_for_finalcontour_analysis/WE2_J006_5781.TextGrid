@@ -1,0 +1,170 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 0.79 
+tiers? <exists> 
+size = 7 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "finalVs" 
+        xmin = 0 
+        xmax = 0.79 
+        intervals: size = 5 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.46709433217053603 
+            text = "" 
+        intervals [2]:
+            xmin = 0.46709433217053603 
+            xmax = 0.55 
+            text = "V1" 
+        intervals [3]:
+            xmin = 0.55 
+            xmax = 0.5900000000000001 
+            text = "" 
+        intervals [4]:
+            xmin = 0.5900000000000001 
+            xmax = 0.64837880826625 
+            text = "V0" 
+        intervals [5]:
+            xmin = 0.64837880826625 
+            xmax = 0.79 
+            text = "" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "phones" 
+        xmin = 0 
+        xmax = 0.79 
+        intervals: size = 12 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.040000000000000036 
+            text = "t" 
+        intervals [2]:
+            xmin = 0.040000000000000036 
+            xmax = 0.09610687220931652 
+            text = "a" 
+        intervals [3]:
+            xmin = 0.09610687220931652 
+            xmax = 0.21000000000000002 
+            text = "9~" 
+        intervals [4]:
+            xmin = 0.21000000000000002 
+            xmax = 0.24000000000000005 
+            text = "k" 
+        intervals [5]:
+            xmin = 0.24000000000000005 
+            xmax = 0.37000000000000005 
+            text = "o~" 
+        intervals [6]:
+            xmin = 0.37000000000000005 
+            xmax = 0.39999999999999997 
+            text = "t" 
+        intervals [7]:
+            xmin = 0.39999999999999997 
+            xmax = 0.45280568109251146 
+            text = "t" 
+        intervals [8]:
+            xmin = 0.45280568109251146 
+            xmax = 0.46709433217053603 
+            text = "w" 
+        intervals [9]:
+            xmin = 0.46709433217053603 
+            xmax = 0.55 
+            text = "i" 
+        intervals [10]:
+            xmin = 0.55 
+            xmax = 0.5900000000000001 
+            text = "t" 
+        intervals [11]:
+            xmin = 0.5900000000000001 
+            xmax = 0.64837880826625 
+            text = "9" 
+        intervals [12]:
+            xmin = 0.64837880826625 
+            xmax = 0.79 
+            text = "R" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "syll" 
+        xmin = 0 
+        xmax = 0.79 
+        intervals: size = 5 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.09610687220931652 
+            text = "ta" 
+        intervals [2]:
+            xmin = 0.09610687220931652 
+            xmax = 0.21000000000000002 
+            text = "9~" 
+        intervals [3]:
+            xmin = 0.21000000000000002 
+            xmax = 0.39999999999999997 
+            text = "ko~t" 
+        intervals [4]:
+            xmin = 0.39999999999999997 
+            xmax = 0.55 
+            text = "twi" 
+        intervals [5]:
+            xmin = 0.55 
+            xmax = 0.79 
+            text = "t9R" 
+    item [4]:
+        class = "IntervalTier" 
+        name = "words" 
+        xmin = 0 
+        xmax = 0.79 
+        intervals: size = 5 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.040000000000000036 
+            text = "tu" 
+        intervals [2]:
+            xmin = 0.040000000000000036 
+            xmax = 0.09610687220931652 
+            text = "as" 
+        intervals [3]:
+            xmin = 0.09610687220931652 
+            xmax = 0.21000000000000002 
+            text = "un" 
+        intervals [4]:
+            xmin = 0.21000000000000002 
+            xmax = 0.39999999999999997 
+            text = "compte" 
+        intervals [5]:
+            xmin = 0.39999999999999997 
+            xmax = 0.79 
+            text = "twitter" 
+    item [5]:
+        class = "IntervalTier" 
+        name = "textexpe" 
+        xmin = 0 
+        xmax = 0.79 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.79 
+            text = "tu as un compte Twitter ?" 
+    item [6]:
+        class = "IntervalTier" 
+        name = "phono" 
+        xmin = 0 
+        xmax = 0.79 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.79 
+            text = "e 2 t a 9~ ko~t twit9R" 
+    item [7]:
+        class = "IntervalTier" 
+        name = "ortho" 
+        xmin = 0 
+        xmax = 0.79 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.79 
+            text = "et euh tu as un compte twitter" 

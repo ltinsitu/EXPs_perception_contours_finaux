@@ -1,0 +1,178 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 0.6282386820945517 
+tiers? <exists> 
+size = 7 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "finalVs" 
+        xmin = 0 
+        xmax = 0.6282386820945517 
+        intervals: size = 5 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.3115376402509857 
+            text = "" 
+        intervals [2]:
+            xmin = 0.3115376402509857 
+            xmax = 0.38990498264647727 
+            text = "V1" 
+        intervals [3]:
+            xmin = 0.38990498264647727 
+            xmax = 0.4347315850352756 
+            text = "" 
+        intervals [4]:
+            xmin = 0.4347315850352756 
+            xmax = 0.5699049826464774 
+            text = "V0" 
+        intervals [5]:
+            xmin = 0.5699049826464774 
+            xmax = 0.6282386820945517 
+            text = "" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "phones" 
+        xmin = 0 
+        xmax = 0.6282386820945517 
+        intervals: size = 13 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.012137488502214588 
+            text = "t" 
+        intervals [2]:
+            xmin = 0.012137488502214588 
+            xmax = 0.03470563118601984 
+            text = "y" 
+        intervals [3]:
+            xmin = 0.03470563118601984 
+            xmax = 0.07206633798189911 
+            text = "v" 
+        intervals [4]:
+            xmin = 0.07206633798189911 
+            xmax = 0.12131473015350956 
+            text = "2" 
+        intervals [5]:
+            xmin = 0.12131473015350956 
+            xmax = 0.14492593825547387 
+            text = "k" 
+        intervals [6]:
+            xmin = 0.14492593825547387 
+            xmax = 0.20990498264647728 
+            text = "S" 
+        intervals [7]:
+            xmin = 0.20990498264647728 
+            xmax = 0.23990498264647725 
+            text = "t" 
+        intervals [8]:
+            xmin = 0.23990498264647725 
+            xmax = 0.2699049826464773 
+            text = "@" 
+        intervals [9]:
+            xmin = 0.2699049826464773 
+            xmax = 0.3115376402509857 
+            text = "R" 
+        intervals [10]:
+            xmin = 0.3115376402509857 
+            xmax = 0.38990498264647727 
+            text = "a" 
+        intervals [11]:
+            xmin = 0.38990498264647727 
+            xmax = 0.4347315850352756 
+            text = "k" 
+        intervals [12]:
+            xmin = 0.4347315850352756 
+            xmax = 0.5699049826464774 
+            text = "o~" 
+        intervals [13]:
+            xmin = 0.5699049826464774 
+            xmax = 0.6282386820945517 
+            text = "t" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "syll" 
+        xmin = 0 
+        xmax = 0.6282386820945517 
+        intervals: size = 5 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.03470563118601984 
+            text = "ty" 
+        intervals [2]:
+            xmin = 0.03470563118601984 
+            xmax = 0.14492593825547387 
+            text = "v2k" 
+        intervals [3]:
+            xmin = 0.14492593825547387 
+            xmax = 0.2699049826464773 
+            text = "St@" 
+        intervals [4]:
+            xmin = 0.2699049826464773 
+            xmax = 0.38990498264647727 
+            text = "Ra" 
+        intervals [5]:
+            xmin = 0.38990498264647727 
+            xmax = 0.6282386820945517 
+            text = "ko~t" 
+    item [4]:
+        class = "IntervalTier" 
+        name = "words" 
+        xmin = 0 
+        xmax = 0.6282386820945517 
+        intervals: size = 6 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.03470563118601984 
+            text = "tu" 
+        intervals [2]:
+            xmin = 0.03470563118601984 
+            xmax = 0.12131473015350956 
+            text = "veux" 
+        intervals [3]:
+            xmin = 0.12131473015350956 
+            xmax = 0.14492593825547387 
+            text = "que" 
+        intervals [4]:
+            xmin = 0.14492593825547387 
+            xmax = 0.20990498264647728 
+            text = "je" 
+        intervals [5]:
+            xmin = 0.20990498264647728 
+            xmax = 0.2699049826464773 
+            text = "te" 
+        intervals [6]:
+            xmin = 0.2699049826464773 
+            xmax = 0.6282386820945517 
+            text = "raconte" 
+    item [5]:
+        class = "IntervalTier" 
+        name = "textexpe" 
+        xmin = 0 
+        xmax = 0.6282386820945517 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.6282386820945517 
+            text = "tu veux que je te raconte ?" 
+    item [6]:
+        class = "IntervalTier" 
+        name = "phono" 
+        xmin = 0 
+        xmax = 0.6282386820945517 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.6282386820945517 
+            text = "ty v2 k S t@ Rako~t" 
+    item [7]:
+        class = "IntervalTier" 
+        name = "ortho" 
+        xmin = 0 
+        xmax = 0.6282386820945517 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.6282386820945517 
+            text = "tu veux que je te raconte" 

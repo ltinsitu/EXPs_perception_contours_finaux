@@ -1,0 +1,158 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 0.9228383146692044 
+tiers? <exists> 
+size = 7 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "finalVs" 
+        xmin = 0 
+        xmax = 0.9228383146692044 
+        intervals: size = 4 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.60456608590663 
+            text = "" 
+        intervals [2]:
+            xmin = 0.60456608590663 
+            xmax = 0.7340513083322264 
+            text = "V1" 
+        intervals [3]:
+            xmin = 0.7340513083322264 
+            xmax = 0.8025592838265557 
+            text = "" 
+        intervals [4]:
+            xmin = 0.8025592838265557 
+            xmax = 0.9228383146692044 
+            text = "V0" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "phones" 
+        xmin = 0 
+        xmax = 0.9228383146692044 
+        intervals: size = 12 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.09000000000000002 
+            text = "t" 
+        intervals [2]:
+            xmin = 0.09000000000000002 
+            xmax = 0.17000000000000004 
+            text = "a" 
+        intervals [3]:
+            xmin = 0.17000000000000004 
+            xmax = 0.24321478295131221 
+            text = "d" 
+        intervals [4]:
+            xmin = 0.24321478295131221 
+            xmax = 0.28 
+            text = "Z" 
+        intervals [5]:
+            xmin = 0.28 
+            xmax = 0.42000000000000004 
+            text = "a" 
+        intervals [6]:
+            xmin = 0.42000000000000004 
+            xmax = 0.45000000000000007 
+            text = "v" 
+        intervals [7]:
+            xmin = 0.45000000000000007 
+            xmax = 0.48 
+            text = "w" 
+        intervals [8]:
+            xmin = 0.48 
+            xmax = 0.53 
+            text = "a" 
+        intervals [9]:
+            xmin = 0.53 
+            xmax = 0.60456608590663 
+            text = "j" 
+        intervals [10]:
+            xmin = 0.60456608590663 
+            xmax = 0.7340513083322264 
+            text = "a" 
+        intervals [11]:
+            xmin = 0.7340513083322264 
+            xmax = 0.8025592838265557 
+            text = "Z" 
+        intervals [12]:
+            xmin = 0.8025592838265557 
+            xmax = 0.9228383146692044 
+            text = "e" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "syll" 
+        xmin = 0 
+        xmax = 0.9228383146692044 
+        intervals: size = 5 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.24321478295131221 
+            text = "tad" 
+        intervals [2]:
+            xmin = 0.24321478295131221 
+            xmax = 0.42000000000000004 
+            text = "Za" 
+        intervals [3]:
+            xmin = 0.42000000000000004 
+            xmax = 0.53 
+            text = "vwa" 
+        intervals [4]:
+            xmin = 0.53 
+            xmax = 0.7340513083322264 
+            text = "ja" 
+        intervals [5]:
+            xmin = 0.7340513083322264 
+            xmax = 0.9228383146692044 
+            text = "Ze" 
+    item [4]:
+        class = "IntervalTier" 
+        name = "words" 
+        xmin = 0 
+        xmax = 0.9228383146692044 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.17000000000000004 
+            text = "t'as" 
+        intervals [2]:
+            xmin = 0.17000000000000004 
+            xmax = 0.42000000000000004 
+            text = "déjà" 
+        intervals [3]:
+            xmin = 0.42000000000000004 
+            xmax = 0.9228383146692044 
+            text = "voyagé" 
+    item [5]:
+        class = "IntervalTier" 
+        name = "textexpe" 
+        xmin = 0 
+        xmax = 0.9228383146692044 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.9228383146692044 
+            text = "t'as déjà voyagé ?" 
+    item [6]:
+        class = "IntervalTier" 
+        name = "phono" 
+        xmin = 0 
+        xmax = 0.9228383146692044 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.9228383146692044 
+            text = "e ta dZa vwajaZe" 
+    item [7]:
+        class = "IntervalTier" 
+        name = "ortho" 
+        xmin = 0 
+        xmax = 0.9228383146692044 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.9228383146692044 
+            text = "et t'as déjà voyagé" 

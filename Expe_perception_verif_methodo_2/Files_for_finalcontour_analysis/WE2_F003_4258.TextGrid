@@ -1,0 +1,190 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 0.9534214128411796 
+tiers? <exists> 
+size = 7 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "finalVs" 
+        xmin = 0 
+        xmax = 0.9534214128411796 
+        intervals: size = 4 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.6926777319241674 
+            text = "" 
+        intervals [2]:
+            xmin = 0.6926777319241674 
+            xmax = 0.7497029682529238 
+            text = "V1" 
+        intervals [3]:
+            xmin = 0.7497029682529238 
+            xmax = 0.7980963179764676 
+            text = "" 
+        intervals [4]:
+            xmin = 0.7980963179764676 
+            xmax = 0.9534214128411796 
+            text = "V0" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "phones" 
+        xmin = 0 
+        xmax = 0.9534214128411796 
+        intervals: size = 16 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.024768719193896862 
+            text = "v" 
+        intervals [2]:
+            xmin = 0.024768719193896862 
+            xmax = 0.07436445912736533 
+            text = "u" 
+        intervals [3]:
+            xmin = 0.07436445912736533 
+            xmax = 0.14809631797646763 
+            text = "f" 
+        intervals [4]:
+            xmin = 0.14809631797646763 
+            xmax = 0.22796014341723858 
+            text = "E" 
+        intervals [5]:
+            xmin = 0.22796014341723858 
+            xmax = 0.2780963179764676 
+            text = "t" 
+        intervals [6]:
+            xmin = 0.2780963179764676 
+            xmax = 0.3180963179764676 
+            text = "t" 
+        intervals [7]:
+            xmin = 0.3180963179764676 
+            xmax = 0.3554648664564095 
+            text = "u" 
+        intervals [8]:
+            xmin = 0.3554648664564095 
+            xmax = 0.4280963179764676 
+            text = "Z" 
+        intervals [9]:
+            xmin = 0.4280963179764676 
+            xmax = 0.508707486180115 
+            text = "u" 
+        intervals [10]:
+            xmin = 0.508707486180115 
+            xmax = 0.5580963179764676 
+            text = "R" 
+        intervals [11]:
+            xmin = 0.5580963179764676 
+            xmax = 0.5880963179764676 
+            text = "d" 
+        intervals [12]:
+            xmin = 0.5880963179764676 
+            xmax = 0.6180963179764676 
+            text = "y" 
+        intervals [13]:
+            xmin = 0.6180963179764676 
+            xmax = 0.6926777319241674 
+            text = "v" 
+        intervals [14]:
+            xmin = 0.6926777319241674 
+            xmax = 0.7497029682529238 
+            text = "e" 
+        intervals [15]:
+            xmin = 0.7497029682529238 
+            xmax = 0.7980963179764676 
+            text = "l" 
+        intervals [16]:
+            xmin = 0.7980963179764676 
+            xmax = 0.9534214128411796 
+            text = "o" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "syll" 
+        xmin = 0 
+        xmax = 0.9534214128411796 
+        intervals: size = 7 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.07436445912736533 
+            text = "vu" 
+        intervals [2]:
+            xmin = 0.07436445912736533 
+            xmax = 0.2780963179764676 
+            text = "fEt" 
+        intervals [3]:
+            xmin = 0.2780963179764676 
+            xmax = 0.3554648664564095 
+            text = "tu" 
+        intervals [4]:
+            xmin = 0.3554648664564095 
+            xmax = 0.5580963179764676 
+            text = "ZuR" 
+        intervals [5]:
+            xmin = 0.5580963179764676 
+            xmax = 0.6180963179764676 
+            text = "dy" 
+        intervals [6]:
+            xmin = 0.6180963179764676 
+            xmax = 0.7497029682529238 
+            text = "ve" 
+        intervals [7]:
+            xmin = 0.7497029682529238 
+            xmax = 0.9534214128411796 
+            text = "lo" 
+    item [4]:
+        class = "IntervalTier" 
+        name = "words" 
+        xmin = 0 
+        xmax = 0.9534214128411796 
+        intervals: size = 5 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.07436445912736533 
+            text = "vous" 
+        intervals [2]:
+            xmin = 0.07436445912736533 
+            xmax = 0.2780963179764676 
+            text = "faites" 
+        intervals [3]:
+            xmin = 0.2780963179764676 
+            xmax = 0.5580963179764676 
+            text = "toujours" 
+        intervals [4]:
+            xmin = 0.5580963179764676 
+            xmax = 0.6180963179764676 
+            text = "du" 
+        intervals [5]:
+            xmin = 0.6180963179764676 
+            xmax = 0.9534214128411796 
+            text = "vélo" 
+    item [5]:
+        class = "IntervalTier" 
+        name = "textexpe" 
+        xmin = 0 
+        xmax = 0.9534214128411796 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.9534214128411796 
+            text = "vous faites toujours du vélo ?" 
+    item [6]:
+        class = "IntervalTier" 
+        name = "phono" 
+        xmin = 0 
+        xmax = 0.9534214128411796 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.9534214128411796 
+            text = "vu fEt tuZuR dy velo" 
+    item [7]:
+        class = "IntervalTier" 
+        name = "ortho" 
+        xmin = 0 
+        xmax = 0.9534214128411796 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.9534214128411796 
+            text = "vous faites toujours du vélo" 

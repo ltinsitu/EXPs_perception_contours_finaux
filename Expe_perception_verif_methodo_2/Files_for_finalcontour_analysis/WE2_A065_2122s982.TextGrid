@@ -1,0 +1,178 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 1.2700230780711241 
+tiers? <exists> 
+size = 7 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "finalVs" 
+        xmin = 0 
+        xmax = 1.2700230780711241 
+        intervals: size = 5 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.986999302192108 
+            text = "" 
+        intervals [2]:
+            xmin = 0.986999302192108 
+            xmax = 1.0203707933146509 
+            text = "V1" 
+        intervals [3]:
+            xmin = 1.0203707933146509 
+            xmax = 1.0969993021921078 
+            text = "" 
+        intervals [4]:
+            xmin = 1.0969993021921078 
+            xmax = 1.1796036608463185 
+            text = "V0" 
+        intervals [5]:
+            xmin = 1.1796036608463185 
+            xmax = 1.2700230780711241 
+            text = "" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "phones" 
+        xmin = 0 
+        xmax = 1.2700230780711241 
+        intervals: size = 14 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.1059463304912398 
+            text = "o~" 
+        intervals [2]:
+            xmin = 0.1059463304912398 
+            xmax = 0.1869993021921077 
+            text = "n" 
+        intervals [3]:
+            xmin = 0.1869993021921077 
+            xmax = 0.2788481604431119 
+            text = "e" 
+        intervals [4]:
+            xmin = 0.2788481604431119 
+            xmax = 0.4259179783215321 
+            text = "k" 
+        intervals [5]:
+            xmin = 0.4259179783215321 
+            xmax = 0.5969993021921078 
+            text = "e~" 
+        intervals [6]:
+            xmin = 0.5969993021921078 
+            xmax = 0.6969993021921079 
+            text = "z" 
+        intervals [7]:
+            xmin = 0.6969993021921079 
+            xmax = 0.7610080724215209 
+            text = "m" 
+        intervals [8]:
+            xmin = 0.7610080724215209 
+            xmax = 0.8194846411429582 
+            text = "a" 
+        intervals [9]:
+            xmin = 0.8194846411429582 
+            xmax = 0.8869993021921079 
+            text = "k" 
+        intervals [10]:
+            xmin = 0.8869993021921079 
+            xmax = 0.986999302192108 
+            text = "s" 
+        intervals [11]:
+            xmin = 0.986999302192108 
+            xmax = 1.0203707933146509 
+            text = "i" 
+        intervals [12]:
+            xmin = 1.0203707933146509 
+            xmax = 1.0969993021921078 
+            text = "m" 
+        intervals [13]:
+            xmin = 1.0969993021921078 
+            xmax = 1.1796036608463185 
+            text = "O" 
+        intervals [14]:
+            xmin = 1.1796036608463185 
+            xmax = 1.2700230780711241 
+            text = "m" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "syll" 
+        xmin = 0 
+        xmax = 1.2700230780711241 
+        intervals: size = 6 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.1059463304912398 
+            text = "vo~" 
+        intervals [2]:
+            xmin = 0.1059463304912398 
+            xmax = 0.2788481604431119 
+            text = "ne" 
+        intervals [3]:
+            xmin = 0.2788481604431119 
+            xmax = 0.6969993021921079 
+            text = "ke~z" 
+        intervals [4]:
+            xmin = 0.6969993021921079 
+            xmax = 0.8869993021921079 
+            text = "mak" 
+        intervals [5]:
+            xmin = 0.8869993021921079 
+            xmax = 1.0203707933146509 
+            text = "si" 
+        intervals [6]:
+            xmin = 1.0203707933146509 
+            xmax = 1.2700230780711241 
+            text = "mOm" 
+    item [4]:
+        class = "IntervalTier" 
+        name = "words" 
+        xmin = 0 
+        xmax = 1.2700230780711241 
+        intervals: size = 4 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.1059463304912398 
+            text = "on" 
+        intervals [2]:
+            xmin = 0.1059463304912398 
+            xmax = 0.2788481604431119 
+            text = "est" 
+        intervals [3]:
+            xmin = 0.2788481604431119 
+            xmax = 0.6969993021921079 
+            text = "quinze" 
+        intervals [4]:
+            xmin = 0.6969993021921079 
+            xmax = 1.2700230780711241 
+            text = "maximum" 
+    item [5]:
+        class = "IntervalTier" 
+        name = "textexpe" 
+        xmin = 0 
+        xmax = 1.2700230780711241 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 1.2700230780711241 
+            text = "on est quinze maximum " 
+    item [6]:
+        class = "IntervalTier" 
+        name = "phono" 
+        xmin = 0 
+        xmax = 1.2700230780711241 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 1.2700230780711241 
+            text = "do~ ka~ gRo ka~ to~ s R@tRu vo~ ne ke~z maksimOm" 
+    item [7]:
+        class = "IntervalTier" 
+        name = "ortho" 
+        xmin = 0 
+        xmax = 1.2700230780711241 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 1.2700230780711241 
+            text = "donc en gros quand on se retrouve on est quinze maximum" 

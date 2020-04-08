@@ -1,0 +1,154 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 0.6878499273636952 
+tiers? <exists> 
+size = 7 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "finalVs" 
+        xmin = 0 
+        xmax = 0.6878499273636952 
+        intervals: size = 4 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.33784992736369535 
+            text = "" 
+        intervals [2]:
+            xmin = 0.33784992736369535 
+            xmax = 0.4078499273636952 
+            text = "V1" 
+        intervals [3]:
+            xmin = 0.4078499273636952 
+            xmax = 0.5778499273636953 
+            text = "" 
+        intervals [4]:
+            xmin = 0.5778499273636953 
+            xmax = 0.6878499273636952 
+            text = "V0" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "phones" 
+        xmin = 0 
+        xmax = 0.6878499273636952 
+        intervals: size = 10 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.0378499273636953 
+            text = "i" 
+        intervals [2]:
+            xmin = 0.0378499273636953 
+            xmax = 0.06784992736369533 
+            text = "l" 
+        intervals [3]:
+            xmin = 0.06784992736369533 
+            xmax = 0.12491417232125279 
+            text = "a" 
+        intervals [4]:
+            xmin = 0.12491417232125279 
+            xmax = 0.18784992736369532 
+            text = "v" 
+        intervals [5]:
+            xmin = 0.18784992736369532 
+            xmax = 0.23784992736369526 
+            text = "E" 
+        intervals [6]:
+            xmin = 0.23784992736369526 
+            xmax = 0.33784992736369535 
+            text = "k" 
+        intervals [7]:
+            xmin = 0.33784992736369535 
+            xmax = 0.4078499273636952 
+            text = "a" 
+        intervals [8]:
+            xmin = 0.4078499273636952 
+            xmax = 0.46195793810706076 
+            text = "t" 
+        intervals [9]:
+            xmin = 0.46195793810706076 
+            xmax = 0.5778499273636953 
+            text = "R" 
+        intervals [10]:
+            xmin = 0.5778499273636953 
+            xmax = 0.6878499273636952 
+            text = "a~" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "syll" 
+        xmin = 0 
+        xmax = 0.6878499273636952 
+        intervals: size = 5 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.0378499273636953 
+            text = "i" 
+        intervals [2]:
+            xmin = 0.0378499273636953 
+            xmax = 0.12491417232125279 
+            text = "la" 
+        intervals [3]:
+            xmin = 0.12491417232125279 
+            xmax = 0.23784992736369526 
+            text = "vE" 
+        intervals [4]:
+            xmin = 0.23784992736369526 
+            xmax = 0.4078499273636952 
+            text = "ka" 
+        intervals [5]:
+            xmin = 0.4078499273636952 
+            xmax = 0.6878499273636952 
+            text = "tRa~" 
+    item [4]:
+        class = "IntervalTier" 
+        name = "words" 
+        xmin = 0 
+        xmax = 0.6878499273636952 
+        intervals: size = 4 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.0378499273636953 
+            text = "il" 
+        intervals [2]:
+            xmin = 0.0378499273636953 
+            xmax = 0.23784992736369526 
+            text = "avait" 
+        intervals [3]:
+            xmin = 0.23784992736369526 
+            xmax = 0.4078499273636952 
+            text = "quatre" 
+        intervals [4]:
+            xmin = 0.4078499273636952 
+            xmax = 0.6878499273636952 
+            text = "ans" 
+    item [5]:
+        class = "IntervalTier" 
+        name = "textexpe" 
+        xmin = 0 
+        xmax = 0.6878499273636952 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.6878499273636952 
+            text = "il avait quatre ans " 
+    item [6]:
+        class = "IntervalTier" 
+        name = "phono" 
+        xmin = 0 
+        xmax = 0.6878499273636952 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.6878499273636952 
+            text = "i le t*aRive a ORlea~ i lavE ka tRa~" 
+    item [7]:
+        class = "IntervalTier" 
+        name = "ortho" 
+        xmin = 0 
+        xmax = 0.6878499273636952 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.6878499273636952 
+            text = "il est arrivé à orléans il avait quatre ans" 

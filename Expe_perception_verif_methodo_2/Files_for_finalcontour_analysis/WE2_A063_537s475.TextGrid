@@ -1,0 +1,202 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 1.037378370146529 
+tiers? <exists> 
+size = 7 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "finalVs" 
+        xmin = 0 
+        xmax = 1.037378370146529 
+        intervals: size = 4 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.8499999999999999 
+            text = "" 
+        intervals [2]:
+            xmin = 0.8499999999999999 
+            xmax = 0.9299999999999999 
+            text = "V1" 
+        intervals [3]:
+            xmin = 0.9299999999999999 
+            xmax = 0.9590091760939992 
+            text = "" 
+        intervals [4]:
+            xmin = 0.9590091760939992 
+            xmax = 1.037378370146529 
+            text = "V0" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "phones" 
+        xmin = 0 
+        xmax = 1.037378370146529 
+        intervals: size = 17 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.09000000000000002 
+            text = "s" 
+        intervals [2]:
+            xmin = 0.09000000000000002 
+            xmax = 0.13 
+            text = "e" 
+        intervals [3]:
+            xmin = 0.13 
+            xmax = 0.16999999999999998 
+            text = "k" 
+        intervals [4]:
+            xmin = 0.16999999999999998 
+            xmax = 0.23691578477789482 
+            text = "a~" 
+        intervals [5]:
+            xmin = 0.23691578477789482 
+            xmax = 0.290532116308625 
+            text = "E" 
+        intervals [6]:
+            xmin = 0.290532116308625 
+            xmax = 0.36000000000000004 
+            text = "m" 
+        intervals [7]:
+            xmin = 0.36000000000000004 
+            xmax = 0.42 
+            text = "f" 
+        intervals [8]:
+            xmin = 0.42 
+            xmax = 0.4881836659762581 
+            text = "@" 
+        intervals [9]:
+            xmin = 0.4881836659762581 
+            xmax = 0.5303357454722635 
+            text = "z" 
+        intervals [10]:
+            xmin = 0.5303357454722635 
+            xmax = 0.6308809068135723 
+            text = "a" 
+        intervals [11]:
+            xmin = 0.6308809068135723 
+            xmax = 0.6759264254471142 
+            text = "b" 
+        intervals [12]:
+            xmin = 0.6759264254471142 
+            xmax = 0.6997637219714254 
+            text = "l" 
+        intervals [13]:
+            xmin = 0.6997637219714254 
+            xmax = 0.79 
+            text = "a~" 
+        intervals [14]:
+            xmin = 0.79 
+            xmax = 0.8499999999999999 
+            text = "v" 
+        intervals [15]:
+            xmin = 0.8499999999999999 
+            xmax = 0.9299999999999999 
+            text = "e" 
+        intervals [16]:
+            xmin = 0.9299999999999999 
+            xmax = 0.9590091760939992 
+            text = "l" 
+        intervals [17]:
+            xmin = 0.9590091760939992 
+            xmax = 1.037378370146529 
+            text = "o" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "syll" 
+        xmin = 0 
+        xmax = 1.037378370146529 
+        intervals: size = 8 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.13 
+            text = "se" 
+        intervals [2]:
+            xmin = 0.13 
+            xmax = 0.23691578477789482 
+            text = "ka~" 
+        intervals [3]:
+            xmin = 0.23691578477789482 
+            xmax = 0.36000000000000004 
+            text = "Em" 
+        intervals [4]:
+            xmin = 0.36000000000000004 
+            xmax = 0.4881836659762581 
+            text = "f@" 
+        intervals [5]:
+            xmin = 0.4881836659762581 
+            xmax = 0.6308809068135723 
+            text = "za" 
+        intervals [6]:
+            xmin = 0.6308809068135723 
+            xmax = 0.79 
+            text = "bla~" 
+        intervals [7]:
+            xmin = 0.79 
+            xmax = 0.9299999999999999 
+            text = "ve" 
+        intervals [8]:
+            xmin = 0.9299999999999999 
+            xmax = 1.037378370146529 
+            text = "lo" 
+    item [4]:
+        class = "IntervalTier" 
+        name = "words" 
+        xmin = 0 
+        xmax = 1.037378370146529 
+        intervals: size = 6 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.13 
+            text = "c'est" 
+        intervals [2]:
+            xmin = 0.13 
+            xmax = 0.23691578477789482 
+            text = "quand" 
+        intervals [3]:
+            xmin = 0.23691578477789482 
+            xmax = 0.36000000000000004 
+            text = "même" 
+        intervals [4]:
+            xmin = 0.36000000000000004 
+            xmax = 0.6997637219714254 
+            text = "faisable" 
+        intervals [5]:
+            xmin = 0.6997637219714254 
+            xmax = 0.79 
+            text = "en" 
+        intervals [6]:
+            xmin = 0.79 
+            xmax = 1.037378370146529 
+            text = "vélo" 
+    item [5]:
+        class = "IntervalTier" 
+        name = "textexpe" 
+        xmin = 0 
+        xmax = 1.037378370146529 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 1.037378370146529 
+            text = "c'est quand même faisable en vélo " 
+    item [6]:
+        class = "IntervalTier" 
+        name = "phono" 
+        xmin = 0 
+        xmax = 1.037378370146529 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 1.037378370146529 
+            text = "kwa se ka~ Em f@zabl a~ velo" 
+    item [7]:
+        class = "IntervalTier" 
+        name = "ortho" 
+        xmin = 0 
+        xmax = 1.037378370146529 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 1.037378370146529 
+            text = "quoi c'est quand même faisable en vélo" 
