@@ -30,7 +30,14 @@ m.res.yn.pitch <- glmer(data = resyn, answer ~ diffmeanst + (1| item) +
 summary(m.res.yn.pitch)
 plot(allEffects(m.res.yn.pitch))
 
+#Same model solo on yn delexicalised data
+resynde <- resyn[which(resyn$audio_type == "DE"), ]
+resynde <- droplevels(resynde)
 
+m.res.ynde.pitch <- glmer(data = resynde, answer ~ diffmeanst + (1| item) +
+                          (1| subj), family = binomial)
+summary(m.res.ynde.pitch)
+plot(allEffects(m.res.ynde.pitch))
 
 
 
