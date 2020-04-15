@@ -1,13 +1,16 @@
 #Open table
 res <- read.csv("/home/lucas/Documents/CloudStation/SDL/PhD/Prosodie/Expés_Prosodie/EXPs_perception_contours_finaux/Expe_perception_verif_methodo_2/Results_methodo2.csv", header = TRUE)
 
-#Models
+#Libraries
 library(lme4)
 library (effects)
+library(ggplot2)
+library(dplyr)
 
+#Models
 #Contrasts
 contrasts(res$sentence_type) <- cbind(c(-.5,.5))
-contrasts(res$audio_type) <- cbind(c(-.5,.5))
+contrasts(res$audio_type) <- contr.sum(3)
 
 #Model on whole data, analyzing experimental H
 m.res <- glmer(data = res, answer ~ sentence_type * audio_type +
@@ -34,18 +37,19 @@ plot(allEffects(m.res.yn.pitch))
 resynde <- resyn[which(resyn$audio_type == "DE"), ]
 resynde <- droplevels(resynde)
 
-m.res.ynde.pitch <- glmer(data = resynde, answer ~ diffmeanst + (1| item) +
-                          (1| subj), family = binomial)
+m.res.ynde.pitch <- glmer(data = resynde, answer ~ diffmeanst + (1| subj) +
+                            (1| item),
+                          family = binomial)
 summary(m.res.ynde.pitch)
 plot(allEffects(m.res.ynde.pitch))
 
-
-
-
+m2.res.ynde.pitch <- glmer(data = resynde, answer ~ diffmeanst + (1| subj),
+                          family = binomial)
+summary(m2.res.ynde.pitch)
+plot(allEffects(m2.res.ynde.pitch))
 
 #Other plots
-library(ggplot2)
-library(dplyr)
+
 
 #Scatterplot answer vs slope
 scatterres <- res %>%
@@ -71,14 +75,28 @@ resyn <- res[which(res$sentence_type == "yn"), ]
 resyn <- droplevels(resyn)
 
 scatterresyn <- resyn %>%
-  group_by(orig_filename, diffmeanHz, answer) %>%
+  group_by(orig_filename, diffmeanst, answer) %>%
   summarise(count=n()) %>%
   mutate(perc=count/sum(count))
 
 scatteresyesyn <- scatterresyn[which(scatterresyn$answer == "Oui"), ]
 
-plot(scatteresyesyn$perc*100 ~ scatteresyesyn$diffmeanHz)
-abline(lm(scatteresyesyn$perc*100  ~ scatteresyesyn$diffmeanHz), col="red") # regression line (y~x) 
+plot(scatteresyesyn$perc*100 ~ scatteresyesyn$diffmeanst)
+abline(lm(scatteresyesyn$perc*100  ~ scatteresyesyn$diffmeanst), col="red") # regression line (y~x) 
+
+#Only on ynde data
+resynde <- resyn[which(resyn$audio_type == "DE"), ]
+resynde <- droplevels(resynde)
+
+scatterresynde <- resynde %>%
+  group_by(orig_filename, diffmeanst, answer) %>%
+  summarise(count=n()) %>%
+  mutate(perc=count/sum(count))
+
+scatteresyesynde <- scatterresynde[which(scatterresynde$answer == "Oui"), ]
+
+plot(scatteresyesynde$perc*100 ~ scatteresyesynde$diffmeanst)
+abline(lm(scatteresyesynde$perc*100  ~ scatteresyesynde$diffmeanst), col="red") # regression line (y~x) 
 
 #Only V0 yn data
 scatterv0  <- resyn %>%
@@ -180,3 +198,110 @@ plotyn <- ggplot(resplotyn, aes(x = factor(audio_type),
   labs(x = "item", y = "percent", fill = "Answer")
 
 plotyn + facet_grid(. ~ item)
+
+
+#TEST BARITEMS
+resyn %>%  
+  mutate(answer = factor(answer)) %>% 
+  ggplot(aes(x = item)) +
+  geom_bar(aes(fill = answer), position = "fill") +
+  scale_x_continuous("Items", breaks = resyn$item, labels = resyn$item) +
+  ggtitle("Answers for yn items") -> plotitemsresyn
+
+plotitemsresyn
+
+resynde <- resyn[which(resyn$audio_type == "DE"), ]
+resynde <- droplevels(resynde)
+
+resynde %>%  
+  mutate(answer = factor(answer)) %>% 
+  ggplot(aes(x = item)) +
+  geom_bar(aes(fill = answer), position = "fill") +
+  scale_x_continuous("Items", breaks = resynde$item, labels = resynde$item) +
+  ggtitle("Answers for ynde items") -> plotitemsresynde
+
+plotitemsresynde
+
+resynor <- resyn[which(resyn$audio_type == "OR"), ]
+resynor <- droplevels(resynor)
+
+resynor %>%  
+  mutate(answer = factor(answer)) %>% 
+  ggplot(aes(x = item)) +
+  geom_bar(aes(fill = answer), position = "fill") +
+  scale_x_continuous("Items", breaks = resynor$item, labels = resynor$item) +
+  ggtitle("Answers for ynOR items") -> plotitemsresynor
+
+plotitemsresynor
+
+#ONLY GENUINE YN WITH NO PITCH PROBLEMS
+#all
+resyn <- res[which(res$sentence_type == "yn"), ]
+resynok <- resyn[which(resyn$yntype == "genuine"), ]
+resynok <- resynok[which(resynok$problempitch == "NO"), ]
+resynok <- droplevels(resynok)
+
+resynok %>%  
+  mutate(answer = factor(answer)) %>% 
+  ggplot(aes(x = item)) +
+  geom_bar(aes(fill = answer), position = "fill") +
+  scale_x_continuous("Items", breaks = resynok$item,
+                     labels = resynok$item) +
+  ggtitle("Answers for resynOK items") -> plotitemsresynok
+
+plotitemsresynok
+
+#orig
+resynokorig <- resynok[which(resynok$audio_type == "OR"), ]
+resynokorig <- droplevels(resynokorig)
+
+resynokorig %>%  
+  mutate(answer = factor(answer)) %>% 
+  ggplot(aes(x = item)) +
+  geom_bar(aes(fill = answer), position = "fill") +
+  scale_x_continuous("Items", breaks = resynokorig$item,
+                     labels = resynokorig$item) +
+  ggtitle("Answers by items for genuine yn, ORIG audio") -> plotitemsresynokorig
+
+plotitemsresynokorig
+
+#de
+resynokde <- resynok[which(resynok$audio_type == "DE"), ]
+resynokde <- droplevels(resynokde)
+
+resynokde %>%  
+  mutate(answer = factor(answer)) %>% 
+  ggplot(aes(x = item)) +
+  geom_bar(aes(fill = answer), position = "fill") +
+  scale_x_continuous("Items", breaks = resynokde$item,
+                     labels = resynokde$item) +
+  ggtitle("Answers by items for genuine yn, DELEX audio") -> plotitemsresynokde
+
+plotitemsresynokde
+
+#Stats on only resynOK
+#All yn
+m.res.pitch.ynok <- glmer(data = resynok, answer ~ diffmeanst  + (1| item) +
+                       (1| subj), family = binomial)
+summary(m.res.pitch.ynok)
+plot(allEffects(m.res.pitch.ynok))
+
+#Only delex
+m.res.pitch.ynokde <- glmer(data = resynokde, answer ~ diffmeanst  +
+                            (1| subj), family = binomial)
+summary(m.res.pitch.ynokde)
+plot(allEffects(m.res.pitch.ynokde))
+
+#Scatterplot only delex
+scatterresynokde <- resynokde %>%
+  group_by(orig_filename, diffmeanst, answer) %>%
+  summarise(count=n()) %>%
+  mutate(perc=count/sum(count))
+
+
+scatterresynokdeyes <- scatterresynokde[which(scatterresynokde$answer == "Oui"), ]
+plot(scatterresynokdeyes$perc ~ scatterresynokdeyes$diffmeanst)
+
+abline(lm(scatterresynokdeyes$perc  ~ scatterresynokdeyes$diffmeanst), col="red") # regression line (y~x) 
+
+
