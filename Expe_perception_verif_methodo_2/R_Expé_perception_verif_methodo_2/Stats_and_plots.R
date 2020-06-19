@@ -1,5 +1,12 @@
 #Open table
 res <- read.csv("/home/lucas/Documents/CloudStation/SDL/PhD/Prosodie/Expés_Prosodie/EXPs_perception_contours_finaux/Expe_perception_verif_methodo_2/Results_methodo2.csv", header = TRUE)
+resfillers <- read.csv("/home/lucas/Documents/CloudStation/SDL/PhD/Prosodie/Expés_Prosodie/EXPs_perception_contours_finaux/Expe_perception_verif_methodo_2/Results_methodo2_fillers.csv", header = TRUE)
+
+
+#Everything as factor
+res <- droplevels(res)
+res[sapply(res, is.character)] <- lapply(res[sapply(res, is.character)], as.factor)
+
 
 #Libraries
 library(lme4)
@@ -9,17 +16,20 @@ library(dplyr)
 
 #Models
 #Contrasts
-contrasts(res$sentence_type) <- cbind(c(-.5,.5))
+contrasts(res$sentence_type) <- cbind(c(-1,1))
 contrasts(res$audio_type) <- contr.sum(3)
+contrasts(res$spk_sex) <- cbind(c(-1,1))
 
 #Model on whole data, analyzing experimental H
-m.res <- glmer(data = res, answer ~ sentence_type * audio_type +
-                 (1| item) + (1| subj), family = binomial )
+m.res <- glmer(data = res, rightanswer ~ sentence_type * audio_type + spk_sex+
+                 (1| item) + (1| subj), family = binomial)
 summary(m.res)
 plot(allEffects(m.res))
 
+
 #Model taking pitch value into account
-m.res.pitch <- glmer(data = res, answer ~ diffmeanst  + (1| item) +
+m.res.pitch <- glmer(data = res, answer ~ diffmeanst  
+                     + (1| item) +
                        (1| subj), family = binomial)
 summary(m.res.pitch)
 plot(allEffects(m.res.pitch))
@@ -28,16 +38,49 @@ plot(allEffects(m.res.pitch))
 resyn <- res[which(res$sentence_type == "yn"), ]
 resyn <- droplevels(resyn)
 
-m.res.yn.pitch <- glmer(data = resyn, answer ~ diffmeanst + (1| item) +
+contrasts(resyn$answer)
+contrasts(resyn$sentence_type) <- cbind(c(-1,1))
+contrasts(resyn$audio_type) <- contr.sum(3)
+
+m.res.yn.pitch <- glmer(data = resyn, answer ~ diffmeanst 
+                        + (1| item) +
                           (1| subj), family = binomial)
 summary(m.res.yn.pitch)
 plot(allEffects(m.res.yn.pitch))
+
+
+m.res.yn.pitch.inter <- glmer(data = resyn, answer ~ 
+                              diffmeanst  * audio_type
+                        + (1| item) +
+                          (1| subj), family = binomial)
+
+summary(m.res.yn.pitch.inter)
+plot(allEffects(m.res.yn.pitch.inter))
+
+#Diffmeanst decla
+resdecla <- res[which(res$sentence_type == "de"), ]
+resdecla <- droplevels(resdecla)
+
+mean(resyn$diffmeanst)
+mean(resdecla$diffmeanst)
+
+contrasts(resdecla$rightanswer) 
+contrasts(resdecla$sentence_type) <- cbind(c(-1,1))
+contrasts(resdecla$audio_type) <- contr.sum(3)
+
+m.res.decla.pitch.inter <- glmer(data = resdecla, rightanswer ~ 
+                                diffmeanst  * audio_type
+                              + (1| item) +
+                                (1| subj), family = binomial)
+summary(m.res.decla.pitch.inter)
+plot(allEffects(m.res.decla.pitch.inter))
 
 #Same model solo on yn delexicalised data
 resynde <- resyn[which(resyn$audio_type == "DE"), ]
 resynde <- droplevels(resynde)
 
-m.res.ynde.pitch <- glmer(data = resynde, answer ~ diffmeanst + (1| subj) +
+m.res.ynde.pitch <- glmer(data = resynde, answer ~ diffmeanst
+                          + (1| subj) +
                             (1| item),
                           family = binomial)
 summary(m.res.ynde.pitch)
@@ -47,6 +90,14 @@ m2.res.ynde.pitch <- glmer(data = resynde, answer ~ diffmeanst + (1| subj),
                           family = binomial)
 summary(m2.res.ynde.pitch)
 plot(allEffects(m2.res.ynde.pitch))
+
+#Only on orig
+m.res.ynorig.pitch <- glmer(data = resynorig, answer ~ diffmeanst
+                            + (1| subj) +
+                              (1| item),
+                            family = binomial)
+summary(m.res.ynorig.pitch)
+plot(allEffects(m.res.ynorig.pitch))
 
 #Other plots
 
@@ -83,6 +134,10 @@ scatteresyesyn <- scatterresyn[which(scatterresyn$answer == "Oui"), ]
 
 plot(scatteresyesyn$perc*100 ~ scatteresyesyn$diffmeanst)
 abline(lm(scatteresyesyn$perc*100  ~ scatteresyesyn$diffmeanst), col="red") # regression line (y~x) 
+
+#Inverted plot
+plot(scatteresyesyn$diffmeanst ~ scatteresyesyn$perc)
+abline(lm(scatteresyesyn$diffmeanst ~ scatteresyesyn$perc), col="red") # regression line (y~x) 
 
 #Only on ynde data
 resynde <- resyn[which(resyn$audio_type == "DE"), ]
@@ -191,13 +246,32 @@ resplotyn <- resyn  %>%
   summarise(count=n()) %>% 
   mutate(perc=count/sum(count))
 
-plotyn <- ggplot(resplotyn, aes(x = factor(audio_type),
+plotyn <- ggplot(resplotyn, aes(x = factor(item),
                                 y = perc*100,
                                 fill = factor(answer)))+
   geom_bar(stat="identity") +
+  #Find a way to make x labels readable
+  #scale_x_discrete(limits=resyn$item,breaks=resyn$item[seq(1,length(resyn$item),by=2)]) +
   labs(x = "item", y = "percent", fill = "Answer")
 
-plotyn + facet_grid(. ~ item)
+plotyn + facet_grid(rows =  resplotyn$audio_type)
+
+#ALL items including yn and decla
+resplot2 <- res  %>%
+  group_by(item, sentence_type, audio_type, rightanswer) %>% 
+  summarise(count=n()) %>% 
+  mutate(perc=count/sum(count))
+
+plotallitems <- ggplot(resplot2, aes(x = factor(item),
+                                y = perc*100,
+                                fill = factor(rightanswer)))+
+  geom_bar(stat="identity") +
+  #Find a way to make x labels readable
+  #scale_x_discrete(limits=resyn$item,breaks=resyn$item[seq(1,length(resyn$item),by=2)]) +
+  labs(x = "item", y = "percent", fill = "Right Answer")
+
+plotallitems + facet_grid(rows =  resplot2$audio_type)
+
 
 
 #TEST BARITEMS
@@ -249,7 +323,22 @@ resynok %>%
                      labels = resynok$item) +
   ggtitle("Answers for resynOK items") -> plotitemsresynok
 
-plotitemsresynok
+plotitemsresynok + facet_grid(resynok$audio_type)
+
+#lineplot
+resynok %>%  
+  mutate(answer = factor(answer)) %>% 
+  ggplot(aes(x = item)) +
+  geom_line(aes(fill = answer, y = audio_type), position = "fill") +
+  scale_x_continuous("Items", breaks = resynok$item,
+                     labels = resynok$item) +
+  ggtitle("Answers for resynOK items") -> plotitemsresynok
+
+resynok %>%  
+  mutate(answer = factor(answer)) %>% 
+  ggplot(aes(x=item, y=answer, group=audio_type)) +
+  geom_line(aes(linetype=audio_type))+
+  geom_point() 
 
 #orig
 resynokorig <- resynok[which(resynok$audio_type == "OR"), ]
@@ -279,6 +368,23 @@ resynokde %>%
 
 plotitemsresynokde
 
+#stats resynokde
+contrasts
+
+#cl
+resynokcl <- resynok[which(resynok$audio_type == "CL"), ]
+resynokcl <- droplevels(resynokcl)
+
+resynokcl %>%  
+  mutate(answer = factor(answer)) %>% 
+  ggplot(aes(x = item)) +
+  geom_bar(aes(fill = answer), position = "fill") +
+  scale_x_continuous("Items", breaks = resynokcl$item,
+                     labels = resynokcl$item) +
+  ggtitle("Answers by items for genuine yn, CLAIR audio") -> plotitemsresynokcl
+
+plotitemsresynokcl
+
 #Stats on only resynOK
 #All yn
 m.res.pitch.ynok <- glmer(data = resynok, answer ~ diffmeanst  + (1| item) +
@@ -288,7 +394,7 @@ plot(allEffects(m.res.pitch.ynok))
 
 #Only delex
 m.res.pitch.ynokde <- glmer(data = resynokde, answer ~ diffmeanst  +
-                            (1| subj), family = binomial)
+                            (1| subj) + (1| item), family = binomial)
 summary(m.res.pitch.ynokde)
 plot(allEffects(m.res.pitch.ynokde))
 
@@ -303,5 +409,3 @@ scatterresynokdeyes <- scatterresynokde[which(scatterresynokde$answer == "Oui"),
 plot(scatterresynokdeyes$perc ~ scatterresynokdeyes$diffmeanst)
 
 abline(lm(scatterresynokdeyes$perc  ~ scatterresynokdeyes$diffmeanst), col="red") # regression line (y~x) 
-
-
