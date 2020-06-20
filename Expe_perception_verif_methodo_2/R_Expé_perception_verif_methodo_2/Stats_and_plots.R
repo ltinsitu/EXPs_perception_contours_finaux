@@ -262,6 +262,7 @@ resplot2 <- res  %>%
   summarise(count=n()) %>% 
   mutate(perc=count/sum(count))
 
+
 plotallitems <- ggplot(resplot2, aes(x = factor(item),
                                 y = perc*100,
                                 fill = factor(rightanswer)))+
