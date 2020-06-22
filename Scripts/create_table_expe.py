@@ -4,7 +4,7 @@
 import sys, re, os, csv
 
 #Open input and output file
-csvfile = open("//home/lucas/Documents/CloudStation/SDL/PhD/Prosodie/Expés_Prosodie/EXPs_perception_contours_finaux/Expe_perception_verif_methodo_2/Expe_perception_verif_methodo_2_ALL.csv", 'r')
+csvfile = open("/home/lucas/Documents/CloudStation/SDL/PhD/Prosodie/Expés_Prosodie/EXPs_perception_contours_finaux/Expe_perception_verif_methodo_3/Expe_perception_verif_methodo_3_BOTH.csv", 'r')
 
 #parse csvs
 reader = csv.DictReader(csvfile, skipinitialspace=True, delimiter="\t")
