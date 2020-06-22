@@ -1,0 +1,280 @@
+﻿File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0.0000000000000000
+xmax = 2.7700000000000000
+tiers? <exists>
+size = 6
+item []:
+	item [1]:
+		class = "IntervalTier"
+		name = "phones"
+		xmin = 0.0000000000000000
+		xmax = 2.7700000000000000
+		intervals: size = 31
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.0700000000000000
+			text = "k"
+		intervals [2]:
+			xmin = 0.0700000000000000
+			xmax = 0.1742834060000000
+			text = "a"
+		intervals [3]:
+			xmin = 0.1742834060000000
+			xmax = 0.2100000000000000
+			text = "l"
+		intervals [4]:
+			xmin = 0.2100000000000000
+			xmax = 0.3500000000000000
+			text = "u"
+		intervals [5]:
+			xmin = 0.3500000000000000
+			xmax = 0.4200000000000000
+			text = "g"
+		intervals [6]:
+			xmin = 0.4200000000000000
+			xmax = 0.5200000000000000
+			text = "u"
+		intervals [7]:
+			xmin = 0.5200000000000000
+			xmax = 0.5800000000000000
+			text = "b"
+		intervals [8]:
+			xmin = 0.5800000000000000
+			xmax = 0.6619828450000000
+			text = "j"
+		intervals [9]:
+			xmin = 0.6619828450000000
+			xmax = 0.7733835489999999
+			text = "9~"
+		intervals [10]:
+			xmin = 0.7733835489999999
+			xmax = 0.9410779670000000
+			text = "_"
+		intervals [11]:
+			xmin = 0.9410779670000000
+			xmax = 1.0710063670000001
+			text = "o~"
+		intervals [12]:
+			xmin = 1.0710063670000001
+			xmax = 1.1477748109999999
+			text = "d"
+		intervals [13]:
+			xmin = 1.1477748109999999
+			xmax = 1.1986673430000001
+			text = "u"
+		intervals [14]:
+			xmin = 1.1986673430000001
+			xmax = 1.2447479509999999
+			text = "R"
+		intervals [15]:
+			xmin = 1.2447479509999999
+			xmax = 1.3352756800000001
+			text = "u"
+		intervals [16]:
+			xmin = 1.3352756800000001
+			xmax = 1.4600000000000000
+			text = "S"
+		intervals [17]:
+			xmin = 1.4600000000000000
+			xmax = 1.6163272250000000
+			text = "a~"
+		intervals [18]:
+			xmin = 1.6163272250000000
+			xmax = 1.6699999999999999
+			text = "_"
+		intervals [19]:
+			xmin = 1.6699999999999999
+			xmax = 1.7779716980000000
+			text = "o"
+		intervals [20]:
+			xmin = 1.7779716980000000
+			xmax = 1.8600000000000001
+			text = "2"
+		intervals [21]:
+			xmin = 1.8600000000000001
+			xmax = 1.9199999999999999
+			text = "g"
+		intervals [22]:
+			xmin = 1.9199999999999999
+			xmax = 1.9800000000000000
+			text = "R"
+		intervals [23]:
+			xmin = 1.9800000000000000
+			xmax = 2.0452131910000002
+			text = "2"
+		intervals [24]:
+			xmin = 2.0452131910000002
+			xmax = 2.1499999999999999
+			text = "s"
+		intervals [25]:
+			xmin = 2.1499999999999999
+			xmax = 2.2100000000000000
+			text = "@"
+		intervals [26]:
+			xmin = 2.2100000000000000
+			xmax = 2.2723209970000000
+			text = "t"
+		intervals [27]:
+			xmin = 2.2723209970000000
+			xmax = 2.3700000000000001
+			text = "@"
+		intervals [28]:
+			xmin = 2.3700000000000001
+			xmax = 2.4500000000000002
+			text = "f"
+		intervals [29]:
+			xmin = 2.4500000000000002
+			xmax = 2.5400000000000000
+			text = "w"
+		intervals [30]:
+			xmin = 2.5400000000000000
+			xmax = 2.6386351810000002
+			text = "a"
+		intervals [31]:
+			xmin = 2.6386351810000002
+			xmax = 2.7700000000000000
+			text = "R"
+	item [2]:
+		class = "IntervalTier"
+		name = "syll"
+		xmin = 0.0000000000000000
+		xmax = 2.7700000000000000
+		intervals: size = 16
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.1742834060000000
+			text = "kE"
+		intervals [2]:
+			xmin = 0.1742834060000000
+			xmax = 0.3500000000000000
+			text = "le"
+		intervals [3]:
+			xmin = 0.3500000000000000
+			xmax = 0.5200000000000000
+			text = "ty"
+		intervals [4]:
+			xmin = 0.5200000000000000
+			xmax = 0.7733835489999999
+			text = "dja~"
+		intervals [5]:
+			xmin = 0.7733835489999999
+			xmax = 0.9410779670000000
+			text = "_"
+		intervals [6]:
+			xmin = 0.9410779670000000
+			xmax = 1.0710063670000001
+			text = "e~"
+		intervals [7]:
+			xmin = 1.0710063670000001
+			xmax = 1.1986673430000001
+			text = "tE"
+		intervals [8]:
+			xmin = 1.1986673430000001
+			xmax = 1.3352756800000001
+			text = "li"
+		intervals [9]:
+			xmin = 1.3352756800000001
+			xmax = 1.6163272250000000
+			text = "Za~"
+		intervals [10]:
+			xmin = 1.6163272250000000
+			xmax = 1.6699999999999999
+			text = "_"
+		intervals [11]:
+			xmin = 1.6699999999999999
+			xmax = 1.7779716980000000
+			text = "a"
+		intervals [12]:
+			xmin = 1.7779716980000000
+			xmax = 1.8600000000000001
+			text = "e"
+		intervals [13]:
+			xmin = 1.8600000000000001
+			xmax = 2.0452131910000002
+			text = "kRi"
+		intervals [14]:
+			xmin = 2.0452131910000002
+			xmax = 2.2100000000000000
+			text = "s@"
+		intervals [15]:
+			xmin = 2.2100000000000000
+			xmax = 2.3700000000000001
+			text = "d@"
+		intervals [16]:
+			xmin = 2.3700000000000001
+			xmax = 2.7700000000000000
+			text = "vwaR"
+	item [3]:
+		class = "IntervalTier"
+		name = "words"
+		xmin = 0.0000000000000000
+		xmax = 2.7700000000000000
+		intervals: size = 9
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.1742834060000000
+			text = "quel"
+		intervals [2]:
+			xmin = 0.1742834060000000
+			xmax = 0.7733835489999999
+			text = "Ã©tudiant"
+		intervals [3]:
+			xmin = 0.7733835489999999
+			xmax = 0.9410779670000000
+			text = "_"
+		intervals [4]:
+			xmin = 0.9410779670000000
+			xmax = 1.6163272250000000
+			text = "intelligent"
+		intervals [5]:
+			xmin = 1.6163272250000000
+			xmax = 1.6699999999999999
+			text = "_"
+		intervals [6]:
+			xmin = 1.6699999999999999
+			xmax = 1.7779716980000000
+			text = "a"
+		intervals [7]:
+			xmin = 1.7779716980000000
+			xmax = 2.0452131910000002
+			text = "Ã©crit"
+		intervals [8]:
+			xmin = 2.0452131910000002
+			xmax = 2.2100000000000000
+			text = "ce"
+		intervals [9]:
+			xmin = 2.2100000000000000
+			xmax = 2.7700000000000000
+			text = "devoir"
+	item [4]:
+		class = "IntervalTier"
+		name = "textexpe"
+		xmin = 0.0000000000000000
+		xmax = 2.7700000000000000
+		intervals: size = 1
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 2.7700000000000000
+			text = "quel Ã©tudiant intelligent a Ã©crit ce devoir"
+	item [5]:
+		class = "IntervalTier"
+		name = "phono"
+		xmin = 0.0000000000000000
+		xmax = 2.7700000000000000
+		intervals: size = 1
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 2.7700000000000000
+			text = "kE letydja~ e~tEliZa~ a ekRi s@ d@vwaR"
+	item [6]:
+		class = "IntervalTier"
+		name = "ortho"
+		xmin = 0.0000000000000000
+		xmax = 2.7700000000000000
+		intervals: size = 1
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 2.7700000000000000
+			text = "quel Ã©tudiant intelligent a Ã©crit ce devoir"

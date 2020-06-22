@@ -1,0 +1,220 @@
+﻿File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0.0000000000000000
+xmax = 1.8042695040000001
+tiers? <exists>
+size = 6
+item []:
+	item [1]:
+		class = "IntervalTier"
+		name = "phones"
+		xmin = 0.0000000000000000
+		xmax = 1.8042695040000001
+		intervals: size = 25
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.0700000000000000
+			text = "k"
+		intervals [2]:
+			xmin = 0.0700000000000000
+			xmax = 0.1500000000000000
+			text = "E"
+		intervals [3]:
+			xmin = 0.1500000000000000
+			xmax = 0.2247964350000000
+			text = "l"
+		intervals [4]:
+			xmin = 0.2247964350000000
+			xmax = 0.2800000000000000
+			text = "R"
+		intervals [5]:
+			xmin = 0.2800000000000000
+			xmax = 0.3900000000000000
+			text = "y"
+		intervals [6]:
+			xmin = 0.3900000000000000
+			xmax = 0.4300000000000000
+			text = "v"
+		intervals [7]:
+			xmin = 0.4300000000000000
+			xmax = 0.4800000000000000
+			text = "l"
+		intervals [8]:
+			xmin = 0.4800000000000000
+			xmax = 0.5529669960000000
+			text = "@"
+		intervals [9]:
+			xmin = 0.5529669960000000
+			xmax = 0.5900000000000000
+			text = "g"
+		intervals [10]:
+			xmin = 0.5900000000000000
+			xmax = 0.6800000000000000
+			text = "y"
+		intervals [11]:
+			xmin = 0.6800000000000000
+			xmax = 0.7318089460000000
+			text = "l"
+		intervals [12]:
+			xmin = 0.7318089460000000
+			xmax = 0.8300000000000000
+			text = "s"
+		intervals [13]:
+			xmin = 0.8300000000000000
+			xmax = 0.9500000000000000
+			text = "u"
+		intervals [14]:
+			xmin = 0.9500000000000000
+			xmax = 1.0311839190000001
+			text = "n"
+		intervals [15]:
+			xmin = 1.0311839190000001
+			xmax = 1.1000000000000001
+			text = "2"
+		intervals [16]:
+			xmin = 1.1000000000000001
+			xmax = 1.1799999999999999
+			text = "R"
+		intervals [17]:
+			xmin = 1.1799999999999999
+			xmax = 1.2400000000000000
+			text = "p"
+		intervals [18]:
+			xmin = 1.2400000000000000
+			xmax = 1.3156173300000000
+			text = "O"
+		intervals [19]:
+			xmin = 1.3156173300000000
+			xmax = 1.3899999999999999
+			text = "p"
+		intervals [20]:
+			xmin = 1.3899999999999999
+			xmax = 1.4500000000000000
+			text = "9"
+		intervals [21]:
+			xmin = 1.4500000000000000
+			xmax = 1.5100000000000000
+			text = "l"
+		intervals [22]:
+			xmin = 1.5100000000000000
+			xmax = 1.5700000000000001
+			text = "m"
+		intervals [23]:
+			xmin = 1.5700000000000001
+			xmax = 1.6200000000000001
+			text = "y"
+		intervals [24]:
+			xmin = 1.6200000000000001
+			xmax = 1.6802541330000000
+			text = "n"
+		intervals [25]:
+			xmin = 1.6802541330000000
+			xmax = 1.8042695040000001
+			text = "e"
+	item [2]:
+		class = "IntervalTier"
+		name = "syll"
+		xmin = 0.0000000000000000
+		xmax = 1.8042695040000001
+		intervals: size = 10
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.2247964350000000
+			text = "kEl"
+		intervals [2]:
+			xmin = 0.2247964350000000
+			xmax = 0.3900000000000000
+			text = "li"
+		intervals [3]:
+			xmin = 0.3900000000000000
+			xmax = 0.5529669960000000
+			text = "vR@"
+		intervals [4]:
+			xmin = 0.5529669960000000
+			xmax = 0.7318089460000000
+			text = "paR"
+		intervals [5]:
+			xmin = 0.7318089460000000
+			xmax = 0.9500000000000000
+			text = "fE"
+		intervals [6]:
+			xmin = 0.9500000000000000
+			xmax = 1.1799999999999999
+			text = "maR"
+		intervals [7]:
+			xmin = 1.1799999999999999
+			xmax = 1.3156173300000000
+			text = "ka"
+		intervals [8]:
+			xmin = 1.3156173300000000
+			xmax = 1.5100000000000000
+			text = "tER"
+		intervals [9]:
+			xmin = 1.5100000000000000
+			xmax = 1.6200000000000001
+			text = "mi"
+		intervals [10]:
+			xmin = 1.6200000000000001
+			xmax = 1.8042695040000001
+			text = "ne"
+	item [3]:
+		class = "IntervalTier"
+		name = "words"
+		xmin = 0.0000000000000000
+		xmax = 1.8042695040000001
+		intervals: size = 6
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.2247964350000000
+			text = "quel"
+		intervals [2]:
+			xmin = 0.2247964350000000
+			xmax = 0.5529669960000000
+			text = "livre"
+		intervals [3]:
+			xmin = 0.5529669960000000
+			xmax = 0.9500000000000000
+			text = "parfait"
+		intervals [4]:
+			xmin = 0.9500000000000000
+			xmax = 1.2400000000000000
+			text = "marc"
+		intervals [5]:
+			xmin = 1.2400000000000000
+			xmax = 1.3156173300000000
+			text = "a"
+		intervals [6]:
+			xmin = 1.3156173300000000
+			xmax = 1.8042695040000001
+			text = "terminÃ©"
+	item [4]:
+		class = "IntervalTier"
+		name = "textexpe"
+		xmin = 0.0000000000000000
+		xmax = 1.8042695040000001
+		intervals: size = 1
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 1.8042695040000001
+			text = "quel livre parfait marc a terminÃ©"
+	item [5]:
+		class = "IntervalTier"
+		name = "phono"
+		xmin = 0.0000000000000000
+		xmax = 1.8042695040000001
+		intervals: size = 1
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 1.8042695040000001
+			text = "kEl livR@* paRfE maRk a tERmine"
+	item [6]:
+		class = "IntervalTier"
+		name = "ortho"
+		xmin = 0.0000000000000000
+		xmax = 1.8042695040000001
+		intervals: size = 1
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 1.8042695040000001
+			text = "quel livre parfait marc a terminÃ©"

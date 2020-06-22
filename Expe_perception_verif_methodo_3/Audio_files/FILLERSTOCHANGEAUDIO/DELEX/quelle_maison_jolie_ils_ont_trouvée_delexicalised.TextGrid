@@ -1,0 +1,208 @@
+﻿File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0.0000000000000000
+xmax = 2.0185978880000000
+tiers? <exists>
+size = 6
+item []:
+	item [1]:
+		class = "IntervalTier"
+		name = "phones"
+		xmin = 0.0000000000000000
+		xmax = 2.0185978880000000
+		intervals: size = 21
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.0450633620000000
+			text = "k"
+		intervals [2]:
+			xmin = 0.0450633620000000
+			xmax = 0.1189139740000000
+			text = "E"
+		intervals [3]:
+			xmin = 0.1189139740000000
+			xmax = 0.1940602120000000
+			text = "R"
+		intervals [4]:
+			xmin = 0.1940602120000000
+			xmax = 0.3033571790000000
+			text = "n"
+		intervals [5]:
+			xmin = 0.3033571790000000
+			xmax = 0.4125135670000000
+			text = "2"
+		intervals [6]:
+			xmin = 0.4125135670000000
+			xmax = 0.4985978880000000
+			text = "v"
+		intervals [7]:
+			xmin = 0.4985978880000000
+			xmax = 0.5991816340000000
+			text = "e~"
+		intervals [8]:
+			xmin = 0.5991816340000000
+			xmax = 0.7085978880000000
+			text = "Z"
+		intervals [9]:
+			xmin = 0.7085978880000000
+			xmax = 0.8185978880000000
+			text = "E"
+		intervals [10]:
+			xmin = 0.8185978880000000
+			xmax = 0.8987096360000000
+			text = "R"
+		intervals [11]:
+			xmin = 0.8987096360000000
+			xmax = 1.0434901950000000
+			text = "u"
+		intervals [12]:
+			xmin = 1.0434901950000000
+			xmax = 1.1346668630000001
+			text = "_"
+		intervals [13]:
+			xmin = 1.1346668630000001
+			xmax = 1.1962451519999999
+			text = "a"
+		intervals [14]:
+			xmin = 1.1962451519999999
+			xmax = 1.2299313960000000
+			text = "R"
+		intervals [15]:
+			xmin = 1.2299313960000000
+			xmax = 1.2962426480000000
+			text = "v"
+		intervals [16]:
+			xmin = 1.2962426480000000
+			xmax = 1.4400569980000000
+			text = "o~"
+		intervals [17]:
+			xmin = 1.4400569980000000
+			xmax = 1.5127391640000001
+			text = "p"
+		intervals [18]:
+			xmin = 1.5127391640000001
+			xmax = 1.5985978880000000
+			text = "R"
+		intervals [19]:
+			xmin = 1.5985978880000000
+			xmax = 1.6828366880000001
+			text = "O"
+		intervals [20]:
+			xmin = 1.6828366880000001
+			xmax = 1.7585978879999999
+			text = "z"
+		intervals [21]:
+			xmin = 1.7585978879999999
+			xmax = 2.0185978880000000
+			text = "e"
+	item [2]:
+		class = "IntervalTier"
+		name = "syll"
+		xmin = 0.0000000000000000
+		xmax = 2.0185978880000000
+		intervals: size = 10
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.1940602120000000
+			text = "kEl"
+		intervals [2]:
+			xmin = 0.1940602120000000
+			xmax = 0.4125135670000000
+			text = "mE"
+		intervals [3]:
+			xmin = 0.4125135670000000
+			xmax = 0.5991816340000000
+			text = "zo~"
+		intervals [4]:
+			xmin = 0.5991816340000000
+			xmax = 0.8185978880000000
+			text = "ZO"
+		intervals [5]:
+			xmin = 0.8185978880000000
+			xmax = 1.0434901950000000
+			text = "li"
+		intervals [6]:
+			xmin = 1.0434901950000000
+			xmax = 1.1346668630000001
+			text = "_"
+		intervals [7]:
+			xmin = 1.1346668630000001
+			xmax = 1.2299313960000000
+			text = "il"
+		intervals [8]:
+			xmin = 1.2299313960000000
+			xmax = 1.4400569980000000
+			text = "zo~"
+		intervals [9]:
+			xmin = 1.4400569980000000
+			xmax = 1.6828366880000001
+			text = "tRu"
+		intervals [10]:
+			xmin = 1.6828366880000001
+			xmax = 2.0185978880000000
+			text = "ve"
+	item [3]:
+		class = "IntervalTier"
+		name = "words"
+		xmin = 0.0000000000000000
+		xmax = 2.0185978880000000
+		intervals: size = 7
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.1940602120000000
+			text = "quelle"
+		intervals [2]:
+			xmin = 0.1940602120000000
+			xmax = 0.5991816340000000
+			text = "maison"
+		intervals [3]:
+			xmin = 0.5991816340000000
+			xmax = 1.0434901950000000
+			text = "jolie"
+		intervals [4]:
+			xmin = 1.0434901950000000
+			xmax = 1.1346668630000001
+			text = "_"
+		intervals [5]:
+			xmin = 1.1346668630000001
+			xmax = 1.2299313960000000
+			text = "ils"
+		intervals [6]:
+			xmin = 1.2299313960000000
+			xmax = 1.4400569980000000
+			text = "ont"
+		intervals [7]:
+			xmin = 1.4400569980000000
+			xmax = 2.0185978880000000
+			text = "trouvÃ©"
+	item [4]:
+		class = "IntervalTier"
+		name = "textexpe"
+		xmin = 0.0000000000000000
+		xmax = 2.0185978880000000
+		intervals: size = 1
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 2.0185978880000000
+			text = "quelle maison jolie ils ont trouvÃ©"
+	item [5]:
+		class = "IntervalTier"
+		name = "phono"
+		xmin = 0.0000000000000000
+		xmax = 2.0185978880000000
+		intervals: size = 1
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 2.0185978880000000
+			text = "kEl mEzo~ ZOli il z*o~ tRuve"
+	item [6]:
+		class = "IntervalTier"
+		name = "ortho"
+		xmin = 0.0000000000000000
+		xmax = 2.0185978880000000
+		intervals: size = 1
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 2.0185978880000000
+			text = "quelle maison jolie ils ont trouvÃ©"

@@ -1,0 +1,204 @@
+﻿File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0.0000000000000000
+xmax = 2.1075244660000001
+tiers? <exists>
+size = 6
+item []:
+	item [1]:
+		class = "IntervalTier"
+		name = "phones"
+		xmin = 0.0000000000000000
+		xmax = 2.1075244660000001
+		intervals: size = 22
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.0475244660000000
+			text = "k"
+		intervals [2]:
+			xmin = 0.0475244660000000
+			xmax = 0.1275244660000000
+			text = "o"
+		intervals [3]:
+			xmin = 0.1275244660000000
+			xmax = 0.2475244660000000
+			text = "l"
+		intervals [4]:
+			xmin = 0.2475244660000000
+			xmax = 0.3175244660000000
+			text = "g"
+		intervals [5]:
+			xmin = 0.3175244660000000
+			xmax = 0.4490024620000000
+			text = "E"
+		intervals [6]:
+			xmin = 0.4490024620000000
+			xmax = 0.4902011780000000
+			text = "l"
+		intervals [7]:
+			xmin = 0.4902011780000000
+			xmax = 0.5575244660000001
+			text = "u"
+		intervals [8]:
+			xmin = 0.5575244660000001
+			xmax = 0.6678429560000000
+			text = "E"
+		intervals [9]:
+			xmin = 0.6678429560000000
+			xmax = 0.7966143760000000
+			text = "Z"
+		intervals [10]:
+			xmin = 0.7966143760000000
+			xmax = 0.9575244660000000
+			text = "9"
+		intervals [11]:
+			xmin = 0.9575244660000000
+			xmax = 1.0375244660000000
+			text = "R"
+		intervals [12]:
+			xmin = 1.0375244660000000
+			xmax = 1.1175244660000001
+			text = "@"
+		intervals [13]:
+			xmin = 1.1175244660000001
+			xmax = 1.1675244659999999
+			text = "g"
+		intervals [14]:
+			xmin = 1.1675244659999999
+			xmax = 1.2275244660000000
+			text = "R"
+		intervals [15]:
+			xmin = 1.2275244660000000
+			xmax = 1.2975244660000000
+			text = "o"
+		intervals [16]:
+			xmin = 1.2975244660000000
+			xmax = 1.3575244660000001
+			text = "d"
+		intervals [17]:
+			xmin = 1.3575244660000001
+			xmax = 1.4206755570000000
+			text = "j"
+		intervals [18]:
+			xmin = 1.4206755570000000
+			xmax = 1.5075244660000000
+			text = "i"
+		intervals [19]:
+			xmin = 1.5075244660000000
+			xmax = 1.6475244659999999
+			text = "o"
+		intervals [20]:
+			xmin = 1.6475244659999999
+			xmax = 1.7168493279999999
+			text = "b"
+		intervals [21]:
+			xmin = 1.7168493279999999
+			xmax = 1.8675244660000001
+			text = "o"
+		intervals [22]:
+			xmin = 1.8675244660000001
+			xmax = 2.1075244660000001
+			text = "R"
+	item [2]:
+		class = "IntervalTier"
+		name = "syll"
+		xmin = 0.0000000000000000
+		xmax = 2.1075244660000001
+		intervals: size = 9
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.2475244660000000
+			text = "kEl"
+		intervals [2]:
+			xmin = 0.2475244660000000
+			xmax = 0.4490024620000000
+			text = "ky"
+		intervals [3]:
+			xmin = 0.4490024620000000
+			xmax = 0.6678429560000000
+			text = "Ri2"
+		intervals [4]:
+			xmin = 0.6678429560000000
+			xmax = 0.9575244660000000
+			text = "Z2"
+		intervals [5]:
+			xmin = 0.9575244660000000
+			xmax = 1.1175244660000001
+			text = "l@"
+		intervals [6]:
+			xmin = 1.1175244660000001
+			xmax = 1.2975244660000000
+			text = "kRu"
+		intervals [7]:
+			xmin = 1.2975244660000000
+			xmax = 1.5075244660000000
+			text = "pje"
+		intervals [8]:
+			xmin = 1.5075244660000000
+			xmax = 1.6475244659999999
+			text = "a"
+		intervals [9]:
+			xmin = 1.6475244659999999
+			xmax = 2.1075244660000001
+			text = "dOR"
+	item [3]:
+		class = "IntervalTier"
+		name = "words"
+		xmin = 0.0000000000000000
+		xmax = 2.1075244660000001
+		intervals: size = 6
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.2475244660000000
+			text = "quel"
+		intervals [2]:
+			xmin = 0.2475244660000000
+			xmax = 0.6678429560000000
+			text = "curieux"
+		intervals [3]:
+			xmin = 0.6678429560000000
+			xmax = 0.9575244660000000
+			text = "jeu"
+		intervals [4]:
+			xmin = 0.9575244660000000
+			xmax = 1.1175244660000001
+			text = "le"
+		intervals [5]:
+			xmin = 1.1175244660000001
+			xmax = 1.5075244660000000
+			text = "croupier"
+		intervals [6]:
+			xmin = 1.5075244660000000
+			xmax = 2.1075244660000001
+			text = "adore"
+	item [4]:
+		class = "IntervalTier"
+		name = "textexpe"
+		xmin = 0.0000000000000000
+		xmax = 2.1075244660000001
+		intervals: size = 1
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 2.1075244660000001
+			text = "quel curieux jeu le croupier adore"
+	item [5]:
+		class = "IntervalTier"
+		name = "phono"
+		xmin = 0.0000000000000000
+		xmax = 2.1075244660000001
+		intervals: size = 1
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 2.1075244660000001
+			text = "kElkyRi2Z2l@kRupjeadOR"
+	item [6]:
+		class = "IntervalTier"
+		name = "ortho"
+		xmin = 0.0000000000000000
+		xmax = 2.1075244660000001
+		intervals: size = 1
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 2.1075244660000001
+			text = "quel curieux jeu le croupier adore"

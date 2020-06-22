@@ -1,0 +1,264 @@
+﻿File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0.0000000000000000
+xmax = 2.5877984770000002
+tiers? <exists>
+size = 6
+item []:
+	item [1]:
+		class = "IntervalTier"
+		name = "phones"
+		xmin = 0.0000000000000000
+		xmax = 2.5877984770000002
+		intervals: size = 30
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.0800000000000000
+			text = "k"
+		intervals [2]:
+			xmin = 0.0800000000000000
+			xmax = 0.1612100640000000
+			text = "E"
+		intervals [3]:
+			xmin = 0.1612100640000000
+			xmax = 0.2533013130000000
+			text = "R"
+		intervals [4]:
+			xmin = 0.2533013130000000
+			xmax = 0.3500000000000000
+			text = "b"
+		intervals [5]:
+			xmin = 0.3500000000000000
+			xmax = 0.4500000000000000
+			text = "a"
+		intervals [6]:
+			xmin = 0.4500000000000000
+			xmax = 0.4953341270000000
+			text = "l"
+		intervals [7]:
+			xmin = 0.4953341270000000
+			xmax = 0.5930801010000000
+			text = "u"
+		intervals [8]:
+			xmin = 0.5930801010000000
+			xmax = 0.7000131400000000
+			text = "t"
+		intervals [9]:
+			xmin = 0.7000131400000000
+			xmax = 0.7985669320000000
+			text = "_"
+		intervals [10]:
+			xmin = 0.7985669320000000
+			xmax = 0.8946972710000000
+			text = "u"
+		intervals [11]:
+			xmin = 0.8946972710000000
+			xmax = 0.9407428950000000
+			text = "p"
+		intervals [12]:
+			xmin = 0.9407428950000000
+			xmax = 1.0314524100000000
+			text = "l"
+		intervals [13]:
+			xmin = 1.0314524100000000
+			xmax = 1.1166511720000001
+			text = "u"
+		intervals [14]:
+			xmin = 1.1166511720000001
+			xmax = 1.2674189929999999
+			text = "y"
+		intervals [15]:
+			xmin = 1.2674189929999999
+			xmax = 1.3000000000000000
+			text = "t"
+		intervals [16]:
+			xmin = 1.3000000000000000
+			xmax = 1.3922283879999999
+			text = "R"
+		intervals [17]:
+			xmin = 1.3922283879999999
+			xmax = 1.4342349219999999
+			text = "_"
+		intervals [18]:
+			xmin = 1.4342349219999999
+			xmax = 1.5113810040000000
+			text = "9"
+		intervals [19]:
+			xmin = 1.5113810040000000
+			xmax = 1.5880184079999999
+			text = "l"
+		intervals [20]:
+			xmin = 1.5880184079999999
+			xmax = 1.6728603750000000
+			text = "v"
+		intervals [21]:
+			xmin = 1.6728603750000000
+			xmax = 1.7800000000000000
+			text = "o~"
+		intervals [22]:
+			xmin = 1.7800000000000000
+			xmax = 1.8400000000000001
+			text = "p"
+		intervals [23]:
+			xmin = 1.8400000000000001
+			xmax = 1.9137952000000000
+			text = "o"
+		intervals [24]:
+			xmin = 1.9137952000000000
+			xmax = 1.9700000000000000
+			text = "l"
+		intervals [25]:
+			xmin = 1.9700000000000000
+			xmax = 2.0205031610000002
+			text = "k"
+		intervals [26]:
+			xmin = 2.0205031610000002
+			xmax = 2.1099999999999999
+			text = "u"
+		intervals [27]:
+			xmin = 2.1099999999999999
+			xmax = 2.1900122920000000
+			text = "n"
+		intervals [28]:
+			xmin = 2.1900122920000000
+			xmax = 2.2764248070000002
+			text = "o"
+		intervals [29]:
+			xmin = 2.2764248070000002
+			xmax = 2.3799999999999999
+			text = "z"
+		intervals [30]:
+			xmin = 2.3799999999999999
+			xmax = 2.5877984770000002
+			text = "e"
+	item [2]:
+		class = "IntervalTier"
+		name = "syll"
+		xmin = 0.0000000000000000
+		xmax = 2.5877984770000002
+		intervals: size = 14
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.2533013130000000
+			text = "kEl"
+		intervals [2]:
+			xmin = 0.2533013130000000
+			xmax = 0.4500000000000000
+			text = "ba"
+		intervals [3]:
+			xmin = 0.4500000000000000
+			xmax = 0.7000131400000000
+			text = "lad"
+		intervals [4]:
+			xmin = 0.7000131400000000
+			xmax = 0.7985669320000000
+			text = "_"
+		intervals [5]:
+			xmin = 0.7985669320000000
+			xmax = 0.8946972710000000
+			text = "a"
+		intervals [6]:
+			xmin = 0.8946972710000000
+			xmax = 1.1166511720000001
+			text = "gRe"
+		intervals [7]:
+			xmin = 1.1166511720000001
+			xmax = 1.3922283879999999
+			text = "abl"
+		intervals [8]:
+			xmin = 1.3922283879999999
+			xmax = 1.4342349219999999
+			text = "_"
+		intervals [9]:
+			xmin = 1.4342349219999999
+			xmax = 1.5880184079999999
+			text = "il"
+		intervals [10]:
+			xmin = 1.5880184079999999
+			xmax = 1.7800000000000000
+			text = "zo~"
+		intervals [11]:
+			xmin = 1.7800000000000000
+			xmax = 1.9700000000000000
+			text = "tOR"
+		intervals [12]:
+			xmin = 1.9700000000000000
+			xmax = 2.1099999999999999
+			text = "ga"
+		intervals [13]:
+			xmin = 2.1099999999999999
+			xmax = 2.2764248070000002
+			text = "ni"
+		intervals [14]:
+			xmin = 2.2764248070000002
+			xmax = 2.5877984770000002
+			text = "ze"
+	item [3]:
+		class = "IntervalTier"
+		name = "words"
+		xmin = 0.0000000000000000
+		xmax = 2.5877984770000002
+		intervals: size = 8
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.2533013130000000
+			text = "quelle"
+		intervals [2]:
+			xmin = 0.2533013130000000
+			xmax = 0.7000131400000000
+			text = "balade"
+		intervals [3]:
+			xmin = 0.7000131400000000
+			xmax = 0.7985669320000000
+			text = "_"
+		intervals [4]:
+			xmin = 0.7985669320000000
+			xmax = 1.3922283879999999
+			text = "agrÃ©able"
+		intervals [5]:
+			xmin = 1.3922283879999999
+			xmax = 1.4342349219999999
+			text = "_"
+		intervals [6]:
+			xmin = 1.4342349219999999
+			xmax = 1.5880184079999999
+			text = "ils"
+		intervals [7]:
+			xmin = 1.5880184079999999
+			xmax = 1.7800000000000000
+			text = "ont"
+		intervals [8]:
+			xmin = 1.7800000000000000
+			xmax = 2.5877984770000002
+			text = "organisÃ©e"
+	item [4]:
+		class = "IntervalTier"
+		name = "textexpe"
+		xmin = 0.0000000000000000
+		xmax = 2.5877984770000002
+		intervals: size = 1
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 2.5877984770000002
+			text = "quelle balade agrÃ©able ils ont organisÃ©e"
+	item [5]:
+		class = "IntervalTier"
+		name = "phono"
+		xmin = 0.0000000000000000
+		xmax = 2.5877984770000002
+		intervals: size = 1
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 2.5877984770000002
+			text = "kEl balad agRea blil z*o~ t*ORganize"
+	item [6]:
+		class = "IntervalTier"
+		name = "ortho"
+		xmin = 0.0000000000000000
+		xmax = 2.5877984770000002
+		intervals: size = 1
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 2.5877984770000002
+			text = "quelle balade agrÃ©able ils ont organisÃ©e"

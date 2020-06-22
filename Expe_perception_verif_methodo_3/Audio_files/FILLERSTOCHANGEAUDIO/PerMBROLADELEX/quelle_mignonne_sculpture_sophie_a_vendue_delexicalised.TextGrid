@@ -1,0 +1,220 @@
+﻿File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0.0000000000000000
+xmax = 2.7913057079999999
+tiers? <exists>
+size = 6
+item []:
+	item [1]:
+		class = "IntervalTier"
+		name = "phones"
+		xmin = 0.0000000000000000
+		xmax = 2.7913057079999999
+		intervals: size = 25
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.0700000000000000
+			text = "k"
+		intervals [2]:
+			xmin = 0.0700000000000000
+			xmax = 0.1945846870000000
+			text = "o"
+		intervals [3]:
+			xmin = 0.1945846870000000
+			xmax = 0.2918171340000000
+			text = "R"
+		intervals [4]:
+			xmin = 0.2918171340000000
+			xmax = 0.4174067700000000
+			text = "n"
+		intervals [5]:
+			xmin = 0.4174067700000000
+			xmax = 0.5800000000000000
+			text = "o"
+		intervals [6]:
+			xmin = 0.5800000000000000
+			xmax = 0.6899999999999999
+			text = "m"
+		intervals [7]:
+			xmin = 0.6899999999999999
+			xmax = 0.7385930750000000
+			text = "j"
+		intervals [8]:
+			xmin = 0.7385930750000000
+			xmax = 0.8600000000000000
+			text = "u"
+		intervals [9]:
+			xmin = 0.8600000000000000
+			xmax = 0.9399999999999999
+			text = "n"
+		intervals [10]:
+			xmin = 0.9399999999999999
+			xmax = 1.0718050669999999
+			text = "z"
+		intervals [11]:
+			xmin = 1.0718050669999999
+			xmax = 1.1799999999999999
+			text = "g"
+		intervals [12]:
+			xmin = 1.1799999999999999
+			xmax = 1.2453926259999999
+			text = "O"
+		intervals [13]:
+			xmin = 1.2453926259999999
+			xmax = 1.4299999999999999
+			text = "R"
+		intervals [14]:
+			xmin = 1.4299999999999999
+			xmax = 1.5400000000000000
+			text = "k"
+		intervals [15]:
+			xmin = 1.5400000000000000
+			xmax = 1.6799999999999999
+			text = "y"
+		intervals [16]:
+			xmin = 1.6799999999999999
+			xmax = 1.7300000000000000
+			text = "R"
+		intervals [17]:
+			xmin = 1.7300000000000000
+			xmax = 1.8600000000000001
+			text = "s"
+		intervals [18]:
+			xmin = 1.8600000000000001
+			xmax = 1.9700000000000000
+			text = "o"
+		intervals [19]:
+			xmin = 1.9700000000000000
+			xmax = 2.1366035900000000
+			text = "f"
+		intervals [20]:
+			xmin = 2.1366035900000000
+			xmax = 2.2599999999999998
+			text = "u"
+		intervals [21]:
+			xmin = 2.2599999999999998
+			xmax = 2.3700000000000001
+			text = "a"
+		intervals [22]:
+			xmin = 2.3700000000000001
+			xmax = 2.4600000000000000
+			text = "f"
+		intervals [23]:
+			xmin = 2.4600000000000000
+			xmax = 2.6099999999999999
+			text = "a~"
+		intervals [24]:
+			xmin = 2.6099999999999999
+			xmax = 2.6400000000000001
+			text = "d"
+		intervals [25]:
+			xmin = 2.6400000000000001
+			xmax = 2.7913057079999999
+			text = "y"
+	item [2]:
+		class = "IntervalTier"
+		name = "syll"
+		xmin = 0.0000000000000000
+		xmax = 2.7913057079999999
+		intervals: size = 10
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.2918171340000000
+			text = "kEl"
+		intervals [2]:
+			xmin = 0.2918171340000000
+			xmax = 0.5800000000000000
+			text = "mi"
+		intervals [3]:
+			xmin = 0.5800000000000000
+			xmax = 0.9399999999999999
+			text = "njOn"
+		intervals [4]:
+			xmin = 0.9399999999999999
+			xmax = 1.4299999999999999
+			text = "skyl"
+		intervals [5]:
+			xmin = 1.4299999999999999
+			xmax = 1.7300000000000000
+			text = "tyR"
+		intervals [6]:
+			xmin = 1.7300000000000000
+			xmax = 1.9700000000000000
+			text = "sO"
+		intervals [7]:
+			xmin = 1.9700000000000000
+			xmax = 2.2599999999999998
+			text = "fi"
+		intervals [8]:
+			xmin = 2.2599999999999998
+			xmax = 2.3700000000000001
+			text = "a"
+		intervals [9]:
+			xmin = 2.3700000000000001
+			xmax = 2.6099999999999999
+			text = "va~"
+		intervals [10]:
+			xmin = 2.6099999999999999
+			xmax = 2.7913057079999999
+			text = "dy"
+	item [3]:
+		class = "IntervalTier"
+		name = "words"
+		xmin = 0.0000000000000000
+		xmax = 2.7913057079999999
+		intervals: size = 6
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 0.2918171340000000
+			text = "quelle"
+		intervals [2]:
+			xmin = 0.2918171340000000
+			xmax = 0.9399999999999999
+			text = "mignonne"
+		intervals [3]:
+			xmin = 0.9399999999999999
+			xmax = 1.7300000000000000
+			text = "sculpture"
+		intervals [4]:
+			xmin = 1.7300000000000000
+			xmax = 2.2599999999999998
+			text = "sophie"
+		intervals [5]:
+			xmin = 2.2599999999999998
+			xmax = 2.3700000000000001
+			text = "a"
+		intervals [6]:
+			xmin = 2.3700000000000001
+			xmax = 2.7913057079999999
+			text = "vendue"
+	item [4]:
+		class = "IntervalTier"
+		name = "textexpe"
+		xmin = 0.0000000000000000
+		xmax = 2.7913057079999999
+		intervals: size = 1
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 2.7913057079999999
+			text = "quelle mignonne sculpture sophie a vendue"
+	item [5]:
+		class = "IntervalTier"
+		name = "phono"
+		xmin = 0.0000000000000000
+		xmax = 2.7913057079999999
+		intervals: size = 1
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 2.7913057079999999
+			text = "kEl minjOn skyltyR sOfi a va~dy"
+	item [6]:
+		class = "IntervalTier"
+		name = "ortho"
+		xmin = 0.0000000000000000
+		xmax = 2.7913057079999999
+		intervals: size = 1
+		intervals [1]:
+			xmin = 0.0000000000000000
+			xmax = 2.7913057079999999
+			text = "quelle mignonne sculpture sophie a vendue"

@@ -191,6 +191,25 @@ plotresfillerspercent <- ggplot(resplotfillers, aes(x = factor(audio_type),
 
 plotresfillerspercent + facet_grid(. ~ sentence_type)
 
+resfillers[sapply(resfillers, is.character)] <- lapply(resfillers[sapply(resfillers, is.character)], as.factor)
+
+
+resplotfillersitems  <- resfillers %>%
+  group_by(item, sentence_type, audio_type, answer) %>% 
+  summarise(count=n()) %>% 
+  mutate(perc=count/sum(count))
+
+
+
+plotresfillerspercentitems <- ggplot(resplotfillersitems, aes(x = factor(item),
+                                                    y = perc*100,
+                                                    fill = factor(answer)))+
+  geom_bar(stat="identity") +
+  labs(x = "Items", y = "percent", fill = "Answer")
+
+plotresfillerspercentitems + facet_grid(rows = resplotfillersitems$audio_type)
+
+
 ##TEST AREA
 
 #YNDE
