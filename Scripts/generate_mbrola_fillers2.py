@@ -5,12 +5,12 @@
 import sys, re, os, csv
 
 #Defining folders
-folderin = "/home/lucas/Documents/CloudStation/SDL/PhD/Prosodie/Expés_Prosodie/EXPs_perception_contours_finaux/Expe_perception_verif_methodo_2/Fillers/AllFillers/FORMBROLA_delex/"
-folderout = "/home/lucas/Documents/CloudStation/SDL/PhD/Prosodie/Expés_Prosodie/EXPs_perception_contours_finaux/Expe_perception_verif_methodo_2/Fillers/Fillers_delex/"
+folderin = "/home/lucas/Documents/CloudStation/SDL/PhD/Prosodie/Expés_Prosodie/EXPs_perception_contours_finaux/Expe_perception_verif_methodo_3/Audio_files/FILLERSTOCHANGEAUDIO/PerMBROLADELEX/"
+folderout = "/home/lucas/Documents/CloudStation/SDL/PhD/Prosodie/Expés_Prosodie/EXPs_perception_contours_finaux/Expe_perception_verif_methodo_3/Audio_files/FILLERSTOCHANGEAUDIO/OUTPUTPerMBROLADELEX/"
 
 
 #Reading csv file
-table = open("/home/lucas/Documents/CloudStation/SDL/PhD/Prosodie/Expés_Prosodie/EXPs_perception_contours_finaux/Expe_perception_verif_methodo_2/Expe_perception_verif_methodo_2_fillers.csv", "r")
+table = open("/home/lucas/Documents/CloudStation/SDL/PhD/Prosodie/Expés_Prosodie/EXPs_perception_contours_finaux/Expe_perception_verif_methodo_3/Expe_perception_verif_methodo_3_BOTH.csv", "r")
 reader = csv.DictReader(table, skipinitialspace=True, delimiter="\t")
 
 #Get header
@@ -23,7 +23,7 @@ commandstart = "/usr/bin/mbrola /home/lucas/Documents/CloudStation/SDL/PhD/Proso
 
 #Start the loop
 for row in reader:
-	if row["audio-type"] == "delex":
+	if row["TOCHANGE_FI"] == "YES":
 		#We rename textexpe to make it match with the corresponding files
 		textexpe = row["texte_expe"]
 		textexpe = textexpe.lower()
@@ -40,13 +40,13 @@ for row in reader:
 		# ~ print(fileoutput)
 		pathoutput = folderout+fileoutput
 		# ~ print(pathoutput)
-		if row["spksex"] == "M":
+		if row["spk_sex"] == "M":
 			commandsex = "fr1/fr1"
-		elif row["spksex"] == "F":
+		elif row["spk_sex"] == "F":
 			commandsex = "fr4/fr4"
 		command = commandstart + commandsex + " " + folderin + filepho + " " + pathoutput
 		# ~ print(sentkey, row["spksex"])
-		# ~ print(command)
+		print(command)
 		# ~ print(command)
 		os.system(command)
 

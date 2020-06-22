@@ -18,13 +18,14 @@ header = reader.fieldnames
 ibex1 = '\t[["'
 ibex2 = '",'
 ibex3 = '], "Question", {q: "<div style=\\"width: 40em;\\"><audio autoplay controls preload=\\"auto\\"><source src=\''
-url = "https://github.com/ltinsitu/EXPs_perception_contours_finaux/blob/master/Expe_perception_verif_methodo_2/Audio_Expe_verif_methodo2/"
+url1 = "/home/lucas/Documents/CloudStation/SDL/PhD/Prosodie/Expés_Prosodie/EXPs_perception_contours_finaux/Expe_perception_verif_methodo_3/Audio_files/"
 # ~ mclair = "MBROLA-clair/"
 # ~ mdelex = "MBROLA-delexicalised/"
 # ~ orig = "Originals/"
 #We'll need to comment the filename, it's enough to add the comment tag <!-- at the end of ibex4, and closing it with --> at the beginning of ibex5
 ibex4 = ".mp3?raw=true\'type=\'audio/mpeg\'></source></audio><br><br><br>"
-ibex5 = '<br>Est-ce que cette phrase vous donne l\'impression d\'être une question ?''</div>", as: ["Oui", "Non"]}],'
+ibex5 = '<br>Est-ce que cette phrase vous donne l\'impression d\'être <strong>''</div>", as: ["Oui", "Non"]}],'
+ibex6 = '</strong>''</div>", as: ["Oui", "Non"]}],'
 
 # ~ #Item counters
 # ~ counteritemyd = 1
@@ -67,46 +68,42 @@ ibex5 = '<br>Est-ce que cette phrase vous donne l\'impression d\'être une quest
 
 #For the stimuli
 for row in reader:
+	#XP mbrola
+	if row["XP_type"] == "XP_mbrola":
+		url2 = "XP_mbrola/"
+		if not row["item"] =="FI":
+			pass
+		else:
+			print(row["item"])
+	#XP delex	
+	if row["XP_type"] == "XP_delex":
+		url2 = "XP_delex/"
+		if not row["item"] =="FI":
+			pass
+		else:
+			print(row["item"])
 	#First the expe stimuli
-	if int(row["item"]) < 61:
-		# ~ print(row["item"])
-		list_sentence_key = row["sentence_key"].split("-")
-		stimtype = "T"
-		item = int(row["item"])
-		#Print with sentence key in the html code
-		# ~ print(ibex1, stimtype, ibex2, item, ibex3, url, row["sentence_key"], ibex4, row["sentence_key"], ibex5, sep="", end="\n")
-		#Print WITHOUT sentence key in the html code
-		print(ibex1, stimtype, ibex2, item, ibex3, url, row["sentence_key"], ibex4, ibex5, sep="", end="\n")
-		# ~ oldkey_lastpart = "-".join(list_ibex_key[1:])
-		# ~ if row["type-de-phrase"] == "decla":
-			# ~ MCdecla = "PI-MC-"+oldkey_lastpart+".mp3"
-			# ~ ORdecla = "PI-OR-"+oldkey_lastpart+".mp3"
-			# ~ print(ibex1, typeitem, ibex2, counteritemyd, ibex3, url, mclair, MCdecla, ibex4, ibex5, sep="", end="\n")
-			# ~ print(ibex1, typeitem, ibex2, counteritemyd, ibex3, url, orig, ORdecla, ibex4, ibex5, sep="", end="\n")
-			# ~ counteritemyd += 1
-		# ~ elif row["type-de-phrase"] == "yes-no":
-			# ~ MCyesno = "PI-MC-"+oldkey_lastpart+".mp3"
-			# ~ ORyesno = "PI-OR-"+oldkey_lastpart+".mp3"
-			# ~ print(ibex1, typeitem, ibex2, counteritemyd, ibex3, url, mclair, MCyesno, ibex4, ibex5, sep="", end="\n")
-			# ~ print(ibex1, typeitem, ibex2, counteritemyd, ibex3, url, orig, ORyesno, ibex4, ibex5, sep="", end="\n")
-			# ~ counteritemyd += 1
-		# ~ elif row["type-de-phrase"] == "wh-in-situ":
-			# ~ MCwhinsitu = "PI-MC-"+oldkey_lastpart+".mp3"
-			# ~ MDwhinsitu = "PI-MD-"+oldkey_lastpart+".mp3"
-			# ~ print(ibex1, typeitem, ibex2, counteritemwi, ibex3, url, mclair, MCwhinsitu, ibex4, ibex5, sep="", end="\n")
-			# ~ print(ibex1, typeitem, ibex2, counteritemwi, ibex3, url, mdelex, MDwhinsitu, ibex4, ibex5, sep="", end="\n")
-			# ~ counteritemwi += 1
-		# ~ else:
-			# ~ pass
-	#Then the fillers
-	else:
-		# ~ print(row["item"])
-		list_sentence_key = row["sentence_key"].split("-")
-		# ~ print(list_sentence_key[3])
-		stimtype = "F"
-		item = int(row["item"])
-		#Print with sentence key in the html code
-		# ~ print(ibex1, stimtype, ibex2, item, ibex3, url, row["sentence_key"], ibex4, row["sentence_key"], ibex5, sep="", end="\n")
-		#Print WITHOUT sentence key in the html code
-		print(ibex1, stimtype, ibex2, item, ibex3, url, row["sentence_key"], ibex4, ibex5, sep="", end="\n")
+	# if int(row["item"]) < 61:
+		# # ~ print(row["item"])
+		# list_sentence_key = row["sentence_key"].split("-")
+		# stimtype = "T"
+		# item = int(row["item"])
+		# #Print with sentence key in the html code
+		# # ~ print(ibex1, stimtype, ibex2, item, ibex3, url, row["sentence_key"], ibex4, row["sentence_key"], ibex5, sep="", end="\n")
+		# #Print WITHOUT sentence key in the html code
+		# print(ibex1, stimtype, ibex2, item, ibex3, url, row["sentence_key"], ibex4, ibex5, sep="", end="\n")
+		# # ~ oldkey_lastpart = "-".join(list_ibex_key[1:])
+		# # ~ else:
+			# # ~ pass
+	# #Then the fillers
+	# else:
+		# # ~ print(row["item"])
+		# list_sentence_key = row["sentence_key"].split("-")
+		# # ~ print(list_sentence_key[3])
+		# stimtype = "F"
+		# item = int(row["item"])
+		# #Print with sentence key in the html code
+		# # ~ print(ibex1, stimtype, ibex2, item, ibex3, url, row["sentence_key"], ibex4, row["sentence_key"], ibex5, sep="", end="\n")
+		# #Print WITHOUT sentence key in the html code
+		# print(ibex1, stimtype, ibex2, item, ibex3, url, row["sentence_key"], ibex4, ibex5, sep="", end="\n")
 
