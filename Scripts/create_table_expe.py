@@ -18,13 +18,13 @@ header = reader.fieldnames
 ibex1 = '\t[["'
 ibex2 = '",'
 ibex3 = '], "Question", {q: "<div style=\\"width: 40em;\\"><audio autoplay controls preload=\\"auto\\"><source src=\''
-url1 = "/home/lucas/Documents/CloudStation/SDL/PhD/Prosodie/Expés_Prosodie/EXPs_perception_contours_finaux/Expe_perception_verif_methodo_3/Audio_files/"
+url1 = "https://github.com/ltinsitu/EXPs_perception_contours_finaux/Expe_perception_verif_methodo_3/Audio_files/"
 # ~ mclair = "MBROLA-clair/"
 # ~ mdelex = "MBROLA-delexicalised/"
 # ~ orig = "Originals/"
 #We'll need to comment the filename, it's enough to add the comment tag <!-- at the end of ibex4, and closing it with --> at the beginning of ibex5
 ibex4 = ".mp3?raw=true\'type=\'audio/mpeg\'></source></audio><br><br><br>"
-ibex5 = '<br>Est-ce que cette phrase vous donne l\'impression d\'être <strong>''</div>", as: ["Oui", "Non"]}],'
+ibex5 = '<br>Est-ce que cette phrase vous donne l\'impression d\'être <strong>'
 ibex6 = '</strong>''</div>", as: ["Oui", "Non"]}],'
 
 # ~ #Item counters
@@ -68,20 +68,57 @@ ibex6 = '</strong>''</div>", as: ["Oui", "Non"]}],'
 
 #For the stimuli
 for row in reader:
+	#Define task question type
+	if row["task_question_type"] == "is.it.question":
+		taskQ = "une question ?"
+	if row["task_question_type"] == "is.it.decla":
+		taskQ = "une phrase affirmative ?"
 	#XP mbrola
 	if row["XP_type"] == "XP_mbrola":
+		#Define folder mbrola
 		url2 = "XP_mbrola/"
-		if not row["item"] =="FI":
-			pass
+		#Test sentences
+		if int(row["item"]) < 49:
+			stimtype = "TM"
+			item = int(row["item"])
+			#Print with sentence key in the html code
+			print(ibex1, stimtype, ibex2, item, ibex3, url1, url2, row["sentence_key"], ibex4, row["sentence_key"], ibex5, taskQ, ibex6, sep="", end="\n")
+			# #Print WITHOUT sentence key in the html code
+			# print(ibex1, stimtype, ibex2, item, ibex3, url, row["sentence_key"], ibex4, ibex5, sep="", end="\n")
+			# ~ pass
+		#Fillers
 		else:
-			print(row["item"])
+			stimtype = "FM"
+			item = int(row["item"])
+			#Print with sentence key in the html code
+			print(ibex1, stimtype, ibex2, item, ibex3, url1, url2, row["sentence_key"], ibex4, row["sentence_key"], ibex5, taskQ, ibex6, sep="", end="\n")
+			# #Print WITHOUT sentence key in the html code
+			# print(ibex1, stimtype, ibex2, item, ibex3, url, row["sentence_key"], ibex4, ibex5, sep="", end="\n")
+			# ~ print(row["item"])
+			# ~ pass
 	#XP delex	
 	if row["XP_type"] == "XP_delex":
+		#Define folder mbrola
 		url2 = "XP_delex/"
-		if not row["item"] =="FI":
-			pass
+		#Test sentences
+		if int(row["item"]) < 41:
+			stimtype = "TD"
+			item = int(row["item"]) + 96
+			#Print with sentence key in the html code
+			print(ibex1, stimtype, ibex2, item, ibex3, url1, url2, row["sentence_key"], ibex4, row["sentence_key"], ibex5, taskQ, ibex6, sep="", end="\n")
+			# #Print WITHOUT sentence key in the html code
+			# print(ibex1, stimtype, ibex2, item, ibex3, url, row["sentence_key"], ibex4, ibex5, sep="", end="\n")
+			# ~ pass
+		#Fillers
 		else:
-			print(row["item"])
+			stimtype = "FD"
+			item = int(row["item"]) + 96
+			#Print with sentence key in the html code
+			print(ibex1, stimtype, ibex2, item, ibex3, url1, url2, row["sentence_key"], ibex4, row["sentence_key"], ibex5, taskQ, ibex6, sep="", end="\n")
+			# #Print WITHOUT sentence key in the html code
+			# print(ibex1, stimtype, ibex2, item, ibex3, url, row["sentence_key"], ibex4, ibex5, sep="", end="\n")
+			# ~ print(row["item"])
+			# ~ pass
 	#First the expe stimuli
 	# if int(row["item"]) < 61:
 		# # ~ print(row["item"])
