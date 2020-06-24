@@ -18,13 +18,13 @@ header = reader.fieldnames
 ibex1 = '\t[["'
 ibex2 = '",'
 ibex3 = '], "Question", {q: "<div style=\\"width: 40em;\\"><audio autoplay controls preload=\\"auto\\"><source src=\''
-url1 = "https://github.com/ltinsitu/EXPs_perception_contours_finaux/Expe_perception_verif_methodo_3/Audio_files/"
+url1 = "https://github.com/ltinsitu/EXPs_perception_contours_finaux/blob/master/Expe_perception_verif_methodo_3/Audio_files/"
 # ~ mclair = "MBROLA-clair/"
 # ~ mdelex = "MBROLA-delexicalised/"
 # ~ orig = "Originals/"
 #We'll need to comment the filename, it's enough to add the comment tag <!-- at the end of ibex4, and closing it with --> at the beginning of ibex5
-ibex4 = ".mp3?raw=true\'type=\'audio/mpeg\'></source></audio><br><br><br>"
-ibex5 = '<br>Est-ce que cette phrase vous donne l\'impression d\'être <strong>'
+ibex4 = ".mp3?raw=true\'type=\'audio/mpeg\'></source></audio><br><br><br><!--"
+ibex5 = '--><br>Est-ce que cette phrase vous donne l\'impression d\'être <br><strong>'
 ibex6 = '</strong>''</div>", as: ["Oui", "Non"]}],'
 
 # ~ #Item counters
@@ -89,6 +89,11 @@ for row in reader:
 		#Fillers
 		else:
 			stimtype = "FM"
+			#Define new task Q with exclamatives
+			if row["task_question_type"] == "is.it.question":
+				taskQ = "une question ?"
+			if row["task_question_type"] == "is.it.decla":
+				taskQ = "une exclamative ?"
 			item = int(row["item"])
 			#Print with sentence key in the html code
 			print(ibex1, stimtype, ibex2, item, ibex3, url1, url2, row["sentence_key"], ibex4, row["sentence_key"], ibex5, taskQ, ibex6, sep="", end="\n")
@@ -112,6 +117,11 @@ for row in reader:
 		#Fillers
 		else:
 			stimtype = "FD"
+			#Define new task Q with exclamatives
+			if row["task_question_type"] == "is.it.question":
+				taskQ = "une question ?"
+			if row["task_question_type"] == "is.it.decla":
+				taskQ = "une exclamative ?"
 			item = int(row["item"]) + 96
 			#Print with sentence key in the html code
 			print(ibex1, stimtype, ibex2, item, ibex3, url1, url2, row["sentence_key"], ibex4, row["sentence_key"], ibex5, taskQ, ibex6, sep="", end="\n")
