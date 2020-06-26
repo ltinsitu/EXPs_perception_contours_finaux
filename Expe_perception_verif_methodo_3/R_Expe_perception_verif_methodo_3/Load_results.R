@@ -47,10 +47,13 @@ dfrt <- aggregate(res$quest_rt, by=list(subj=res$subj), FUN=sum)
 dfrt$totalrt <- dfrt$x/1000/60
 dfrt <- do.call("rbind", replicate(120, dfrt, simplify = FALSE))
 
-dfrt <- dfrt[order(dfrt$subj), ]
-totalrt <- as.list(dfrt$totalrt)
+#have no idea whether this works or not, I need more than one subj to tel
+for (subj in res$subj) {res$totalrt = dfrt$totalrt}
 
-#Doesnt work because not same number of trials per participant
+# dfrt <- dfrt[order(dfrt$subj), ]
+# totalrt <- as.list(dfrt$totalrt)
+
+#This simpler way doesnt work because not same number of trials per participant
 # res <- data.frame(res, do.call(rbind, totalrt))
 # res <- rename(res, c("do.call.rbind..totalrt." = "totalrt"))
 
@@ -73,6 +76,12 @@ res <- rename(res, c("X1"="stim_number", "X2"="XP_type", "X3"="task_q_type", "X4
                      "X10"="spk_id", "X11"="spk_sex", "X12"="orig_filename"))
 
 etcol <- colnames (res)
+
+#Change taskQ type for fillers from is.it.decla to is.it.excla
+ctaskdecla <- res$task_q_type == "is.it.decla"
+cfillers <- res$type %in% c("FM", "FD")
+
+res$task_q_type[ctaskdecla & cfillers] <- "is.it.excla"
 
 #Everything as factor
 res[sapply(res, is.character)] <- lapply(res[sapply(res, is.character)], as.factor)
