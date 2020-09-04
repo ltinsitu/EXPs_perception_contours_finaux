@@ -16,13 +16,18 @@ var chance = Math.floor(Math.random() * 2) +1
     //~ } else {
     //~ var shuffleSequence = seq("home", "intro", "famDELEX", "presD", "fam2DELEX", "practiceD", "sexp", seq(shuffle(randomize("TD"), randomize("FD")), "endexpe"));
    //~ };
+   
+
+
+//ONLY DELEX FINAL VERSION
+var shuffleSequence = seq("home", "intro", "famDELEX", sepWith("sep", "presD"), "fam2DELEX", sepWith("sep", "practiceD"), "sexp", sepWith("sep", seq(shuffle(randomize("TD"), randomize("FD")))), "endexpe");
 
 //FINAL EXPERIMENTAL VERSION
-if (chance > 1 ) {
-    var shuffleSequence = seq("home", "intro", "famMBROLA", sepWith("sep", "presM"), "fam2MBROLA", sepWith("sep", "practiceM"), "sexp", sepWith("sep", seq(shuffle(randomize("TM"), randomize("FM")))), "endexpe");
-    } else {
-    var shuffleSequence = seq("home", "intro", "famDELEX", sepWith("sep", "presD"), "fam2DELEX", sepWith("sep", "practiceD"), "sexp", sepWith("sep", seq(shuffle(randomize("TD"), randomize("FD")))), "endexpe");
-   };
+//~ if (chance > 1 ) {
+    //~ var shuffleSequence = seq("home", "intro", "famMBROLA", sepWith("sep", "presM"), "fam2MBROLA", sepWith("sep", "practiceM"), "sexp", sepWith("sep", seq(shuffle(randomize("TM"), randomize("FM")))), "endexpe");
+    //~ } else {
+    //~ var shuffleSequence = seq("home", "intro", "famDELEX", sepWith("sep", "presD"), "fam2DELEX", sepWith("sep", "practiceD"), "sexp", sepWith("sep", seq(shuffle(randomize("TD"), randomize("FD")))), "endexpe");
+   //~ };
 
 
 var practiceMessage = "session de familiarisation";
@@ -50,7 +55,7 @@ var defaults = [
     "Question", {
         hasCorrect: false,
 		presentHorizontally: true,
-		autoFirstChar: false,
+		autoFirstChar: true,
 		randomOrder: false,
 		showNumbers: true
     },

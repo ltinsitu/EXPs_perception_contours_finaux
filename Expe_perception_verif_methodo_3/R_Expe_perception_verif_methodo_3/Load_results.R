@@ -8,6 +8,8 @@ library(plyr)
 ##Define paths
 #results file
 f_results <- "/home/lucas/Documents/CloudStation/SDL/PhD/Prosodie/Expés_Prosodie/EXPs_perception_contours_finaux/Expe_perception_verif_methodo_3/IBEX/results/results"
+# f_results <- "/home/lucas/results"
+# f_output_DELEX <- "/home/lucas/delex.csv"
 f_output_MBROLA <- "/home/lucas/Documents/CloudStation/SDL/PhD/Prosodie/Expés_Prosodie/EXPs_perception_contours_finaux/Expe_perception_verif_methodo_3/Results_methodo3_mbrola.csv"
 f_output_DELEX <- "/home/lucas/Documents/CloudStation/SDL/PhD/Prosodie/Expés_Prosodie/EXPs_perception_contours_finaux/Expe_perception_verif_methodo_3/Results_methodo3_delex.csv"
 f_output_MBROLA_fillers <- "/home/lucas/Documents/CloudStation/SDL/PhD/Prosodie/Expés_Prosodie/EXPs_perception_contours_finaux/Expe_perception_verif_methodo_3/Results_methodo3_MBROLA_fillers.csv"
@@ -48,7 +50,7 @@ dfrt$totalrt <- dfrt$x/1000/60
 dfrt <- do.call("rbind", replicate(120, dfrt, simplify = FALSE))
 
 #have no idea whether this works or not, I need more than one subj to tel
-for (subj in res$subj) {res$totalrt = dfrt$totalrt}
+#for (subj in res$subj) {res$totalrt = dfrt$totalrt}
 
 # dfrt <- dfrt[order(dfrt$subj), ]
 # totalrt <- as.list(dfrt$totalrt)
@@ -71,6 +73,7 @@ stimlist <- strsplit(res$stimulus, '-')
 #Create a new df with everything
 res <- data.frame(res, do.call(rbind, stimlist))
 #Rename the cols
+
 res <- rename(res, c("X1"="stim_number", "X2"="XP_type", "X3"="task_q_type", "X4"="sentence_type",
                      "X5"="audio_type", "X6"="item2", "X7"="list", "X8"="presence_eske", "X9"="syll_num",
                      "X10"="spk_id", "X11"="spk_sex", "X12"="orig_filename"))
@@ -82,6 +85,35 @@ ctaskdecla <- res$task_q_type == "is.it.decla"
 cfillers <- res$type %in% c("FM", "FD")
 
 res$task_q_type[ctaskdecla & cfillers] <- "is.it.excla"
+
+#Everything as factor
+res[sapply(res, is.character)] <- lapply(res[sapply(res, is.character)], as.factor)
+
+##Define right answers
+res$rightanswer[res$sentence_type == "decla" &
+                  res$task_q_type == "is.it.decla" &
+                  res$answer == "Oui"] <- "Yes"
+res$rightanswer[res$sentence_type == "decla" &
+                  res$task_q_type == "is.it.decla" &
+                  res$answer == "Non"] <- "No"
+res$rightanswer[res$sentence_type == "decla" &
+                  res$task_q_type == "is.it.question" &
+                  res$answer == "Oui"] <- "No"
+res$rightanswer[res$sentence_type == "decla" &
+                  res$task_q_type == "is.it.question" &
+                  res$answer == "Non"] <- "Yes"
+res$rightanswer[res$sentence_type == "yn" &
+                  res$task_q_type == "is.it.decla" &
+                  res$answer == "Oui"] <- "No"
+res$rightanswer[res$sentence_type == "yn" &
+                  res$task_q_type == "is.it.decla" &
+                  res$answer == "Non"] <- "Yes"
+res$rightanswer[res$sentence_type == "yn" &
+                  res$task_q_type == "is.it.question" &
+                  res$answer == "Oui"] <- "Yes"
+res$rightanswer[res$sentence_type == "yn" &
+                  res$task_q_type == "is.it.question" &
+                  res$answer == "Non"] <- "No"
 
 #Everything as factor
 res[sapply(res, is.character)] <- lapply(res[sapply(res, is.character)], as.factor)
@@ -103,11 +135,7 @@ resXPdelex <- resXPdelex[which(resXPdelex$type == "TD"), ]
 resXPmbrola <- droplevels(resXPmbrola)
 resXPdelex <- droplevels(resXPdelex)
 
-##TODODefine right answers
-# res$rightanswer[res$sentence_type == "de" & res$answer == "Non"] <- "Yes"
-# res$rightanswer[res$sentence_type == "de" & res$answer == "Oui"] <- "No"
-# res$rightanswer[res$sentence_type == "yn" & res$answer == "Non"] <- "No"
-# res$rightanswer[res$sentence_type == "yn" & res$answer == "Oui"] <- "Yes"
+
 
 #DOESNT workWe add order of presentation of stimuli for each participants
 # resXPmbrola$num_sequence <- c(1:48)
